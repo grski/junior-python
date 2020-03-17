@@ -1,0 +1,23 @@
+1. Napisz funkcję rock_paper_scissors(), która zasymuluje losowy przebieg gry w kamień papier nożyce i następnie wyświetli, który gracz, p1 czy p2, wygrał daną rundę. Czy zawsze ktoś wygrywa? Może być remis? Spróbuj uczynić swoje rozwiązanie jak najkrótszym. Spróbuj nie korzystać w ogóle z ifów. Tak, da się to zrobić bez tego.
+Mnie udało się napisać samą funkcję symulującą pojedyńczy losowy przebieg gry w 5 linijkach kodu łącznie, bez ifa.
+
+Teraz dopisz fukcje, która wywoła taką symulacje 10 razy.
+
+Przykład mojego rozwiązania:
+
+
+	import random as ra
+
+
+	def rock_paper_scissors():
+	    gestures = ['rock', 'paper', 'scissors'] # order here is important
+	    p1, p2 = ra.randint(0, 2), ra.randint(0, 2)
+	    return "P1: {0}, x P2: {1}, Result: {2}".format(gestures[p1], gestures[p2], {0: 'tie', 1: 'p1', 2: 'p2'}[(p1-p2)%3])
+
+
+	for i in range(10):
+	    print(rock_paper_scissors())
+
+2. Jak można zaimplementować w Pythonie mnożenie przez 2, bez użycia operatora mnożenia, potęgowania, funkcji pow, sqrt?
+3. Co z dzieleniem przez dwa biorąc pod uwagę podobne obostrzenia, jak wyżej?
+4. Funkcja is_prime(number), sprawdzająca czy podana liczba jest pierwsza w jednej linijce kodu.

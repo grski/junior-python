@@ -1,0 +1,17 @@
+---
+title: Python Book
+author: Olaf Górski
+rights:  Reserved by my humble self
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+language: pl-PL
+numbersections: true
+mainfont: Roboto
+fontsize: 12pt
+linestretch: 1.15
+indent: true
+geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+include-before:
+- '`\newpage{}`{=latex}'
+---
