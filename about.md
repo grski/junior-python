@@ -1,6 +1,6 @@
-# About the author
+# O autorze
 
-Ditto xd
-
+Ja, Olaf. Nikt więcej.
 
 \pagebreak
+

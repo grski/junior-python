@@ -8,7 +8,7 @@ Zanim weźmiemy się za naukę Pythona, nieco opowiem o historii samego języka,
 
 Chwila, stop. Chciałbym nieco powiedzieć Ci, jak moim zdaniem należy z tej książki korzystać. Po pierwsze, starałem się, by była ona napisana tak, żeby z jednego tematu naturalnie przechodzić do następnego – od tematów prostych, do tych nieco bardziej skomplikowanych. Dzięki liniowej budowie powinna być ona łatwa do zrozumienia.
 
-Jednak jeśli jesteś już nieco bardziej doświadczonym programistą, czy też po prostu chcesz sobie przypomnieć pewne rzeczy, to skacz po niej śmiało – większość rozdziałów jest w miarę zamkniętymi komponentami.
+Jednak jeśli jesteś już nieco bardziej doświadczonym programistą, czy też po prostu chcesz sobie przypomnieć pewne rzeczy, to skacz po niej śmiało – większość rozdziałów jest w miarę zamkniętymi komponentami i może być czytana samodzielnie.
 
 Kolejną rzeczą, o której chcę wspomnieć, a raczej powtórzyć, to fakt, że w tej książce nie znajdziesz informacji wyłącznie o Pythonie. Poza informacjami, o samym języku, postaram się wprowadzić Cię też w pewne pojęcia z ogólnie pojętej informatyki, tak, byś wiedział nieco więcej, byś miał pojęcie, jak coś działa, dlaczego tak, a nie inaczej. 
 
@@ -18,7 +18,7 @@ Jeśli chcesz dobrze przyswoić informacje tu zawarte i naprawdę się nauczyć 
 
 Po drugie – kod przepisuj. Nie korzystaj z metody Copiego Pasty. Przepisuj samodzielnie i koniec.
 
-Na koniec trzy – samodzielnie wykonuj zadania, które będę umieszczał na końcu rozdziałów, ale to nie wszystko – eksperymentuj z kodem. Zmieniaj go, zobacz, jakie będą efekty tych zmian. Przekonaj się o tym w praktyce, przeanalizuj swoje modyfikacje, przemyśl je i ich rezultaty, to jak wypływają na działanie programu. To jest najlepsza metoda nauki.
+Na koniec trzy – samodzielnie wykonuj zadania, które będę umieszczał na końcu rozdziałów, ale to nie wszystko – eksperymentuj z kodem. Zmieniaj go, zobacz, jakie będą efekty tych zmian. Przekonaj się o tym w praktyce, przeanalizuj swoje modyfikacje, przemyśl je i ich rezultaty, to jak wypływają na działanie programu. To jest najlepsza metoda nauki - zabawa kodem. Rób pozornie bezsensowne zmiany. Nudne, ciekawe, szalone, jakiekolwiek.
 
 Więcej o tym, jak powinno się uczyć i jakie metody się sprawdzają, możecie przeczytać we wpisie na blogu Gynvael’a Coldwind’a – Poradnik początkującego programisty. Gooorsky poleca. W ogóle cały blog wam polecam. Mało jest miejsc w Internecie, gdzie znaleźć można tak dobre i ciekawe treści. Googlnijcie, bo warto.
 
@@ -26,11 +26,11 @@ Więcej o tym, jak powinno się uczyć i jakie metody się sprawdzają, możecie
 
 Python obecnie jest głównie w dwóch wersjach – Python 2 i Python 3. Są to dwa ‘główne’ wydania tego samego języka, jednakże wersja 3 jest nowsza, wprowadza pewne nowe rzeczy, które nie są wstecznie kompatybilne z wersją nr 2, stąd ten przeskok numeru.
 
-Wprowadzenie Pythona 3 nastąpiło wiele lat temu, obecnie dochodzimy powoli do momentu, kiedy Python 2 przestanie być oficjalnie wspierany przez Python Software Foundation – nie będzie on aktywnie utrzymywany. Nastąpi to w roku 2020, niewiele zatem czasu zostało. Zresztą, nic dziwnego, skoro już teraz słychać głosy, mówiące o Pythonie 4. W każdym razie.
+Wprowadzenie Pythona 3 nastąpiło wiele lat temu, obecnie doszliśmy po latach do momentu, kiedy Python 2 przestał być oficjalnie wspierany przez Python Software Foundation – nie będzie on aktywnie utrzymywany. Zresztą, nic dziwnego, skoro już teraz słychać głosy, mówiące o Pythonie 4. W każdym razie.
 
 Co to znaczy z twojej perspektywy, jako początkującego? Nic. Po prostu wiedz, że obecnie uczysz się Pythona 3 i tyle. To wciąż ten sam język, jednak występują między nim, a Pythonem 2 pewne różnice, które w razie czego, możesz bez problemu poznać w kilka chwil. Ja wybieram wersję najnowszą, by przedstawić ci najświeższe informacje to raz, a dwa, tak szczerze, Python 2 staje się już powoli reliktem przeszłości, a kto tworzy w nim obecnie nowy software, robi błąd. 
 
-Jak już, to Pythona 2 wykorzystuje się teraz tylko do utrzymania starych aplikacji w nim napisanych, a uwierz mi na słowo, częściej niż rzadziej, nie chcesz pracować przy utrzymaniu starych molosów. Chyba że płacą Ci dużo pieniędzy. Dużo, dużo pieniędzy. Jeszcze więcej niż dużo. Poważnie. Chociaż i tak nie warto. Co po pieniądzach, gdy dosłownie zmieniasz zawód z programisty na szambo-nurka, nurkując w ekskrementach programistycznych jakichś ludzi?
+Jak już, to Pythona 2 wykorzystuje się teraz tylko do utrzymania starych aplikacji w nim napisanych, a uwierz mi na słowo, częściej niż rzadziej, nie chcesz pracować przy utrzymaniu starych molosów. Chyba że płacą Ci dużo pieniędzy. Dużo, dużo pieniędzy. Jeszcze więcej niż dużo. Poważnie. Chociaż i tak nie warto. Co po pieniądzach, gdy dosłownie zmieniasz zawód z programisty na szambo-nurka, nurkując w ekskrementach programistycznych innych ludzi?
 
 Python 2 przechodzi do przeszłości i dobrze, niemniej jednak czasem napomnę o różnicach, tak w ramach ciekawostki w zasadzie.
 
@@ -58,7 +58,7 @@ Oprócz ABC, w Pythonie wyraźne są pewne wpływy lub elementy zapożyczone z t
 
 
 ## Abdykacja Guido
-W okolicach czasu pisania tej książki, w sumie na samym początku, stała się rzecz niesłychana, otóż Guido van Rossum, autor Pythona, postanowił oddalić się od łańcucha decyzyjnego w świecie Pythona i zrzucić swój tytuł BDFL, powoli w ogóle przechodząc na emeryturę niejako. Całość spowodowana była PEP 572, który zaproponował między innymi sam Guido, a który wywołał dość nieprzychylne reakcje społeczności. O co się rozchodziło? 
+W okolicach czasu pisania tej książki, w sumie na samym początku (trochę mi się zeszło), stała się rzecz niesłychana, otóż Guido van Rossum, autor Pythona, postanowił oddalić się od łańcucha decyzyjnego w świecie Pythona i zrzucić swój tytuł BDFL, powoli w ogóle przechodząc na emeryturę niejako. Całość spowodowana była PEP 572, który zaproponował między innymi sam Guido, a który wywołał dość nieprzychylne reakcje społeczności. O co się rozchodziło? 
 
 O operator := i przypisanie w wyrażeniach. Spora część osób bardzo głośno i donośnie zaczęła krytykować ten pomysł, często bez jakichkolwiek podstaw, gdyż, przynajmniej mnie, sam PEP wydaje się raczej przemyślany i fajny, ta funkcjonalność na pewno się gdzieś przyda w Pythonie. O samym tym PEP-ie porozmawiamy później jeszcze, więc na razie bez szczegółów.
 
@@ -101,7 +101,6 @@ Pytanie jednak jak będzie wyglądał świat Pythona bez tego człowieka? Jaki k
 
 W każdym razie... Nowy wiatr zadmie w żagle, dokąd nas zaprowadzi? Czas pokaże. Za rok, dwa pięć. Zdecydujemy o tym my, społeczność, która tworzy Pythona, czyli w zasadzie za niedługo i ty, drogi czytelniku.
 
-
 ## Wężowe cele
 
 Z tym Pythonem, to tak sprawa wygląda, że naprawdę warto go używać. Osobiście uważam, że jest on jednym z najlepszych języków do nauki podstaw programowania, czyli taki, jak miał być w zamyśle. Pozwala on szybko przejść do zrozumienia pewnych pojęć programistycznych, gdyż uczeń nie musi skupiać się zbytnio na opanowywaniu skomplikowanej składni czy zawiłych wyrażeń, jak to czasami ma miejsce w innych językach. 
@@ -125,7 +124,8 @@ Dodatkowo Python jest otwarto-źródłowy a za jego rozwojem stoi społeczność
 Nie ma problemu. Weź daną funkcję i po prostu ją dopisz, zmień. Jeśli społeczność uzna, że twoje zmiany są zasadne i przydatne, to wylądują one w samym języku. Każdy może mieć zatem realny wpływ na to, jak wygląda Python, jak on działa. Świetna sprawa.
 
 To tylko kilka z idei, które przyświecają Pythonowi, wszystkich ich tutaj nie opiszę, ale uważam, że te najważniejsze udało mi się zawrzeć. 
-Wąż co jakiś czas zrzuca skórę
+### Wąż co jakiś czas zrzuca skórę
+
 O cóż mi chodzi? O fakt, że Python i jego zastosowania cały czas się zmieniają. Podobnie jak wąż, zrzuca on swoją starą skórę i zyskuje nową.
 
 Pierwotnie był to język, który wykorzystywano raczej jako język skryptowy. Automatyzacja pewnych procesów na serwerach, jakieś operacje na plikach, tekście i tak dalej. Nudne rzeczy ogółem. Python nie zdobył rynku szturmem, troszkę mu to zajęło. Na samym początku był raczej niszowy. Z czasem i ewolucją samego języka, powszechnie zaczęto dostrzegać jego zalety i piękno.
@@ -146,14 +146,11 @@ Oczywiście Pythona wciąż używa się w różnego rodzaju skryptach, automatyz
 
 Tak więc, jak widzicie, Python się rozwija i pojawia w coraz większej ilości projektów, dziedzin i stref związanych z ogólnie pojętą informatyką. Osobiście uważam, że ten trend raczej się utrzyma, podobnie zresztą, jak do tej pory, i Python z roku na rok będzie zyskiwał co raz to większą popularność, wejdźmy jednak w szczegóły – dlaczego?
 
-
 ## Zalety Pythona
-
 
 ### Ekspresywność
 
-
-Python jest bardzo ekspresywny. Co to znaczy? Otóż w Pythonie za pomocą relatywnie niewielkiej ilości kodu, można osiągnąć to, co w innych językach zajęłoby czasami kilka razy tyle. Żeby nie być gołosłownym, popatrzmy na przykład klasycznego programu, którym zaczyna się naukę programowania – Hello World, czy po polsku, Witaj Świecie. Co w ogóle jest ironią, bo jak zaczynasz programować, to się raczej ze światem powinno żegnać, bo więcej go już za bardzo nie będziesz oglądał/a ze swojej piwnicy.
+Python jest bardzo ekspresywny. Co to znaczy? Otóż w Pythonie za pomocą relatywnie niewielkiej ilości kodu, można osiągnąć to, co w innych językach zajęłoby czasami kilka razy dłużej. Żeby nie być gołosłownym, popatrzmy na przykład klasycznego programu, którym zaczyna się naukę programowania – Hello World, czy po polsku, Witaj Świecie. Co w ogóle jest ironią, bo jak zaczynasz programować, to się raczej ze światem powinno żegnać, bo więcej go już za bardzo nie będziesz oglądał/a ze swojej piwnicy.
 W Pythonie wygląda on tak:
 
 ``` python
@@ -175,9 +172,8 @@ Tu dalej w miarę jasno, mimo kilku pozornie tajemniczych komend, wciąż można
 
 ``` cpp
 #include <iostream> 
-using namespace std;
 int main() {
-    cout << "Hello World!";
+    std::cout << "Hello World!";
     return 0;
 }
 ```
@@ -283,7 +279,8 @@ Od razu można się domyślić, że programiście chodzi o to, by komputer coś 
 Naprawdę, drugiego tak prostego języka jeszcze nie spotkałem, a trochę ich, przynajmniej pobieżnie, zdarzyło mi się używać – czy to JavaScript, Java, C, C++, Dart, Scala.
 
 Jedynym językiem, który może konkurować z Pythonem prostotą, jest chyba C – ale to z racji tego, że core tego języka jest po prostu malutkie. Gdy przyjdzie nam do zarządzania pamięcią, wskaźników i innych, równie fajnych rzeczy z C, to zaczyna się tęsknić za Pythonem.
-Python językiem dynamicznie typowanym
+
+### Python językiem dynamicznie typowanym
 Co to znaczy? Cóż, jeśli jesteś nowicjuszem w programowaniu, to możesz kompletnie nie mieć pojęcia, o co chodzi, ale to nic. 
 
 W skrócie sprawa tyczy się faktu takiego, że w statycznie typowanych językach, podczas deklaracji zmiennych, należy podać, jakiego typu dane będzie ta zmienna przechowywała. Za przykład niech posłuży nam tutaj Java:
@@ -373,26 +370,36 @@ Dlaczego w ogóle jednak czytelność jest ważna? Czas programisty jest drogi, 
 
 Jeśli program jest bardzo czytelnie napisany, to szybciej uda nam się go zrozumieć, a to jest krytyczne w tym, by wykonać zadanie – wbrew pozorom, praca programisty nie polega na ciągłym klepaniu kodu, wręcz przeciwnie. 
 
-Osobiście, to większość czasu w pracy spędzam na czytaniu kodu innych ludzi – czy to współpracowników, czy też autorów bibliotek, frameworków a czasem nawet swój własny. Czytelny wygląd dużo ułatwia, a to ważne, bo czytanie kodu jest o wiele trudniejsze niż jego pisanie.
+Osobiście, to większość czasu w pracy, kiedy programuje, spędzam na czytaniu kodu innych ludzi – czy to współpracowników, czy też autorów bibliotek, frameworków a czasem nawet swój własny. Czytelny wygląd dużo ułatwia, a to ważne, bo czytanie kodu jest o wiele trudniejsze niż jego pisanie.
 
 ### Automatyczne zarządzanie pamięcią
 
 W Pythonie zarządzanie pamięcią odbywa się automatycznie – programista nie ma w tym udziału, robi to za nas sam język za pomocą takich mechanizmów jak Garbage Collector, dba on o odpowiednie uwalnianie zasobów i pamięci po obiektach, których już nie używamy.
 
-Także nie musimy przejmować się takimi rzeczami jak alokacja i de-alokacja pamięci, jak to ma miejsce np. w C czy C++. 
+Także nie musimy przejmować się takimi rzeczami jak alokacja i de-alokacja pamięci, jak to ma miejsce np. w C czy C++.  Co to w ogóle znaczy zarządzanie pamięcią? Otóż wyobraź sobie, że za każdym razem, kiedy chcesz coś przechować w pamięci komputera, musisz mu dokładnie powiedzieć:
 
-Dlaczego to zaleta? Z racji tego, że niepoprawne zarządzanie pamięcią może doprowadzić do bardzo poważnych błędów, które narażają na szwank cały system, a to, by takowe nie wystąpiły, jest na głowie programisty i często nie jest to rzecz prosta, ba! Czasami banalne konstrukcje związane z alokacją i de-alokacją pamięci, rzeczy, które wydają się oczywiste, mają skomplikowane podłoża, które doprowadzają do poważnych błędów, jeśli źle zrozumiane.
+> Ej, komputer, daj mi tutaj kawałek pamięci.
+
+Jak skończysz już korzystać z danej rzeczy i nie jest ci ona więcej potrzebna:
+
+>Ej, komputer, nie potrzebuję już tego kawałka, zabieraj go z powrotem.
+
+Jeśli nie będziesz o tym pamiętał, to możesz narobić sporo bałaganu.
+
+Wiesz już, dlaczego to zaleta? Z racji tego, że niepoprawne zarządzanie pamięcią może doprowadzić do bardzo poważnych błędów, które narażają na szwank cały system, a to, by takowe nie wystąpiły, jest na głowie programisty i często nie jest to rzecz prosta, ba! Czasami banalne konstrukcje związane z alokacją i de-alokacją pamięci, rzeczy, które wydają się oczywiste, mają skomplikowane podłoża, które doprowadzają do poważnych błędów, jeśli są źle zrozumiane.
 
 W przypadku Pythona tak nie ma – programista na ogół nie ma nawet dostępu do bezpośrednich operacji na pamięci. Jest to bardzo mądre ograniczenie, przydatne w tego typu języku. Podobnie jest, chociażby, w Javie.
 
-Wspieranie różnych paradygmatów programowania
+### Wspieranie różnych paradygmatów programowania
+
 Są języki, które wspierają mocno w zasadzie tylko jeden paradygmat programowania – jak np. Java, czy Smalltalk, które zaprojektowane są, by ściśle spełniać założenia paradygmatu obiektowego, czy Haskell, który jest językiem funkcyjnym i tylko funkcyjnym, ale są też takie jak Python, które wspierają wiele paradygmatów. O co z tym chodzi, tak po ludzku?
 
 W Javie czy Haskellu masz nieco z góry narzucone to, jak masz ‘myśleć’ i w jakim kluczu powinieneś realizować rozwiązania pewnych problemów za pomocą kodu. Co to znaczy tak dokładnie, omówimy innym razem.
 
 W Pythonie natomiast masz wolność wyboru. To ty sam decydujesz o tym, które podejście Ci się podoba i którego chciałbyś użyć. Uważam to za zaletę, gdyż ponownie — w jednych sytuacjach lepiej sprawdzają się jedne rozwiązania, w innych drugie. Mając wybór, możesz użyć tego właściwego i już.
 
-Wiele wspieranych platform
+### Wiele wspieranych platform
+
 Jak już wspomniałem gdzieś wcześniej, Python obsługuje praktycznie dowolną używaną dziś platformę. Windows, Linux, AIX, IBM, macOS, OS/390, z/OS, Solaris, VMS, HP-UX. Co sobie kto zażyczy, prawie na pewno jest.
 
 ### Dojrzałość
@@ -415,11 +422,11 @@ Dodatkowym atutem Pythona jest to, że można pisać do niego ‘rozszerzenia’
 
 Z racji prostoty i mnogości bibliotek w Pythonie, aplikacje, jak i sam kod, można w nim tworzyć wręcz błyskawicznie. To niewątpliwa zaleta, zwłaszcza w czasach, kiedy większość klientów chce, by ich produkt był zrobiony na wczoraj, a terminy zawsze gonią.
 
-Mało tego, zazwyczaj ten zrobiony na szybko kod jest też dość przyzwoitej jakości.
+Mało tego, zazwyczaj ten zrobiony na szybko kod jest też dość przyzwoitej jakości. A przynajmiej znośnej.
 
 No i faktem jest też, że nawet jeśli nie chcemy wykorzystać Pythona produkcyjnie, to wciąż możemy go użyć, by stworzyć malutkie MVP. Co to MVP? Minimal viable product – czyli taką appkę, która będzie miała minimum funkcjonalności, ale gdzieś tam ktoś już za to będzie chciał zapłacić, bo do czegoś mu się przyda, co ucieszy inwestorów i w ogóle ludzi, bo jest super, mamy MVP, VC sypną, znowu, groszem, kolejna runda finansowania, hajs i hype się zgadza, nasz statek zwany startupem płynie dalej.
 
-Zapamiętaj ten skrót – MVP to gorący buzzword w zwariowanym świecie STARTAPUFF!
+Zapamiętaj ten skrót – MVP to gorący buzzword w zwariowanym świecie STARTAPUFF! A czym są Startupy? To takie `firmy` można powiedzieć, gdzie przychodzi sobie zazwyczaj magik z pomysłem, niekoniecznie ma sam kasę, by ten pomysł zrealizować, więc w zamian za udziały w zyskach/własności firmy, uzyskuje kasę od innych ludzi lub zaciąga długi. Cecha naczelna startupu - zazwyczaj nie zarabia na siebie, czyli nie jest w stanie funkcjonować bez zewnętrznej pomocy. Większość z nich upada, nieduża część radzi sobie okej, i naprawdę niewielki ułamek czy promil, wystrzeliwuje w kosmos tworząc coś pokroju, Facebooka, Instagrama, Revoluta, Tindera. Inwestorzy zazwyczaj szukają takich właśnie perełek pośród szamba. Nie wszystkie startupy są bez sensu, ale sporo z nich to tylko skok na kasę inwestorów, januszsoft, z drugiej strony to często centrum innowacji i nowych technologii. Startupy po prostu rządzą się swoimi prawami - przed podjęciem pracy w takowym, warto być tego świadomym.
 
 Kończąc dygresję, nawet jeśli nie używamy Pythona produkcyjnie a tylko do MVP, czy tworząc jakiś prototyp po prostu, w Pythonie możemy zrobić to błyskawicznie, sprawdzić, czy dane rozwiązanie działa, jeśli tak, to cóż, zawsze można wersję produkcyjną zaimplementować w innym języku. Jakimś szybszym.
 
@@ -440,9 +447,9 @@ W Pythonie, czy innych dynamicznie typowanych językach, takiego mechanizmu nie 
 
 Oczywiście obecnie mamy narzędzia, które nam ułatwiają to zadanie, czy nawet upodobniają w pewnym stopniu Pythona do języków statycznie typowanych, gdyż istnieją, chociażby, adnotacje typów, pozwalające nam podawać to, jaki typ powinna mieć zmienna/funkcja. 
 
-Niemniej jednak nie jest to obowiązkowy czy konieczny element języka i nie spowoduje on błędu podczas próby uruchomienia aplikacji, a jedynie co najwyżej ostrzeżenie IDE albo analizatora kodu, które można zwyczajnie zignorować.
+Niemniej jednak nie jest to obowiązkowy czy konieczny element języka i nie spowoduje on błędu podczas próby uruchomienia aplikacji, a jedynie co najwyżej ostrzeżenie IDE albo analizatora kodu, które można zwyczajnie zignorować. I nigdy takowym koniecznym elementem języka nie będzie, gdyż zaprzecza to w ogóle podstawowej funkcjonalności Pythona.
 
-Zatem dynamiczne typowanie jest nieco jak nóż, z jednej strony możesz użyć go do zrobienia czegoś fajnego, dobrego posiłku na przykład, a z drugiej strony, musisz żyć, ze świadomością, że należy zwracać szczególną uwagę, gdy się z nim obchodzisz, bo możesz się skaleczyć.
+Zatem dynamiczne typowanie jest nieco jak nóż, z jednej strony możesz użyć go do zrobienia czegoś fajnego, dobrego posiłku na przykład, a z drugiej strony, musisz żyć, ze świadomością, że należy zwracać szczególną uwagę, gdy się z nim obchodzisz, bo możesz się skaleczyć, albo uciąć sobie rękę.
 
 Jednakże czy z tego faktu należy rezygnować z korzyści i zastosowań, jakie on ma? Rzucę klasykiem – Nic bardziej mylnego! 
 
@@ -454,22 +461,22 @@ Jedno jest jasne – jeśli chodzi o kwestie ściśle wydajnościowe, Pythonowi 
 
 Oczywiście, obecnie się to zmienia, ale sama natura Pythona jako języka interpretowanego sprawia, że nigdy nie będzie on tak szybki, jak kompilowany do natywnego kodu, C, czy inne języki tego typu. Trzeba się z tym pogodzić i już.
 
-Oczywiście nie twierdzę tutaj, że Python jest bardzo powolny, czy ociężały. Nie. Python nie jest wolny, wręcz przeciwnie – dzięki różnym optymalizacjom poczynionym na przestrzeni lat, Python naprawdę zyskał na szybkości i dziś śmiało stwierdzam, że jest to język wystarczająco szybki, ale mocno należy zaznaczyć, że nie jest to język najszybszy. I tyle.
+Oczywiście nie twierdzę tutaj, że Python jest bardzo powolny, czy ociężały. Nie. Python nie jest wolny, wręcz przeciwnie – dzięki różnym optymalizacjom poczynionym na przestrzeni lat, Python naprawdę zyskał na szybkości i dziś śmiało stwierdzam, że jest to język **wystarczająco szybki**, ale mocno należy zaznaczyć, że nie jest to język najszybszy. I tyle.
 
-A jak już o wydajności mówimy to i o rozmiarach wspomnę – wymagania sprzętowe Pythona sprawiają, że na niektórych platformach go po prostu nie uruchomimy. Są pewne obszary świata embedded, gdzie króluje C czy Assembly, Python tam nie istnieje i nie ma co z tym dyskutować.
+A jak już o wydajności mówimy to i o rozmiarach wspomnę – wymagania sprzętowe Pythona sprawiają, że na niektórych platformach go po prostu nie uruchomimy. Są pewne obszary świata embedded, gdzie króluje C czy Assembly, Python tam nie istnieje, bo ma za duży narzut i nie ma co z tym dyskutować.
 
 Oczywiście są też projekty jak RaspberryPi, gdzie faktycznie, Python również rządzi wszystkim.
 
-Czyli jeśli chcesz pisać wysoce wydajne gry z piękną grafiką, czy też może wielowątkowe aplikacje, które w rzeczywistym czasie obsługują ogromne ilości obliczeń, albo może malutkie mikro-kontrolery, to cóż, Python nie jest raczej zbyt dobrym wyborem w takim razie.
+Czyli jeśli chcesz pisać wysoce wydajne gry z piękną grafiką, czy też może wielowątkowe aplikacje, które w rzeczywistym czasie obsługują ogromne ilości obliczeń, albo może malutkie mikro-kontrolery, to cóż, Python nie jest raczej zbyt dobrym wyborem w takim razie. Przynajmniej nie będzie najoptymalniejszy.
 
 W innych przypadkach Python sobie poradzi i nie trzeba przejmować się szybkością wykonania/zasobami. Dlaczego? Otóż żyjemy w takich czasach, że czas serwera jest znacznie tańszy niż czas dewelopera. To znaczy lepiej, żeby język był może i kapkę wolniejszy, ale za to, jeśli pisze się w nim znacznie szybciej, to go wybieramy. Tak jest po prostu taniej, lepiej, zdrowiej.
 
 Nie oznacza to, że mamy tu przyzwolenie na to, by pisać byle jaki kod, który działa siermiężnie i wolno, ale działa. Absolutnie! Trzeba szanować czas użytkownika, zasoby sprzętowe, które mamy i kilka innych rzeczy. Oszczędzaj RAM gdziekolwiek jesteś. Jak we wszystkim – należy znać umiar i granice. Chodzi mi tutaj bardziej o sytuacje, teoretyczną, gdzie mamy jakiś kod obsługujący zapytanie do serwera. 
 
 Przejście zapytania przez sieć zajmuje, załóżmy, sekundę. Wykonanie i zwrócenie odpowiedzi przez Pythona zajmie około 0,1 sekundy. Potem znowu powrót do użytkownika, czyli kolejna sekunda. Łącznie 2,1 sekundy. 
-Możemy przepisać ten kod w innym języku, załóżmy, Javie – kod będzie kilka razy dłuższy, pisanie zajmie go więcej czasu, ale za to wykona się, powiedzmy, 10 razy szybciej. Czyli użytkownik, zamiast poczekać 2,1 sekundy, poczeka 2,01 sekundy, gdyż zazwyczaj to nie sam serwer i kod naszej aplikacji, jest wąskim gardłem, a np. baza danych, połączenie sieciowe czy dysk.
+Możemy przepisać ten kod w innym języku, załóżmy, Javie – kod będzie kilka razy dłuższy, pisanie go zajmie więcej czasu, ale za to wykona się, powiedzmy, 10 razy szybciej. Czyli użytkownik, zamiast poczekać 2,1 sekundy, poczeka 2,01 sekundy, gdyż zazwyczaj to nie sam serwer i kod naszej aplikacji, jest wąskim gardłem, a np. baza danych, połączenie sieciowe czy dysk.
 
-Czy ma to sens w większości przypadków? Przeskok z 2,1 do 2,01s? Sami sobie odpowiedzcie. O takie sytuacje mi chodzi – wtedy nie ma sensu zazwyczaj bawić się w optymalizacje i Python jest po prostu wystarczająco szybki.
+Czy ma to sens w większości przypadków? Przeskok z 2,1 do 2,01s? Sami sobie odpowiedzcie. O takie sytuacje mi chodzi – wtedy nie ma sensu bawić się w optymalizacje i Python jest po prostu wystarczająco szybki.
 
 Tak to przynajmniej się ma w znacznej większości projektów, gdyż tych, które nie mogą sobie pozwolić na to minimalne zwolnienie, jest niezbyt dużo. Zresztą ty – jako początkujący programista, raczej nawet na oczy takich projektów na starcie kariery nie ujrzysz, bo nie pora na to. 
 
@@ -481,15 +488,15 @@ A o co chodzi z tą wielowątkowością i tak dalej? W skrócie i dużym uproszc
 
 Bo nie wiem, czy kojarzysz, ale masz w komputerze coś takiego jak CPU – tak zwany procesor. Ten procesor odpowiada za większość obliczeń, kalkulacji i wykonywanie twoich poleceń, tak w dużym skrócie. 
 
-Podczas rozwoju technologii, doszliśmy w pewnym etapie do momentu, kiedy trudno było już sprawić, żeby jeden rdzeń był szybszy. Zatem, żeby to wszystko działało jeszcze szybciej, a ty mógł/mogła odtwarzać pięć aplikacji w tle, obecnie procesory mają po kilka rdzeni. 
+Podczas rozwoju technologii, doszliśmy w pewnym etapie do momentu, kiedy trudno było już sprawić, żeby jeden rdzeń był szybszy - na początku tak było, że wszystkie procesory w zasadzie miały jeden rdzeń. Zatem, żeby to wszystko działało jeszcze szybciej, a ty mógł/mogła odtwarzać pięć aplikacji w tle, obecnie procesory mają po kilka rdzeni.
 
 Rdzenie to takie jakby małe procesory wewnątrz procesorów. Wyobraź sobie pracownika. 1 rdzeń = 1 pracownik. I wracając do tego wcześniej – pracownik jak to pracownik, ma ograniczoną wydolność, bo ogranicza go np. fizyka. No jeden człowiek, nieważne jak silny, nie jest w stanie przenieść więcej worków betonu niż X na godzinę. My, po pewnym czasie doszliśmy właśnie do tego momentu, że technologicznie stworzyliśmy pracownika, czyli procesor, co to do tego X się zbliżył, powiedzmy.
 
-Pojawił się zatem problem, bo mamy wydajność pracownika X. Mamy jednego pracownika na budowie, chcemy szybciej skończyć pracę, jak możemy to zrobić, skoro wyciągnięcie więcej niż X worków na godzinę, z tego jednego pracownika, będzie trudne lub niemożliwe na chwilę obecną? Możemy spróbować sprawić, by był jeszcze bardziej wydajny i np. zafundować mu dobrą kurację sterydami, co by silniejszy się zrobił, albo kokainą/amfą go odżywiać, sprawiając, że wydajność wzrosłaby o te 5%, ale koszt tego przedsięwzięcia byłby zupełnie niewspółmierny do uzyskanych rezultatów. Co zatem zrobić? Zatrudnić więcej pracowników.
+Pojawił się zatem problem, bo mamy wydajność pracownika X. Mamy jednego pracownika na budowie, chcemy szybciej skończyć pracę, jak możemy to zrobić, skoro wyciągnięcie więcej niż X worków na godzinę, z tego jednego pracownika, będzie trudne lub niemożliwe na chwilę obecną? Możemy spróbować sprawić, by był jeszcze bardziej wydajny i np. zafundować mu dobrą kurację sterydami, co by silniejszy się zrobił, albo kokainą/amfetaminą go odżywiać jak żołnierzy na froncie podczas wojny, sprawiając, że wydajność wzrosłaby o te 5% (no dobra, w przypadku narkotyków pewnie o 100%), ale koszt tego przedsięwzięcia byłby zupełnie niewspółmierny do uzyskanych rezultatów. Co zatem zrobić? Zatrudnić więcej pracowników.
 
 Plus minus tak wygląda sytuacja z procesorami i tym, że są one obecnie wielordzeniowe.
 
-Tu wchodzi Python, który jest takim trochę upośledzonym brygadzistą. Dobrze sobie radzi z zarządzaniem 1 pracownikiem, ale jeśli przyjdzie mu ogarniać np. 4, to ma już pewne ograniczenia, których trzeba być świadomym.
+Tu wchodzi Python, który jest takim trochę upośledzonym brygadzistą. Dobrze sobie radzi z zarządzaniem 1 pracownikiem w danym momencie, ale jeśli przyjdzie mu ogarniać np. 4, to ma już pewne ograniczenia, których trzeba być świadomym.
 
 Co prawda da się to teraz w miarę łatwo obejść, ale wciąż coś takiego pozostaje i trzeba nauczyć się z tym radzić.
 
@@ -505,7 +512,8 @@ Jest to jednak mała cena, jaką trzeba za płacić w porównaniu z tym, co ta e
 
 Po prostu to problem łatwy do naprawienia – wystarczy trochę chęci, by poczytać kapkę więcej. A czas, który poświęcimy na zgłębienie tych różnych tematów, jest o wiele krótszy niż czas, który poświęcilibyśmy, pisząc swój program w języku o niższym stopniu abstrakcji/ekspresywności.
 
-Python nie istnieje w świecie mobile
+### Python nie istnieje w świecie mobile
+
 Aplikacje mobilne i Python to raczej dwa odmienne światy. Tak po prostu i już. Na pewno istnieją projekty próbujące coś w tym zakresie wskórać, ale nie ma co się łudzić na to, że znając tylko Pythona, stworzymy fajną appkę na Androida.
 
 Jak ktoś ci mówi inaczej, to lepiej olej typa, bo Python mu wszedł za mocno i bredzi.
@@ -514,14 +522,16 @@ Jak ktoś ci mówi inaczej, to lepiej olej typa, bo Python mu wszedł za mocno i
 
 Często może być tak, że po tym, jak zaczniesz pisać w Pythonie, przesiadka na inne języki, gdzie pewne rzeczy musisz zrobić zupełnie inaczej, jest troszkę bolesna. To również potencjalna wada Pythona.
 
-Piszesz sobie szczęśliwie swoje programy w Pythonie, sporo rzeczy robisz jedną linijką kodu, jest fajnie pięknie, ale nagle przychodzi ci napisać coś w Javie i następuje brutalne zderzenie z rzeczywistością, które powoduje, iż lądujesz w otchłaniach ciemności, rozpaczy i depresji, twoje życie traci sens a żona musi rano zrzucać cię z łóżka, co byś wstał. Nie no, żartuje, pisanie w Javie nie jest takie złe, nie mam nic do języka. Po prostu mało który język jest tak fajny, jak Python.
+Piszesz sobie szczęśliwie swoje programy w Pythonie, sporo rzeczy robisz jedną linijką kodu, jest fajnie pięknie, ale nagle przychodzi ci napisać coś w Javie i następuje brutalne zderzenie z rzeczywistością, które powoduje, iż lądujesz w otchłaniach ciemności, na skraju pustki, rozpaczy i depresji, twoje życie traci sens a żona musi rano zrzucać cię z łóżka, co byś wstał. Nie no, żartuje, pisanie w Javie nie jest takie złe, nie mam nic do tego języka. Po prostu mało który język jest tak fajny, jak Python.
 
-Tyle
+### Tyle
+
 Pisząc o wadach i zaletach Pythona, starałem się być w miarę obiektywny. Oczywiście jest to niezbyt możliwe z racji tego, że to książka jest o Pythonie, a ja sam jestem jego entuzjastą. Niemniej jednak uważam, że udało mi się przestawić Ci mocne i słabe strony Pythona, dzięki czemu możesz zdecydować czy warto się go uczyć. Moim zdaniem jak najbardziej tak!
 
 Poza tym, kurka, jak już masz tę książkę, to korzystaj i się ucz!
 
 ## Kto używa Pythona?
+
 Rozdział 3.4. Kto używa Pythona?
 W tym wypadku lepiej byłoby zapytać o to, kto Pythona nie używa.
 
@@ -534,25 +544,21 @@ Całkiem sporo, prawda? No cóż, nic dziwnego, z racji tego, że Python, wedłu
 Poniżej widzicie zrzut ekranu z indeksem TIOBE, który to, powiedzmy, jest standardem w świecie programowania, jeśli chodzi o mierzenie popularności pewnych technologii, trendów i tak dalej.
 
 
-|Sep 2019|Sep 2018|Change|Programming Language|Ratings|Change|
-|--- |--- |--- |--- |--- |--- |
-|1|1||Java|16.661%|-0.78%|
-|2|2||C|15.205%|-0.24%|
-|3|3||Python|9.874%|+2.22%|
-|4|4||C++|5.635%|-1.76%|
-|5|6||C#|3.399%|+0.10%|
-|6|5||Visual Basic .NET|3.291%|-2.02%|
-|7|8||JavaScript|2.128%|-0.00%|
-|8|9||SQL|1.944%|-0.12%|
-|9|7||PHP|1.863%|-0.91%|
-|10|10||Objective-C|1.840%|+0.33%|
-|11|34||Groovy|1.502%|+1.20%|
-|12|14||Assembly language|1.378%|+0.15%|
-|13|11||Delphi/Object Pascal|1.335%|+0.04%|
-|14|16||Go|1.220%|+0.14%|
+|Marzec 2020|Marzec 2020|Programming Language|Ratings|Change|
+|--- |--- |--- |--- |--- |
+|1|1|Java| 17.78%  |+2.90%|
+|2|2|C|16.33%|+3.03%|
+|3|3|Python|10.11%|+1.85%|
+|4|4|C++|6.79%|-1.34%|
+|5|6|C#|5.32%|+2.05%|
+|6|5|Visual Basic .NET|5.26%|-1.17%|
+|7|7|JavaScript|2.05%|-0.38%|
+|8|8| PHP                  |2.02%|-0.40%|
+|9|9|SQL|1.83%|-0.09%|
+|10|18|GO|1.28%|+0.26%|
 
 
-Jak widać, Python spokojnie pokonuje takie języki, jak C#, PHP, JavaScript, SQL, R, czy Ruby. Tego ostatniego w zasadzie 8-krotnie.
+Jak widać, Python spokojnie pokonuje takie języki, jak C#, PHP, JavaScript, SQL, R, czy Go. Tego ostatniego w zasadzie 8-krotnie.
 
 Przyszłościowy ten wąż.
 
@@ -581,7 +587,7 @@ Tego ostatniego pewien nie jestem, oczywiście jako programista Pythona będę s
 
 Mogę ją dać na co innego – że w przeciągu następnych 15 lat Python nie zostanie wyparty z ogólnie pojętego programowania popularnego i nie będzie problemem, by znaleźć pracę, znając ten język, także, jeśli o to się boisz, to masz moje słowo, że tak nie będzie.
 
-Zatem idąc w Pythona, robisz dość mądry ruch, jeśli chodzi o twoją karierę. To zrób to, posłuchaj Górskiego, i do dzieła.
+Zatem idąc w Pythona, robisz dość mądry ruch, jeśli chodzi o twoją karierę. To zrób to, posłuchaj Górskiego i do dzieła.
 
 
 ## Python w porównianiu z...
@@ -590,19 +596,19 @@ Zatem idąc w Pythona, robisz dość mądry ruch, jeśli chodzi o twoją karier�
 
 Wrzucę te dwa języki do jednego worka, ku oburzeniu niektórych. Zaraz mi się tu zlecą fanboje z hejtem, ale co tam.
 
-Niemniej jednak zacznijmy od tego, że oba te języki wspierane są/kierują nimi wielkie korporacje. Python nie. Dla jednych to wada, dla innych zaleta. Python jest też zdecydowanie prostszy w nauce od tych dwóch języków, bez dwóch zdań.
+Niemniej jednak zacznijmy od tego, że oba te języki wspierane są/kierują nimi wielkie korporacje. Pythonem nie. Dla jednych to wada, dla innych zaleta. Python jest też zdecydowanie prostszy w nauce od tych dwóch języków, bez dwóch zdań.
 
 Jest też o wiele bardziej ekspresywny – kod jest zazwyczaj krótszy, o wiele krótszy.
 
 Niestety, często też wolniejszy od jednego, jak i drugiego.
 
-Python jest również mniej popularny od Javy, która jest obecnie na samym szczycie i to bez dwóch zdań, ale za to też wyraźnie popularniejszy niż C#.
+Python jest również mniej popularny od Javy, która jest obecnie na samym szczycie i to bez dwóch zdań, ale za to też wyraźnie popularniejszy niż C#. Plus Java/C# to często praca w korporacji. Lubisz pracę w korporacji? Ja nie przepadam. Python za to lepiej znajduje się w mniejszych zespołach, mniejszych projektach i firmach.
 
 ### Perlem
 
 Cóż, mało kto obecnie używa Perla, ale z racji tego, że niegdyś często porównywano te dwa języki, to wspomnę i o nim. Osobiście nigdy nie pisałem w Perlu, lecz zdarzało mi się widzieć kod w nim napisany.
 
-Ewidentnie bywa on czasami niezbyt czytelny, a ilość stosowanych w Perlu nawiasów potrafi człowieka przytłoczyć. Python jest też obecnie znacznie popularniejszy niż Perl. Przytłaczająco popularniejszy. Nie będę się zatem dalej nad tym porównaniem rozwodził, bo to sensu nie ma.
+Ewidentnie bywa on czasami niezbyt czytelny, a ilość stosowanych w Perlu nawiasów potrafi człowieka przytłoczyć. Python jest też obecnie znacznie popularniejszy niż Perl. Przytłaczająco popularniejszy. Nie będę się zatem dalej nad tym porównaniem rozwodził, bo to sensu nie ma. Nie oszukujmy się, i tak nie będziesz pisał w Perlu.
 
 ### C
 
@@ -612,11 +618,11 @@ C króluje w miejscach, gdzie Python nie ma racji bytu – sterowniki, embedded,
 
 Python jest zatem od C o wiele wolniejszy, zajmuje więcej pamięci. W zamian za to zyskujemy o wiele większą ekspresywność, szybkość pisania kodu i bezpieczeństwo – Python jest po prostu prostszym językiem w porównaniu do C, lecz raczej nigdy się ich nie porównuje.  Dlaczego? 
 
-Gdyż domyślna implementacja Pythona napisana jest właśnie w… C to raz, a dwa, służą one zupełnie innym zadaniom. Są to języki, powiedziałbym, komplementarne, a nie przeciwne, gdyż dobrze uzupełniają się w swoich wadach.
+Gdyż domyślna implementacja interpretera Pythona napisana jest właśnie w… C to raz, a dwa, służą one zupełnie innym zadaniom. Są to języki, powiedziałbym, komplementarne, a nie przeciwne, gdyż dobrze uzupełniają się w swoich wadach.
 
-Dużo bibliotek, które dla szybkości, pisze się w C, ma swoje wrappery, napisane w Pythonie właśnie. Co to te wrappery? Pomyśl sobie o swoim samochodzie. W środku ma on prawdopodobnie dość skomplikowany komputer. Ty, jako użytkownik, jesteś w stanie z nim prosto obcować za pomocą różnych guziczków, przycisków, menu i tak dalej – łatwa rzecz. Samodzielnie jednak nie jesteś w stanie modyfikować tego, jak ten system konkretnie działa, co robi w jakiej sytuacji itd., ale nie przeszkadza to jakoś bardzo, bo w 99% nie ma takiej potrzeby, a dla tego 1% brak sensu, by porzucać samochód i zacząć chodzić na piechotę. A jak już potrzebujesz zmienić coś w tym, jak ten komputer działa… Takie rzeczy może zrobić mechanik za pomocą konkretnych narzędzi i modyfikacji softu.
+Dużo bibliotek, które dla wydajności, pisze się w C, ma swoje wrappery, napisane w Pythonie właśnie. Co to te wrappery? Pomyśl sobie o swoim samochodzie. W środku ma on prawdopodobnie dość skomplikowany komputer. Ty, jako użytkownik, jesteś w stanie z nim prosto obcować za pomocą różnych guziczków, przycisków, menu i tak dalej – łatwa rzecz. Samodzielnie jednak nie jesteś w stanie modyfikować tego, jak ten system konkretnie działa, co robi w jakiej sytuacji itd., ale nie przeszkadza to jakoś bardzo, bo w 99% nie ma takiej potrzeby, a dla tego 1% brak sensu, by porzucać samochód i zacząć chodzić na piechotę. A jak już potrzebujesz zmienić coś w tym, jak ten komputer działa… Takie rzeczy może zrobić mechanik za pomocą konkretnych narzędzi i modyfikacji softu.
 
-Python i jego programista jest tutaj tobą, a C to komputer pokładowy samochodu. 
+Python i jego programista jest tutaj tobą, a C to komputer pokładowy samochodu, silnik i tak dalej. Guziczki to te wrappery z którymi obcujesz. 
 
 Tam, gdzie potrzebna jest niesamowita wydajność, którą pokonać może chyba tylko Assembly, można użyć C, tam, gdzie ważniejsza jest czytelność i szybkość produkcji kodu, można użyć Pythona. Super kombo. Swoją drogą to spora część programistów Pythona zna również C. To chyba naturalna kolej rzeczy.
 
@@ -652,13 +658,15 @@ CPython ‘kompiluje’ nasz kod Pythonowy, do bajtkodu zrozumiałego dla maszyn
 
 Dlaczego zatem PyPy nie jest domyślną implementacją, skoro jest szybszy, niby lepszy? Otóż by kod został wykonany szybciej, musi być spełnione kilka warunków.
 
-Przede wszystkim PyPy i jego JIT potrzebują chwili, by się ‘rozgrzać’ - czyli nasz skrypt musi wykonywać się przynajmniej kilka sekund, by mieć możliwość zyskania przyśpieszenia w związku z użyciem PyPy.
+Przede wszystkim PyPy i jego JIT potrzebują chwili, by się ‘rozgrzać’ - czyli nasz skrypt musi wykonywać się przynajmniej kilka sekund, by mieć możliwość zyskania przyśpieszenia w związku z użyciem PyPy. W innym wypadku PyPy to po prostu dodatkowy narzut.
 
-Drugim wymogiem jest to, że wąskim gardłem naszego programu muszą być Pythonowe instrukcje, a nie np. instrukcje zawarte w jakiś modułach wewnętrznych napisanych w C.
+Drugim wymogiem jest to, że wąskim gardłem naszego programu muszą być Pythonowe instrukcje, a nie np. instrukcje zawarte w jakiś modułach wewnętrznych napisanych w C. 
 
 Jeśli te wymogi są spełnione, to bardzo prawdopodobne jest, że użycie PyPy przyśpieszy wykonanie naszego programu i być może nawet zmniejszy zużycie pamięci. W innych przypadkach… Cóż… Prawdopodobnie nie zyskamy zbyt dużo na użyciu PyPy. O PyPy wypowiada się nawet sam twórca Pythona – Guido van Rossum.
 
-> “Jeśli chcesz przyśpieszyć swój kod, to prawdopodobnie powinieneś użyć PyPy.” Guido Van Rossum – twórca Pythona
+> “Jeśli chcesz przyśpieszyć swój kod, to prawdopodobnie powinieneś użyć PyPy.” 
+>
+> Guido Van Rossum – twórca Pythona
 
 Dodatkowo PyPy domyślnie implementuje np. cechy z Stackless Python, czy Sandboxing, który obecnie jest jeszcze raczej prototypem niż produkcyjną implementacją, ale wciąż.
 
@@ -669,7 +677,8 @@ Python i C#. Co go wyróżnia? Przede wszystkim to, że nie ma GIL’a, to, że 
 ### Jython
 
 Python na wirtualnej maszynie Javy. Zalety? Łatwa integracja z programami Javowymi, możliwa kompilacja programów Pythonowych do klas Javowych. Programy uruchamianie na wirtualnej maszynie Jythona mają pełen dostęp do klas i API Javy. Można go też kompilować statycznie i tworzyć servlety, applety, beany. Jython również jest wielowątkowy w prawdziwym tego słowa znaczeniu, czyli nie musimy się tutaj martwić GIL’em. Trzecia, ostatnia, praktycznie w 100% kompatybilna implementacja.
-Brython
+### Brython
+
 Brython to wynalazek, który sprawia, że twój kod, napisany w Pythonie, zadziała w… przeglądarce, po stronie klienta poprzez tłumaczenie Pythona do JavaScriptu. Aktywnie utrzymywany i w miarę aktualny. Ciekawy projekt.
 
 Z innych implementacji wspierających kompilację do JS, istnieją: RapydScrypt, Transcrypt.
@@ -677,7 +686,9 @@ Z innych implementacji wspierających kompilację do JS, istnieją: RapydScrypt,
 ### MicroPython
 
 Mówiłem, że Python na mikro-kontrolerach to niezbyt, prawda? Cóż, ten projekt ma na celu to zmienić. Podobnie jak PyMite.
-CLPython
+
+### CLPython
+
 Python zaimplementowany w język Common Lisp. Podobnie jak Jython czy IronPython, CLPython może mieszać kod Pythonowy z kodem języka, w którym został napisany, ma dostęp do jego bibliotek.
 
 ### TinyPy
@@ -691,7 +702,7 @@ Oprócz tego istnieją implementacje Pythona w Haskelu, PHP, JavaScripcie, Rubin
 
 Starczy już tej całej teorii i gadania, streśćmy zatem to, o czym do tej pory powiedziałem.
 
-Python jest ogólnego przeznaczenia dynamicznie typowanym językiem interpretowanym, którego zaletami są ekspresywność, społeczność, ilość gotowych rozwiązań, szybkość tworzenia aplikacji oraz czytelność kodu w nim tworzonego, łatwość w nauce.
+Python jest ogólnego przeznaczenia dynamicznie typowanym językiem interpretowanym (damn, bro that sounds smart), którego zaletami są ekspresywność, społeczność, ilość gotowych rozwiązań, szybkość tworzenia aplikacji oraz czytelność kodu w nim tworzonego, łatwość w nauce.
 
 Dobrze sprawdza się w webdevie, skryptach, zastosowaniach naukowych, związanych z Data Science czy podobnymi dziedzinami.  Nieco gorzej radzi sobie w aplikacjach wielowątkowych, tych, które wymagają bardzo wysokiej wydajności czy też w środowisku z mocno ograniczonymi zasobami. Dodatkowo Python nie istnieje w świecie tworzenia appek mobilnych, gier czy desktopowych.
 
@@ -708,5 +719,6 @@ Niemniej istnieją rozwiązania na różne bolączki Pythona związane z tymi pr
 1. Czy Python działa na wielu platformach? Jeśli tak, to na jakich? Wymień 3+.
 1. Jakim językiem jest Python, statycznie czy dynamicznie typowanym? Co to znaczy?
 1. W jaki sposób ogranicza nas GIL – tak w skrócie?
+1. Rozbij to zdanie na poszczególne fragmenty: ` ogólnego przeznaczenia dynamicznie typowanym językiem interpretowanym`. Co znaczą poszczególne fragmenty? poszukaj trochę w Internecie, poczytaj i odpowiedz, co to język ogólnego przeznaczenia, dynamicznie typowany, interpretowany.
 
 \pagebreak

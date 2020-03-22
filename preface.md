@@ -16,11 +16,11 @@ Mnie też wiele osób pomogło, więc chcę przekazać pałeczkę dalej, to mój
 
 Mam nadzieję, że jakoś uda mi się go zrealizować. Jeśli tak, to pamiętaj, z chęcią posłucham twej opowieści, czy też nawet opublikuję ją na blogu – może dzięki niej to ty wtedy pomożesz kolejnym osobom? Zatem jeśli ta książka w jakiś sposób poszerzy twą wiedzę, czy da ci coś pożytecznego, napisz do mnie! 
 
-Kontakt łatwo znaleźć, znajdziesz go w tej książce, jak i na moim blogu.
+Kontakt łatwo znaleźć, czy to w tej książce, czy na moim blogu.
 
-Kiedy zajmowałem się udzielaniem korepetycji, było to długo, zanim zostałem programistą, nauczyłem się tego, że po pierwsze, ucząc innych, uczysz i siebie, dwa, suche fakty nie zawsze wystarczą, żeby ktoś zrozumiał dane zagadnienie. Potrzebne są ciekawe przykłady, nietypowe analogie i ćwiczenia. Tak też postaram się przekazywać wiedzę w tej książce, prosto, ale i ciekawie.
+Kiedy zajmowałem się udzielaniem korepetycji, było to długo, zanim zostałem programistą, nauczyłem się tego, że po pierwsze, ucząc innych, uczysz i siebie, dwa, suche fakty nie zawsze wystarczą, żeby ktoś zrozumiał dane zagadnienie. Potrzebne są ciekawe przykłady, nietypowe analogie i ćwiczenia. Tak też postaram się przekazywać wiedzę w tej książce, prosto, ale i ciekawie. Zobaczymy, czy mi się uda.
 
-Kieruję ją zatem do osób raczej początkujących, którzy chcą powoli i dogłębnie zrozumieć pewne pojęcia związane z samym Pythonem, jak i ogólnie pojętą informatyką, zyskać trochę informatycznej ogłady, ale uważam, że ktoś doświadczony również znajdzie tu jakieś smaczki, które mogą zainteresować. Książka będzie raczej pełna uproszczeń, które poczynię w celu łatwiejszego jej zrozumienia, zatem za wszystkie nieścisłości z góry przepraszam.
+Kieruję ją zatem do osób raczej początkujących, które chcą powoli i dogłębnie zrozumieć pewne pojęcia związane z samym Pythonem, jak i ogólnie pojętą informatyką, zyskać trochę informatycznej ogłady, ale uważam, że ktoś doświadczony również znajdzie tu jakieś smaczki, które mogą zainteresować. Książka będzie raczej pełna uproszczeń, które poczynię w celu łatwiejszego jej zrozumienia, zatem za wszystkie nieścisłości z góry przepraszam.
 
 Ta książka to też swego rodzaju podsumowanie, czy też może małe streszczenie tego, co warto wiedzieć, kiedy startujemy np. do pierwszej pracy. Zatem jeśli szukasz krótkiego przewodnika po kluczowych funkcjach Pythona, to cóż, raczej nie jest ona dla Ciebie. Jeśli jesteś początkującym programistą i chcesz poszerzyć swoje horyzonty lub poznać szerzej podstawy Pythona, to zapraszam dalej. Postaram się umieścić tu odpowiedzi na wszystkie pytania, jakie ja miałem na początku swej drogi.
 
@@ -58,24 +58,26 @@ Jeśli Cię to nie interesuje, tak samo, jak przedziwne dedykacja, która się t
 
 Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zupełnie bez powodu. Zatem dziękuję...
 
-...tobie, Rafale, wraz z rodziną, której nie będę tu wymieniał ze względu na Waszą prywatność – twoją rodziną, której w pewnym stopniu czuję się już w zasadzie częścią, za otoczenie mnie opieką, naukę wielu rzeczy i realny, wielki wpływ na mnie i moje życie. Nie mam ojca, ale gdyby ktoś mnie spytał, kto jest mi najbliższym jego obrazem, to za długo bym chyba nie myślał.
+...tobie, Rafale, wraz z rodziną – twoją rodziną, której w pewnym stopniu czuję się już w zasadzie częścią, za otoczenie mnie opieką, naukę wielu rzeczy i realny, wielki wpływ na mnie i moje życie. Nie mam ojca, ale gdyby ktoś mnie spytał, kto jest mi najbliższym jego obrazem, to za długo bym chyba nie myślał.
 
 ...tobie, Adamie, mój najlepszy przyjacielu, tak po prostu.
 
-...tobie, Amelio, za to, że cię mam.
-
 ... Jakubowi Gąsiorskiemu, osobie, która odbywała ze mną rozmowę o pierwszą pracę. Uważam, że to właśnie jemu zawdzięczam fakt, że ostatecznie padła decyzja, by mnie przyjąć, bo postanowił dać mi szansę wtedy i później, wiele razy. Tutaj należą się też podziękowania Maciejowi Mondrzyckiemu, CEO YumaSoft, bo finalna decyzja, czy warto we mnie zainwestować, należała do niego.
 
-... Sebastianowi Opałczyńskiemu, gdyż to osoba, którą uznaję za mojego pierwszego mentora, jakiś wzorzec tego, jak się rozwijać jako programista, oraz osobę, która do powstania tej książki się przyczyniła w dużym stopniu. Wyniosła mnie powyżej tego, co mogłem osiągnąć sam i jemu bardzo dużo zawdzięczam, naprawdę. Dzięki Łysy. Czasami wskazał mi właściwy kierunek w kilku rzeczach, cierpliwie odpowiadał na różne pytania, miło wspominam też różnorakie nasze rozmowy. Jesteś bardzo dobrym nauczycielem.
+... Sebastianowi Opałczyńskiemu, gdyż to osoba, którą uznaję za mojego pierwszego mentora, jakiś wzorzec tego, jak się rozwijać jako programista, oraz osobę, która do powstania tej książki się przyczyniła w dużym stopniu. Wyniósł mnie powyżej tego, co mogłem osiągnąć sam i jemu bardzo dużo zawdzięczam, naprawdę. Dzięki Łysy. Czasami wskazał mi właściwy kierunek w kilku rzeczach, cierpliwie odpowiadał na różne pytania, miło wspominam też różnorakie nasze rozmowy. Jesteś bardzo dobrym nauczycielem i człowiekiem.
+
+...tobie, Alino. Za co? Za naleśniki. I pielmieni. I beztroski czas. I dużo innych rzeczy. 
 
 ...p. dyr. Pawłowi Boryczce, za to, że przez 3 lata sprawował nade mną pieczę i niejako wziął mnie pod swoje skrzydła. Dzięki temu udało mi się rozwinąć pewne umiejętności, poznać różnych ludzi, których prawdopodobnie nie odkryłbym w innym wypadku. Będę o tym pamiętał.
 
-...mej babci, jak i mamie. Za wszystko, mimo wszystkiego.
+...mej babci. Za wszystko, mimo wszystkiego.
 
-...wszystkim wspaniałym ludziom w Synerise. Kurczę, czasami brodziliśmy w ciężkich technicznie tematach [;)], ale do pracy, do biura, przychodziłem prawie zawsze z wielką chęcią, trochę się też nauczyłem podczas naszej przygody. Zatem pozdrawiam serdecznie Tomka, Kasię, Pawła, Kacpra, Adama, Darka, Marcina, Maćka, Janka, Przemka – w zasadzie cały zespół Fireplace, Marcina, czyli mojego importowego druha, Zuzę, Paulę, Gabi, Marka, jak i całą resztę firmy, ale za dużo was, by tu wszystkich z imienia wymienić.
+...całemu thirty3. Co ja tu dużo gadał będę. I love you all.
+
+...wszystkim wspaniałym ludziom w Synerise, jednej z moich poprzednich firm. Kurczę, czasami brodziliśmy w ciężkich technicznie tematach [;)], ale do pracy, do biura, przychodziłem prawie zawsze z wielką chęcią, trochę się też nauczyłem podczas naszej przygody. Zatem pozdrawiam serdecznie Tomka, Kasię, Pawła, Kacpra, Adama, Darka, Marcina, Maćka, Janka, Przemka – w zasadzie cały zespół Fireplace, Marcina, czyli mojego importowego druha, Zuzę, Paulę, Gabi, Marka, jak i całą resztę firmy, ale za dużo was, by tu wszystkich z imienia wymienić.
 
 ...Michałowi, Sebastianowi, Mariannie, Jackowi, Annie, jak i całej reszcie dawnej ekipy KM, bo jesteście dobrymi ludźmi, zawsze będę o Was pamiętał.
- 
+
 ...do not think that I’ve forgotten about you, my dear brother, Kunaal. I thank you and I’m grateful that you’ve been there for me. Always.
 
 ...wszystkim tym, którzy mnie czegoś nauczyli lub pomogli mi na mej drodze, a których tu nie wymieniłem, bo szczerze mówiąc, ten tekst byłby zbyt długi, tak po prostu.
@@ -92,6 +94,6 @@ Jeszcze raz. Dziękuję wam ja, Olaf.
 
 ## Dedykacja
 
-W sumie to brak.
+W sumie to brak. 
 
 \pagebreak

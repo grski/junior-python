@@ -36,7 +36,7 @@ Kiedy dopiero się uczymy, to dość pomocne, gdyż nawet nie widząc, co dane s
 
 ### Wyjątki
 
-Wiadomo, zaraz znajdzie się ktoś, kto stwierdzi 'allle jak to, ja to normalnie pińć lat w zawodzie i jakoś daje rade bez angielskiego!'. Niby tak, ale na jak długo i w jakiej firmie? Chcesz pracować w Januszsofcie? Proszę bardzo, ale ja za chemioterapię, której będziesz potrzebować po doświadczeniu skali głupoty i cebulactwa, jaka ma miejsce podczas pracy dla typowego Janusza, nie oddaje. A uwierz mi, że tak raczej będzie, bo ludzi, którzy kompletnie nie znają angielskiego, raczej się w inne miejsca jakoś zbytnio nie przyjmuje.
+Wiadomo, zaraz znajdzie się ktoś, kto stwierdzi 'allle jak to, ja to normalnie pińć lat w zawodzie i jakoś daje rade bez angielskiego!'. Niby tak, ale na jak długo i w jakiej firmie? Chcesz pracować w Januszsofcie (JanuszSoft to taka IT wersja Januszexa, a czym jest januszex to poszukaj w necie)? Proszę bardzo, ale ja za chemioterapię, której będziesz potrzebować po doświadczeniu skali głupoty i cebulactwa, jaka ma miejsce podczas pracy dla typowego Janusza, nie oddaje. A uwierz mi, że tak raczej będzie, bo ludzi, którzy kompletnie nie znają angielskiego, raczej się w inne miejsca jakoś zbytnio nie przyjmuje.
 
 To, co u góry napisałem to raczej rzeczy oczywiste dla wszystkich jakkolwiek obeznanych w sprawie, ale niektórzy, na początku (łącznie ze mną) są dość toporni w stosunku do nauki angielskiego. 
 

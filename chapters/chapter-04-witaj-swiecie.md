@@ -1,6 +1,6 @@
 # Witaj, Świecie!
 
-Wreszcie zaczynamy zabawę z kodowaniem! Uf, trochę nam to zajęło, co? Tylko jakieś 60 stron. W każdym razie.
+Wreszcie zaczynamy zabawę z kodowaniem! Uf, trochę nam to zajęło, co? Tylko jakieś kilkadziesiąt stron. W każdym razie.
 
 ## Wypisujemy tekst na ekran
 
@@ -48,7 +48,7 @@ Co tutaj się stało? Skorzystaliśmy z jednej ze wbudowanych funkcji Pythona, k
 
 Hmmm, co zatem może robić funkcja, która nazywa się „wydrukuj”? Dobre pytanie. Wydaje mi się, że tutaj nastąpi prawdziwy test tego, czy nadajesz się na programistę. Jeśli jesteś w stanie określić, co robi funkcja print/wydrukuj, to prawdopodobnie nadajesz się na programistę. Gratulacje.
 
-Tejże funkcji przekazujemy argument (czyli coś, na czym funkcja ma zadziałać) w postaci tego, co ma wydrukować. Zostanie to wypisane na ekranie, razem ze znakiem nowej linii. Znak nowej linii, który automatycznie Python doklei nam do tego, co drukujemy, oznacza, że jeśli teraz użyjemy następnego printa, by znowu coś wypisać, to nasza wartość, z drugiego printa, zostanie wypisana w nowej linijce. 
+Tejże funkcji przekazujemy argument (czyli coś, na czym funkcja ma zadziałać) w postaci tego, co ma wydrukować. Zostanie to wypisane na ekranie, razem ze znakiem nowej linii. Znak nowej linii, który Python automatycznie doklei nam do tego, co drukujemy, oznacza, że jeśli teraz użyjemy następnego printa, by znowu coś wypisać, to nasza wartość, z drugiego printa, zostanie wypisana w nowej linijce. 
 
 Bo chodzi o to, żeby komputer wiedział, kiedy ‘entera’ nowego wyświetlić i zakończyć obecną linię. To żeby mu dać znać, kiedy ma to zrobić, mamy coś takiego jak ‘znak nowej linii’. Jak sobie enter wciskasz w Wordzie, to pod spodem tam jest wstawiany ten właśnie znak. Czyli:
 
@@ -64,7 +64,13 @@ Linijka 1
 Linijka 2
 ```
 
-Znakiem końca linii jest zazwyczaj `\n`. Czyli w rzeczywistości, zamiast wyświetlić tylko `„Linijka 1”`, Python wyświetli `„Linijka 1\n”`.
+Znakiem końca linii jest zazwyczaj `\n`. Czyli w rzeczywistości, zamiast wyświetlić tylko `„Linijka 1”`, Python wyświetli `„Linijka 1\n”`. Znaczy to tyle, że jeśli te dwa nasze printy zamienimy na jednego, z argumentem `"Linijka 1\nLinijka 2"`, o tak:
+
+```pyth
+print("Linijka 1\nLinjka2")
+```
+
+To otrzymamy to samo.
 
 Czy to wszystko proste? Anty klimatyczne? Tak. Przynajmniej pozornie. Bo pod spodem, dzieje się tu wiele bardzo, bardzo ciekawych rzeczy, o których na razie nie masz pojęcia.
 
@@ -90,9 +96,9 @@ _start:
         int     0x80
 ```
 
-Wait… What? Także tak. Doceń to, co masz teraz. 
+Wait… What? Także tak. Doceń to, co masz teraz. I to była norma. Ba, byli nawet bardzo mądrzy programiści, którzy twierdzili, że kto wychodzi poza Assembler, używa na przykład C czy Basica, to ogółem mięczak jest. Po zobaczeniu Pythona chyba by się przekręcili.
 
-Tylko od razu zaznaczam – nie przejmuj się jeśli kompletnei nic nie rozumiesz z tego kodu. Spokojnie. Ja też nie za dużo. To nie ma znaczenia. Chodzi tylko i wyłącznie o to, by pokazać ci ciekawe, stare drogi.
+Tylko od razu zaznaczam – nie przejmuj się jeśli kompletnei nic nie rozumiesz z tego kodu. Spokojnie. Ja też nie za dużo. To nie ma znaczenia. Chodzi tylko i wyłącznie o to, by pokazać ci ciekawe, stare drogi, które obecnie rzadko są uczęszczane, a szkoda, bo skrywają interesujące tajemnice.
 
 A wiesz, co jest jeszcze ciekawsze? 
 
@@ -124,7 +130,11 @@ Co przez to rozumiem? Otóż komputer, to nic innego, jak taka ogromna, ogromna 
 
 W zależności od tego, jaką mamy kombinację, które ‘przewodniki’ mamy włączone, które wyłączone, komputer będzie robił różne rzeczy. To tak jak z pralką – zależnie od tego, jakie przyciski na niej pozostawisz wciśnięte, zrobi ona coś innego.
 
-Z racji tego, że mamy tu dwa stany, cokolwiek co ma z tym do czynienia, często okraszamy przymiotnikiem ‘binarny’. System liczb binarnych. Wybór binarny. Drzewo binarne. Ludzie binarni żyjący w świecie probabilistycznym i tak dalej.
+Z racji tego, że mamy tu dwa stany, cokolwiek co ma z tym do czynienia, często okraszamy przymiotnikiem ‘binarny’. System liczb binarnych. Wybór binarny. Drzewo binarne. Ludzie binarni żyjący w świecie probabilistycznym i tak dalej. 
+
+Ciekawostka: za każdym razem, kiedy słyszę słowo `binarnym`, od razu przypominam sobie pewną wypowiedź.
+
+> [@jarokrolewski](https://twitter.com/jarokrolewski?ref_src=twsrc^tfw): "jestem człowiekiem binarnym, chociaż wiem, że świat jest probabilistyczny". [@K_Stanowski](https://twitter.com/K_Stanowski?ref_src=twsrc^tfw): "tego słuchają zwykli kibice, mogą nie zrozumieć". Królewski: "ok… antropologicznie…". #stanfutbolu
 
 W każdym razie. Ustalamy zatem jedno. Nasz komputer operuje tylko na dwóch wartościach – 0 i 1, czyli brak/niskie napięcie i wysokie napięcie. To wszystko. W dużym uproszczeniu to właśnie to jest kompletną podstawą całego komputera i nic więcej.
 
@@ -199,7 +209,7 @@ Wyobrażacie sobie świat, w którym zamiast czytać moje słowa na ekranie za p
 
 Otóż kilku mądrych panów zebrało się kiedyś i stwierdzili oni, że w sumie dobrym pomysłem będzie, by niejako stworzyć tłumaczenie swego rodzaju – tłumaczenie, mapowanie liter alfabetu do… liczb. 
 
-Każda litera alfabetu otrzymała swój unikalny kod w postaci jakiejś liczby. Dlaczego? Bo jak powiedzieć komputerowi, że ‘k’, to ‘k’? Nie da się. Komputer jest głupi, nie rozumie pojęcia litery.
+Każda litera alfabetu otrzymała swój unikalny kod w postaci jakiejś liczby. Dlaczego? Bo jak powiedzieć komputerowi, że ‘k’, to ‘k’? Nie da się. Komputer jest głupi, nie rozumie pojęcia litery. Póki co.
 
 Liczby w systemie dziesiętnym zaś bez problemu przekonwertujemy do liczby w systemie binarnym, czyli do czegoś, co komputer już zrozumie.
 
@@ -233,21 +243,14 @@ Dlatego też obecnie, mimo tego, że ASCII oryginalnie jest 128 znakowym systeme
 
 Wybrany fragment tabelki znaków ASCII:
 
-|Decymalny|Znak|Binarny|Decymalny|Znak|Binarny
-|--- |--- |--- |--- | --- |--- |
-65 | A | 0b1000001 | 66 | B | 0b1000010
-68 | D | 0b1000100 | 69 | E | 0b1000101
-69 | E | 0b1000101 | 70 | F | 0b1000110
-72 | H | 0b1001000 | 73 | I | 0b1001001
-73 | I | 0b1001001 | 74 | J | 0b1001010
-76 | L | 0b1001100 | 77 | M | 0b1001101
-77 | M | 0b1001101 | 78 | N | 0b1001110
-80 | P | 0b1010000 | 81 | Q | 0b1010001
-81 | Q | 0b1010001 | 82 | R | 0b1010010
-84 | T | 0b1010100 | 85 | U | 0b1010101
-85 | U | 0b1010101 | 86 | V | 0b1010110
-88 | X | 0b1011000 | 89 | Y | 0b1011001
-89 | Y | 0b1011001 | 90 | Z | 0b1011010
+| Decymalny | Znak | Binarny    | Decymalny | Znak | Binarny    |
+| --------- | ---- | ---------- | --------- | ---- | ---------- |
+| 65        | A    | 0b01000001 | 66        | B    | 0b01000010 |
+| 67        | C    | 0b01000011 | 68        | D    | 0b01000101 |
+| 69        | E    | 0b01000101 | 70        | F    | 0b01000110 |
+| 72        | G    | 0b01000111 | 73        | H    | 0b01001000 |
+| 73        | I    | 0b01001001 | 74        | J    | 0b01001010 |
+| 89        | Y    | 0b01011001 | 90        | Z    | 0b01011010 |
 
 Po prostu wcześniej był chaos. A z chaosu wyłonił się ład. I powstała informatyka. W miejscu tym ład i chaos współistniały w harmonii.
 
@@ -271,11 +274,11 @@ Obecnie jednak takim standardem jest coś zwanego UTF-8. Jest to system kodowani
 
 Marzenie, bo w rzeczywistości, od wprowadzenia RFC 3629, UTF-8 obsługuje co najwyżej 2 097 152 znaków. To przez różne zaszłości historyczne, szczegóły implementacyjne i inne dziwne rzeczy, którymi nie musisz się martwić ani Ty, drogi czytelniku, ani ja, tylko raczej grube mózgi typu Ken Thompson i spółka, jakoś tak jednak wyszło, że niektóre bity są zarezerwowane na specjalne cele, niektóre bajty muszą mieć określony format, by wiadomo było różne przydatne rzeczy i tak dalej.
 
-A o co chodzi z tym RFC całym? Ogółem to takie standardy, które pewne mózgi wyznaczają. Na jakiej podstawie? Na jakiej uznają. Podobnie jak z ASCII – bo tak i tak. Ogółem upraszczam i zasadniczo to podczas podejmowania różnych decyzji, osoby decyzyjne kierują się bardziej racjonalnymi argumentami.
+A o co chodzi z tym RFC całym? Ogółem to takie standardy, które pewne mózgi wyznaczają. Na jakiej podstawie? Na jakiej uznają. Podobnie jak z ASCII – bo tak i koniec. Ogółem upraszczam i zasadniczo to podczas podejmowania różnych decyzji, osoby decyzyjne kierują się bardziej racjonalnymi argumentami.
 
-Tyle znaków nam raczej wystarczy na co dzień. Obecnie w UTF-8 mamy wykorzystanych tak standardowo około 1 112 064 znaków. Czyli mamy nawet jeszcze trochę zapasu w razie czego, żeby dodawać potem nowe znaki. 
+Tyle znaków nam raczej wystarczy na co dzień. Obecnie w UTF-8 mamy wykorzystanych tak standardowo około 1 112 064 znaków. Czyli mamy nawet jeszcze trochę zapasu w razie czego, żeby dodawać potem nowe znaki w razie jakbyśmy odkryli nową cywilizację, albo kiedy wreszcie obcy dojdą do wniosku, że staliśmy się na tyle cywilizowanymi zwierzętami, że warto z nami rozmawiać. I w tym wypadku bam, od razu możemy sobie dodać ich alfabet do unicode. NICE.
 
-Czy też raczej `codepointy`, ale my sobie uprośćmy, nie wnikajmy i mówmy po prostu znaków.  Czym jest codepoint? Zazwyczaj jak się dyskutuje o różnych kodowaniach, to zamiast ‘znak’, używa się pojęcia codepoint. Drobna różnica. Z twojej perspektywy nie ma jakoś to bardzo znaczenia.
+Czy też raczej `codepointy`, ale my sobie uprośćmy, nie wnikajmy i mówmy po prostu znaki.  Czym jest codepoint? Zazwyczaj jak się dyskutuje o różnych kodowaniach, to zamiast ‘znak’, używa się pojęcia codepoint. Drobna różnica. Z twojej perspektywy nie ma jakoś to bardzo znaczenia.
 
 Mała nota też: skojarzcie też, że jak UTF-8, to ogółem Unicode. Te dwa terminy trzymajcie w pamięci razem. Co prawda Unicode nie jest tym samym co UTF-8.
 
@@ -283,13 +286,15 @@ Do tego kolejna notka. Jest też coś takiego jak UTF-16. Czym się różnią? D
 
 UTF-8 jest w 100% kompatybilny z ASCII – tekst w ASCII jest poprawnym UTF-8, ale UTF-8 już NIE musi być poprawnym ASCII. To bardzo ważne! Zapamiętaj!
 
-Czyli popatrzcie, samo zaczęcie jakiejkolwiek rozmowy o tym, jak działa podstawowa funkcja w Pythonie, rzucenie chociaż trochę światła na to, co leży pod jej przykrywką, zajęło mi tutaj jakieś 6 stron.
+Czyli popatrzcie, samo zaczęcie jakiejkolwiek rozmowy o tym, jak działa podstawowa funkcja w Pythonie, rzucenie chociaż trochę światła na to, co leży pod jej przykrywką, zajęło mi tutaj kilka stron.
 
 A to dopiero początek – ledwo co stópki zamoczyliśmy w całym temacie, jakby mi przyszło opisać wszystko o tej jednej prostej funkcji, to pewnie by mi tu książki nie starczyło. 
 
 Kiedyś tę wiedzę – o wszystkich niskopoziomowych rzeczach, faktycznie trzeba było posiadać, by cokolwiek napisać. Dziś?
 
-Dziś mamy takie czasy, że  bazując na dekadach pracy tytanów intelektu informatyki, możemy sobie stworzyć tak abstrakcyjne języki, że nic z tego nie musimy znać. Wystarczy wpisać print("xd") i działa. To naprawdę coś niesamowitego, mimo tego, że nam wydaje się banalne. 
+Dziś mamy takie czasy, że bazując na dekadach pracy tytanów intelektu informatyki, możemy sobie stworzyć tak abstrakcyjne języki, że nic z tego nie musimy znać. Wystarczy wpisać print("xd") i działa. To naprawdę coś niesamowitego, mimo tego, że nam wydaje się banalne.
+
+Kiedyś każdy programista pisał samodzielnie swoje sterowniki, kompilował jądro linuxa. A dziś? Dziś przyjdzie taki, napisze hello worlda w Pythonie i myśli, że jest kozak. Dobrze, koniec żartów.
 
 To jest właśnie piękno nauki, informatyki. Bazując na pracy innych, możemy tworzyć nowe rzeczy. Wyśmienicie.
 
@@ -298,9 +303,9 @@ W każdym razie.
 ## Podsumowanie
 Zróbmy podsumowanie tego, co udało nam się zrobić i dowiedzieć.
 
-Mamy ogółem w pythonie taką funkcję jak print, która, uwaga, drukuje nam tekst na ekranie. Ten tekst w rzeczywistości, to nie jest tekst dla komputera, tylko nic innego jak ciąg zer i jedynek, bo komputer nie rozumie nic innego, za sprawą tego, jak jest zbudowany – napięcie lub brak/niskie napięcie – to jedyne co on tak naprawdę rozumie.
+Mamy w pythonie taką funkcję jak print, która, uwaga, drukuje nam tekst na ekranie. Ten tekst w rzeczywistości, to nie jest tekst dla komputera, tylko nic innego jak ciąg zer i jedynek, bo komputer nie rozumie nic innego, za sprawą tego, jak jest zbudowany – napięcie lub brak/niskie napięcie – to jedyne co on tak naprawdę pojmuje.
 
-W związku z tym powstało coś takiego jak system binarny. To taki system liczenia, troszkę inny od dziesiętnego, w którym liczby wyrażamy za pomocą dwóch cyfr i tylko tyle. Jest on nieco bardziej rozlazły w porównaniu do dziesiętnego – zapisanie tej samej liczby, co w dziesiętnym, zajmuje więcej miejsca, można by rzec, ale ogółem nie jest to jakieś skomplikowane pojęcie, da się ogarnąć.
+W związku z tym powstało coś takiego jak system binarny. To taki system liczenia, troszkę inny od dziesiętnego, w którym to liczby wyrażamy za pomocą dwóch cyfr i tylko tyle. Jest on nieco bardziej rozlazły w porównaniu do dziesiętnego – zapisanie tej samej liczby, co w dziesiętnym, zajmuje więcej miejsca, można by rzec, ale ogółem nie jest to jakieś skomplikowane pojęcie, da się ogarnąć.
 
 No i teraz mając już coś, co komputer jest w stanie zrozumieć, czyli system binarny, bazujący na dwóch wartościach, możemy na tym coś budować.
 
@@ -308,20 +313,23 @@ My, jako sprytni ludzie, zbudowaliśmy sobie coś, co się nazywa kodowaniem zna
 
 I tak oto powstało jedne z pierwszych popularniejszych kodowań, czyli ASCII. ASCII było spoko, ale miało tę wadę, że mało znaków twórcy tam przewidzieli, powiedzmy. 
 
-Zatem przyszło coś nowego, czego używam do dziś, co jest nieco lepsze – UTF-8. Żeby nie było problemów z kompatybilnością wsteczną, to znaczy, żeby stare teksty i programy działały na nowych komputerach, UTF-8 jest kompatybilny z ASCII, to znaczy tekst w ASCII jest też poprawnym tekstem UTF-8. W drugą stronę już niekoniecznie nie każdy UTF-8 jest poprawnym ASCII.
+Zatem przyszło coś nowego, czego używam do dziś, co jest nieco lepsze – UTF-8. Żeby nie było problemów z kompatybilnością wsteczną, to znaczy, żeby stare teksty i programy działały na nowych komputerach, UTF-8 jest kompatybilny z ASCII, to znaczy tekst w ASCII jest też poprawnym tekstem UTF-8. W drugą stronę już niekoniecznie **nie każdy** UTF-8 jest poprawnym ASCII.
 
-Pewnie cię trochę nudzę, co? Ostrzegałem na początku – będzie też trochę teorii i innych rzeczy, bo to nie będzie tylko książka o Pythonie. Chociaż przyznam szczerze, że mnie akurat te wszystkie tematy bardzo jarają, interesują. 
+Pewnie cię trochę nudzę, co? Ostrzegałem na początku – będzie też trochę teorii i innych rzeczy, bo to nie będzie tylko książka o Pythonie. Chociaż przyznam szczerze, że mnie akurat te wszystkie tematy bardzo jarają, interesują.
 
 To dla mnie niesamowite, co stworzyliśmy jako ludzkość i jak te wszystkie procesy zachodzą. Piękna sprawa. Mam nadzieję, że chociaż po części będzie mi się udawało zaciekawić cię, czytelniczko, czytelniku, podczas tej lektury, takimi tematami – nie tylko samym Pythonem, ale informatyką, nauką ogółem.
 
 Z drugiej strony, uważam, że takie podejście, które tu prezentuje – omawiając szerszy zakres, trochę historii i teorii, a nie same suche powiedzenie, „O tu masz printa i to drukuje tekst.” jest o wiele lepsze. Daje ci ono wgląd w fundamentalne teorie, które leżą u stóp tego, czym się będziesz posługiwać na co dzień. Poznasz narzędzie i jego budowę, zastosowanie, będziesz świadom. Moim zdaniem to konieczne do bycia dobrym programistą.
 
 Zaraz przejdziemy do zadań/pytań. Oprócz nich, chciałbym, byś po każdym rozdziale bawił czy bawiła się sama nieco tym, o czym piszę – mówimy o print, poprintuj sobie trochę. Ja wiem, że wydaje się to nudne, ale zrób to. Proszę. Do tego, możesz poguglować trochę więcej i zgłębić tematy, o których tu mowa. To pomoże.
-Rozdział 5.7. 
-Zadania i pytania
-Niektóre będą mega banalne, ale i tak na nie odpowiedz. No. Jak nie do końca znasz odpowiedź, to się nie przejmuj, przeczytaj jakiś kawałek jeszcze raz ewentualnie, spróbuj pomyśleć. 
 
-Najlepiej to weź kawałek papieru i na nim spisuj swoje odpowiedzi na pytania, które nie wymagają programowania. To sprawi, że lepiej zapamiętasz. Sformułuj odpowiedź na podstawie tekstu. Później podam ci odpowiedzi.
+## Zadania i pytania
+
+Niektóre będą mega banalne, ale i tak na nie odpowiedz. No. Jak nie do końca znasz odpowiedź, to się nie przejmuj, przeczytaj jakiś kawałek jeszcze raz ewentualnie, spróbuj pomyśleć, poszukaj w Internecie.
+
+Najlepiej to weź kawałek papieru i na nim spisuj swoje odpowiedzi na pytania, które nie wymagają programowania. To sprawi, że lepiej zapamiętasz. Sformułuj odpowiedź na podstawie tekstu. W ogóle, to taka notka, dla tych, którzy czytają uważnie. Jeśli faktycznie będziesz robić te ćwiczenia, odpowiadać na nie, to możesz swoje odpowiedzi przesłać mi, a ja je sprawdzę. Tak za darmo. Znajdź mnie na przykład na linkedinie czy na blogu albo 4p. 
+
+Później podam ci odpowiedzi. 
 
 1. Jaka funkcja w Pythonie służy do drukowania tekstu na ekran?
 1. Czy ta funkcja drukuje coś poza tekstem, który został wpisany, czy nie? Podpowiedź: co się stanie, jak ponownie jej użyjesz, do wypisania czegoś nowego na ekran? Czy tekst będzie w tej samej linii?
@@ -332,7 +340,7 @@ Najlepiej to weź kawałek papieru i na nim spisuj swoje odpowiedzi na pytania, 
 1. Jakie wartości rozumie komputer tak kompletnie u podstaw? Dlaczego?
 1. O co chodzi z ASCII? Co to jest?
 1. Jak komputer sobie wewnętrznie reprezentuje tekst, który wpisujesz?
-1. A ten cały UTF-8?
+1. A ten cały UTF-8, co to?
 1. Ile plus minus (rząd wielkości) znaków można przedstawić za pomocą dwóch kodowań, o których mówiliśmy w tym rozdziale?
 1. Przelicz następujące liczby z dziesiętnego na binarny: 5, 10, 32, 127, 256.
 1. Teraz w drugą stronę, z binarnego na dziesiętny: 0000 1101, 1000 0000, 0010 0100.

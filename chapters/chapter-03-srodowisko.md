@@ -1,8 +1,8 @@
 # Ustawiamy środowisko
 Przejdźmy wreszcie do czegoś konkretnego – ubrudźmy sobie nieco ręce, bo do tej pory tylko gadam i gadam. Zaczniemy od ustawienia środowiska/zainstalowania Pythona oraz czegoś do edycji tekstu. Tylko moment, czego? Istnieją dwie opcje – prosty edytor tekstu lub IDE. Co wybierzemy my?
 
-
 ## W czym pisać kod na początku?
+
 W czym pisać kod na początku? IDE/Edytor tekstu? PyCharm? Sublime?
 
 Gdy pomyślę sobie o moich pierwszych dniach nauki programowania, jedną z wielu rzeczy, które ciągle mieszały mi w głowie i przyniosły sporo kłopotu w ich rozstrzygnięciu, był wybór środowiska, w którym będę pisał swoje pierwsze programy.
@@ -33,9 +33,9 @@ Niezależnie od tego, czy korzystamy z IDE, czy jakiegoś edytora tekstu dobrze 
 
 Poza tym, na początku funkcja podpowiadania kodu powinna być wyłączone. Przepisując nazwy instrukcji, metod czy klas szybciej się ich nauczymy. Ja przynajmniej tak miałem. Korzystając z auto uzupełniania, często wystarczyło, żebym wpisał dwie, trzy litery, tab i pyk — gotowe. 
 
-Problem pojawiał się, gdy auto uzupełniania zabrakło, bo np. musiałem napisać coś na szybko w zwykłym edytorze tekstu/skorzystać z nieswojego komputera lub, o zgrozo, poszedłem na rozmowę rekrutacyjną, gdzie trzeba było napisać kod na tablicy, pisakiem. Nie będę mówił, jak głupio przez to kilka razy wypadłem.
+Problem pojawiał się, gdy auto uzupełniania zabrakło, bo np. musiałem napisać coś na szybko w zwykłym edytorze tekstu/skorzystać z nieswojego komputera lub, o zgrozo, poszedłem na rozmowę rekrutacyjną, gdzie trzeba było napisać kod na tablicy, pisakiem, albo na kartce. Nie będę mówił, jak głupio przez to kilka razy wypadłem.
 
-Wtedy nagle wszystko z głowy mi wyleciało i zapomniałem połowy poleceń, które podobno tak dobrze znałem. Dlatego też na samym początku jednak zrezygnowałem z automatycznego uzupełniania na rzecz ręcznego pisania. 
+Wtedy nagle wszystko z głowy mi wyleciało i zapomniałem połowy poleceń, które podobno tak dobrze znałem. Okazuje się, że znałem nie język i jego składnie a początki wyrazów i podpowiedzi IDE. Dlatego też na samym początku jednak zrezygnowałem z automatycznego uzupełniania na rzecz ręcznego pisania. 
 
 Zatem na początku lepiej zapomnij o podpowiadaniu składni, zwłaszcza jak wybierasz się za jakiś czas na rozmowę rekrutacyjną. Chociaż wątpię, skoro czytasz tę książkę.
 
@@ -59,12 +59,11 @@ Na początku było trudno, ale potem się już troszkę przyzwyczaiłem. Niemnie
 
 Ostatecznie jednak Vim zmieniłem na SublimeText do krótkich i prostych skryptów, a całą resztę aplikacji piszę jednak w PyCharm. Oferuje on zbyt dużo przydatnych opcji, by z niego nie korzystać to raz, a dwa, że stał się on niejako standardem w naszej branży i naprawdę niewiele jest firm, które z niego nie korzystają. 
 
-W Sublimie zaczęło mi czegoś brakować, zatem… Powrót do Vima+PyCharm.
+W Sublimie zaczęło mi czegoś brakować, zatem… Powrót do Vima+PyCharm. Teraz pracuje na połączeniu - PyCharm z Vimem w środku. Idealnie.
 
-Na potrzeby tej książki w zupełności wystarczy Ci SublimeText, potem ewentualnie przeskoczymy na PyCharma. Przejdźmy do instalacji, skoro już wiemy, co będzie nam potrzebne.
+Na potrzeby tej książki w zupełności wystarczy Ci SublimeText, potem ewentualnie przeskoczymy na PyCharma - do nauki jest darmowy, także możesz sobie od razu zainstalować. Przejdźmy do instalacji, skoro już wiemy, co będzie nam potrzebne.
 
-
-## Windows?! Linux?! MacOX?! Co wybrać?
+## Windows?! Linux?! MacOX?! 
 
 Bez znaczenia.
 
@@ -76,15 +75,16 @@ Nas to jednak nie dotyczy. My prości Pythonowcy jesteśmy. A on sobie w miarę 
 
 Dobrze jest jednak mieć, chociaż podstawowe rozeznanie, jeśli o Linuxa chodzi.  Dlaczego? Praktycznie każdy serwer, na którym hostujemy nasze aplikacje w sieci, jest postawiony na Linuxie. Prędzej czy później się z nim zetkniesz, a jeśli wcześniej będziesz z nim nieco znajomy, to nie będzie to bolesne zderzenie z rzeczywistością, gdzie przywalisz głową w mur, a raczej spotkanie przy piwie z dobrym kumplem, którego dawno nie widziałeś. To raz. Dwa, ogółem pewne rzeczy na Linuxie masz za od ręki, gdzie na Windowsie musisz sam się z niektórymi rzeczami kłopotać, instalować itd. Czy to znaczy, że masz instalować nowy system, żeby poznać Linuxa, inaczej żyć się nie da?
 
-Absolutnie nie. Wystarczy ci do tego wirtualna maszyna z dowolną dystrybucją. Ja od siebie polecam Ubuntu, mimo że nie przepadam za Canonical, oraz drugą opcję, czyli Manjaro. Oba są Linuxami, ale z pewnymi różnicami. Osobiście, jak korzystam z Linuxa, to właśnie z Manjaro. Na desktopie przynajmniej. Bo na serwerach Manjaro raczej odpada.
+Absolutnie nie. Wystarczy ci do tego wirtualna maszyna z dowolną dystrybucją. Ja od siebie polecam Ubuntu, mimo że nie przepadam za Canonical, oraz drugą opcję, czyli Manjaro. Oba są Linuxami, ale z pewnymi różnicami. Osobiście, jak korzystam z Linuxa, to właśnie z Manjaro. Na desktopie przynajmniej. Bo na serwerach Manjaro raczej odpada. Chyba, że masz jakiś nietypowy laptop. Wtedy Ubuntu wygrywa.
 
-Wirtualka, co, jak, gdzie? Przeczesz spis treści, w tej książce powinieneś znaleźć odpowiedź, tylko pewnie będzie ona nieco dalej.
+Wirtualka, co, jak, gdzie? Przeczesz spis treści, w tej książce powinieneś znaleźć odpowiedź, tylko pewnie będzie ona nieco dalej, albo nie będzie. Nie jestem pewny, czy napiszę o tym rozdział. Najlepiej wygoogluj.
 
-Podsumowując tak krótko, zarówno Linux, jak i Windows mają swoje wady i zalety, są tylko narzędziami. Ja, osobiście, jednak korzystam (wreszcie), z Linuxa jako hosta. Tobie polecam, chociażby, zainstalowanie go jako guesta w wirtualce, bo jednak te wszystkie Dockery, Kubernetesy i inny ustrojstwa, raczej lepiej chodzą na Linuxie, poza tym większość programistów korzysta z Linuxa. Na Windowsie czasem czuję się jak zwierze wręcz. Bez urazy.
+Podsumowując, zarówno Linux, jak i Windows oraz macOS mają swoje wady i zalety, są tylko narzędziami. Ja, osobiście, jednak korzystam (wreszcie), z Linuxa jako hosta. Tobie polecam, chociażby, zainstalowanie go jako guesta w wirtualce, bo jednak te wszystkie Dockery, Kubernetesy i inny ustrojstwa, raczej lepiej chodzą na Linuxie, poza tym większość programistów korzysta z Linuxa. Na Windowsie czasem czuję się jak zwierze wręcz. Bez urazy.
 ## Instalacja na Windows
+
 Zazwyczaj w książkach do Pythona znajdziemy opis instalacji Pythona krok po kroku, pomocne zrzuty ekranu i tak dalej. Cóż, nie tutaj. My zainstalujemy sobie potrzebne nam rzeczy w nieco nietypowy, jak na Windows, sposób. Za pomocą konsoli. Nie, nie oszalałem.
 
-Nie wiem, czy jesteś świadom, ale użytkownicy Linuxa zazwyczaj instalują programy w nieco odmienny sposób, niż Windowsiarze. 
+Nie wiem, czy jesteś świadom, ale użytkownicy Linuxa zazwyczaj instalują programy w odmienny sposób, niż Windowsiarze. 
 
 Otóż każda popularna dystrybucja Linuxa zawiera w sobie tak zwany menadżer pakietów. Możesz o tym myśleć, jak o ‘programie’, które zarządza wszystkimi oficjalnie wspieranymi i dostępnymi programami dla danej dystrybucji. Zrozumiałe, prawda?
 
@@ -94,11 +94,11 @@ Niestety, domyślnie, Windows nie posiada sensownego menadżera pakietów, jedna
 
 W skrócie, dzięki niemu instalacja sporej części programów jest zredukowana do:
 
-choco install nazwa_programu
+`choco install nazwa_programu`
 
 i tyle. Wygodne, co? Dlatego też my skorzystamy z tegoż to menadżera pakietów, by zainstalować to, co nam potrzebne.
 
-Instalujemy Choco
+### Instalujemy Choco
 Dokładne instrukcje znajdują się na [stronie chocolatey](https://chocolatey.org/install) i mogą się zmienić, także, gdyby niżej podany zestaw nie działał, to zajrzyj wyżej.
 
 Do dzieła. W skrócie, jedyne co musisz zrobić, to otworzyć `cmd.exe` jako administrator (ważne) i wkleić tam:
@@ -109,7 +109,8 @@ Do dzieła. W skrócie, jedyne co musisz zrobić, to otworzyć `cmd.exe` jako ad
 
 Notka: w cmd wklejamy ze schowka za pomocą prawego kliknięcia myszą. Kopiowanie odbywa się poprzez zaznaczenie danego fragmentu.
 
-Instalacja potrzebnych nam rzeczy za pomocą choco
+### Instalacja potrzebnych nam rzeczy za pomocą choco
+
 Chocolatey zainstalowane? Wymienicie, teraz już tylko jedno polecenie nas od finiszu.
 
 ```bash
@@ -130,13 +131,14 @@ lub
 choco upgrade nazwa_programu
 ```
 
-Tłumaczyć chyba nie muszę.  Listę dostępnych do zainstalowania w ten sposób paczek, można znaleźć tutaj. Większość popularnych programów tam jest.
+Tłumaczyć chyba nie muszę.  Listę dostępnych do zainstalowania w ten sposób paczek, można znaleźć na stronie chocolatey. Większość popularnych programów tam jest.
 
 Jak nam się nie chce za każdym pytaniem o upgrade klikać ‘y’, to wystarczy dodać `-y` na koniec polecenia, analogicznie do przykładu z instalacją sublimetexta.
 
-Teraz jedynie otwieramy SublimeText, tworzymy gdziekolwiek dowolny katalog i w SublimeText klikamy File → Open Folder, wybierając utworzony wcześniej folder, który posłuży nam za główny folder dla plików z tej książki.
+Teraz jedynie otwieramy SublimeText, tworzymy gdziekolwiek dowolny katalog i w SublimeText klikamy File → Open Folder, wybierając utworzony wcześniej folder, który posłuży nam za główny folder dla plików z tej książki. Jeśli korzytasz z pycharma to analogicznie.
 
-Rozdział 4.4. Instalacja na Linux/macOS
+## Instalacja na Linux/macOS
+
 Co do instrukcji dla Linuxa lub macOSa i jego użytkowników. Cóż, dla was nie ma.
 
 Ale jak to? Co to ma być za dyskryminacja? Otóż prawdopodobnie macie już zainstalowanego Pythona, sprawdźcie tylko w jakiej wersji. Jak?
@@ -153,13 +155,13 @@ python3 –-version
 
 Zależy, z jakiej dystrybucji korzystasz i jakiej wersji Pythona używa jako domyślnej.
 
-Najlepiej, żeby był to Python w wersji >= 3.7.0. Jeśli nie jest, to zupgrejdujcie sobie.
+Najlepiej, żeby był to Python w wersji >= 3.8.0. Jeśli nie jest, to zupgrejdujcie sobie.
 
 Jak to zrobić? Bądźmy szczerzy, jeśli korzystasz z Linuxa, to raczej nie musisz się mnie o to pytać. Podobnie z instalacją SublimeText. A jeśli naprawdę nie masz pojęcia to… Przypomnij sobie, co mówiłem o najważniejszej umiejętności informatyka – przetwarzanie informacji. Szukaj zatem.
 
 A jak z maca, to użyj narzędzia `brew`. I tyle.
 
-No i jak wspominałem, nie musi być to SublimeText – możesz używać swojego ulubionego edytora. Bez znaczenia. Tylko proszę, nie używaj windowsowego notatnika do tego. Za każdym razem, gdy to robisz, gdzieś na świecie umiera kotek. Nie rób tego.
+No i jak wspominałem, nie musi być to SublimeText ani PyCharm – możesz używać swojego ulubionego edytora, IDE czy czegokolwiek. Bez znaczenia. Tylko proszę, nie używaj windowsowego notatnika do tego. Za każdym razem, gdy to robisz, gdzieś na świecie umiera kotek. Nie rób takich rzeczy.
 
 ## Przechodzimy do programowania! Nareszcie!
 
@@ -173,13 +175,13 @@ Nie chcę po prostu zarzucać cię na samym początku informacjami, które nie b
 
 ## Czterej jeźdźcy konsoli
 
-1. `dir` (Windows) lub `ls` (Linux). To polecenie, które wypisuje zawartość katalogu, w którym obecnie się znajdujemy w konsoli. Skąd wiedzieć, gdzie akurat jesteśmy? Sprawa prosta – nasz katalog roboczy (CWD – current working directory) jest wyświetlany po lewej stronie od naszego kursora terminalu lub wpisując pwd na Linuxie/iOS. Windowsiarze googlują. Zachciało im się, systemów od MS. To teraz macie. Co nam daje to, że jesteśmy w jakimś katalogu?	
-Otóż nasze polecenia będą wykonywane względem tejże ścieżki. Czyli jak wpiszemy sobie `python plik.py`, to jeśli będziemy w folderze, załóżmy, `C:\Users\Olaf` to Python będzie szukał sobie tego pliku, plik.py właśnie w tym folderze.
-1. `mkdir` – wspólna dla obu systemów, tworzy katalog o podanej nazwie np. mkdir folder utworzy w obecnym katalogu roboczym folder o nazwie folder. Makes sense.
-1. `del` (Windows) i `rm` (Linux) te komendy służą do usuwania plików. Jeśli chcemy usunąć folder, możemy do tego użyć rd na Windows czy rm -rf na Linuxie. Przykład użycia: rm -rf plik.txt. 
+1. `dir` (Windows) lub `ls` (Linux). To polecenie, które wypisuje zawartość katalogu, w którym obecnie się znajdujemy w konsoli. Skąd wiedzieć, gdzie akurat jesteśmy? Sprawa prosta – nasz katalog roboczy (CWD – current working directory) jest wyświetlany po lewej stronie od naszego kursora terminalu lub wpisując pwd na Linuxie/iOS. Windowsiarze zaś googlują polecenie. Zachciało im się, systemów od MS. To teraz macie. Co nam daje to, że jesteśmy w jakimś katalogu?	
+Otóż nasze polecenia będą wykonywane względem tejże ścieżki. Czyli jak wpiszemy sobie `python plik.py`, to jeśli będziemy w folderze, załóżmy, `C:\Users\Olaf` to Python będzie szukał sobie tego pliku, plik.py właśnie w tym folderze oraz w lokalizacjach dodanych do zmiennej środowiskowej PATH.
+1. `mkdir` – wspólna dla obu systemów, tworzy katalog o podanej nazwie np. `mkdir folder` utworzy w obecnym katalogu roboczym folder o nazwie folder. Makes sense.
+1. `del` (Windows) i `rm` (Linux) te komendy służą do usuwania plików. Jeśli chcemy usunąć folder, możemy do tego użyć rd na Windows czy rm -rf na Linuxie. Przykład użycia: `rm -rf plik.txt`.  Uważaj jednak - bo to, co usuniesz za pomocą rm'a nie trafia do Kosza. Później odzyskanie takiego przypadkowo usuniętego pliku będzie nieco trudniejsze niż kliknięcie `Przywróć z kosza`.
 1. `cd` – wspólna dla obu systemów. Cd, czyli change directory. Zmiana bieżącego katalogu roboczego na zadany.  Przykład użycia - cd .. - to polecenie przeniesie nas do katalogu nadrzędnego w strukturze plików. Czyli jeśli jesteśmy w `C:\Users\Olaf\Test\` to użycie cd .. przeniesie nas do `C:\Users\Olaf\`.
 
-Przydatna informacja: kliknięcie TAB powoduje, że konsola sama nam dopisuje nazwy katalogów, czy plików; 
+Przydatna informacja: kliknięcie TAB powoduje, że konsola sama nam dopisuje nazwy katalogów, czy plików a nawet poleceń.
 
 Na Linuxie (zazwyczaj) znakiem ~ oznaczamy katalog domowy użytkownika, więc jeśli chcesz do niego przejść, nie musisz podawać pełnej ścieżki. Wystarczy wpisać cd ~ i już.
 
