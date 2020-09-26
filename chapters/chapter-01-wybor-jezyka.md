@@ -8,9 +8,9 @@ Ciekawe co to za język? C, Python? Może C++ albo JavaScript? Bynajmniej! Mowa 
 
 Żyjemy w czasach globalizacji. Wszystko się trochę ujednolica. Te same seriale, te same filmy, te same ubrania, marki i... język. Język angielski od dawna obecny był w naszym języku rodzimym — polskim, anglicyzmy istnieją od wielu, wielu lat, jednakże w ostatnich latach, latach istnienia i rozwoju cywilizacji globalnej, ilość anglicyzmów i zapożyczeń, która pojawia się w naszej mowie, zwłaszcza wśród młodzieży, rośnie w tempie wykładniczym. Nie bez powodu. I mówię to ja, gość piszący książkę po polsku. Na upartego dasz radę bez niego, owszem, ale jeśli na poważnie myślisz o karierze… Nie. Serio.
 
-Język angielski jest absolutnym hegemonem, jeśli chodzi o międzynarodową komunikację czy komunikacje w Internecie. My zaś, jak osoby blisko związane z tym światkiem jesteśmy niejako zmuszeni dobrze go znać. Praktycznie w każdej firmie język angielski jest standardem i chcąc być dobrym programistą, musimy go znać na tyle, by swobodnie się w nim komunikować i czytać dokumentacje, tyle na temat. 
+Język angielski jest absolutnym hegemonem, jeśli chodzi o międzynarodową komunikację czy komunikacje w Internecie. My zaś, jak osoby blisko związane z tym światkiem jesteśmy niejako zmuszeni dobrze go znać. Praktycznie w każdej firmie język angielski jest standardem i chcąc być dobrym programistą, musimy go znać na tyle, by swobodnie się w nim komunikować i czytać dokumentacje, tyle na temat. To zaś implikuje, że musimy znać go dobrze. Dokumentacja techniczna zazwyczaj nie jest taka prosta, zawiera specjalistyczne słownictwo, ma trudny, formalny styl.
 
-Język angielski jest w zasadzie na początku chyba nawet ważniejszy niż język programowania, który wybierzemy, dlatego w ogóle, zanim zaczniemy się brać za kodowanie, warto by się doszkolić na ten temat. Jakie są jednak zalety znajomości tego języka?
+Język angielski jest w zasadzie na początku chyba nawet ważniejszy niż język programowania, który wybierzemy, dlatego w ogóle, zanim zaczniemy się brać za kodowanie, warto by się doszkolić na ten temat. Jakie są zalety znajomości tego języka?
 
 ### Materiały
 
@@ -18,15 +18,15 @@ Sprawa ma się dość jasno. Najwięcej materiałów najlepszej jakości dostęp
 
 Chcesz się więcej nauczyć? Najlepiej z angielskich materiałów. Mało tego, czasami angielskie materiały to jedyne dostępne. Prawie każdy znani mi framework czy biblioteka posiada dokumentację. W języku angielskim. W polskim raczej brak albo taką, że tłumaczenie pozostawia wiele do życzenia lub jest ona szczątkowa.
 
-No właśnie, tłumaczenie. Pewne terminy w naszym światku po przetłumaczeniu stają się dość dziwne i niezrozumiałe. Wyobrażacie sobie na co dzień pracować z ZŚP — Zintegrowanym Środowiskiem Programistycznym zamiast z IDE? Odpluskwiacz zamiast debuggera? Popłoch jądra zamiast kernel panic. Zamiast pulli i commitów wrepowzięcia (XD) i zatwierdzenia. Po co inity, skoro mogą być wstępniaki. Przykłady można mnożyć.
+No właśnie, tłumaczenie. Pewne terminy w naszym światku po przetłumaczeniu stają się dość dziwne i niezrozumiałe. Wyobrażacie sobie na co dzień pracować z ZŚP — Zintegrowanym Środowiskiem Programistycznym zamiast z IDE? Odpluskwiacz zamiast debuggera? Popłoch jądra zamiast kernel panic. Dla nas, doświadczonych już programistów, to coś niewyobrażalnego. Nikt, poza własnym krajem, by cię nie rozumiał. Zamiast pulli i commitów wrepowzięcia (XD) i zatwierdzenia. Po co inity, skoro mogą być wstępniaki. Przykłady można mnożyć.
 
-A dokumentacja to podstawa tak swoją drogą. Czy to przy tworzeniu poważnego projektu, czy przy korzystaniu z niego.
+A dokumentacja to podstawa tak swoją drogą. Czy to przy tworzeniu poważnego projektu, czy przy korzystaniu z niego, więc będziesz ją nie tylko czytał, ale i również tworzył. Jak zachęcisz innych developerów do pracy nad twoim otwartoźródłowym projektem, skoro nie będą go mogli zrozumieć, gdyż kod źródłowy i dokumentacja będą po polsku? Mocno ograniczasz swoje horyzonty w ten sposób.
 
 ### Komunikacja
 
-Znowu, rzecz kluczowa przy tworzeniu projektów. W większości firm obecnie współpracuje się z klientami zagranicznymi czy wykonawcami zza oceanu. Wiele rzeczy można usprawnić i ułatwić sobie, kiedy możemy bezpośrednio z kimś porozmawiać i wyjaśnić pewne rzeczy. Często niezbędny do tego jest angielski. Zwłaszcza kiedy w twoim zespole zawita ktoś, kto jest z zagranicy.
+Znowu, rzecz kluczowa przy tworzeniu projektów. W większości firm obecnie współpracuje się z klientami zagranicznymi czy wykonawcami zza oceanu. Wiele rzeczy można usprawnić i ułatwić sobie, kiedy możemy bezpośrednio z kimś porozmawiać i wyjaśnić pewne rzeczy. Często niezbędny do tego jest angielski. Zwłaszcza kiedy w twoim zespole zawita ktoś, kto po polsku nie mówi.
 
-To nie jest takie rzadkie, jak mogłoby się wydawać.
+To nie jest takie rzadkie, jak mogłoby się wydawać, wręcz przeciwnie.
 
 ### Samo programowanie
 
@@ -36,17 +36,20 @@ Kiedy dopiero się uczymy, to dość pomocne, gdyż nawet nie widząc, co dane s
 
 ### Wyjątki
 
-Wiadomo, zaraz znajdzie się ktoś, kto stwierdzi 'allle jak to, ja to normalnie pińć lat w zawodzie i jakoś daje rade bez angielskiego!'. Niby tak, ale na jak długo i w jakiej firmie? Chcesz pracować w Januszsofcie (JanuszSoft to taka IT wersja Januszexa, a czym jest januszex to poszukaj w necie)? Proszę bardzo, ale ja za chemioterapię, której będziesz potrzebować po doświadczeniu skali głupoty i cebulactwa, jaka ma miejsce podczas pracy dla typowego Janusza, nie oddaje. A uwierz mi, że tak raczej będzie, bo ludzi, którzy kompletnie nie znają angielskiego, raczej się w inne miejsca jakoś zbytnio nie przyjmuje.
+Wiadomo, zaraz znajdzie się ktoś, kto stwierdzi 'allle jak to, ja to normalnie pińć lat w zawodzie i jakoś daje rade bez angielskiego!'. Niby tak, ale na jak długo i w jakiej firmie? Chcesz pracować w Januszsofcie? Proszę bardzo, ale ja za chemioterapię, której będziesz potrzebować po doświadczeniu skali głupoty i cebulactwa, jaka ma miejsce podczas pracy dla typowego Janusza, nie oddaje. A uwierz mi, że tak raczej będzie, bo ludzi, którzy kompletnie nie znają angielskiego, raczej się w inne miejsca jakoś zbytnio nie przyjmuje.
 
 To, co u góry napisałem to raczej rzeczy oczywiste dla wszystkich jakkolwiek obeznanych w sprawie, ale niektórzy, na początku (łącznie ze mną) są dość toporni w stosunku do nauki angielskiego. 
 
-No bo przecież ja chce się uczyć programowania!!! Fajnie, ale żeby to robić najefektywniej, jak się da, przydaje się angielski, a potem jest niezrównaną pomocą przy poszukiwaniu i wykonywaniu samej pracy.\
+No bo przecież ja chce się uczyć programowania!!! Fajnie, ale żeby to robić najefektywniej, jak się da, przydaje się angielski, a potem jest niezrównaną pomocą przy poszukiwaniu i wykonywaniu samej pracy.
 
 To chyba tyle w tej kwestii. Chociaż pozostaje pytanie – jak się uczyć?
 
 ## Jak się za to zabrać?
 
-No, to jak?
+Już tłumaczę.
+
+### No, to jak?
+
 Zacznijmy od tego, jak się nie uczyć. Prosty i doskonały przykład tego widzimy w naszych szkołach. To, jak uczy się w nich angielskiego to jakiś żart.  Smutny, ale żart.
 
 Nastawienie jest tam jedno najpierw na egzamin gimnazjalny, potem na maturę. O niczym więcej się nie myśli w 90% przypadków. A co jest na egzaminie i maturze? Niekoniecznie rzeczy, których używa się w sytuacjach codziennych.
@@ -55,7 +58,7 @@ Będąc w liceum, przynajmniej w moim wypadku, w klasie pierwszej uczeń ma 5 go
 Jak wygląda przeciętna lekcja?
 Dostajesz kserówkę ze strukturami gramatycznymi, którą uzupełniasz. Czasem coś napiszesz/powiesz. Dziękuję. Skupienie na gramatyce i... Niczym więcej. Tak być nie może. Nie chcę się tu wdawać w dyskusje nad tym, jak zły jest obecny system edukacji, co w nim zmienić należy i tak dalej to raz, dwa oczywiście są pewnie nauczyciele, którzy odstają od normy i się starają, bo nie zostali jeszcze przez beton zjedzeni, ale ileż ich jest… Przejdźmy do kwestii tego...
 
-Jak zatem powinno to wyglądać, panie mądralo?
+### Jak zatem powinno to wyglądać, panie mądralo?
 Już mówię. Przede wszystkim nie można skupiać się cały czas na rzeczy zupełnie zbędnej w dużej mierze — gramatyce. 
 
 Popatrzmy bowiem na małe dzieci. Takie załóżmy z 1-2 klasy podstawówki. Umie mówić w swoim języku? A no umie. Nawet zazwyczaj w miarę poprawnie. A zapytajmy tego dziecka, co wie o częściach zdania i mowy. Usłyszymy raczej tyle, co i głuchy. 

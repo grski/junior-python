@@ -1,5 +1,4 @@
 # Przykładowe pytania
-
 To, z jakimi pytaniami się spotkasz, zależy ściśle od tego, co umieścisz w swoim CV, dla przykładu podam ci tutaj listę pytań, z którymi ja się spotkałem na rozmowach rekrutacyjnych. Dodatkowo dorzucę kilka od siebie. Wszystkie, przynajmniej w kilku słowach, omówię.
 
 ## Django

@@ -1,15 +1,16 @@
 ---
-title: Python Book
+title: "Programowanie z Górskim: Python"
+subtitle: "W drodze po mityczne 15k miesięcznie - początek"
 author: Olaf Górski
-rights:  Reserved by my humble self
+rights:  Wszystkie prawa zastrzeżone
 header-includes: |
     \usepackage{fancyhdr}
     \pagestyle{fancy}
 language: pl-PL
 numbersections: true
 mainfont: Roboto
-fontsize: 12pt
-linestretch: 1.15
+linestretch: 1.1
+fontsize: 10pt
 indent: true
 geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 include-before:
