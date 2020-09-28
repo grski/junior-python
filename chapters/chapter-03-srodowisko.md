@@ -3,7 +3,7 @@ Przejdźmy wreszcie do czegoś konkretnego – ubrudźmy sobie nieco ręce, bo d
 
 
 ## W czym pisać kod na początku?
-W czym pisać kod na początku? IDE/Edytor tekstu? PyCharm? Sublime?
+W czym pisać kod na początku? IDE/Edytor tekstu? PyCharm? Sublime? VS Code?
 
 Gdy pomyślę sobie o moich pierwszych dniach nauki programowania, jedną z wielu rzeczy, które ciągle mieszały mi w głowie i przyniosły sporo kłopotu w ich rozstrzygnięciu, był wybór środowiska, w którym będę pisał swoje pierwsze programy.
 

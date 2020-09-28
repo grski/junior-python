@@ -1,7 +1,8 @@
 \pagebreak
-# Przedmowa
 
-Pompatycznie i z przytupem. Poza tym notka: jeśli nie chcesz wdawać się w szczegóły historii Pythona, nie interesuje Cię kim jest autor, po co ta książka a chcesz po prostu od razu wskoczyć do akcji, to streszczę ci następne ~50 stron: Python jest fajny, zainstaluj sobie SublimeTexta/Vima/Pycharma (na początek może być sublime) i przeskocz do rozdziału 4.
+# Wstęp
+
+Pompatycznie i z przytupem. Poza tym notka: jeśli nie chcesz wdawać się w szczegóły historii Pythona, nie interesuje Cię kim jest autor, po co ta książka a chcesz po prostu od razu wskoczyć do akcji, to streszczę ci następne ~50 stron: Python jest fajny, zainstaluj sobie SublimeTexta/Vima/Pycharma/VisualStudio Code (na początku cokolwiek, serio) i przeskocz do rozdziału 4.
 
 ## O co tutaj chodzi?
 

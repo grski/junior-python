@@ -299,16 +299,52 @@ W Pythonie sprawa wygląda jednak trochę inaczej, jak już mówiłem. Wynika to
 
 W Pythonie mechanizm deklaracji zmiennych wygląda troszkę inaczej (jak, to porozmawiamy innym razem) i tak dalej, ale logika jest, powiedzmy, gdzieś tam zachowana. Prościej jednak jest mi tłumaczyć na przykładzie z C i Assembly. Dlaczego? Bo w Pythonie, podczas interpretacji, zastosowanych zostaje milion różnych trików optymalizacyjnych i różne dziwne rzeczy się tam dzieją. Dla przykładu - podczas samego startu Pythona inicjalizowanych jest około 50 tysięcy różnych obiektów, zmiennych, innych rzeczy! Nieźle, co? Dlatego na razie operujemy na "prostszym" C. Później pewnie wejdziemy trochę w te optymalizacyjne Pythonowe wątki, ale na razie nie trzeba. Także jak czasami słyszysz kompilator zamiast interpreter, wydaje ci się, że coś się pomyliło i tak dalej, to nie obawiaj się.
 
-Do tego nie przejmuj się naprawdę, jeśli powyższe nie jest dla ciebie oczywiste, ten fragment z kodem. Na spokojnie. posiedź troszkę nad nim, to nie jest takie proste! Zastanów się, przeanalizuj samodzielnie, poguglaj nawet. To, że po sekundzie nie rozumiesz, co się tam dzieje, nie sprawia, że jesteś nierozumny czy głupi. Także do przodu!
+Do tego nie przejmuj się naprawdę, jeśli powyższe nie jest dla ciebie oczywiste, ten fragment z kodem. Na spokojnie. posiedź troszkę nad nim, to nie jest takie proste! Zastanów się, przeanalizuj samodzielnie, poguglaj nawet. To, że po sekundzie nie rozumiesz, co się tam dzieje, nie sprawia, że jesteś nierozumna czy głupi. Także do przodu!
 
-## Typy danych
+## Podsumowanie
 
-Jak już przy zmiennych, C i takich rzeczach jesteśmy, to chciałbym parę słów rzucić właśnie na temat typów zmiennych. Jak już w poprzednich rozdziałach pisałem, Python nie wymaga od nas definiowania typów dla naszych zmiennych, nie ma w nim statycznego typowania. Przypomnij sobie co to oznaczało i odpowiedz na pytanie - co oznacza brak statycznego typowania? Czym jest dynamiczne typowanie? Jakie są tego wady/zalety. Poszukaj w książce, może w odpowiedziach do poprzednich rozdziałów. Zrób to teraz.
+Z racji tego, że w tym rozdziale dość sporo informacji spłynęło na wasze głowy, moi drodzy, postanowiłem tutaj go zakończyć, nieco wcześniej niż oryginalnie planowałem.
 
-Mimo tego dobrze wiedzieć, na jakie typy zazwyczaj dzielimy sobie różne zmienne. Dlaczego? Bo Python też ich używa, tylko sam niejako zgaduje jakiego typu użyliśmy. A więc:
+Przypomnijmy sobie o tym, o czym pisałem w tym rozdziale. 
 
+Nasz komputer jest całkiem dobry w zapamiętywaniu rzeczy, znacznie lepszy, niż nasze mózgi, zatem warto z tego korzystać. Zazwyczaj podczas programowania do zapamiętywania na jakiś czas pewnych rzeczy wykorzystujemy RAM. Robimy to chociażby używając zmiennych/stałych, które są niczym innym jak jakąś nazwą, aliasem, który tworzymy dla tego, co chcemy zapamiętać, przez co komputer wie, gdzie w swojej pamięci, pod jakim adresem, dokładniej mówiąc, danej rzeczy szukać.
 
+Tworząc te `aliasy` czy też nazywając nasze zmienne, musimy kierować się określonymi zasadami, jak chociażby tym, że nie powinniśmy ich zaczynać od cyfr. Nazwy zmiennych powinny być opisowe, ale krótkie, podobnie z całym kodem. Ma to zasadnicze znaczenie jeśli idzie o czytelność kodu, jaki tworzymy i jego jakość.
 
+Oprócz systemu binarnego, mamy też coś takiego jak system heksadecymalny, którego używamy po to, żeby zwięźlej zapisywać to, co w binarnym zajęłoby nam o wiele dłużej. Przelicza się to wszystko na podobnej zasadzie co z dziesiętnego na dwójkowy.
 
+Komputer kojarzy sobie adres, rozmiar zmiennej zależnie od tego, co tam w środku jest. Na podstawie kodu Assemblera/C, plus minus dowiedzieliśmy się, jak to tam pod spodem wygląda. Tylko no właśnie, my dokładniej zbadaliśmy proces w C, w Pythonie to wszystko wygląda nieco inaczej, bo jest interpretowany, ale ogólna mechanika gdzieś tam pozostaje podobna, stąd dobrze ją znać.
+
+## Zadania i pytania
+
+Teraz pora na pytania. Pamiętaj, niektóre z nich będą wymagały poszukania informacji w Internecie czy wiedzy ogólnej. To nic złego!
+
+1. Jakie rodzaje pamięci posiada twój komputer, o których mówiliśmy? Wymień ich charakterystykę i która używana jest do przechowywania jakiego rodzaju danych?
+2. Jak zadeklarować zmienną w Pythonie? Zadeklaruj ich kilka w interpreterze.
+3. Jakie znasz zasady co do nazw, jakie możemy nadawać zmiennym, w Pythonie? 
+4. Polskie znaki w nazwach zmiennych to dobry pomysł. Czy zgadasz się z tym stwierdzeniem? Jeśli tak, to dlaczego? Jeśli nie, to dlaczego?
+5. W rozdziale znajduje się kawałek kodu z funkcją o nazwie `redirect_logged_in_user`. Przetłumacz cały ten fragment linijka po linijce i swoimi słowami opisz, co on robi, co robi każdy kawałek tego kodu, albo co sądzisz, że robi. W tekście rozdziału już masz nieco opisane, ale zrób to teraz samodzielnie i wejdź głębiej w szczegóły.
+6. Jak wygląda pamięć komputera, obrazowo mówiąc? Jak komputer się po niej porusza, upraszczając?
+7. Co to jest system szesnastkowy?
+8. Przelicz kilka liczb z systemu dziesiętnego na szesnastkowy. Jakich? 2, 8, 19, 32, 111.
+9. Ile RAMu ma twój komputer? Ile to bajtów? Zwróć uwagę czy mówimy o bitach czy bajtach ;) Jak wyrazić tę liczbę w systemie szesnastkowym? A jak w binarnym?
+10. Skąd komputer wie, gdzie szukać wartości, jaką zapisaliśmy dla danej zmiennej? 
+11. Skąd komputer wie, kiedy przestać czytać wartość pod danym adresem?
+12. W kodzie z podpunktu `8.6` znajduje się fragment owiany tajemnicą - wartość dla zmiennej `z ` nie jest wyrażona. Analizując kod asemblera znajdujący się poniżej, spróbuj zgadnąć, jaka wartość została tam przypisana. Podpowiem tylko, że typ `char` to nic innego jak jakiś `character`, czyli znak. Podpowiedź: przypomnij sobie trochę o tym jak przedstawiamy/kodujemy znaki/tekst.
+
+## Odpowiedzi
+
+1. Chodzi mi o RAM i pamięć dysku twardego. Ich charakterystyki z kolei to już sobie wyszukajcie. W skrócie RAM jest zazwyczaj (uogólniając) szybszy, ale mniej persystentny, dysk na odwrót.
+2. `nazwa_zmiennej = "wartość"` dla przykładu.
+3. Póki co mówiliśmy tylko o tym, by nie zaczynać od cyfr na przykład a od liter lub podkreślenia.
+4. Nie jest to dobry pomysł. Dlaczego? Niekoniecznie powinniśmy pisać kod po polsku, poza naprawdę nielicznymi wyjątkami.
+5. Tutaj szczegółów już nie dorzucam, niech to będzie małe wyzwanie ;) 
+6. Plus minus można o tym myśleć jako ciągu położonych w linii prostej kolejnych komórek, zawierających jedynki lub 0.
+7. System zapisu liczb bazujący na 16 jako podstawie.
+8. Znowu - samodzielnie.
+9. Patrz wyżej.
+10. Po adresie, który sobie ogarnia `pod spodem` i stamtąd odczytuje - w tym konkretnym miejscu w pamięci.
+11. O tym mówiliśmy w `8.6`.
+12. Jeśli przeanalizujemy linijkę `BYTE PTR [rbp-5], 102` możemy dojść do wniosku, że ta definicja `chara`, mówi coś o liczbie 102. 102 w ASCII/UNICODE to nic innego jak `f`.
 
 \pagebreak

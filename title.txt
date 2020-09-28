@@ -1,6 +1,6 @@
 ---
 title: "Programowanie z Górskim: Python"
-subtitle: "W drodze po mityczne 15k miesięcznie - początek"
+subtitle: "W drodze po mityczne 15k, bogactwo, sławę, wieczne zmęczenie i pustkę"
 author: Olaf Górski
 rights:  Wszystkie prawa zastrzeżone
 header-includes: |
