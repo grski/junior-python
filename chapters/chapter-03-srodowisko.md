@@ -80,7 +80,9 @@ Absolutnie nie. Wystarczy ci do tego wirtualna maszyna z dowolną dystrybucją. 
 
 Wirtualka, co, jak, gdzie? Przeczesz spis treści, w tej książce powinieneś znaleźć odpowiedź, tylko pewnie będzie ona nieco dalej.
 
-Podsumowując tak krótko, zarówno Linux, jak i Windows mają swoje wady i zalety, są tylko narzędziami. Ja, osobiście, jednak korzystam (wreszcie), z Linuxa jako hosta. Tobie polecam, chociażby, zainstalowanie go jako guesta w wirtualce, bo jednak te wszystkie Dockery, Kubernetesy i inny ustrojstwa, raczej lepiej chodzą na Linuxie, poza tym większość programistów korzysta z Linuxa. Na Windowsie czasem czuję się jak zwierze wręcz. Bez urazy.
+Mało tego, od niedawna dostępna jest jeszcze inna. WSL. Windows Subsystem for Linux. Windowsowy podsystem dla Linuxa. To taka Microsoftowa zabawka, która umożliwia ci posiadanie zintegrowanego z twoim Widnowsem, linuxa. Linux w Windowsie od Microsoftu. Bum. Zalety to łatwość instalacji, łatwiejsza integracja etc. Ogółem polecam. 
+
+Podsumowując tak krótko, zarówno Linux, jak i Windows mają swoje wady i zalety, są tylko narzędziami. Ja, osobiście, jednak korzystam (wreszcie), z Linuxa jako hosta. Jeśli siedzisz na Linuxie to spoko, jeśli nie to koniecznie zainstaluj sobie WSL.
 ## Instalacja na Windows
 Zazwyczaj w książkach do Pythona znajdziemy opis instalacji Pythona krok po kroku, pomocne zrzuty ekranu i tak dalej. Cóż, nie tutaj. My zainstalujemy sobie potrzebne nam rzeczy w nieco nietypowy, jak na Windows, sposób. Za pomocą konsoli. Nie, nie oszalałem.
 
@@ -99,17 +101,11 @@ choco install nazwa_programu
 i tyle. Wygodne, co? Dlatego też my skorzystamy z tegoż to menadżera pakietów, by zainstalować to, co nam potrzebne.
 
 Instalujemy Choco
-Dokładne instrukcje znajdują się na [stronie chocolatey](https://chocolatey.org/install) i mogą się zmienić, także, gdyby niżej podany zestaw nie działał, to zajrzyj wyżej.
+Dokładne instrukcje znajdują się na [stronie chocolatey (https://chocolatey.org/install) ](https://chocolatey.org/install) i tam też musisz się udać, by dowiedzieć się jak zainstalować choco.
 
-Do dzieła. W skrócie, jedyne co musisz zrobić, to otworzyć `cmd.exe` jako administrator (ważne) i wkleić tam:
 
-```
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-```
 
-Notka: w cmd wklejamy ze schowka za pomocą prawego kliknięcia myszą. Kopiowanie odbywa się poprzez zaznaczenie danego fragmentu.
-
-Instalacja potrzebnych nam rzeczy za pomocą choco
+### Instalacja potrzebnych nam rzeczy za pomocą choco
 Chocolatey zainstalowane? Wymienicie, teraz już tylko jedno polecenie nas od finiszu.
 
 ```bash
@@ -136,7 +132,7 @@ Jak nam się nie chce za każdym pytaniem o upgrade klikać ‘y’, to wystarcz
 
 Teraz jedynie otwieramy SublimeText, tworzymy gdziekolwiek dowolny katalog i w SublimeText klikamy File → Open Folder, wybierając utworzony wcześniej folder, który posłuży nam za główny folder dla plików z tej książki.
 
-Rozdział 4.4. Instalacja na Linux/macOS
+## Instalacja na Linux/macOS
 Co do instrukcji dla Linuxa lub macOSa i jego użytkowników. Cóż, dla was nie ma.
 
 Ale jak to? Co to ma być za dyskryminacja? Otóż prawdopodobnie macie już zainstalowanego Pythona, sprawdźcie tylko w jakiej wersji. Jak?
@@ -196,6 +192,14 @@ python nazwa_pliku.py
 ```
 
 Uwaga, jeśli jesteś na Linuxie i miałeś wcześniej zainstalowaną wersje Pythona 2, to być może będziesz musiał używać komendy python3 do uruchamiania, ale pewnie o tym wiesz.
+
+Zaś by uruchomić interpreter pythona wystarczy wpisać:
+
+```python
+python
+```
+
+I tyle. Odpali nam to interpreter. Różnica między interpreterem a odpalaniem z pliku jest taka, że w interpreterze wpisujemy sobie polecenia a python na biężaco je interpretruje. W przypadku pliku mamy mniej interaktywne podejście. Pobaw się i przekonaj
 
 Środowisko ogarnięte, poruszanie się w konsoli też. Bierzemy się wreszcie do pracy!
 

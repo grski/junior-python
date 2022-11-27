@@ -6,11 +6,13 @@ Pompatycznie i z przytupem. Poza tym notka: jeśli nie chcesz wdawać się w szc
 
 ## O co tutaj chodzi?
 
-Ta książka to w zasadzie nic innego jak kolejne dzieło o Pythonie, ale nie tylko. To konsolidacja całej mojej wiedzy, jaką posiadałem, startując na pozycję Junior Developera, czy też nawet teraz, troszkę dalej, kiedy niekoniecznie już widzę siebie, jako nieopierzonego juniora. Poruszę tu różne kwestie, od samego procesu rekrutacyjnego, przez umowy, umiejętności miękkie, opis mojego rozwoju, przydatne rzeczy, jak i samo programistyczne mięsko – to ostatnie będzie rdzeniem tej książki i o tym najwięcej tutaj traktuję, reszta to niejako dodatek, który mógłby być niezależną książką.
+Ta książka to w zasadzie nic innego jak kolejne dzieło o Pythonie, ale nie tylko. To konsolidacja całej mojej wiedzy technicznej jak i tej miękkiej, jaką posiadałem, startując na pozycję Junior Developera, czy też nawet teraz, troszkę dalej, kiedy niekoniecznie już widzę siebie, jako nieopierzonego juniora. Poruszę tu różne kwestie, od samego procesu rekrutacyjnego, przez umowy, umiejętności miękkie, opis mojego rozwoju, przydatne rzeczy, jak i samo programistyczne mięsko – proporcja będzie plus minus pół na pół. Oprócz samego tekstu, będę tutaj również podawał referencje i materiały do samodzielnego studiowania.
 
 Nie uważam, by była ona w jakimś dużym stopniu odkrywcza czy innowacyjna, ale z drugiej strony, to trochę tak. Dlaczego? Co wyróżnia tę książkę? To, że podczas jej pisania przyświecał mi jeden cel – by była ona jak najprostsza do zrozumienia, a zarazem dogłębnie analizowała poruszane tematy w ciekawy sposób oraz fakt, że to nie będzie to książka jedynie o Pythonie, nie. 
 
-To ma być kompletne wprowadzenie to szerokiej gamy zagadnień związanych z programowaniem i pracą programisty, jej zdobyciem, narzędziami, których się w niej używa. W skrócie to taki wstęp do kompletnego zestawu umiejętności, cech, narzędzi, których opanowanie sprawi, że będziesz w jakimś stopniu gotów, albo gotowa, na zaczęcie przygody jako programista. Nie myśl sobie jednak, że przeczytasz jedną książkę i cyk do pracy. Oj nie. To taki pierwszy krok na bardzo długiej drodze.
+To ma być kompletne wprowadzenie to szerokiej gamy zagadnień związanych z programowaniem i pracą programisty, jej zdobyciem, narzędziami, których się w niej używa, ale również nauka dla ciebie odnośnie najwazniejszej umiejętności dla programisty - umiejętności wyszukiwania i przetwarzania informacji, bo to na tym polega informatyka. 
+
+W skrócie to taki wstęp do kompletnego zestawu umiejętności, cech, narzędzi, których opanowanie sprawi, że będziesz w jakimś stopniu gotów, albo gotowa, na zaczęcie przygody jako programista. Nie myśl sobie jednak, że przeczytasz jedną książkę i cyk do pracy. Oj nie. To pierwszy krok na bardzo długiej drodze.
 
 Nie chcę, by był to kolejny zwykły podręcznik do Pythona traktujący tylko o nim, ich jest już wiele. Chcę byś Ty, mój czytelnik, moja czytelniczka, po przebrnięciu tej książki, wiedział nieco więcej niż wcześniej, miał nakreślony jakiś, chociaż ogólny, obraz tego, jak wygląda praca programisty, jak wygląda ten świat, czy warto w niego wejść, jakie są wady i zalety tej pracy, co trzeba konkretnie umieć, skąd się tego uczyć i tak dalej.
 
@@ -20,9 +22,9 @@ Mam po prostu nadzieję, że wpłynie ta książka w jakiś dobry sposób na two
 
 Mnie też wiele osób pomogło, więc chcę przekazać pałeczkę dalej, to mój zamiar.
 
-Mam nadzieję, że jakoś uda mi się go zrealizować. Jeśli tak, to pamiętaj, z chęcią posłucham twej opowieści, czy też nawet opublikuję ją na blogu – może dzięki niej to ty wtedy pomożesz kolejnym osobom? Zatem jeśli ta książka w jakiś sposób poszerzy twą wiedzę, czy da ci coś pożytecznego, napisz do mnie! 
+Mam nadzieję, że jakoś uda mi się go zrealizować. Jeśli tak, to pamiętaj, z chęcią posłucham twej opowieści, czy też nawet opublikuję ją na blogu – grski.pl – może dzięki niej to ty wtedy pomożesz kolejnym osobom? Zatem jeśli ta książka w jakiś sposób poszerzy twą wiedzę, czy da ci coś pożytecznego, napisz do mnie! 
 
-Kontakt łatwo znaleźć, znajdziesz go w tej książce, jak i na moim blogu.
+olafgorski@pm.me, @grskii na wykopie, grski na 4programmers, grski na githubie
 
 Kiedy zajmowałem się udzielaniem korepetycji, było to długo, zanim zostałem programistą, nauczyłem się tego, że po pierwsze, ucząc innych, uczysz i siebie, dwa, suche fakty nie zawsze wystarczą, żeby ktoś zrozumiał dane zagadnienie. Potrzebne są ciekawe przykłady, nietypowe analogie i ćwiczenia. Tak też postaram się przekazywać wiedzę w tej książce, prosto, ale i ciekawie.
 
@@ -50,13 +52,9 @@ Czasami zdarzą się jakieś nieciekawe żarty, czarny humor i personalne uwagi,
 
 Chyba tyle, jeśli chodzi o moją krótką przedmowę, czy coś w tym stylu. W sumie to nie do końca wiem, jak to wszystko powinno wyglądać – jestem prosty człowiekiem, który zwyczajnie chce przekazać ci jakiś fragment, być może, przydatnej wiedzy. Tylko tyle i aż tyle.
 
-## Dziwny tytuł
+## Czyli w skrócie
 
-Przynajmniej mi się taki wydaje, że taki jest, a Tobie? Po pierwsze, bardzo tendencyjny. Nie ukrywam - trochę z niego taki chwyt marketingowy. Clickbait. 
-
- Cóż, wziął się on w zasadzie stąd, że nie miałem pomysłu na nic ciekawszego. Poza tym - co lepiej sprzedać, aniżeli książkę o podtytule w której jest informacja o początku drogi do 15k? Miliony same się nie zarobią a emerytura by się już przydała.
-
-No i w ten oto sposób powstał tytuł. No a druga sprawa to była taka, że jak chciałem wybrać kilka innych nazw, to się okazywało, że są one już zajęte. Współczuję wszystkim tym, którzy będą musieli zakładać sobie skrzynki pocztowe, czy kupić domenę za kilka lat, skoro obecnie problem jest nawet z wolną nazwą dla książki.
+...mówiąc, to ta książka będzie też niejako przewodnikiem i odnośnikiem do innych materiałów, które samodzielnie trzeba przerobić. Głębiej i wnikliwiej omawiałem tylko, moim zdaniem, te tematy, które często są zaniedbywane.
 
 ## Podziękowania
 
@@ -70,29 +68,57 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 
 ...mojej najukochańszej i jedynej Babci. Za wszystko, za to, jakim człowiekiem jestem. Za miłość. Za wyrzeczenia.
 
-...tobie, Rafale, wraz z rodziną, której nie będę tu wymieniał ze względu na Waszą prywatność – twoją rodziną, której w pewnym stopniu czuję się już w zasadzie częścią, za otoczenie mnie opieką, naukę wielu rzeczy i realny, wielki wpływ na mnie i moje życie. Nie mam ojca, ale gdyby ktoś mnie spytał, kto jest mi najbliższym jego obrazem, to za długo bym chyba nie myślał.
+...tobie, **Rafale**, wraz z rodziną, której nie będę tu wymieniał ze względu na Waszą prywatność – twoją rodziną, której w pewnym stopniu czuję się już w zasadzie częścią, za otoczenie mnie opieką, naukę wielu rzeczy i realny, wielki wpływ na mnie i moje życie. Nie mam ojca, ale gdyby ktoś mnie spytał, kto jest mi najbliższym jego obrazem, to za długo bym chyba nie myślał
 
-...tobie, Adamie, mój najlepszy przyjacielu, tak po prostu.
+... **Jakubowi Gąsiorskiemu**, osobie, która odbywała ze mną rozmowę o pierwszą pracę. Uważam, że to właśnie jemu zawdzięczam fakt, że ostatecznie padła decyzja, by mnie przyjąć, bo postanowił dać mi szansę wtedy i później, wiele razy. Tutaj należą się też podziękowania **Maciejowi Mondrzyckiemu**, CEO YumaSoft, bo finalna decyzja, czy warto we mnie zainwestować, należała do niego.
 
-...tobie, Alino. Dużo mnie nauczyłaś, dużo mi dałaś, uczyniłaś moje życie lepszym, tak po prostu. Teraz już znam słowa piosenki, rozumiem.
+...**Sebastianowi Opałczyńskiemu**, gdyż to osoba, którą uznaję za mojego pierwszego mentora, jakiś wzorzec tego, jak się rozwijać jako programista, oraz osobę, która do powstania tej książki się przyczyniła w dużym stopniu. Wyniosła mnie powyżej tego, co mogłem osiągnąć sam i jemu bardzo dużo zawdzięczam, naprawdę. Dzięki Łysy. Czasami wskazał mi właściwy kierunek w kilku rzeczach, cierpliwie odpowiadał na różne pytania, miło wspominam też różnorakie nasze rozmowy. Jesteś bardzo dobrym nauczycielem i człowiekiem. Zastanawiałeś się kiedyś, czym jest samiec alfa?
 
-... Jakubowi Gąsiorskiemu, osobie, która odbywała ze mną rozmowę o pierwszą pracę. Uważam, że to właśnie jemu zawdzięczam fakt, że ostatecznie padła decyzja, by mnie przyjąć, bo postanowił dać mi szansę wtedy i później, wiele razy. Tutaj należą się też podziękowania Maciejowi Mondrzyckiemu, CEO YumaSoft, bo finalna decyzja, czy warto we mnie zainwestować, należała do niego.
+...**p. dyr. Pawłowi Boryczce** z Zespołu Szkół w Kozienicach, za to, że przez 3 lata sprawował nade mną pieczę i wiele mi w życiu pomógł. Dzięki temu udało mi się rozwinąć pewne umiejętności, poznać różnych ludzi, których prawdopodobnie nie odkryłbym w innym wypadku. Będę o tym pamiętał.
 
-...Sebastianowi Opałczyńskiemu, gdyż to osoba, którą uznaję za mojego pierwszego mentora, jakiś wzorzec tego, jak się rozwijać jako programista, oraz osobę, która do powstania tej książki się przyczyniła w dużym stopniu. Wyniosła mnie powyżej tego, co mogłem osiągnąć sam i jemu bardzo dużo zawdzięczam, naprawdę. Dzięki Łysy. Czasami wskazał mi właściwy kierunek w kilku rzeczach, cierpliwie odpowiadał na różne pytania, miło wspominam też różnorakie nasze rozmowy. Jesteś bardzo dobrym nauczycielem i człowiekiem. Zastanawiałeś się kiedyś, czym jest samiec alfa?
+...wszystkim wspaniałym ludziom w **Synerise**. Kurczę, czasami brodziliśmy w ciężkich technicznie tematach [;)], ale do pracy, do biura, przychodziłem prawie zawsze z wielką chęcią, trochę się też nauczyłem podczas naszej przygody. Zatem pozdrawiam serdecznie cały zespół Fireplace, mojego druha od importów dla pań z akcentowanej firmy, taneczne dziewczyny z Wolfa, jak i całą resztę firmy.
 
-...p. dyr. Pawłowi Boryczce z Zespołu Szkół w Kozienicach, za to, że przez 3 lata sprawował nade mną pieczę i wiele mi w życiu pomógł. Dzięki temu udało mi się rozwinąć pewne umiejętności, poznać różnych ludzi, których prawdopodobnie nie odkryłbym w innym wypadku. Będę o tym pamiętał.
+...to samo z ludkami z **thirty3**. Love you guys. Even you Sylvestre and your `agility` too.
 
-...wszystkim wspaniałym ludziom w Synerise. Kurczę, czasami brodziliśmy w ciężkich technicznie tematach [;)], ale do pracy, do biura, przychodziłem prawie zawsze z wielką chęcią, trochę się też nauczyłem podczas naszej przygody. Zatem pozdrawiam serdecznie cały zespół Fireplace, mojego druha od importów dla pań z akcentowanej firmy, taneczne dziewczyny z Wolfa, jak i całą resztę firmy, ale za dużo was, by tu wszystkich z imienia wymienić.
+...tobie, **Emilio**. Sama wiesz za co. Eryk pozdrawia Blankę z zaświatów, odszedł już w zapomnienie.
 
-...to samo z ludkami z thirty3. Love you guys. Even you Sylvestre and your `agility` too.
+...tobie, **Falo**, ty stary ch**u kochany. Za to, żeś jest ciepłą kochaną kluseczką, która sobie odejmie i nie będzie miał, ale da komuś. Jesteś cudownym człowiekiem, nie zmieniaj się, jeśli stare wygi sam wiesz skąd, mówią, że "jesteś za dobry na to miejsce", to wiedz, że coś się dzieje.
 
-...Michałowi, Sebastianowi, Mariannie, Jackowi, Annie, jak i całej reszcie dawnej ekipy KM, bo jesteście dobrymi ludźmi, zawsze będę o Was pamiętał.
+...wam, **Łukaszu i Batu**. Uważam was za bardzo bliskie mi osoby. Niełatwo przyjąć kogoś z ulicy, zaufać i dać całego siebie w zamian. Wiem, że zawszę mogę na was liczyć, że jesteście dla mnie jak potrzebuje, nawet wtedy, kiedy prawdziwa rodzina nie potrafi.
 
-...całej załodze, byłej jak i obecnej, Bar Maxxu, gdzie część tej książki powstała. Kocham to miejsce, gdyby nie ono, to skończyłbym tę ksiażkę z półtora roku wcześniej. <3 Lokal lokalem, ale to, jacy ludzie tam pracują, jest tym kluczowym elementem.
+...wam, **Łukaszu i Olu**. Kocham jak rodzinę, przesyłam ciepłe myśli wam i dzieciakom.
 
-...moim rozmaitym przyjaciołom, inspiracjom, dobrym ludziom, Tomaszowi, Andrzejowi, (grubemu nie, bo mi podnosi ciśnienie i musi iść do psychiatry), Takurze, Pawłowi, Wiktorii, Katarzynie, Amelii, Dimie.
+...tobie, **Alino**. Dużo mnie nauczyłaś, dużo mi dałaś, uczyniłaś moje życie lepszym, tak po prostu. Przeżyłem z tobą cudowne lato.
 
-...do not think that I’ve forgotten about you, my dear brother, Kunaal. I thank you and I’m grateful that you’ve been there for me. Always.
+...tobie, **Wiktorio**, za dwa najszczęśliwsze wyjazdy w moim życiu, za poświęcenie, za troskę i przyjaźń
+
+...tobie, **Kingo**, że jesteś i byłaś.
+
+...tobie **Pawle Poldeczku**, za przygarnięcie mnie pod swoje skrzydła w ciężkich chwilach. Pamiętam.
+
+...tobie **Szymonie Szambelanie**, za otworzenie się, naukę i dobro, cenne lekcje.
+
+...tobie **Wiciu**. Co ja będę dużo gadał. <3 
+
+...tobie **Muffi**. Za dobre serce.
+
+...**Sebastianowi, Mariannie, Jackowi, Annie**, jak i całej reszcie dawnej ekipy z kravki, bo jesteście dobrymi ludźmi, zawsze będę o Was pamiętał.
+
+...tobie **Robercie**, za pewne dobre pomysły z nieco gorszą egzekucją.
+
+...wam **Kubuni i Dominiczkowi**. Za zdrowe kolana i wszystko.
+
+... tobie **Maniek**, `... król podwóra`. Jesteś dobrym człowiekiem, dziękuję za wiarę we mnie i pomoc.   
+
+...całej załodze, byłej jak i obecnej, **Bar Maxxu/Whisky House**, gdzie część tej książki powstała. Kocham to miejsce.
+
+...tobie **Bartuś**. Zawsze mi pomogłeś jak potrzebowałem.
+
+...tobie **Sebciu**. Fajnie Cię mieć w życiu mimo wszystko.
+
+...moim rozmaitym przyjaciołom, inspiracjom, dobrym ludziom, **Tomaszowi, Andrzejowi**, (grubemu nie, bo mi podnosi ciśnienie i musi iść do psychiatry), **Adamowi, Takurze, Pawłowi, Wiktorii, Katarzynie, Amelii, Dimie, Marasowi**. Dobra, grubemu też.
+
+...do not think that I’ve forgotten about you, my dear brother, **Kunaal**. I thank you and I’m grateful that you’ve been there for me. Always.
 
 ...wszystkim tym, którzy mnie czegoś nauczyli lub pomogli mi na mej drodze, a których tu nie wymieniłem, bo szczerze mówiąc, ten tekst byłby zbyt długi, tak po prostu.
 
@@ -110,6 +136,8 @@ Jeszcze raz. Dziękuję wam ja, Olaf.
 
 ## Dedykacja
 
-Tę ksiażkę dedykuję prawdziwemu szczęściu, które znalazłem w życiu tylko na kilka chwil, w kciuku, w windzie z limonkami, na zboczu byłego sadu, przy słupie obok centralnego, mówiąc 'nostalgia, ey'. Obym doznał takich momentów więcej.
+Tę ksiażkę dedykuję prawdziwemu szczęściu, które znalazłem w życiu tylko na kilka chwil, w kciuku, w windzie z limonkami, na zboczu byłego sadu, przy słupie obok centralnego gdzie narodziło się Małe Zakopane, przy zasadzie 3E. Obym doznał takich momentów więcej.
+
+**Przede wszystkim jednak dedykuję ją również wszystkim tym, którzy w moich najciemniejszych i najgorszych momentach w życiu osobistym, pomogli mi. Często niejednokrotnie i ogromnym nakładem sił. Dziękuję, nigdy nie zapomnę**. Wiecie, kim jesteście. Zastanawiam się co ja w życiu zrobiłem, że na was trafiłem. 
 
 \pagebreak

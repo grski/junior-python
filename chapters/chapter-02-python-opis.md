@@ -18,9 +18,15 @@ Jeśli chcesz dobrze przyswoić informacje tu zawarte i naprawdę się nauczyć 
 
 Po drugie – kod przepisuj. Nie korzystaj z metody Copiego Pasty. Przepisuj samodzielnie i koniec.
 
-Na koniec trzy – samodzielnie wykonuj zadania, które będę umieszczał na końcu rozdziałów, ale to nie wszystko – eksperymentuj z kodem. Zmieniaj go, zobacz, jakie będą efekty tych zmian. Przekonaj się o tym w praktyce, przeanalizuj swoje modyfikacje, przemyśl je i ich rezultaty, to jak wypływają na działanie programu. To jest najlepsza metoda nauki.
+Na koniec trzy – samodzielnie wykonuj zadania, które będę umieszczał na końcu rozdziałów, ale to nie wszystko – eksperymentuj z kodem. Zmieniaj go, zobacz, jakie będą efekty tych zmian. Przekonaj się o tym w praktyce, przeanalizuj swoje modyfikacje, przemyśl je i ich rezultaty, to jak wypływają na działanie programu. To jest najlepsza metoda nauki. To podstawowe założenie, które przyświecało mi przy pisaniu, że będziesz samodzielnie wykonywał/wykonywała ćwiczenia, czytał/czytała dodatkowo inne artykuły, książki, prowadzić eksperymenty z kodem.
 
 Więcej o tym, jak powinno się uczyć i jakie metody się sprawdzają, możecie przeczytać we wpisie na blogu Gynvael’a Coldwind’a – Poradnik początkującego programisty. Grski poleca. W ogóle cały blog wam polecam. Mało jest miejsc w Internecie, gdzie znaleźć można tak dobre i ciekawe treści. Googlnijcie, bo warto.
+
+Dodatkowo pragnę zaznaczyć, że nie będę w tej książce pisał o wszystkich najdrobniejszych rzeczach. To nie jest encyklopedia Pythona, założenie jest tutaj takie, że po szczegóły różnych rzeczy sięgniecie sami. Ja chcę zwrócić uwagę na często pomijane rzeczy. **Zalecam zatem, by obok tej książki poczytać sobie materiały z dokumentacji Django, Pythona, wyśmienitą książkę Learning Python, 5th edition oraz kurs CS50**. Ja bardziej chce uświadomić wam istnienie pewnych rzeczy i niektóre koncepty objaśnić, dodatkowo zająć się tą często pomijaną wiedzą praktyczną, szczerym spisem swoich doświadczeń. 
+
+## Część interaktywna
+
+Na moim githubie znajdziesz repozytorium `junior-python-exercises - https://github.com/grski/junior-python-exercises. Jeśli życzysz sobie, by twoje rozwiązania zadań i odpowiedzi były sprawdzane, sforkuj to repo (potem dowiesz się co to znaczy) następnie w folderze odpowiednim dla rozdziału dodaj folder ze swoim nickiem z githuba a w środku odpowiedzi. Ja zrobię code review/przejrzę te odpowiedzi i dam jakiś feedback :) 
 
 ## Python 2 – Python 3?
 

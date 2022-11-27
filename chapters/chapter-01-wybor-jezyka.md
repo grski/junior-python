@@ -1,3 +1,5 @@
+\pagebreak
+
 # Wybór języka
 
 W książce tej będziemy operować praktycznie jedynie na Pythonie. Dlaczego? Powody, dla których wybrałem właśnie ten język, wypisałem w innym rozdziale, chciałbym jednak wspomnieć o jednym, innym, języku, który musi znać każdy programista i od którego należy zacząć, jeśli w 100% jesteśmy pewni, że chcemy podjąć pracę w IT. Co to za język?
@@ -141,6 +143,10 @@ To tak jakbyś ze ślonzakiem gadoł. Tylko ze trzy razy gorzej i oprócz ślonz
 ### Czytanie
 
 Konsumuj treści po angielsku i tyle. Nie przejmuj się na początku stopniem zrozumienia, spokojnie. Wzrośnie. Listę ciekawych blogów w tematyce programowania znajdziesz pod koniec tej książki, zajrzyj do spisu treści.
+
+### DeepL
+
+Fajnym ćwiczeniem jest pisanie zdań po polsku, niech to będzie dla przykładu 10, następnie tłumaczenie całych tych zdań za pomocą DeepL. Proste zdania wystarczą. DeepL to coś jak Google Translate. Następnie proces odwracamy. Sami piszemy 10 innych zdań i w DeepL sprawdzamy poprawność.
 
 ## Podsumowując
 

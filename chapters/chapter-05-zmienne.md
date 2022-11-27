@@ -29,7 +29,7 @@ W nazwach zmiennych możemy stosować również polskie znaki, ale nie róbmy te
 
 Zmienne nazywamy po angielsku, korzystając przy tym ze snake case - to taka praktyka, gdzie poszczególne wyrazy w nazwie zmiennej dzielimy od siebie za pomocą znaku _. Trzymaj się tego, bo to ważne, bardzo ważne.
 
-Teoretycznie rzecz ujmując, jeśli pracujesz w 100% polskim zespole, gdzie masz pewność, że w przyszłości NA PEWNO nikt, kto polskiego nie zna, nie będzie czytał tego kodu (czyli nigdy), to okej. Teoretycznie możnaby pisać kod po polsku, ale... Nie jest to ogółem dobra praktyka, proszę, nie rób tego o ile tylko możesz. Czasem mogą cię przymusić na przykład przy projektach z sektoru publicznego, realizowanych przez pewne duże korporacje, ale to nie do końca są projekty, w których chcesz się znaleźć.
+Teoretycznie rzecz ujmując, jeśli pracujesz w 100% polskim zespole, gdzie masz pewność, że w przyszłości NA PEWNO nikt, kto polskiego nie zna, nie będzie czytał tego kodu (czyli nigdy), to okej. Teoretycznie możnaby pisać kod po polsku, ale... Nie jest to ogółem dobra praktyka, proszę, nie rób tego o ile tylko możesz. Czasem mogą cię przymusić na przykład przy projektach z sektoru publicznego, realizowanych przez pewne duże korporacje, ale to nie do końca są projekty, w których chcesz się znaleźć. Zazwyczaj.
 
 Czyli sprawa ma się tak: zmienne i wszystko w naszym kodzie nazywamy opisowo, tak by od razu było wiadomo, co dany kawałek kodu robi, co znajduje się w zmiennej. Nie przesadzajmy jednak w drugą stronę – nazwą zmiennej nie powinien być cały poemat. Do tego w nazwach raczej używamy tylko liter, cyfr(rzadziej), podkreślenia. Tutaj konserwatywnie i bez szału. Zwięzłe, trafne nazwy.
 
@@ -38,16 +38,16 @@ Dlaczego? Poprawne nazywanie zmiennych, funkcji, klas i wszystkiego w twoim kodz
 Pozwól, że rzucę ci przykładem.
 
 ```python
- def redirect_logged_in_user(self, request, *args, **kwargs):
-        if self.redirect_authenticated_user:
-            redirect_to = resolve_url(settings.REDIRECT_URL)
-            if redirect_to == request.path:
-                raise ValueError(
-                    "Redirection loop detected. Check that your"
-                    "REDIRECT_URL doesn't point to a login page."
-                )
-            return HttpResponseRedirect(redirect_to)
-        return super().dispatch(request, *args, **kwargs)
+def redirect_logged_in_user(self, request, *args, **kwargs):
+    if self.redirect_authenticated_user:
+        redirect_to = resolve_url(settings.REDIRECT_URL)
+        if redirect_to == request.path:
+            raise ValueError(
+                "Redirection loop detected. Check that your"
+                "REDIRECT_URL doesn't point to a login page."
+            )
+        return HttpResponseRedirect(redirect_to)
+    return super().dispatch(request, *args, **kwargs)
 ```
 
 Nawet nie znając zbytnio języka, a jedynie angielski, wychodzi na to, że dość szybko idzie się domyślić, co ten kod robi. Żeby nie było – to jest autentyczny kawałeczek z kodu produkcyjnego. Trochę zmieniony, ale sens zachowany.
@@ -78,7 +78,7 @@ Nie wiem jak wam, ale mnie ten kod nic nie mówi w zasadzie. No dobra, na podsta
 
 To nie tak powinno wyglądać. Absolutnie. Za każdym razem, kiedy widzę jakikolwiek produkcyjnie wypuszczony kod, który wygląda jakoś podobnie, dostaje raka. Potem mój rak dostaje raka. 
 
-I tak sobie obaj siedzimy, ja i mój rak, i płaczemy, bo obaj mamy raka. I po co było czytać taki kod? Jeszcze gorzej – czasami trzeba z czymś takim pracować, bo jakiś jełop zdecydował, że jak sobie skróci `redirect` do `rr`, to te 6 literek co sobie zaoszczędził, zbawi jego świat, jego piękne palce, codebase i wszystko inne. A idźże mnie pan z tym.
+I tak sobie obaj siedzimy, ja i mój rak, i płaczemy, bo obaj mamy raka. I po co było czytać taki kod? Jeszcze gorzej – czasami trzeba z czymś takim pracować, bo jakiś jełop zdecydował, że jak sobie skróci `redirect` do `rr`, to te 6 literek co sobie zaoszczędził, zbawi jego świat, jego piękne palce, codebase i wszystko inne. A idźże mnie pan z tym. 
 
 Czasami, naprawdę, bardzo, ale to bardzo rzadko trafia się taka okoliczność, gdzie faktycznie można coś tam skrócić. Są to jednak zdecydowanie wyjątki od reguły. To takie miejsca, gdzie nawet jak rzucisz skrótem, to każdy będzie wiedział o co chodzi. Ewentualnie jak masz adnotacje typów, to też czasem ułatwia sprawę i umożliwia pewne ustępstwa.
 
@@ -154,9 +154,9 @@ Nie inaczej jest w przypadku zmiennych. Kiedy w kodzie zapisujemy coś pokroju:
 new_variable = "TEXT"
 ```
 
-Pod spodem interpreter Pythona robi sobie taki myk, który asocjuje w prosty sposób kawałek tekstu, czyli `new_variable` z jakimś adresem w pamięci, jakąś lokalizacją. Bo nie wiem, czy pamiętasz, ale chwilkę temu mówiłem, że zmienne są przechowywane w pamięci. No właśnie. Zatem, żeby komputer wiedział, gdzie ma konkretnie szukać jakiejś wartości, podaje mu się adres, pod którym ta wartość się znajduje.
+Pod spodem interpreter Pythona robi sobie taki myk, który asocjuje (kojarzy) w prosty sposób kawałek tekstu, czyli `new_variable` z jakimś adresem w pamięci, jakąś lokalizacją. Bo nie wiem, czy pamiętasz, ale chwilkę temu mówiłem, że zmienne są przechowywane w pamięci. No właśnie. Zatem, żeby komputer wiedział, gdzie ma konkretnie szukać jakiejś wartości, podaje mu się adres, pod którym ta wartość się znajduje.
 
-A jak wygląda ta pamięć komputera? Nie inaczej niż taka bardzo długa linijka z ponumerowanymi komóreczkami. Wyobraź sobie niesamowicie długi rząd komórek ustawionych obok siebie. W tych komórkach mogą znajdować się dwie wartości – 0 albo 1. Tak właśnie działa pamięć komputera.
+A jak wygląda ta pamięć komputera? Nie inaczej niż taka bardzo długa linijka z ponumerowanymi komóreczkami. Wyobraź sobie niesamowicie długi rząd komórek ustawionych obok siebie. W tych komórkach mogą znajdować się dwie wartości – 0 albo 1. Tak właśnie wygląda pamięć komputera.
 
 Teraz w tych komórkach zapisujemy sobie nasze zmienne, dane. Tak jak mówiłem, żeby później móc ich znowu używać, żeby komputer wiedział, skąd ma zaczytać raz zapisane już dane, potrzebujemy adresu tych danych. Adres jest niczym innym, jak tak zwanym przesunięciem. To liczba bitów/bajtów (zależy od notacji), jaką należy się przesunąć od początku pamięci, by znaleźć daną wartość. Wtedy nasz sprzęt sobie tam skoczy, pod konkretny adres. Przeczyta, co musi i zwróci nam to, żebyśmy my nie musieli pamiętać.
 
@@ -179,7 +179,7 @@ Czyli tak w skrócie: cyfry z dziesiętnego + 6 pierwszych liter alfabetu.
 
 W każdym razie. Pamiętaj zatem, że pamięć zazwyczaj adresujemy za pomocą systemu heksadecymalnego, a liczby w nim zapisane zazwyczaj oznaczamy przedrostkiem 0x, analogicznie jak w przypadku binarnego, gdzie było 0b.
 
-![Przedstawienie pamięci](/home/grski/dev/private/junior-python/chapters/resources/images/adresowanie1.png)
+![Przedstawienie pamięci](./chapters/resources/images/adresowanie1.png)
 
 (Tak, wiem piękne bazgroły. Nie umiem into profesjonalne ilustracje, więc są ręczne.)
 
@@ -254,6 +254,8 @@ main:
         ret
 ```
 
+\pagebreak
+
 Whoa. O co tu chodzi? Spokojnie, już omawiamy. Kawałek po kawałku.
 
 ``` assembly
@@ -271,11 +273,11 @@ To pomińmy - nie interesuje nas w tym konkretnym przykładzie.
 
 To już nas interesuje. To odpowiednik naszego: `short a = 1;`  I co tu się dzieje? Magiczne ilustracje na pomoc!
 
-![Rozpisane polecenie wyżej](/home/grski/dev/private/junior-python/chapters/resources/images/zmienne.png)
+![Rozpisane polecenie wyżej](./chapters/resources/images/zmienne.png)
 
 Okej, trochę to rozpisałem na ilustracji, teraz przejdźmy do głębszych wyjaśnień.
 
-Nasza deklaracja `short a = 1;`   oznacza po prostu stworzenie zmiennej `a`, typu `short` i przypisaniu jej wartości `1`. Short to nieduża liczba całkowita, w tej implementacji ma akurat 16 bitów, czyli 2 bajty. W Pythonie podobny (na jakimś poziomie) zapis wyglądałby po prostu `a = 1`. Czyli tworzymy zmienną `a` o wartości 1. Tak to wygląda w C. Pora zejść poziom niżej. A co jest poziom niżej? Przypomnij sobie z poprzednich rozdziałów albo Googluj.
+Nasza deklaracja `short a = 1;`   oznacza po prostu stworzenie zmiennej `a`, typu `short` i przypisaniu jej wartości `1`. Short to nieduża liczba całkowita, w tej implementacji ma akurat 16 bitów, czyli 2 bajty. W Pythonie podobny (na jakimś poziomie) zapis wyglądałby po prostu `a = 1`. Czyli tworzymy zmienną `a` o wartości 1. Tak to wygląda w C. Pora zejść poziom niżej. A co jest poziom niżej? Jaki język? Przypomnij sobie z poprzednich rozdziałów albo Googluj.
 
 `mov` mówi procesorowi, żeby przenieść wartość drugiego argumentu w miejsce sprecyzowane w pierwszym argumencie.
 
@@ -287,7 +289,7 @@ Przeanalizuj to sobie na spokojnie, nie jest to aż tak skomplikowane. Zwróć u
 
 Do tego wróć się trochę i popatrz na dalszą część tego kodu, zwłaszcza deklaracje następnych zmiennych, ich typy i fragmenty z X PTR [rbp-XD].
 
-Po tym wszystkim powinna ci się lampka zaświecić. Odpowiadając na pytanie z początku rozdziału - skąd kompilator wie, kiedy przestać czytać? Otóż w procesie kompilacji znika coś takiego jak `a`. Jego wystąpienia zastępywane są czymś pokroju `WORD PTR [rbp-2]`. Mając to z kolei, program doskonale wie, kiedy przestać czytać i kiedy zacząć, bo mamy i adres, i ilość bajtów jaką odczytać.
+Po tym wszystkim powinna ci się lampka zaświecić. Odpowiadając na pytanie z początku rozdziału - skąd program wie, kiedy przestać czytać? Otóż w procesie kompilacji znika coś takiego jak `a`. Jego wystąpienia zastępywane są czymś pokroju `WORD PTR [rbp-2]`. Mając to z kolei, program doskonale wie, kiedy przestać czytać i kiedy zacząć, bo mamy i adres, i ilość bajtów jaką odczytać.
 
 Spędź chwilę czasu nad tym, pomyśl. Nie musi od razu zaskoczyć. Przeanalizuj najpierw cały ten kod. Spokojnie. Dopiero potem przejdź dalej.
 
@@ -301,19 +303,51 @@ W Pythonie mechanizm deklaracji zmiennych wygląda troszkę inaczej (jak, to por
 
 Do tego nie przejmuj się naprawdę, jeśli powyższe nie jest dla ciebie oczywiste, ten fragment z kodem. Na spokojnie. posiedź troszkę nad nim, to nie jest takie proste! Zastanów się, przeanalizuj samodzielnie, poguglaj nawet. To, że po sekundzie nie rozumiesz, co się tam dzieje, nie sprawia, że jesteś nierozumna czy głupi. Także do przodu!
 
+## Inna inoszość
+
+Jak już o inności Pythona mówimy, to powiedzmy trochę, dosłownie dwa zdania, o tym, jak Python, jako język interpretowany, jest inny od języków kompilowanych, ale tylko pozornie.
+
+Otóż w tradycyjnym modelu, o czym już mówiliśmy, mamy kod, następnie ten kod kompilowany jest do kodu maszynowego, potem uruchamiany. W Pythonie sprawa ma się tak, że mamy sobie zaimplementowany interpreter, który wykonuje/interpretuje nasz kod. Tak się sprawa ma, przynajmniej pozornie. 
+
+Nieco głębiej jak zajrzymy, okaże się, że... Python jest interpretowany, ale tu też zachodzi kompilacja? Ale jak to można by zapytać. O co chodzi?
+
+Otóż kod Pythonowy, który napiszesz też jest kompilowany, ale nie do kodu maszynowego. Python kompiluje się do `bytecodu` zrozumiałego dla interpretera Pythona,  coś jak maszyna wirtualna w Javie (JVM), ale inaczej.
+
+Następnie, nasz skompilowany bytecode jest wykonywany przez interpreter Pythona, zaś interpreter Pythona to nic innego jak inny kod skompilowany do kodu maszynowego, czyli zwykły program. Mówiąc w skrócie Python to kompilowany język interpretowany tak jakby.
+
+Zastanawiałeś się kiedyś czym są i dlaczego się tworzą pliki *.pyc po tym, jak uruchomisz swój kod? To swego rodzaju forma optymalizacji i zapamiętania przez Pythona pośredniego kroku kompilacji. Python patrzy na plik źródłowy, na jego podstawie liczy sobię jakąś tam sumę z tegoż pliku, czy 'liczbę', w końcu każdy plik pod spodem to nic innego jak jakaś tam bardzo długa binarna nawijka. Binarne ciągi zaś można przetłumaczyć, przeliczyć na zwykłą liczbę, w uproszczeniu. Zatem Python pod spodem sobie to robi, patrzy, czy istnieje plik *.pyc, jeśli nie, to go tworzy. Następnie sprawdza, czy ta liczba, która jest unikalna dla każdego pliku źródłowego, jest taka sama. Jeśli tak, to nie wykonuje kroku kompilacji ponownie, od razu przeskakuje do interpretowania. 
+
+Jeśli dokonamy jakiejkolwiek zmiany w kodzie to Python wyłapie zmianę, gdyż zmieni się ta 'liczba' i przed interpretowaniem przeprowadzi proces 'kompilacji' ponownie.
+
+## Zarządzanie pamięcią
+
+Można sobie by zadać pytanie, skąd Python wie, kiedy 'skasować' z pamięci zmienne? Bo zaalokować, to wiemy kiedy. Skąd Python wie, kiedy zmienna nie jest nam już potrzebna i można zwolnić zaalokowaną pamięć? Gdyby Python nie wiedział i nie robił tego ręcznie, nie przeprowadzał tak zwanego `Garbage Collection`, to każde uruchomienie naszego programu zapychałoby permanentnie, przynajmniej aż do czasu ponownego uruchomienia, RAM naszego komputera. Jak to się dzieje, że to nie zachodzi w większości przypadków?
+
+Otóż Garbage Collector w Pythonie, czyli to, co sprząta, nam już niepotrzebne zmienne i uwalnia pamięć do ponownego użycia prowadzi sobie taki spis. W tymże spisie trzyma liczbę referencji dla każdego obiektu. Jeśli ta liczba osiągnie 0 to znaczy, iż dany obiekt nie jest już potrzebny, bo nic się do niego nie odnosi, zatem można uwolnić pamięć.
+
+Co w sytuacji gdy jeden obiekt odnosi się do drugiego, ale nigdzie indziej? Mamy wtedy pętlę zależności tak jakby. Czyli teoretycznie liczba referencji jest większa od 0, ale obiekt nie jest używany.
+
+Tutaj wchodzi cały na biało system wykrywania pętli referencji. Python jest w stanie to wykryć i wtedy również uwolni pamięć. Linked lista i takie tam. Doczytaj samodzielnie.
+
+Warto też dodać, że Python sprytna bestia. Ma taki mechanizm optymalizacyjny, który najczęściej sprawdza świeżo utworzone obiekty. Otóż jeśli obiekt jest świeży, to duża szansa, że zaraz nie będzie potrzebny. Stare obiekty, które przetrwały do tej pory mają dużą szansę na to, by przetrwać jeszcze dalej. Ci, co mają, zostanie im dodane, ci, którzy nie mają nic, zostanie im zabrane. Czy jakoś tak. To jak z modą i trendami. Nowe przemijają, ale stary rdzeń trwa dalej. 
+
 ## Podsumowanie
 
 Z racji tego, że w tym rozdziale dość sporo informacji spłynęło na wasze głowy, moi drodzy, postanowiłem tutaj go zakończyć, nieco wcześniej niż oryginalnie planowałem.
 
 Przypomnijmy sobie o tym, o czym pisałem w tym rozdziale. 
 
-Nasz komputer jest całkiem dobry w zapamiętywaniu rzeczy, znacznie lepszy, niż nasze mózgi, zatem warto z tego korzystać. Zazwyczaj podczas programowania do zapamiętywania na jakiś czas pewnych rzeczy wykorzystujemy RAM. Robimy to chociażby używając zmiennych/stałych, które są niczym innym jak jakąś nazwą, aliasem, który tworzymy dla tego, co chcemy zapamiętać, przez co komputer wie, gdzie w swojej pamięci, pod jakim adresem, dokładniej mówiąc, danej rzeczy szukać.
+Nasz komputer jest całkiem dobry w zapamiętywaniu rzeczy, znacznie lepszy, niż nasze mózgi, zatem warto z tego korzystać. Zazwyczaj podczas programowania do zapamiętywania na jakiś czas pewnych rzeczy wykorzystujemy **RAM**. 
 
-Tworząc te `aliasy` czy też nazywając nasze zmienne, musimy kierować się określonymi zasadami, jak chociażby tym, że nie powinniśmy ich zaczynać od cyfr. Nazwy zmiennych powinny być opisowe, ale krótkie, podobnie z całym kodem. Ma to zasadnicze znaczenie jeśli idzie o czytelność kodu, jaki tworzymy i jego jakość.
+Przy okazji notka - wyrażenie `pamięc RAM` to pleonazm językowy, gdyż RAM znaczy `Random Access Memory` zatem pisanie pamięc RAM to jakby pisać masło maślane. Wróćmy jednak do tematu - wykorzystujemy RAM. Kiedy?
 
-Oprócz systemu binarnego, mamy też coś takiego jak system heksadecymalny, którego używamy po to, żeby zwięźlej zapisywać to, co w binarnym zajęłoby nam o wiele dłużej. Przelicza się to wszystko na podobnej zasadzie co z dziesiętnego na dwójkowy.
+Robimy to chociażby używając **zmiennych/stałych**, które są niczym innym jak jakąś **nazwą, aliasem**, który tworzymy dla tego, co chcemy zapamiętać, przez co komputer wie, gdzie w swojej pamięci, pod jakim adresem, dokładniej mówiąc, danej rzeczy szukać, a nam jest łatwiej wpisać i zapamiętać `first_name` jako nazwę zmiennej/odniesienie/alias zamiast `0xA1FBA`. 
 
-Komputer kojarzy sobie adres, rozmiar zmiennej zależnie od tego, co tam w środku jest. Na podstawie kodu Assemblera/C, plus minus dowiedzieliśmy się, jak to tam pod spodem wygląda. Tylko no właśnie, my dokładniej zbadaliśmy proces w C, w Pythonie to wszystko wygląda nieco inaczej, bo jest interpretowany, ale ogólna mechanika gdzieś tam pozostaje podobna, stąd dobrze ją znać.
+Tworząc te `aliasy` czy też **nazywając nasze zmienne, musimy kierować się określonymi zasadami**, jak chociażby tym, że nie powinniśmy ich zaczynać od cyfr. Nazwy zmiennych powinny być opisowe, ale krótkie, podobnie z całym kodem. Ma to zasadnicze znaczenie jeśli idzie o czytelność kodu, jaki tworzymy i jego jakość.
+
+Oprócz systemu binarnego, mamy też coś takiego jak **system heksadecymalny**, którego używamy po to, żeby zwięźlej zapisywać to, co w binarnym zajęłoby nam o wiele dłużej. Przelicza się to wszystko na podobnej zasadzie co z dziesiętnego na dwójkowy.
+
+Komputer kojarzy sobie **adres**, rozmiar zmiennej zależnie od tego, co tam w środku jest. Na podstawie kodu Assemblera/C, plus minus dowiedzieliśmy się, jak to tam pod spodem wygląda. Tylko no właśnie, my dokładniej zbadaliśmy proces w C, w **Pythonie to wszystko wygląda nieco inaczej, bo jest interpretowany**, ale ogólna mechanika gdzieś tam pozostaje podobna, stąd dobrze ją znać.
 
 ## Zadania i pytania
 
@@ -346,5 +380,7 @@ Teraz pora na pytania. Pamiętaj, niektóre z nich będą wymagały poszukania i
 10. Po adresie, który sobie ogarnia `pod spodem` i stamtąd odczytuje - w tym konkretnym miejscu w pamięci.
 11. O tym mówiliśmy w `8.6`.
 12. Jeśli przeanalizujemy linijkę `BYTE PTR [rbp-5], 102` możemy dojść do wniosku, że ta definicja `chara`, mówi coś o liczbie 102. 102 w ASCII/UNICODE to nic innego jak `f`.
+
+Pamiętaj, że Twoje odpowiedzi możesz wrzucić na GH o tutaj -  https://github.com/grski/junior-python-exercises, a sprawdzę twoje rozwiązania i dam feedback. Więcej o tym podrozdziale 'Część interaktywna'.
 
 \pagebreak

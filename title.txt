@@ -1,9 +1,11 @@
 ---
-title: "Programowanie z Górskim: Python"
-subtitle: "W drodze po mityczne 15k, bogactwo, sławę, wieczne zmęczenie i pustkę"
-author: Olaf Górski
+title: "Programowanie z Górskim: Junior Python Developer"
+subtitle: "Czyli co warto wiedzieć jako nieopierzony junior."
+author: Olaf Górski © 2022
+year: 2022
 rights:  Wszystkie prawa zastrzeżone
 header-includes: |
+    \usepackage[polish]{babel}
     \usepackage{fancyhdr}
     \pagestyle{fancy}
 language: pl-PL
@@ -14,5 +16,10 @@ fontsize: 10pt
 indent: true
 geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 include-before:
-- '`\newpage{}`{=latex}'
+- \newpage{}
+- "Czyli Tech Lead bierze się za uczenie innych Pythona, podstawowych umiejętności przydatnych w karierze i nieco opowiada o sobie."
+- \newpage{}
 ---
+
+
+

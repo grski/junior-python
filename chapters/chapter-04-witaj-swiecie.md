@@ -12,7 +12,7 @@ My zrobimy podobnie, ale nieco inaczej, bo na dwa sposoby. Dlaczego? Otóż w In
 
 Takie sklejanie programu z gotowych klocuszków. Grunt to wiedzieć, z jakich klocuszków skleić.
 
-Cóż, często to racja. Bardzo często. Nie inaczej jest z hello worldem.
+Cóż, często to racja. Bardzo często. Nie inaczej jest z hello worldem. Przykłady pokazane tutaj powinno się przepisywać do pliku i uruchamiać jak opisano w poprzednim rozdziale lub na biężąco wklepywać w interpreter. Polecam tę drugą opcję, przynajmniej póki mamy jednolinijkowce/kilka linijek. Przy dłuższych rzeczach polecam jednak pracować na plikach nie na samym interpreterze.
 
 Otóż w Pythonie, standardowy Hello World, można zastąpić:
 
@@ -44,7 +44,7 @@ python nazwa_utworzonego_pliku.py
 
 i gotowe. Ewentualnie zamiast python, być może będzie trzeba wpisać python3, zależy jak tam sobie poinstalowałeś wszystko.
 
-Co tutaj się stało? Skorzystaliśmy z jednej ze wbudowanych funkcji Pythona, które umieszczone są w corze(rdzeń, takie coś najważniejszego) języka, czyli funkcji, którą każda instalacja Pythona3 posiada. Funkcja ta nazywa się print – z angielskiego, wydrukuj. 
+Co tutaj się stało? Skorzystaliśmy z jednej ze wbudowanych funkcji Pythona, które umieszczone są w standardowej bibliotece języka, czyli zbioru funkcji, którą każda instalacja Pythona3 posiada. Funkcja ta nazywa się print – z angielskiego, wydrukuj. 
 
 Hmmm, co zatem może robić funkcja, która nazywa się „wydrukuj”? Dobre pytanie. Wydaje mi się, że tutaj nastąpi prawdziwy test tego, czy nadajesz się na programistę. Jeśli jesteś w stanie określić, co robi funkcja print/wydrukuj, to prawdopodobnie nadajesz się na programistę. Gratulacje.
 
@@ -68,7 +68,9 @@ Znakiem końca linii jest zazwyczaj `\n`. Czyli w rzeczywistości, zamiast wyśw
 
 Czy to wszystko proste? Anty klimatyczne? Tak. Przynajmniej pozornie. Bo pod spodem, dzieje się tu wiele bardzo, bardzo ciekawych rzeczy, o których na razie nie masz pojęcia.
 
-To, że dziś, za pomocą jednej linijki kodu, jesteś w stanie wypisać sobie w konsoli jakiś tekst, to efekt kilkudziesięciu lat pracy i budowania fundamentów przez ojców informatyki. Wiem, że może brzmieć to śmiesznie, ale tak jest. Popatrz np. na kod Assemblera, czyli języka, w którym wszyscy kiedyś pisali.
+To, że dziś, za pomocą jednej linijki kodu, jesteś w stanie wypisać sobie w konsoli jakiś tekst, to efekt kilkudziesięciu lat pracy i budowania fundamentów przez ojców informatyki. Wiem, że może brzmieć to śmiesznie, ale tak jest. Popatrz np. na kod Assemblera, czyli języka, w którym wszyscy kiedyś pisali. \pagebreak
+
+Pokazany niżej fragment kodu to Assembler, bardzo niskopoziomowy język, który w bardzo dużym szczególe pozwala na interakcję bezpośrednią z pamięcią komputera, z procesorem, ze wszystkim w sumie. Dzięki temu programista może zarządzać i optymalizować niemal wszystko, jednakże ma to swoją cenę w postaci tego, iż skoro trzeba zarzadząć wszystkim samemu, to... No właśnie. Trzeba to robić samemu. Ma to wady i zalety. Nie przejmujmy się tym jednak zbytnio na razie, wspominam tylko po to, by gdzieś ci to tam w głowie krążyło. Assembler = szybki, niskopoziomowy język, gdzie dużo rzeczy trzeba robić samemu, który jest bardzo blisko samego procesora/pamięci, o niskim poziomie abstrakcji.
 
 ``` nasm
 segment .data
@@ -102,7 +104,7 @@ Różnica między Pythonem a CPythonem jest taka, że Python to po prostu język
 
 A CPython to już konkretne implementacja tego – przetłumaczenie na zachowania komputera, konkretny program wykonujący polecenia w konkretny sposób. Także CPython != Python.
 
-Czyli jeszcze raz powtórzmy. Python to język. Interpreter Pythona to już jakiś program, który interpretuje kod napisany w języku Python i wykonuje określone polecenia. Zazwyczaj, kiedy mówimy o interpreterze Pythona, mamy na myśli jego domyślną implementację, czyli CPythona – interpreter Pythona napisany w C, ale są inne. Pamiętaj.
+Czyli jeszcze raz powtórzmy. Python to język. Interpreter Pythona to już jakiś program, który interpretuje kod napisany w języku Python i wykonuje określone polecenia. Zazwyczaj, kiedy mówimy o interpreterze Pythona, mamy na myśli jego domyślną implementację, czyli CPythona – interpreter Pythona napisany w C, ale są też inne. Pamiętaj. Pamiętaj też o tym, że szczegóły implementacji interpreterów Pythona różnią się pomiędzy sobą. Autorzy języka pozwolili na to by, pewne decyzje co do określonych zachowań, podejmowały osoby implementujące interpreter. Zatej CPython może, ale nie musi, zachowywać się czasami inaczej niż Jython. Zatem dobrą praktyką jest, by nie polegać na szczegółach implementacyjnych interpretera a samej specyfikacji języka. Wrócmy jednak do tematu.
 
 Dlaczego trzeba doceniać obecne abstrakcje?
 
@@ -161,12 +163,12 @@ Brzmi to wszystko skomplikowanie, bo my tak o tym nie myślimy – robimy pewne 
 Sytuacja w binarnym zapisie będzie analogiczna. Jak obliczamy wartość danej liczby w zapisie binarnym? Załóżmy, że chcemy dowiedzieć się, jaką wartość ma liczba 101101.
 
 ```
-1 – 6 cyfra liczby
-0 – 5 cyfra liczby
-1 – 4 cyfra liczby
-1 – 3 cyfra liczby
-0 – 2 cyfra liczby
-1 – 1 cyfra liczby
+1 – 6. cyfra liczby
+0 – 5. cyfra liczby
+1 – 4. cyfra liczby
+1 – 3. cyfra liczby
+0 – 2. cyfra liczby
+1 – 1. cyfra liczby
 ```
 
 A zatem: \
@@ -249,7 +251,7 @@ Wybrany fragment tabelki znaków ASCII:
 88 | X | 0b1011000 | 89 | Y | 0b1011001
 89 | Y | 0b1011001 | 90 | Z | 0b1011010
 
-Po prostu wcześniej był chaos. A z chaosu wyłonił się ład. I powstała informatyka. W miejscu tym ład i chaos współistniały w harmonii.
+Po prostu wcześniej był chaos. A z chaosu wyłonił się ład. I powstała informatyka. W miejscu tym ład i chaos współistniały w harmonii byś mógł pokazać mi swoje towary. Dobrz, starczy nerdowskich nawiązań do Gothica.
 
 No, w każdym razie. Bo wątek zgubiłem.
 
@@ -287,7 +289,7 @@ W UTF-8 niektóre znaki mogą zostać wyrażone 1 słowem, czyli 1 bajtem, w UTF
 
 Nie musisz się tym zbytnio przejmować, ale gdzieś tam może zapamiętaj.
 
-UTF-8 jest w 100% kompatybilny z ASCII – tekst w ASCII jest poprawnym UTF-8, ale UTF-8 już NIE musi być poprawnym ASCII. To bardzo ważne!
+UTF-8 jest w 100% kompatybilny z ASCII – tekst w ASCII jest poprawnym UTF-8, ale UTF-8 już NIE musi być poprawnym ASCII. To bardzo ważne! Dlaczego? Gdyż UTF-8 zawiera głównie znaki, których nie zmieścimy w jednym bajcie przez co są one nieobecne w ASCII. Zatem ASCII to podzbiór UNICODE.
 
 Swoją drogą, ciekawostka - jak piszesz jakieś wiadomości na fejsie i emotki wysyłasz, to one też są często zapisane w UNICODE, mają swoje konkretne liczby!
 
@@ -297,7 +299,7 @@ A to dopiero początek – ledwo co stópki zamoczyliśmy w całym temacie, jakb
 
 Kiedyś tę wiedzę – o wszystkich niskopoziomowych rzeczach, faktycznie trzeba było posiadać, by cokolwiek napisać. Dziś?
 
-Dziś mamy takie czasy, że  bazując na dekadach pracy tytanów intelektu informatyki, możemy sobie stworzyć tak abstrakcyjne języki, że nic z tego nie musimy znać. Wystarczy wpisać print("xd") i działa. Kiedyś to były czasy, dziś to nie ma czasów. Programiści też kiedyś byli, teraz to nie ma. 
+Dziś mamy takie czasy, że  bazując na dekadach pracy tytanów intelektu informatyki, możemy sobie stworzyć tak abstrakcyjne języki, że nic z tego nie musimy znać. Wystarczy wpisać print("xd") i działa. Kiedyś to były czasy, tera to nie ma czasów. Programiści też kiedyś byli, teraz to nie ma. 
 
 To naprawdę coś niesamowitego, mimo tego, że nam wydaje się banalne. To jest właśnie piękno nauki, informatyki. Bazując na pracy innych, możemy tworzyć nowe, niepojęte rzeczy. Wyśmienicie.
 
@@ -307,17 +309,17 @@ W każdym razie.
 
 Zróbmy podsumowanie tego, co udało nam się zrobić i dowiedzieć.
 
-Mamy ogółem w pythonie taką funkcję jak print, która, uwaga, drukuje nam tekst na ekranie. Ten tekst w rzeczywistości, to nie jest tekst dla komputera, tylko nic innego jak ciąg zer i jedynek, bo komputer nie rozumie nic innego, za sprawą tego, jak jest zbudowany – napięcie lub brak/niskie napięcie – to jedyne co on tak naprawdę rozumie.
+Mamy ogółem w pythonie taką funkcję jak **print**, która, uwaga, drukuje nam tekst na ekranie. Ten tekst w rzeczywistości, to nie jest tekst dla komputera, tylko nic innego jak ciąg zer i jedynek, bo komputer nie rozumie nic innego, za sprawą tego, jak jest zbudowany – napięcie lub brak/niskie napięcie – to jedyne co on tak naprawdę rozumie.
 
 W związku z tym powstało coś takiego jak system binarny. To taki system liczenia, troszkę inny od dziesiętnego, w którym liczby wyrażamy za pomocą dwóch cyfr i tylko tyle. Jest on nieco bardziej rozlazły w porównaniu do dziesiętnego – zapisanie tej samej liczby, co w dziesiętnym, zajmuje więcej miejsca, można by rzec, ale ogółem nie jest to jakieś skomplikowane pojęcie, da się ogarnąć.
 
-No i teraz mając już coś, co komputer jest w stanie zrozumieć, czyli system binarny, bazujący na dwóch wartościach, możemy na tym coś budować.
+No i teraz mając już coś, co komputer jest w stanie zrozumieć, czyli **system binarny**, bazujący na dwóch wartościach, możemy na tym coś budować.
 
-My, jako sprytni ludzie, zbudowaliśmy sobie coś, co się nazywa kodowaniem znaków. Otóż wykminiliśmy sobie, że w określonych wypadkach, dana liczba w systemie binarnym, będzie znaczyła nie konkretną liczbę a np. znak właśnie.
+My, jako sprytni ludzie, zbudowaliśmy sobie coś, co się nazywa **kodowaniem znaków**. Otóż wykminiliśmy sobie, że w określonych wypadkach, dana liczba w systemie binarnym, będzie znaczyła nie konkretną liczbę a np. znak właśnie.
 
-I tak oto powstało jedne z pierwszych popularniejszych kodowań, czyli ASCII. ASCII było spoko, ale miało tę wadę, że mało znaków twórcy tam przewidzieli, powiedzmy. 
+I tak oto powstało jedne z pierwszych popularniejszych kodowań, czyli **ASCII**. ASCII było spoko, ale miało tę wadę, że mało znaków twórcy tam przewidzieli, powiedzmy. Wiadomo, wujek sam, pępek świata, nie pomyśleli o innych nacjach, ino o znakach ze swojego alfabetu.
 
-Zatem przyszło coś nowego, czego używam do dziś, co jest nieco lepsze – UTF-8. Żeby nie było problemów z kompatybilnością wsteczną, to znaczy, żeby stare teksty i programy działały na nowych komputerach, UTF-8 jest kompatybilny z ASCII, to znaczy tekst w ASCII jest też poprawnym tekstem UTF-8. W drugą stronę już niekoniecznie nie każdy UTF-8 jest poprawnym ASCII.
+Zatem przyszło coś nowego, czego używam do dziś, co jest nieco lepsze – **UTF-8**. UTF-8 to sposób kodowania znaków **UNICODE**. Unicode to swego rodzaju 'mapowanie' liczb na dane znaki.. Żeby nie było problemów z kompatybilnością wsteczną, to znaczy, żeby stare teksty i programy działały na nowych komputerach, UTF-8 jest **kompatybilny wstecznie** z ASCII, to znaczy tekst w ASCII jest też poprawnym tekstem UTF-8. W drugą stronę już niekoniecznie nie każdy UTF-8 jest poprawnym ASCII.
 
 Pewnie cię trochę nudzę, co? Ostrzegałem na początku – będzie też trochę teorii i innych rzeczy, bo to nie będzie tylko książka o Pythonie. Chociaż przyznam szczerze, że mnie akurat te wszystkie tematy bardzo jarają, interesują. 
 
