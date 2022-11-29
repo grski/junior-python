@@ -74,7 +74,11 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 
 ...**Sebastianowi Opałczyńskiemu**, gdyż to osoba, którą uznaję za mojego pierwszego mentora, jakiś wzorzec tego, jak się rozwijać jako programista, oraz osobę, która do powstania tej książki się przyczyniła w dużym stopniu. Wyniosła mnie powyżej tego, co mogłem osiągnąć sam i jemu bardzo dużo zawdzięczam, naprawdę. Dzięki Łysy. Czasami wskazał mi właściwy kierunek w kilku rzeczach, cierpliwie odpowiadał na różne pytania, miło wspominam też różnorakie nasze rozmowy. Jesteś bardzo dobrym nauczycielem i człowiekiem. Zastanawiałeś się kiedyś, czym jest samiec alfa?
 
+...**Piotrkowi Nietrzebce** za bycie ludzkim człowiekiem kiedy trzeba, szczwanym dziadem w innych okazjach, za pokazanie pewnych ułomności i że się da je pokonać, albo przynajmniej można spróbować.
+
 ...**p. dyr. Pawłowi Boryczce** z Zespołu Szkół w Kozienicach, za to, że przez 3 lata sprawował nade mną pieczę i wiele mi w życiu pomógł. Dzięki temu udało mi się rozwinąć pewne umiejętności, poznać różnych ludzi, których prawdopodobnie nie odkryłbym w innym wypadku. Będę o tym pamiętał.
+
+...tobie, **Wiktorio Chmielewska**, za dwa najszczęśliwsze wyjazdy w moim życiu, za poświęcenie, za troskę i przyjaźń, za ratowanie mi skóry i nie odpuszczenie, kiedy inni dawno już to zrobili.
 
 ...wszystkim wspaniałym ludziom w **Synerise**. Kurczę, czasami brodziliśmy w ciężkich technicznie tematach [;)], ale do pracy, do biura, przychodziłem prawie zawsze z wielką chęcią, trochę się też nauczyłem podczas naszej przygody. Zatem pozdrawiam serdecznie cały zespół Fireplace, mojego druha od importów dla pań z akcentowanej firmy, taneczne dziewczyny z Wolfa, jak i całą resztę firmy.
 
@@ -84,13 +88,11 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 
 ...tobie, **Falo**, ty stary ch**u kochany. Za to, żeś jest ciepłą kochaną kluseczką, która sobie odejmie i nie będzie miał, ale da komuś. Jesteś cudownym człowiekiem, nie zmieniaj się, jeśli stare wygi sam wiesz skąd, mówią, że "jesteś za dobry na to miejsce", to wiedz, że coś się dzieje.
 
-...wam, **Łukaszu i Batu**. Uważam was za bardzo bliskie mi osoby. Niełatwo przyjąć kogoś z ulicy, zaufać i dać całego siebie w zamian. Wiem, że zawszę mogę na was liczyć, że jesteście dla mnie jak potrzebuje, nawet wtedy, kiedy prawdziwa rodzina nie potrafi.
+...wam, **Łukaszu i Batu**. Uważam was za bardzo dobrych ludzi. Niełatwo przyjąć kogoś z ulicy, zaufać i niejako pomóc. Wiem, że zawszę mogę na was liczyć, że jesteście dla mnie jak potrzebuje, staram się odwdzięczyć tym samym. 
 
 ...wam, **Łukaszu i Olu**. Kocham jak rodzinę, przesyłam ciepłe myśli wam i dzieciakom.
 
 ...tobie, **Alino**. Dużo mnie nauczyłaś, dużo mi dałaś, uczyniłaś moje życie lepszym, tak po prostu. Przeżyłem z tobą cudowne lato.
-
-...tobie, **Wiktorio**, za dwa najszczęśliwsze wyjazdy w moim życiu, za poświęcenie, za troskę i przyjaźń
 
 ...tobie, **Kingo**, że jesteś i byłaś.
 
@@ -114,9 +116,7 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 
 ...tobie **Bartuś**. Zawsze mi pomogłeś jak potrzebowałem.
 
-...tobie **Sebciu**. Fajnie Cię mieć w życiu mimo wszystko.
-
-...moim rozmaitym przyjaciołom, inspiracjom, dobrym ludziom, **Tomaszowi, Andrzejowi**, (grubemu nie, bo mi podnosi ciśnienie i musi iść do psychiatry), **Adamowi, Takurze, Pawłowi, Wiktorii, Katarzynie, Amelii, Dimie, Marasowi**. Dobra, grubemu też.
+...moim rozmaitym przyjaciołom, inspiracjom, dobrym ludziom, **Tomaszowi, Andrzejowi**, (grubemu nie, bo mi podnosi ciśnienie i musi iść do psychiatry), **Adamowi, Takurze, Pawłowi, Katarzynie, Amelii, Dimie, Marasowi**. Dobra, grubemu też.
 
 ...do not think that I’ve forgotten about you, my dear brother, **Kunaal**. I thank you and I’m grateful that you’ve been there for me. Always.
 
