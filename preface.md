@@ -68,7 +68,11 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 
 ...mojej najukochańszej i jedynej Babci. Za wszystko, za to, jakim człowiekiem jestem. Za miłość. Za wyrzeczenia.
 
-...tobie, **Rafale**, wraz z rodziną, której nie będę tu wymieniał ze względu na Waszą prywatność – twoją rodziną, której w pewnym stopniu czuję się już w zasadzie częścią, za otoczenie mnie opieką, naukę wielu rzeczy i realny, wielki wpływ na mnie i moje życie. Nie mam ojca, ale gdyby ktoś mnie spytał, kto jest mi najbliższym jego obrazem, to za długo bym chyba nie myślał
+...tobie, **Rafale**, wraz z rodziną, której nie będę tu wymieniał ze względu na Waszą prywatność – twoją rodziną, której w pewnym stopniu czuję się już w zasadzie częścią, za otoczenie mnie opieką, naukę wielu rzeczy i realny, wielki wpływ na mnie i moje życie. Nie mam ojca, ale gdyby ktoś mnie spytał, kto jest mi najbliższym jego obrazem, to za długo bym chyba nie myślał.
+
+...tobie, **Wiktorio Chmielewska**, za dwa najszczęśliwsze wyjazdy w moim życiu, za poświęcenie, za troskę i przyjaźń, za ratowanie mi skóry i nie odpuszczenie, kiedy inni dawno już to zrobili.
+
+...tobie, **Najdroższy**. Jesteś mi jak brat, nigdy nie zawiodłeś mordzia.
 
 ... **Jakubowi Gąsiorskiemu**, osobie, która odbywała ze mną rozmowę o pierwszą pracę. Uważam, że to właśnie jemu zawdzięczam fakt, że ostatecznie padła decyzja, by mnie przyjąć, bo postanowił dać mi szansę wtedy i później, wiele razy. Tutaj należą się też podziękowania **Maciejowi Mondrzyckiemu**, CEO YumaSoft, bo finalna decyzja, czy warto we mnie zainwestować, należała do niego.
 
@@ -77,8 +81,6 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 ...**Piotrkowi Nietrzebce** za bycie ludzkim człowiekiem kiedy trzeba, szczwanym dziadem w innych okazjach, za pokazanie pewnych ułomności i że się da je pokonać, albo przynajmniej można spróbować.
 
 ...**p. dyr. Pawłowi Boryczce** z Zespołu Szkół w Kozienicach, za to, że przez 3 lata sprawował nade mną pieczę i wiele mi w życiu pomógł. Dzięki temu udało mi się rozwinąć pewne umiejętności, poznać różnych ludzi, których prawdopodobnie nie odkryłbym w innym wypadku. Będę o tym pamiętał.
-
-...tobie, **Wiktorio Chmielewska**, za dwa najszczęśliwsze wyjazdy w moim życiu, za poświęcenie, za troskę i przyjaźń, za ratowanie mi skóry i nie odpuszczenie, kiedy inni dawno już to zrobili.
 
 ...wszystkim wspaniałym ludziom w **Synerise**. Kurczę, czasami brodziliśmy w ciężkich technicznie tematach [;)], ale do pracy, do biura, przychodziłem prawie zawsze z wielką chęcią, trochę się też nauczyłem podczas naszej przygody. Zatem pozdrawiam serdecznie cały zespół Fireplace, mojego druha od importów dla pań z akcentowanej firmy, taneczne dziewczyny z Wolfa, jak i całą resztę firmy.
 
@@ -91,6 +93,8 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 ...wam, **Łukaszu i Batu**. Uważam was za bardzo dobrych ludzi. Niełatwo przyjąć kogoś z ulicy, zaufać i niejako pomóc. Wiem, że zawszę mogę na was liczyć, że jesteście dla mnie jak potrzebuje, staram się odwdzięczyć tym samym. 
 
 ...wam, **Łukaszu i Olu**. Kocham jak rodzinę, przesyłam ciepłe myśli wam i dzieciakom.
+
+...tobie, **Jochny** bracie. Ślę pozdrowienia dla Ciebie i mamy.
 
 ...tobie, **Alino**. Dużo mnie nauczyłaś, dużo mi dałaś, uczyniłaś moje życie lepszym, tak po prostu. Przeżyłem z tobą cudowne lato.
 
@@ -115,6 +119,8 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 ...całej załodze, byłej jak i obecnej, **Bar Maxxu/Whisky House**, gdzie część tej książki powstała. Kocham to miejsce.
 
 ...tobie **Bartuś**. Zawsze mi pomogłeś jak potrzebowałem.
+
+...tobie **Brodziatku** boś równy gość.
 
 ...moim rozmaitym przyjaciołom, inspiracjom, dobrym ludziom, **Tomaszowi, Andrzejowi**, (grubemu nie, bo mi podnosi ciśnienie i musi iść do psychiatry), **Adamowi, Takurze, Pawłowi, Katarzynie, Amelii, Dimie, Marasowi**. Dobra, grubemu też.
 
