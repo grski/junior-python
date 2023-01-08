@@ -65,13 +65,51 @@ Do poczytania:
 
 Jeśli dziedziczymy po kilku klasach, co w Pythonie jest dozwolone, które implementują tę samą metodę, to to, która metoda zostanie użyta, jest decydowane przez MRO. Method resolution order. 
 
+Method Resolution Order (MRO) to sposób, w jaki Python odwzoruje dziedziczenie wielokrotne w klasach. MRO określa kolejność, w jakiej Python szuka metod w klasach podczas wywoływania metody na obiekcie.
+
+Przykładowo, jeśli mamy następujące trzy klasy:
+
 ```python
-class IcebergOrder(Order):
-    def __init__(self, peak: int, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.peak = peak
-        self.timestamp = datetime.datetime.now()
+class A:
+    def method(self):
+        print("This method is from class A")
+
+class B(A):
+    def method(self):
+        print("This method is from class B")
+
+class C(A):
+    def method(self):
+        print("This method is from class C")
 ```
+
+a następnie tworzymy obiekt klasy `D`, która dziedziczy zarówno po klasie `B`, jak i `C`:
+
+```python
+class D(B, C):
+    pass
+```
+
+Jeśli teraz wywołamy metodę `method` na obiekcie `D`, to Python użyje MRO do określenia, która wersja metody zostanie wywołana. W tym przypadku, ponieważ klasa `D` dziedziczy po klasie `B` jako pierwszej, to Python wywoła wersję metody z klasy `B`. Jeśli klasa `B` nie miałaby tej metody, Python przeszukałby klasę `C`, a następnie klasę `A`.
+
+MRO działa według algorytmu C3, który zapewnia spójne i łatwe do przewidzenia wyniki. Można zobaczyć MRO dla danej klasy, używając funkcji `__mro__`:
+
+```python
+>>> D.__mro__
+(<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>)
+```
+
+MRO jest ważne, ponieważ umożliwia kontrolę nad tym, w jaki sposób dziedziczenie wielokrotne jest odwzorowywane w kodzie. Może to być szczególnie przydatne w przypadku klas, które dziedziczą po wielu klasach bazowych i chcą mieć pewność, że metody zostaną odpowiednio wywołane.
+
+Algorytm C3 działa następująco:
+
+1. Wszystkie klasy są umieszczane na liście, w kolejności, w jakiej są podane jako argumenty dziedziczenia. Na przykład, w klasie `D` zdefiniowanej jako `class D(B, C)`, klasa `B` znajduje się przed klasą `C`.
+2. Dla każdej klasy na liście, dodaj jej klasę bazową do końca tej samej listy.
+3.  (...)
+
+Resztę pominę.
+
+Algorytm C3 jest stosowany w Pythonie od wersji 2.3. Jest on uważany za bardziej elegancki i prosty niż poprzedni algorytm stosowany w Pythonie (algorithmic depth-first search). Algorytm C3 zapewnia spójne i łatwe do przewidzenia wyniki dla MRO, co umożliwia lepszą kontrolę nad dziedziczeniem wielokrotnym w klasach.
 
 Do poczytania: https://www.educative.io/answers/what-is-mro-in-python
 
@@ -158,6 +196,30 @@ with open_file('some_file') as f:
 Do poczytania: https://realpython.com/python-with-statement/
 
 ## Typehints
+
+Type hinting to mechanizm w Pythonie, który pozwala niejako "podpowiedzieć" interpreterowi jakiego typu danych oczekujemy w danym miejscu programu. W Pythonie nie ma konieczności deklarowania typów zmiennych, więc type hinting jest opcjonalnym narzędziem, które można wykorzystać w celu ułatwienia kodowania lub dokumentowania kodu.
+
+Type hinting może być używany w kilku różnych miejscach kodu, takich jak deklaracje funkcji i metod, oraz w komentarzach.
+
+Przykłady użycia type hinting:
+
+```python
+def greet(name: str) -> str:
+    return "Hello, " + name
+
+def sum_numbers(a: int, b: int) -> int:
+    return a + b
+
+class Point:
+    def __init__(self, x: float, y: float):
+        self.x = x
+        self.y = y
+
+```
+
+Zaletą używania type hinting jest to, że może pomóc w dokumentowaniu kodu i ułatwić jego odczytanie dla innych programistów. Type hinting może również pomóc w detekcji błędów w czasie kompilacji, ponieważ interpreter może zgłaszać błędy, jeśli dane oczekiwanego typu nie zostaną przekazane do funkcji lub metody.
+
+Wadą używania type hinting jest to, że może on być uciążliwy w implementacji, zwłaszcza w dużych projektach, gdzie konieczne jest ręczne dodawanie type hinting do wielu miejsc w kodzie. Ponadto, ponieważ type hinting nie jest obowiązkowy w Pythonie, niektórzy programiści mogą nie używać go w swoich projektach, co może utrudnić współpracę i odczytanie kodu przez innych.
 
 Do poczytania: 
 

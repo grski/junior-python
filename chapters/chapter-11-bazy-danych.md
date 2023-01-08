@@ -35,13 +35,37 @@ VALUES (value1, value2, value3, ...);
 
 ## Relacyjne bazy danych
 
-To generalnie bazy danych, gdzie posiadamy jakąś strukturę formalną powiedzmy poprzez zdefiniowane tabele (najczęściej) oraz gdzie między tabelami możemy definiować relacje. 
+To generalnie bazy danych, gdzie posiadamy jakąś strukturę formalną powiedzmy poprzez zdefiniowane tabele (najczęściej) oraz gdzie między tabelami możemy definiować relacje.  Dla ułatwienia roboty dodam małe generalne podsumowanie:
+
+SQL (Structured Query Language) to język zaprojektowany do komunikacji z bazami danych relacyjnych. Pozwala on na wykonywanie operacji takich jak tworzenie, modyfikowanie i zapytania dotyczące danych zapisanych w bazie danych.
+
+Zaletami języka SQL są:
+
+1. Prostota i łatwość użycia - język SQL jest prosty i intuicyjny, a jego składnia jest łatwa do zrozumienia.
+2. Wszechstronność - język SQL może być używany do wielu różnych rodzajów baz danych, takich jak MySQL, Oracle, Microsoft SQL Server i wiele innych.
+3. Wydajność - SQL jest zoptymalizowany do wykonywania szybkich zapytań na dużych zbiorach danych.
+4. Standaryzacja - język SQL jest dość standaryzowany, co oznacza, że różne bazy danych będą miały podobną składnię i zestaw funkcji.
+
+SQL jest często używany w aplikacjach internetowych do zarządzania danymi zapisanymi w bazie danych, takich jak rejestracja użytkowników, przechowywanie produktów w sklepie internetowym i tworzenie raportów. Jest również cz
 
 ### Tabele
 
 Tabele to po prostu coś, gdzie przechowujemy dane. Tabele mają kolumny i rekordy/wiersze.
 
-Kolumny to takie jakby 'klucze' w słowniku w Pythonie, a rekordy to faktyczne wartości.
+Tabela to struktura danych w bazie danych, która przechowuje dane w postaci wierszy i kolumn. Każdy wiersz tabeli reprezentuje pojedynczy rekord danych, a kolumny tabeli określają różne pola, które składają się na ten rekord.
+
+Na przykład, jeśli tworzymy bazę danych pracowników, moglibyśmy utworzyć tabelę zawierającą informacje o pracownikach, takie jak ich imię, nazwisko, stanowisko, wynagrodzenie i datę zatrudnienia. Tabela mogłaby wyglądać mniej więcej tak:
+
+| Imię  | Nazwisko    | Stanowisko | Wynagrodzenie | Data zatrudnienia |
+| ----- | ----------- | ---------- | ------------- | ----------------- |
+| Jan   | Kowalski    | Dyrektor   | 10000         | 2020-01-01        |
+| Anna  | Nowak       | Manager    | 8000          | 2020-03-01        |
+| Marek | Wiśniewski  | Inżynier   | 6000          | 2020-05-01        |
+| Agata | Kwiatkowska | Asystentka | 4000          | 2020-07-01        |
+
+Tabela może zawierać dowolną ilość rekordów i pol, a dane w niej zapisane mogą być różnych typów, takich jak liczby, tekst, daty itp. Czyli nieco inaczej niż w Pythonie, w SQL definiujemy typy danych i jest to obowiązkowe. 
+
+Tabela jest podstawową strukturą danych w bazie danych i jest używana do przechowywania i udostępniania danych w aplikacjach.
 
 Do poczytania: https://www.plukasiewicz.net/SQL/Introduction (trochę formalnie wszystko opisane, ale może być)
 
@@ -78,6 +102,17 @@ Normalizacja to proces w którym pozbywamy się zbędnych danych oraz ustanawiam
 
 Pomaga to uniknąć duplikacji danych i bałaganu w nich.
 
+Normalizacja danych to proces optymalizacji struktury bazy danych poprzez rozdzielenie danych na mniejsze, bardziej specjalizowane tabele, z których każda zawiera jedynie niezbędne dane. Celem normalizacji jest zapewnienie, że dane są przechowywane w możliwie najlepszy sposób, tzn. tak, aby uniknąć redundancji i zapewnić integralność danych.
+
+Normalizacja danych jest przeprowadzana w kilku krokach, zwanych stopniami normalizacji. 1NF, 2NF, 3NF.
+
+ Normalizacja danych ma kilka korzyści, takich jak:
+
+1. Ułatwienie zarządzania danymi - dzięki mniejszej liczbie tabel i brakowi redundancji dane są łatwiejsze do zarządzania, mniejszy bałagan.
+2. Poprawa wydajności - mniejsze tabele są łatwiejsze do przeszukiwania i zapytań, co prowadzi do lepszej wydajności.
+
+Ale o szczegółach to 
+
 ### Transakcje i współbieżność
 
 Z transakcjami chodzi o to, że czasami chcemy pewne operacje grupować i wykonywać je razem. Np. wyobraź sobie przykład z linku niżej - przelew bankowy.
@@ -111,7 +146,11 @@ Do przejrzenia: https://www.cybertec-postgresql.com/en/listen-notify-automatic-c
 
 Bazy danych czasem udostępniają coś takiego jak column/row-level security. Co to znaczy? Otóż dzięki temu możemy ustalać sobie, który użytkownik może widzieć jakie kolumny czy jakie rekordy nawet w której tabeli w której bazie/schemacie. 
 
-Niektóre DB wymagają od nas instalacji dodatkowych pakietów by to osiągnąć, inne mają to domyślnie, jeszcze inne w ogóle nie udostępniają tak granularnej kontroli. Postgres dla przykładu jednak tak. Fajna sprawa.
+Niektóre DB wymagają od nas instalacji dodatkowych pakietów by to osiągnąć, inne mają to domyślnie, jeszcze inne w ogóle nie udostępniają tak granularnej kontroli. Postgres dla przykładu jednak tak. Fajna sprawa. 
+
+Aby skonfigurować nprow-level security, należy dodać reguły dostępu do tabeli, które określają, które wiersze są widoczne dla poszczególnych użytkowników lub grup użytkowników. Na przykład, można utworzyć regułę, która pozwala użytkownikowi o nazwie "john" widzieć tylko te wiersze, w których pole "department" ma wartość "marketing".
+
+Row-level security jest użytecznym narzędziem do ograniczania dostępu do danych w bazie danych i może być używane w połączeniu z innymi mechanizmami bezpieczeństwa, takimi jak uprawnienia użytkowników i role.
 
 ### Profilowanie
 
@@ -132,6 +171,192 @@ Do poczytania: https://www.cybertec-postgresql.com/en/column-order-in-postgresql
 ### Podsumowanie
 
 Bazy danych to niezbędny element prawie każdego systemu. Warto kapkę coś tam wiedzieć. Językiem dominującym w świecie bazodanowym jest SQL. Znajomość podstaw tegoż raczej nam nie zaszkodzi a może pomoże.
+
+## Tenanty i co to takiego
+
+Zrozumienie/wykorzystanie architektury multi-tenant w Django z perspektywy mojego protegowanego, naszego nowego kolegi z zespołu, młodszego inżyniera w thirty3 - Dominika. Bez dalszych ceregieli, pozwolę mu pisać.
+
+(Disclaimer: ten post został napisany kilka lat temu przeze mnie i Dominika Szady, który był wtedy moim protegowanym. Publikuję go dopiero teraz na swoim blogu).
+
+Wstęp Juniora
+Witam!!! Mam na imię Dominik, jestem junior developerem w thirty3, rekrutuję wśród grona profesjonalistów.
+
+Środowisko, które będzie wymagające, ale jest chyba najlepsze dla takiego początkującego jak ja. Miejsce, gdzie jest mentor, który pomoże mi w trudnych chwilach, odpowie na wszystkie moje pytania i wskaże drogę, powie o błędach, które popełniam.
+
+Czy dzięki temu nauka programowania jest łatwiejsza niż wcześniej? Jak najbardziej! Czy czyni ją łatwą? Nie! Dzisiaj chciałbym napisać kilka słów o moim dotychczasowym doświadczeniu, nowych zadaniach, mentoringu i tak dalej, we wspólnym artykule z moim mentorem - Olafem, i co najważniejsze - o tenancy w architekturze oprogramowania.
+
+Powiedziałbym, że proces uczenia się można podzielić na dwie części:
+
+zrozumienie nowego zagadnienia (technologii, narzędzia itp.), które kończy się tym, że ma się ogólne pojęcie o tym, jak rzeczy są robione, co pozwala budować rzeczy na podstawie przykładu, robić niewielkie modyfikacje istniejących rzeczy i tak dalej;
+
+niekończący się proces doskonalenia, który prowadzi do tego, że jest się w stanie tworzyć złożone rzeczy od podstaw;
+
+Dla mnie bycie młodszym programistą oznacza, że często będę stawał przed problemami, które będą wymagały od mnie wykonania pierwszej części - nauczenia się czegoś nowego, aby je rozwiązać. To jest dokładnie to, jak mógłbym opisać mój pierwszy miesiąc w thirty3 - bycie poza moją strefą komfortu programowania i robienie rzeczy, których nigdy wcześniej nie robiłem. Co jest WIELKIE.
+
+Pierwsze dni
+Pierwsze dni w nowej pracy zawsze są trudne i przysięgam, że kiedy konfigurowałem swoje środowisko pracy w poprzednich firmach, zawsze coś szło nie tak - brakowało mi jakichś narzędzi, pakietów, dostawałem dziwne błędy. Na szczęście uruchomienie projektu w thirty3 po raz pierwszy było zupełnie odwrotne.
+
+W tym przypadku difference-makerem było połączenie Dockera i Makefile. Wszystko, co musiałem zrobić, to pobrać dockera (i docker-compose) na mój komputer i postępować zgodnie z cholernym README.md, aby mieć wszystko gotowe i działające. Aplikacja działa. Dokumentacja jest tam, praktyki są zdefiniowane, kod jest jasny i łatwy do zrozumienia, testy są tam. To była bryza.
+
+Przynajmniej do pewnego momentu. Nie minęło wiele czasu, gdy zostałem uderzony przez architekturę multi-tenant. Co to jest. Wyobraź sobie, że masz aplikację używaną przez wiele firm (najemców). Chciałbyś mieć pewność, że nie dojdzie do przypadkowego wycieku danych między firmami, a jednocześnie, że architektura będzie skalowalna i wydajna.
+
+Lokatorzy na ratunek
+W thirty3 używamy Django-tenants do rozwiązania tego problemu, przynajmniej w wielu przypadkach. Istnieje jedna instancja bazy danych do przechowywania danych dla naszych klientów, ale wiele schematów - jeden dla każdego najemcy (firmy). Tworzy to logiczną separację między danymi. Zanim przeskoczę do przykładów, jak próbowałem zrozumieć tę koncepcję, złamię ją dla ciebie, więc, miejmy nadzieję, natychmiast zauważysz moje błędy i zrozumiesz, jak to działa. Załóżmy, że mamy bardzo prosty projekt Django, który pozwala firmom tworzyć projekty, nad którymi będą pracować. Potrzebujemy dwóch aplikacji:
+
+firmy
+projekty
+Oraz modele zadeklarowane w odpowiednich plikach models.py:
+
+# `companies/models.py`.
+class Firma(TenantMixin):
+    name = models.CharField(max_length=255)
+oraz
+
+# `projects/models.py`
+class Projekt:
+    name = models.CharField(max_length=255)
+    is_paid = models.BooleanField()
+Zachowanie, które chcielibyśmy mieć polega na tym, że każda Firma ma swoje Projekty, które nie są dostępne dla innych firm.
+
+Jak wspomniałem wcześniej każdy najemca ma swój schemat w bazie danych. Powstaje on wraz z utworzeniem modelu, który dziedziczy po TenantMixin (Company). Rzeczą, która pozwala nam odróżnić lokatorów jest unikalna nazwa schematu (atrybut TenantMixin), którą musimy podać przy tworzeniu każdego obiektu Company. (Uwaga Olafa: to nie musi być nazwa schematu - może to być ID lub prawie wszystko naprawdę, tak długo jak jest unikalne. Ogólnie schema_name jest tylko metadaną, która pozwala nam wiedzieć gdzie szukać w db)
+
+Poza tym musimy stworzyć specyficzny schemat o nazwie "public", którego celem (O: Właściwie jest on tam w postgresie domyślnie, po prostu tworzymy model w naszej tabeli z lokatorami) jest przechowywanie globalnych danych nie specyficznych dla danego lokatora/firmy oraz wszystkich nazw schematów lokatorskich.
+
+Lokatorzy w Django
+Pytanie, które powinniśmy sobie teraz zadać brzmi: skąd Django wie, które dane powinny być przechowywane w schemacie "publicznym", a które w schematach dla konkretnych najemców? Odbywa się to w pliku settings poprzez ustawienie zmiennych SHARED_APPS i TENANT_APPS. Są to listy aplikacji Django (podobnie jak INSTALLED_APPS). Umieszczenie aplikacji w np. TENANT_APPS będzie oznaczało, że tabele dla Modeli z tej aplikacji będą tworzone w każdym schemacie tenanta. Z drugiej strony, jeśli dodamy naszą aplikację do listy SHARED_APPS, to tak jak w przypadku innych aplikacji, tabele zostaną utworzone w schemacie "publicznym".
+
+SHARED_APPS = ["companies", ...]
+TENANT_APPS = ["projekty", ...]
+Innym pytaniem jest, w jaki sposób Django wie, na którym schemacie lokatorów należy wykonać akcje? Najemcy są identyfikowani przez URL, np. żądanie URL "tenant.something.com" spowoduje, że nazwa hosta zostanie wyszukana w odpowiedniej tabeli w schemacie "public". Jeśli zostanie znalezione dopasowanie, kontekst schematu jest aktualizowany, co oznacza, że zapytania będą wykonywane w dopasowanym schemacie najemcy. Django-tenants dostarcza kilka narzędzi do ustawiania schematów z perspektywy kodu.
+
+with schema_context(schema_name):
+    # zapytania będą wykonywane względem schematu "schema_name"
+lub
+
+with tenant_context(tenant_object):
+    # zapytania będą pe wykonywane przeciwko schematowi tenant_object.
+Wiedząc to wszystko przyjrzyjmy się poniższym fragmentom kodu, aby zidentyfikować pewne błędy, które popełniłem podczas procesu myślowego.
+
+class TenantsTestCase(BaseTenantTestCase):
+    def test_tenants_example(self):
+        firmy = Company.objects.all()
+        ...
+... Oczekiwane zachowanie dla mnie byłoby uzyskać wszystkie firmy, wynik był pusty QuerySet. Ok, może muszę stworzyć jeden, spróbujmy.
+
+class TenantsTestCase(BaseTenantTestCase):
+    def setUp(self):
+        Company.objects.create(name="Testowa firma", schema_name="testowa_schema").
+    def test_tenants_example(self):
+        companies = Company.objects.all()
+Tym razem otrzymałem błąd
+
+Nie można utworzyć lokatora poza publicznym schematem. Aktualny schemat jest testowy
+
+Zadałem sobie pytanie "Co się dzieje?", Ale udało mi się znaleźć gdzieś użycie schema_context. Więc spróbowałem:
+
+class TenantsTestCase(BaseTenantTestCase):
+    def setUp(self):
+        Company.objects.create(name="Testowa firma", schema_name="testowa_schema").
+    def test_tenants_example(self):
+        companies = Company.objects.all()
+Świetnie, tym razem nie ma błędu. Tak czy inaczej, zmienna companies to wciąż pusty QuerySet. Ostatnia próba:
+
+class TenantsTestCase(BaseTenantTestCase):
+    def setUp(self):
+        with schema_context("public"):
+            Company.objects.create(name="Testowa firma", schema_name="testowa_schema").
+            Company.objects.create(name="Testowa firma", schema_name="testowa_schema")
+    def test_najemcy_example(self):
+        with schema_context("public"):
+            companies = Company.objects.all()
+Wreszcie, tym razem otrzymałem QuerySet z dwoma obiektami Company. Ale czekaj, przecież stworzyłem jeden. Czas połączyć to wszystko w całość.
+
+Okazuje się, że kiedy uruchamiamy testy z Django-tenants, tworzony jest nowy tenant, z schema_name "test" i wszystkie zapytania wykonywane są przeciwko temu schematowi, chyba że go przełączymy. (O: Przynajmniej w naszym przypadku, ponieważ używamy przypadku FastTenant -> w przeciwnym razie będziesz tworzył nowych lokatorów zbyt często, a oni będą zbyt długo działać)
+
+
+
+class TenantsTestCase(BaseTenantTestCase):
+    def setUp(self):
+        # schema_context = "test"
+        with schema_context("public"):
+            # schema_context = "public"
+            Company.objects.create(name="Testowa firma", schema_name="testowa_schema")
+    def test_najemcy_example(self):
+        # schema_context = "test"
+        with schema_context("public"):
+            # schema_context = "public"
+            companies = Company.objects.all()
+        # schema_context = "test"
+Teraz pamiętajmy, że Company, który jest naszym obiektem lokatorskim jest przechowywany w schemacie "public" więc puste QuerySety, które otrzymaliśmy wcześniej były poprawne, ponieważ próbowaliśmy szukać obiektu Company w schematach, które ich nie zawierają. Idąc dalej, tworzenie obiektu Project musi odbywać się w kontekście konkretnego schematu lokatorskiego, ponieważ to właśnie tam przechowywane są jego tabele.
+lass TenantsTestCase(BaseTenantTestCase):
+    def test_tenants_example(self):
+       # Tutaj możemy stworzyć projekt, ponieważ jesteśmy w kontekście "test" 
+       # tenant
+       Project.objects.create(name="Projekt testowy", is_paid=True)
+       with schema_context("public"):
+            # Tutaj nie możemy stworzyć Project, jesteśmy w "public" 
+            #context,no tables for Project here
+            companies = Company.objects.all()
+Dla mnie praca z lokatorami rozwiązuje się wokół śledzenia, jak zmienia się kontekst, aby zawsze wiedzieć, jakie zapytania mogę wykonać i jakich efektów się spodziewać.
+
+Mentor's take
+Ok. Wystarczy z perspektywy Dominika. Teraz czas na mnie. Dajmy Ci trochę kontekstu na szerszym poziomie. To, co przeczytałeś do tej pory, to zrozumienie przez Dominika koncepcji najmu i tego, jak używamy jej w thirty3. Jest mniej więcej poprawny, niektóre rzeczy są zbyt uproszczone, ale ogólna idea jest tam. Jestem z niego trochę dumny, mi zajęło znacznie więcej czasu, aby zrozumieć pewne rzeczy. Postaram się przekazać wam więcej informacji dotyczących procesu decyzyjnego, który mieliśmy, gdy zaczęliśmy używać lokatorów, dlaczego ich używamy i dlaczego wy też możecie chcieć to zrobić.
+
+Zacznijmy.
+
+Czym są lokatorzy?
+Pierwsza rzecz - lokatorzy. Czym oni są? To taka koncepcja, używana najczęściej w np. produktach SaaS, że jak uprościsz sprawę, to oni są Twoimi klientami. Ja przynajmniej lubię myśleć w ten sposób. Kiedy tworzysz rozwiązanie na miarę dla danej Firmy, tylko ta Firma jest tam użytkownikiem, przez większość czasu.
+
+Niektóre rzeczy są zdefiniowane globalnie w tym DB, inne rzeczy są zdefiniowane i powinny być dostępne tylko dla tej Firmy i tak dalej. W normalnym przypadku, gdy tylko ta firma będzie korzystać z aplikacji, nie musisz myśleć o tym dużo. Problem pojawia się, gdy chcesz zglobalizować tę aplikację i mieć wiele firm. Wszystkie z nich mają jakieś prywatne dane, jakieś publiczne. Te dane powinny być oddzielone i niedostępne dla innych firm korzystających z danego SaaS. Potrzebujesz kolejnej warstwy abstrakcji, która logicznie wiąże lub enkapsuluje te dane firmowe. Aw shiet, here go tenants. Jakie są inne korzyści?
+
+Skalowanie SaaS
+W miarę upływu czasu i rozwoju naszych aplikacji, gdy zaczynasz otrzymywać klientów, którzy nie są twoją najbliższą rodziną ani inwestorami, sprawy zaczynają się komplikować. Prywatność staje się nagle ważna. Naruszenie danych/wycieki są kosztowne. Następnie produkt zaczyna zdobywać trakcję, twoja baza użytkowników rośnie, optymalizacja staje się problemem. Zdarza się to w prawie każdym udanym produkcie.
+
+Dobrze jest pomyśleć o tych problemach i przygotować się na nie, ale tylko tyle ile trzeba, żeby nie przesadzić z inżynierią. W naszym przypadku, przez większość czasu, zdecydowaliśmy się użyć wzorca Tenant do tego, używając schematów DB do realizacji. Dzięki temu trudniej jest nam wyciekać dane naszych klientów i łatwiej skalować naszą aplikację, nie obciążając przy tym zbytnio naszego czasu pracy.
+
+Metody skalowania bazy danych
+Bo co jest czynnikiem ograniczającym przez większość czasu, w wielu aplikacjach? DB. Jakie są sposoby skalowania DB? Poziomy i pionowy. Pionowy oznacza, że masz jeden DB, na który po prostu rzucasz więcej zasobów - lepszy sprzęt. Takie skalowanie ma swoje granice. Gdy je trafisz, nieważne ile masz pieniędzy - to już koniec. Czy możesz coś z tym zrobić?
+
+Tu z pomocą przychodzi skalowanie poziome, czyli używanie większej ilości maszyn/DB zamiast jednej. Jest to również dość podstępne - nie chodzi tylko o tworzenie większej liczby instancji db. W grę wchodzą takie rzeczy jak wzorce master-slave, spójność danych, sieć węzłów i tak dalej. Dość złożony temat, jeśli mnie zapytasz. Tak czy inaczej.
+
+Oczywiście ten sposób ma również ograniczenia, ale często są one znacznie większe niż ograniczenia pionowo skalowanego systemu
+
+. Teraz - zarządzanie lokatorami w produkcie podobnym do SaaS można zrobić na wiele różnych sposobów. Pierwszym z nich jest DB na klienta. Tutaj prawdopodobnie mielibyśmy jeden większy DB z rzeczami współdzielonymi globalnie w aplikacji, a następnie mniejsze (lub większe) DB z danymi unikalnymi dla klienta.
+
+Drugim jest Schema per client, czyli jeden DB, który jest prawie podzielony na subdbs - zbytnio upraszczam, ale wytrzymaj. Trzeci to niestandardowe uprawnienia i relacje w tabelach, na przykład z danymi wszystkich klientów umieszczonymi w jednym schemacie, jednym db.
+
+Pierwszy jest kosztowny i kłopotliwy w zarządzaniu na mniejszą skalę.
+
+3. często kończy się niechlujnymi tabelami DB, obawami o prywatność.
+
+Drugi natomiast... Cóż, prawie nie nakłada kosztów na sytuację, w której miałbyś zwykłą architekturę pojedynczego schematu/DB - nie jest to architektura SaaS, ale ułatwia skalowanie i rozdzielanie danych klienta poprzez abstrakcję DB - zamiast mieć wiele DB, które są kłopotliwe w zarządzaniu, używa jednego DB tak, jakby było ich "wiele", przynajmniej w pewnym sensie.
+
+Dlatego zdecydowaliśmy się na to rozwiązanie. I szczerze mówiąc, jesteśmy całkiem zadowoleni z wyników.
+
+Dużym atutem dla najemców jest również fakt, że operowanie na zestawach zapytań jest o wiele łatwiejsze. Zapytanie o faktury tylko z danej firmy? Wystarczy ustawić odpowiedni kontekst i to wszystko.
+
+Różne metody zarządzania lokatorami
+Tak zwana ścieżka wyszukiwania, którą ustawiamy dla zapytań Postgresa za pomocą naszego db routera, może być ustawiona na wiele sposobów. Tradycyjny wzorzec lokatora wykorzystuje subdomeny jako sposób identyfikacji lokatora - np. x.myproduct.com będzie wyszukiwał lokatora x. To jeden ze sposobów. Należy pamiętać, aby zabronić użytkownikom rejestrowania lokatorów z nazwami często używanych subdomen np. ftp, mail, static i tak dalej, w przeciwnym razie może czekać nas niemiła niespodzianka. Pamiętaj również, aby mieć certyfikaty, które mają symbol wieloznaczny dla subdomen - w przeciwnym razie zostaniesz bez SSL dla subdomen swoich najemców, co jest całkiem do bani.
+
+Innym rozwiązaniem jest na przykład umieszczenie go jako części adresu url, ale nie subdomeny. Na przykład: example.com/v1/tenant/someendpoint . Zazwyczaj używamy tego ostatniego.
+
+Co zrobili dla nas lokatorzy
+Osiągnęliśmy:
+
+brak dodatkowych kosztów zarządzania infrastrukturą
+na początku możemy zacząć od jednego DB
+łatwo jest skalować -> zmieniamy sposób w jaki ustawiamy ścieżkę wyszukiwania dla schematu i gotowe -> poziome skalowanie jest proste
+dane klientów są oddzielone w lepszy sposób
+nie musimy się martwić o skomplikowane zestawy zapytań.
+To byłby więc mały rzut oka na architekturę lokatorów, którą wybieramy. Oczywiście tylko lekko dotknąłem tematu. Tak czy inaczej.
+
+Ten artykuł jest raczej ćwiczeniem dla Dominika, aby nauczył się wyrażać siebie i zaczął pisać, komunikować się, niż czymś, co ma być ekstremalnie wypełnione wiedzą.
+
+Nie tak dawno temu napisałem post o moich pierwszych miesiącach na trzydziestce3, uważając się wtedy jeszcze za Juniora. Teraz jestem kimś, kto ma za swojego protegowanego osobę Junior. Feels nice. Wzrost. Podoba mi się to.
+
+Tak więc, dość o tym ćwiczeniu. Dziękuję wszystkim za czytanie i do zobaczenia wkrótce.
+
+PS: minusy posiadania mnie jako mentora - prawdopodobnie zaczniesz pisać.
 
 ## ORM
 
