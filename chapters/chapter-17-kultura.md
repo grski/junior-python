@@ -10,7 +10,13 @@ Dobry menago/lider zespołu jest osobą, która może albo zespół doprowadzić
 
 Na mej programistycznej drodze spotkałem już wielu menadżerów w wielu różnych firmach. Niektórzy byli wspaniali, wpłynęli pozytywnie na moje życie, inni byli kompletnymi kretynami, jeszcze inni zaś są dla mnie teraz prawie jak rodzina. Po pewnym czasie zacząłem przyuważać pewne wzorce, które występowały prawie zawsze, i które pozwoliły mi wyizolować trzy graniczne poziomy bycia menadżerem.
 
-### Poziom pierwszy: mistrz Excela
+### Poziom pierszy: mistrz Excela
+
+Mistrzowie Excela to często świeżo upieczeni menadżerowie, liderzy, którzy nie mają jeszcze za dużo doświadczenia, ale za to pełno ego, dumy i buńczuczności. Świat stoi przed nimi otworem i jest do zdobycia! Uwielbiają swoje arkusze, wszystko w nich zapisują, optymalizują, czasami uprawiają mikromagament. To ludzie będący w początkowym okresie kariery menadżerskiej, gdzie człowiek może się nieco upoić początkowo swoją włądzą.
+
+Ten typ człowieka widzi często tylko jedną rzecz: piniondz. Oj często takich spotykałem do pewnego czasu, za często. Pazeroty. I to oni są właśnie najbardziej niebezpiecznym typem menadżera, jaki się firmie może przytafić, spośród trzech wymienionych przeze mnie. Dlaczego? Bo mylne pozory dają.
+
+Pozornie rzecz ujmując mistrzowie Excela wyglądają całkiem spoko. Cyferki się zgadzają, plany, prezentacje, no bajeczka. ALe nie do końca. W rzeczywistości wszystko się rozje
 
 ### Poziom drugi: empatyczny akolita excela 
 

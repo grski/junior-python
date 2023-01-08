@@ -454,6 +454,6 @@ Data zaczęcia: 12/2017
 1. [Nowa firma] Wiek: 19, doświadczenie: 1,5 roku, stanowisko: Python Developer + trochę coś tam zaczynam into opsowanie. Zarobki: 86 zł/h netto FV. Praca zdalna.
 1. [Nowa firma/Swoja firma] Wiek: 21, doświadczenie: 3 lata, stanowisko: Tech Lead/Engineer/CEO/księgowy/Technical product analyst - własna f. Zarobki: 15-60k/msc netto FV.
 1. [Nowa firma] Wiek: równo 23, doświadczenie: ~5 lat, stanowisko: Tech Lead, praca zdalna; Bonus za podpisanie umowy: 20k pln do łapy. Zarobki: 36k UoP Brutto + bonus w postaci opcji o wartości 130k EUR vestowanych przez 5 lat, czyli średnio licząc z opcjami wychodzi około 45k brutto na UoP. Do tego 26 dni urlopu i 3k euro roczny budżet rozwojowy. Bajka, co? Była, aż do czasu gdy pierwszego tygodnia pracy ktoś przeczytał mój artykuł o tym, iż zarządzać ludźmi trzeba po ludzku a nie bazując na excelu, który za zgodą i review zespołu od tworzenia treści, umieściliśmy na blogu. Wtedy zostałem zwolniony ze skutkiem natychmiastowym. Ordnung must sein.
-1. [Nowa firma, obecnie] Wiek: 23 lata, doświadczenie: ~5 lat, stanowisko: Lead Python Developer, praca zdalna; Zarobki: 36.5k netto na B2B albo 210 zł/h. Cieszę się, że z poprzednią firmą wyszło jak wyszło. 
+1. [Nowa firma] Wiek: 23 lata, doświadczenie: ~5 lat, stanowisko: Lead Python Developer, praca zdalna; Zarobki: 36.5k netto na B2B albo 210 zł/h. Cieszę się, że z poprzednią firmą wyszło jak wyszło. 
 
 \pagebreak

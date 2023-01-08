@@ -292,4 +292,24 @@ Tak właśnie wyglądały moje pierwsze dni w pracy. Czy w każdym przypadku tak
 
 Do obejrzenia: https://www.youtube.com/shorts/0P1RuLgxPNE
 
+## Nootropy - doping mózgu
+
+ Czasami zdarzy się tak, że jednak świat jest przeciwko nam i musimy z pewnych względów być wydajni, niekoniecznie wtedy, kiedy chcemy. Każdy podejmuje decyzje za siebie, jesteśmy dorosłymi ludźmi. Są pewne substancje i sposoby na to, by podbić naszą wydajność i efektywność w pracy. Opiszę tutaj dwie z nich, które są warte uwagi i rozważenia w kryzysowych sytuacjach. 
+
+Pierwszym lekiem jaki opiszę jest modafinil. Czym jest modafinil? Kojarzycie NZT z firmu Limitless z Bradleyem Cooperem? Trochę coś takiego, ale bez efektów ubocznych. Oficjalnie to lek na narkolepsje, który wzmaga czujność i koncentrację, zapobiegając zasypianiu. W skrócie - jedna tabletka, siadasz i przez 15h zamykasz się w pokoju i pracujesz. Modafinil jest lekiem i nie wykazuje właściwości euforyzujących jak na przykład kokaina, która niby ma podobne działanie. Pobudza mózg i neuroplastyczność, wzbudza koncentrację, daje energię do działania. 200 do 400mg zazwyczaj. 
+
+Nie będę wchodził w szczegóły tego, jak działa ten lek jak jest metabolizowany etc., napiszę tylko z doświadczenia, że działa. Siadasz, robisz milion więcej razy roboty. Tak po prostu. Nie polecam łączyć z kofeiną bo może być za mocno.
+
+W Polsce oficjalnie średnio można dostać w aptekach, nieoficjalnie idzie kupić za przyzwoite pieniądze. Uwaga: nie namawiam tutaj do spożywania. Wspominam tylko, że istnieje coś takiego, na mnie działa, i może nieco tłumacze jak to możliwe, że niektórzy menadżerowie czy prezesowie pracują po 16h dziennie i mają dalej kopa. :-) 
+
+Są inne leki podobne do modafinilu, lecz np. jak adderal, aczkolwiek adderal jest tak naprawdę solą amfetaminy. Modafinil nie. Modafinil król nootropów jest jak lew jest król dżungli.
+
+Metylofenidat kolejny stwór do poczytania.
+
+Osobiście zdarza mi się modafinil zażywać kiedy potrzebuje siąść i bardzo dużo wydajnie popracować lub się czegoś trudnego nauczyć jak na przykład teraz, kiedy piszę te słowa.
+
+
+
+ 
+
 \pagebreak
