@@ -175,7 +175,7 @@ Ogólnie rzecz biorąc, konteneryzacja aplikacji za pomocą Dockera pomaga zwię
 
 Do poczytania: 
 
-1. https://www.czarnaowca.it/2022/01/docker-tutorial-1-co-to-jest-docker-i-do-czego-jest-nam-potrzeby/
+1. https://www.czarnaowca.it/2022/01/docker-tutorial-1-co-to-jest-docker-i-do-czego-jest-nam-potrzeby/	
 2. https://sii.pl/blog/docker-dla-programistow-co-to-jest/
 
 ## Docker-compose
