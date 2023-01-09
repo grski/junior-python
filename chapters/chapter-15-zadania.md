@@ -115,6 +115,22 @@ To, z jakimi pytaniami się spotkasz, zależy ściśle od tego, co umieścisz w 
 
 1. `1 is 1` a tu?
 
+1. Napisz program, który sprawdzi, czy podany przez użytkownika ciąg znaków jest palindromem (ciągiem, który czytany od początku i od końca brzmi tak samo).
+
+1. Napisz program, który zliczy, ile razy dana cyfra występuje w podanym przez użytkownika ciągu cyfr.
+
+1. Napisz funkcję, która przyjmie listę liczb i zwróci ich sumę oraz średnią arytmetyczną.
+
+1. Napisz program, który utworzy słownik zawierający statystyki dotyczące liter (ile razy dana litera występuje w tekście).
+
+1. Napisz program, który wczyta plik CSV i wyświetli jego zawartość w formie tabeli.
+
+1. Napisz program, który zaimplementuje algorytm sortowania przez scalanie.
+
+1. Napisz program, który zaimplementuje algorytm sortowania szybkiego (QuickSort).
+
+1. Napisz program, który zaimplementuje algorytm Dijkstry do znajdowania najkrótszych ścieżek w grafie.
+
 ## Git
 1. Czym różni się merge od rebase?
 Odp: Merge tworzy nam ‘merge commit’, natomiast ‘rebase’ niejako wkleja nam commity z mergowanego brancha. Poza tym, używając rebase, można nieźle zepsuć git loga. Co jest lepsze? Zależy kogo zapytać, są różne szkoły.

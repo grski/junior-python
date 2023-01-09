@@ -104,7 +104,7 @@ Czym jest cache? Cache to taka jakby baza danych, ale o przeznaczeniu nieco inny
 
 Cache zatem to taka baza danych o krótkim terminie ważności, w której przychowujemy zapamiętane wyniki komputacji, tych, które są kosztowne zazwyczaj i tylko te, które dotyczą odczytu a nie zapisu do bazy danych na przykład.
 
-Czyli jeśli mamy sobie jakiś widok/funkcję, cokolwiek, która przyjmuje argument, u nas to będzie akurat jakiś request, to dla podobnych albo takich samych, cache zwróci wynik 'z pamięci' zamiast liczyć od nowa.
+Czyli jeśli mamy sobie jakiś widok/funkcję, cokolwiek, która przyjmuje argument, u nas to będzie akurat jakiś request, to dla podobnych albo takich samych, cache zwróci wynik 'z pamięci' zamiast liczyć/pobierać od nowa.
 
 Do poczytania:
 
@@ -163,9 +163,29 @@ Teraz wyobraź sobie to samo na 50 serwerach, bo akurat musicie skalować aplika
 
 Obecnie standardem jest to, że aplikacje się konteneryzuje. 
 
+Konteneryzacja aplikacji za pomocą Dockera ma wiele zalet:
+
+1. Niezawodność: Kontenery Docker pozwalają na uruchamianie aplikacji w sposób niezależny od środowiska, co oznacza, że aplikacja działa tak samo na różnych systemach operacyjnych i infrastrukturach.
+2. Elastyczność: Kontenery Docker są łatwe do przenoszenia między różnymi środowiskami, co oznacza, że można łatwo rozszerzyć aplikację na nowe platformy lub przenieść ją do chmury.
+3. Oszczędność zasobów: Kontenery Docker są lżejsze niż tradycyjne maszyny wirtualne, co oznacza, że można uruchomić więcej aplikacji na tym samym sprzęcie.
+4. Szybkość: Kontenery Docker są szybsze od maszyn wirtualnych, ponieważ nie wymagają instalowania systemu operacyjnego i wszystkich potrzebnych bibliotek.
+5. Łatwość użytkowania: Docker udostępnia narzędzie do tworzenia, dzielenia się i uruchamiania kontenerów, co ułatwia zarządzanie aplikacjami i ich zależnościami.
+
+Ogólnie rzecz biorąc, konteneryzacja aplikacji za pomocą Dockera pomaga zwiększyć niezawodność, elastyczność, wydajność i łatwość zarządzania aplikacjami, co jest szczególnie przydatne w środowisku chmurowym.
+
 Do poczytania: 
 
 1. https://www.czarnaowca.it/2022/01/docker-tutorial-1-co-to-jest-docker-i-do-czego-jest-nam-potrzeby/
 2. https://sii.pl/blog/docker-dla-programistow-co-to-jest/
+
+## Docker-compose
+
+W telegraficznym skrócie Docker Compose to takie skrypty na sterydach, które pozwalają nam łatwiej zarządzać kilkoma kontenerami. Wyobraź sobie, że mamy w jednej aplikacji bazę danych, broker i workera w dockerze. Milion plików Dockerfile potencjalnie, dużo komend do klepania etc. Bałagan ogółem.
+
+Tutaj przychodzi z pomocą plik docker-compose i narzędzie o tej samej nazwie. Pozwala ono na łatwe zarządzanie wszystkimi kontenerami aplikacji jako jednym całościowym systemem, zamiast zarządzać każdym kontenerem osobno. Docker Compose umożliwia również łatwe rozwiązywanie zależności między kontenerami, takich jak połączenia sieciowe i wymagane pliki danych.
+
+## Docker Hub
+
+Docker Hub to publiczna platforma do przechowywania i udostępniania obrazów Docker. Pozwala ona na łatwe dzielenie się obrazami z innymi osobami i używanie gotowych obrazów gotowych do uruchomienia. Docker Hub jest również integrowany z narzędziem Docker Compose, co umożliwia łatwe uruchamianie wielu kontenerów jednocześnie.
 
 \pagebreak
