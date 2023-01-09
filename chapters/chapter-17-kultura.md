@@ -16,7 +16,7 @@ Mistrzowie Excela to często świeżo upieczeni menadżerowie, liderzy, którzy 
 
 Ten typ człowieka widzi często tylko jedną rzecz: piniondz. Oj często takich spotykałem do pewnego czasu, za często. Pazeroty. I to oni są właśnie najbardziej niebezpiecznym typem menadżera, jaki się firmie może przytafić, spośród trzech wymienionych przeze mnie. 
 
-Pozornie rzecz ujmując mistrzowie Excela wyglądają całkiem spoko. Cyferki się zgadzają, plany, prezentacje, no bajeczka. ALe nie do końca. W rzeczywistości wszystko się rozjeżdża. Dlaczego są najbardziej niebezpiecznym rodzajem? Z powodu fasady, którą narzucają - nie są tymi, których zwykle podejrzewa się o bycie źródłem problemu, ale po poznaniu gatunku tego zwierza, w przyszłości często nie dostrzec i potem bardzo często ich rozpoznajesz z łatwością. Jak? Po prostu znajdź najbardziej nieszczęśliwy zespół w firmie. Milczący zespół, który trwa w cichej rezygnacji, pozornie z jakiegoś nieuchwytnego powodu. Nie szukaj zespołu, który skarży się. Oni nadal mają nadzieję. Szukaj czegoś innego.
+Pozornie rzecz ujmując mistrzowie Excela wyglądają całkiem spoko. Cyferki się zgadzają, plany, prezentacje, no bajeczka. ALe nie do końca. W rzeczywistości wszystko się rozjeżdża. Dlaczego są najbardziej niebezpiecznym rodzajem? Z powodu fasady, którą narzucają - nie są tymi, których zwykle podejrzewa się o bycie źródłem problemu, ale po poznaniu gatunku tego zwierza, w przyszłości ciężko nie dostrzec i potem bardzo często ich rozpoznajesz z łatwością. Jak? Po prostu znajdź najbardziej nieszczęśliwy zespół w firmie. Milczący zespół, który trwa w cichej rezygnacji, pozornie z jakiegoś nieuchwytnego powodu. Nie szukaj zespołu, który skarży się. Oni nadal mają nadzieję. Szukaj czegoś innego.
 
 Zespoły, które skarżą się - nadal mają chęć aby robić przynajmniej jedną rzecz - skarżyć się, narzekać. Prawdziwe porażka i rezygnacja następują, gdy nic nie ma, gdy ludzie są cisi, gdy są tak zmęczeni wszystkim, że wolą pozostać cisi i udawać, że wszystko jest dobrze, ale niestety wtedy jest tak źle, że nawet na zewnątrz, po bliższym spojrzeniu, widać jaka jest prawda. Gdy wrogowie kłócą się o coś lub się przekomarzają, to to nie jest jeszcze walka, a rozmowa, rozmawiają w pewien sposób, jest to jakaś forma komunikacji. Prawdziwa walka i dramat zaczyna się, gdy ustaje jakakolwiek forma komunikacji i pojawiają się działania, pojawiają się czyny i akcja. Terminy nie są dotrzymywane, projekty nie powodują. Często rotacja w zespole jest również bardzo wysoka. Ludzie albo zostają zaplątani w taki zespół z rezygnacji i po prostu pozostają tam przez bardzo długi czas, gnijąc na nizinach rozpaczy, albo uciekają natychmiast. Zwykle u góry takiego zespołu znajdziesz to, co nazywam Menedżerem Pierwszego Poziomu - Mistrz Excela.
 
@@ -62,7 +62,7 @@ Wracając do tematu - projekty długoterminowe. Teraz to jest miejsce, w którym
 
 Zazwyczaj poziom trzeci to poziom pierwszy lub drugi, który po prostu zawiódł wystarczająco dużo razy, który został złamany wystarczająco dużo razy i połączony w całość przez upływ czasu i autorefleksję. Rzadko jest to typ geniusza, który po prostu urodził się, aby być liderem/menedżerem.
 
-W większości przypadków trójki doświadczyły w swoim życiu wiele razy porażki i totalnej, miażdżącej klęski. Są świadome, że jesteśmy tylko ludźmi i niczym więcej. A ludzie, na niektórych poziomach, są niezwykle twardzi i wytrzymali, ale czasami mogą być tak kruchi i delikatni, że nawet najdrobniejsza rzecz może sprawić, że roztrzaskają się na kawałki. Skąd wiedzą? Bo już tam byli.
+W większości przypadków trójki doświadczyły w swoim życiu wiele razy porażki i totalnej, miażdżącej klęski. Są świadome, że jesteśmy tylko ludźmi i niczym więcej. A ludzie, na niektórych poziomach, są niezwykle twardzi i wytrzymali, ale czasami mogą być tak krusi i delikatni, że nawet najdrobniejsza rzecz może sprawić, że roztrzaskają się na kawałki. Skąd wiedzą? Bo już tam byli.
 
 Wiedzą również, że nawet jeśli jesteś złamany, możesz być znowu cały. Nawet jeśli się roztrzaskasz, możesz zostać odbudowany. To samo dotyczy zespołu.
 
@@ -167,36 +167,36 @@ Tajemniczy nagłówek. O cóż chodzi? Mianowicie o to, że każdy z nas w życi
 
 Wiedza jest bardzo cenna. To coś w co należy ciągle inwestować, gdyż daje ogromne zwroty zazwyczaj. 
 
-## Prowadzenie retrospektywy po raz pierwszy
+## Relacja z prowadzenia pierwszego retro
 
-Prowadzenie retrospektywy po raz pierwszy - relacja
+
 Ostatnio miałem okazję po raz pierwszy w życiu facylitować retrospektywę, to będzie moje podsumowanie tego doświadczenia.
 
-Pomysł zaczął się od tego, że jeden z naszych założycieli zapytał mnie, czy nie chciałbym tego zrobić.
+Pomysł zaczął się od tego, że jeden z founderów firmy dla której wtedy pracowałem zapytał mnie, czy nie chciałbym tego zrobić.
 
 Ja - agile/scrum-sceptic/whatever-sceptic, prowadzący retrospektywę? Brzmi jak przepis na katastrofę.
 
-Cóż, zgodziłem się bez wahania. Pomimo tego, że w większości nie jestem wielkim fanem całego obecnego szumu wokół agile, scrum slaves (uwielbiam ten termin i często go nadużywam) i tak dalej, to dodatkowo jedną przyjemną rzeczą, która przychodzi mi do głowy, gdy słyszę retrospektywę, jest właśnie ta piosenka. A tak na poważnie - albo to tylko ja, albo niektórzy ludzie oszaleli, wymyślając coraz bardziej ekstremalne i dziwne praktyki, jeśli chodzi o ~AGILE~, które nie przynoszą większych efektów poza denerwowaniem deweloperów i marnowaniem czasu ludzi biznesu.
+Cóż, zgodziłem się bez wahania. Pomimo tego, że w większości nie jestem wielkim fanem całego obecnego szumu wokół agile, scrum slaves (uwielbiam ten termin i często go nadużywam) i tak dalej, to dodatkowo jedną przyjemną rzeczą, która przychodzi mi do głowy, gdy słyszę retrospektywę, jest piosenka Jinjera. A tak na poważnie - albo to tylko ja, albo niektórzy ludzie oszaleli, wymyślając coraz bardziej ekstremalne i dziwne praktyki, jeśli chodzi o ~AGILE~, które nie przynoszą większych efektów poza denerwowaniem deweloperów i marnowaniem czasu ludzi z biznesu.
 
 W każdym razie - widząc mnóstwo takiego szumu, od razu staję się sceptyczny. Stąd postanowiłem sprawdzić, co jest po drugiej stronie płotu.
 
-Oczywiście zdawałem sobie sprawę, że jest wiele wartościowych praktyk, rzeczy, nawyków i schematów myślenia, których można się nauczyć od gromady Agile, to nie jest tak, że mówię, że wszystkie agile są bezużyteczne. Nie interpretuj moich słów w ten sposób. Po prostu niektórzy ludzie robią szalone rzeczy, które nie są Agile i nazywają je Agile. Szczególnie w Polsce tak się wydaje. A to czasem prowadzi do szaleństwa. Widziałem to na własne oczy, żaden psychoterapeuta nie pomógł. Odbiegam od tematu.
+Oczywiście zdawałem sobie sprawę, że jest wiele wartościowych praktyk, rzeczy, nawyków i schematów myślenia, których można się nauczyć od gromady Agile, to nie jest tak, że mówię, że wszystko co agile jest bezużyteczne. Nie interpretuj moich słów w ten sposób. Po prostu niektórzy ludzie robią szalone rzeczy, które nie są Agile i nazywają je Agile. Szczególnie w Polsce tak się wydaje. A to czasem prowadzi do szaleństwa. Widziałem to na własne oczy, żaden psychoterapeuta nie pomógł później[. Odbiegam od tematu.
 
 Ponieważ był to mój pierwszy raz, zaoferowano mi pomoc. Firma załatwiła mi kilka godzin z naszym zaprzyjaźnionym trenerem agile, który pomaga nam w budowaniu pewnych procesów w firmie. Odbyliśmy krótką rozmowę, zanim zaplanowałem swoją retrospektywę.
 
 Dowiedziałem się trochę o ustawieniu sceny, zbieraniu danych, insightach, fajnych narzędziach do wykorzystania i tak dalej. Ta szybka sesja, pomimo moich początkowych wątpliwości co do niej, pomogła mi całkiem sporo. Więc wielkie dzięki tutaj i shout out dla Marcina Konkela!
 
-Ready, set, go
+### Ready, set, go
 Tak oto nadszedł dzień i godzina. Zaczęło się spotkanie. Zdenerwowałem się, gdy już wszyscy byliśmy na miejscu. Gdyby nie to, że była to moja pierwsza retrospektywa, to ze względu na sposób pracy, a pracujemy w 100% zdalnie, była to retrospektywa zdalna. Osobiście uważam, że komunikacja zdalna jest trudniejsza - trzeba być bardziej precyzyjnym, dokładnym, bardziej komunikatywnym i uważnym. Potrzeba trochę czasu i umiejętności, żeby się do tego przyzwyczaić.
 
-Ustawienie sceny
+### Ustawienie sceny
 Zanim zaczęliśmy, postanowiłam ustalić kilka jasnych zasad i powiedzieć na głos moje założenia, które brzmiały: Nie przerywamy sobie nawzajem podczas rozmowy. Biorąc pod uwagę, jak zdalnie prowadzimy retrospektywę, musimy się tego trzymać jeszcze bardziej niż kiedykolwiek. Jeśli masz coś do dodania poza czasem swojej kolejki/mówienia, podnieś rękę do kamery. Prelegent lub moderator powinien to zauważyć i dać Ci szansę. Pierwsza osoba, która zabierze głos w danej rundzie dla danego ćwiczenia jest wybierana przez facylitatora. Osoba ta dostaje trochę czasu na odpowiedź na pytanie, podczas gdy inni słuchają. Po zakończeniu wypowiedzi wskazuje kolejną osobę, która powinna się wypowiedzieć. Po tym jak ustaliliśmy te zasady, wspomniałem o jednej rzeczy.
 
 To była retrospektywa dla naszego zespołu. Jestem częścią tego zespołu, aktywnie uczestniczę w rozwoju i pracy. Dziś jednak pełniłem rolę moderatora. Nie byłem niczym więcej. Dlatego wyraźnie zaznaczyłem, że dziś robię właśnie to - facylituję. Monitoruj, zarządzaj, ułatwiaj i moderuj rozmowy. Niech oni zrobią resztę.
 
 Ponadto, jestem trochę bezpośrednim facetem - zamiast używać jakichkolwiek wymyślnych narzędzi, po prostu poszedłem z rozmową. Żadnych karteczek post-it. Żadnych tablic. Tylko nasze twarze, głosy i ja, cicho notujący całe retro w tle. Tak - przerażające, że faktycznie musisz rozmawiać z ludźmi. Ugh.
 
-Rozgrzewka
+### Rozgrzewka
 Początkowo chciałam nieco rozjaśnić nastrój, skłonić ludzi do rozmowy, bo doskonale zdawałam sobie sprawę z tego, co w danej chwili czują. Niektórzy z nich zostali przerwani w połowie pracy, zostali wyrzuceni z flow, żeby uczestniczyć w tym spotkaniu. Są teraz w innym kontekście, więc nadszedł czas, aby sprowadzić ich tutaj, do tej chwili.
 
 Jak to zrobić? Zadałam wszystkim proste pytanie.
@@ -205,12 +205,12 @@ Co, czy to w życiu prywatnym czy zawodowym, sprawiło, że ostatnio jesteś szc
 
 Pozwoliło to zespołowi na nowe, małe spojrzenie na siebie nawzajem. Być może znalezienie nowego sposobu patrzenia na siebie. Wiem, że brzmi to prosto, ale tak właśnie było w rzeczywistości. Wszyscy zaskakująco podzielili się szczęśliwymi małymi momentami ze swojego prywatnego życia i wiecie co? Czułem, że to zacieśniło więzi, które łączą nas wszystkich jako zespół.
 
-Retrospektywa w przeszłości
+### Retrospektywa w przeszłości
 Przed tą przeprowadziliśmy w przeszłości inną retrospektywę z innym trenerem agile, w wyniku której zadeklarowaliśmy kilka celów. Teraz nadszedł czas, aby je sprawdzić. Zapytałem więc każdą osobę, która miała zdefiniowany cel, o status jej celu, jak przebiega i jaka jest jej opinia, dotychczasowe doświadczenia.
 
 Wszystkie osoby zgodnie stwierdziły, że poprzednie cele były potrzebne, są wykonane lub w trakcie realizacji i jakoś poprawiły naszą pracę. Miło.
 
-Dobrodziejstwa - zbieranie danych
+### Dobrodziejstwa - zbieranie danych
 Pracujemy w bardzo wielokulturowym i międzynarodowym zespole, a jednak mimo to jakoś tak wyszło, że na tej retrospekcji byli tylko polscy koledzy z zespołu. Sama będąc Polką, wiem o naszych dziwactwach, a jednym z nich jest narzekanie. To jak hiperinflacja, jak już się zacznie, to nie ma odwrotu.
 
 Aby wprowadzić odpowiednią atmosferę, postanowiłem najpierw porozmawiać o dobrych rzeczach, aby wprowadzić ludzi w dobry nastrój. Zadałem im wszystkim pytanie:
@@ -219,18 +219,18 @@ Jakie są pewne rzeczy, które twoim zdaniem robimy, dzięki którym dostarczamy
 
 Tutaj każdy dzielił się swoją perspektywą, spostrzeżeniami i tak dalej.
 
-Baddies - zbieranie danych
+### Baddies - zbieranie danych
 Więc, gdy jeszcze byli w dobrych nastrojach i aura była pozytywna, wrzuciłem bombę, która czasem otwiera bramy piekieł na polskich retrospektywach - co poszło źle? Przejdźmy do konkretów. Dość cukrowania. Po polsku. Cebulowy sposób.
 
 I oto zaczęło się narzekanie. Albo tak mi się wydawało - że się zacznie. Zamiast tego, nie zaczęło.
 
 Zadałem pytanie:
 
-Co według Ciebie zrobiliśmy ostatnio źle? Co zaobserwowałeś, co sprawia, że dostarczamy mniej, wolniej? Co sprawia, że twoja praca jest mniej przyjemna?
+>  Co według Ciebie zrobiliśmy ostatnio źle? Co zaobserwowałeś, co sprawia, że dostarczamy mniej, wolniej? Co sprawia, że twoja praca jest mniej przyjemna?
 
 Zamiast bezmyślnego bełkotu, zespół zrobił coś miłego. Przedstawili konstruktywne i mądre spostrzeżenia, spostrzeżenia i komentarze. Szczerze mówiąc, było to dość niesamowite. Czasami jestem zaskoczony tym, jak mądrzy są ludzie, z którymi pracuję.
 
-Happies - wciąż zbieramy dane
+### Happies - wciąż zbieramy dane
 Ponieważ lubię zmieniać nastroje tak, jak funkcja sinusoidy zmienia swoją wartość, ponownie zmieniłem temat.
 
 Tym razem postanowiłam ułatwić rozmowę o rzeczach, które robimy, a które sprawiają, że są szczęśliwi. Było to inne pytanie niż pierwsze - dobre rzeczy, które robimy - ponieważ tutaj nie chodziło o dostarczanie, produktywność i generowanie wartości. Chodziło o więzi międzyludzkie i to, jak zachowujemy się wobec siebie, jak wchodzimy w interakcje. Pomyślałem, że byłoby miło, gdyby powiedzieli sobie nawzajem, co zauważają w zachowaniu innych i co doceniają.
@@ -239,14 +239,14 @@ Nie wiem jak Wy, ale ja lubię czasem poklepać się po plecach - znak, że kto�
 
 A więc:
 
-Co doceniasz, że my robimy? Nie w aspekcie produktywności, kodowania czy techniczności, ale po prostu jak człowiek - co sprawia, że chcesz z nami przebywać i spędzać nasz czas razem?
+>  Co doceniasz, że my robimy? Nie w aspekcie produktywności, kodowania czy techniczności, ale po prostu jak człowiek - co sprawia, że chcesz z nami przebywać i spędzać nasz czas razem?
 
 I ten, o rany, ten punkt był dość słodki szczerze mówiąc. Więc jeśli mieliśmy słodkie, to czas na gorzkie ponownie.
 
-Przestań, to boli.
+### Przestań, to boli.
 Teraz postanowiłem trochę zmącić wody. Wrzuciłem temat:
 
-Cele do poprawy. Co powinniśmy przestać robić? Co powinniśmy osiągnąć, żeby się poprawić?
+>  Cele do poprawy. Co powinniśmy przestać robić? Co powinniśmy osiągnąć, żeby się poprawić?
 
 I tu postanowiłem, że ta retrospektywa nie powinna zakończyć się tylko pustym gadaniem. Znaczy tak jasne, poprawiliśmy trochę więzi, poznaliśmy się trochę lepiej i mieliśmy blasta rozmawiając ze sobą (naprawdę!), ale dla mnie to za mało.
 
@@ -260,18 +260,20 @@ Dlaczego? O ile ufam moim kolegom z zespołu, że w pełni zrealizują rzeczy zw
 
 To też się udało - prawie każdy zdecydował się na jakieś zadania dla siebie.
 
-Incepcja
-Po tym przyszedł czas na małe incepcje. Retrospektywę na retrospektywę. W zasadzie krótka runda informacji zwrotnych dotyczących dzisiejszej retrospektywy, mojej facylitacji, wygenerowanej wartości i tak dalej. Podobno im się podobało, albo tak powiedziała. Tak.
+### Incepcja
+Po tym przyszedł czas na małą incepcje. Retrospektywę na retrospektywę. W zasadzie krótka runda informacji zwrotnych dotyczących dzisiejszej retrospektywy, mojej facylitacji, wygenerowanej wartości i tak dalej. Podobno im się podobało, albo tak powiedziała. Tak.
 
 To by było chyba na tyle. Po tym retrospektywa dobiegła końca. Przeżyłem i faktycznie uznałem ją za sensowną. Ale z drugiej strony dość wymagające.
 
 Jestem młody, mam problem z moim ego, wiesz. Ciężko było być na uboczu, przez większość czasu tylko obserwować, być moderatorem, zamiast aktywnym uczestnikiem. Miałem kilka momentów, w których chciałem porzucić moją rolę moderatora i zaangażować się jako członek zespołu, zaczynając moje niekończące się gadanie, wrzucając swoje dwa grosze, ale powstrzymałem się od tego, udawało mi się pozostać w swojej roli.
 
-To było trochę pokorne i satysfakcjonujące, szczerze mówiąc.
+To było trochę uczące pokory i satysfakcjonujące, szczerze mówiąc.
 
-Żebyś wiedział, później te zadania, które zdefiniowaliśmy - zostały wykonane. Więc tak naprawdę nie skończyło się tylko na pustym gadaniu. Podobno ten pomysł z właścicielami/obserwatorami też trochę pomógł - może się przyda? Nie mam pojęcia.
+### Podsumowanie
 
-Więc cóż, procesy Agile też mogą być fajne i przydatne, to po pierwsze. Po drugie, wykaż się empatią i sprawdź drugą stronę płotu. Może jest tam coś wartościowego, tylko o tym nie wiesz. Na koniec wyjdź ze swojej strefy komfortu. Dzięki temu będziesz się rozwijać.
+Żebyś wiedział, później te zadania, które zdefiniowaliśmy - zostały wykonane. Więc tak naprawdę nie skończyło się tylko na pustym gadaniu. Podobno ten pomysł ze strażnikami dla zadań też trochę pomógł - może się przyda i tobie? Nie mam pojęcia.
+
+Więc cóż, procesy Agile też mogą być fajne i przydatne, to po pierwsze. Po drugie, wykaż się empatią i sprawdź drugą stronę płotu, jeśli masz jakąś konkretną opinię albo może się w czymś mocno z kimś nie zgadzasz, spróbuj zrozumieć. Może jest tam coś wartościowego, tylko o tym nie wiesz. Na koniec wyjdź ze swojej strefy komfortu. Dzięki temu będziesz się rozwijać. Coaching na całego. Kto ci ukradł marzenia?
 
 Jeśli i Ty przygotowujesz się do swojego pierwszego retro, może ten artykuł będzie dla Ciebie pomocny. Ponadto: protip. Róbcie notatki. Ja tak zrobiłem. Potem, już po retro, zamieniłem je w ładną stronę confluence i zadania na Jira.
 

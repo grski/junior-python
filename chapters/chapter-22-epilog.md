@@ -24,6 +24,7 @@ Oprócz przeczytania tej książki, równocześnie lub nawet przed przeczytaniem
 10. python-awesome, django-awesome, fastapi-awesome <- repo na githubie, które zbierają listę popularnych, sprawdzonych i ciekawych projektów, które niejednokrotnie ułatwią Ci życie.
 11. Sebastian Opałczyński <- polecam twórczość i różne projekty, też robi różne edukacyjne temaciki. Kursy, szkolenia etc. Kilogramy czystej wiedzy. To osoba, która ukształtowała mnie w dużym stopniu i wyciągnęła mnie za uszy do miejsca w którym jestem. Polecam. Gorąco.
 12. Remote - Jason Fried <- o pracy zdalnej, która dziś jest nieodzownym elementem.
+13. [Blog: The Pragmatic Engineer](https://blog.pragmaticengineer.com/) 
 
 Pozycje poszerzające horyzonty, ale które można przeczytać nieco później.
 

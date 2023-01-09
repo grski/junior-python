@@ -1,3 +1,5 @@
+\pagebreak
+
 # Zmienne, wprowadzenie
 
 Dobrze, trochę sobie poprintowaliśmy, jest okej. Nie jest to jednak coś bardzo ekscytującego. Czy Python potrafi coś innego w ogóle? W innym wypadku to taki słaby z niego język w sumie. Oczywiście, że umie dużo więcej.

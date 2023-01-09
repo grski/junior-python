@@ -1,5 +1,3 @@
-
-
 \pagebreak
 
 # Papierologia i pieniądze

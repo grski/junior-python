@@ -1,3 +1,5 @@
+\pagebreak
+
 # Witaj, Świecie!
 
 Wreszcie zaczynamy zabawę z kodowaniem! Uf, trochę nam to zajęło, co? Tylko jakieś 50 stron. W każdym razie.

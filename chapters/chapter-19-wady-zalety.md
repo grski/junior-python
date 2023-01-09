@@ -172,4 +172,6 @@ Bycie programistą ma swoje wady i zalety. Szczerze, więcej zalet moim zdaniem.
 
 Wymieniłem tutaj po trochu zarówno wad jak i zalet, może da Ci to kapkę szerszą perspektywę.
 
+
+
 \pagebreak

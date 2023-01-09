@@ -1,3 +1,5 @@
+\pagebreak
+
 # Python, o co chodzi?
 
 ## Python – o co chodzi?

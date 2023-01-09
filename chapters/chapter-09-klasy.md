@@ -6,11 +6,15 @@
 
 ## Klasy
 
-Można o klasach myśleć jak o po prostu pewnych zbieraninach funkcji. Funkcje tworzone wewnątrz klasy nazywają się nagle `metodami`. 
+Można o klasach myśleć, w uproszczeniu, jak o po prostu pewnych zbieraninach funkcji. Funkcje tworzone wewnątrz klasy nazywają się nagle `metodami`. 
 
 Klasy można 'łączyć', co nazywa się dziedziczeniem. Przykład klasy:
 
+
+
 \pagebreak
+
+
 
 ```python
 from collections import defaultdict
@@ -63,9 +67,9 @@ Do poczytania:
 
 `super()` to nic innego jak sposób wywołania metody z klasy po której dziedziczymy. Tylko tyle i aż tyle. Czyli coś a'la jak matka krzyczy 'zawołaj starego'. 
 
-Jeśli dziedziczymy po kilku klasach, co w Pythonie jest dozwolone, które implementują tę samą metodę, to to, która metoda zostanie użyta, jest decydowane przez MRO. Method resolution order. 
+Jeśli dziedziczymy po kilku klasach, co w Pythonie jest dozwolone i częste w zasadzie, które implementują tę samą metodę, to to, która metoda zostanie użyta, jest decydowane przez MRO. Method resolution order. 
 
-Method Resolution Order (MRO) to sposób, w jaki Python odwzoruje dziedziczenie wielokrotne w klasach. MRO określa kolejność, w jakiej Python szuka metod w klasach podczas wywoływania metody na obiekcie.
+Method Resolution Order (MRO) to sposób, w jaki Python odwzoruje dziedziczenie wielokrotne w klasach. MRO określa kolejność, w jakiej Python szuka metod w klasach podczas wywoływania metody na obiekcie i z której klasy odpala metodę.
 
 Przykładowo, jeśli mamy następujące trzy klasy:
 
@@ -109,7 +113,7 @@ Algorytm C3 działa następująco:
 
 Resztę pominę.
 
-Algorytm C3 jest stosowany w Pythonie od wersji 2.3. Jest on uważany za bardziej elegancki i prosty niż poprzedni algorytm stosowany w Pythonie (algorithmic depth-first search). Algorytm C3 zapewnia spójne i łatwe do przewidzenia wyniki dla MRO, co umożliwia lepszą kontrolę nad dziedziczeniem wielokrotnym w klasach.
+Algorytm C3 jest stosowany w Pythonie od wersji 2.3. Jest on uważany za bardziej elegancki i prosty niż poprzedni algorytm stosowany w Pythonie (algorithmic depth-first search). Algorytm C3 zapewnia spójne i łatwe do przewidzenia wyniki dla MRO, co umożliwia lepszą kontrolę nad dziedziczeniem wielokrotnym w klasach i mniej niespodzianek na produkcji :) 
 
 Do poczytania: https://www.educative.io/answers/what-is-mro-in-python
 
@@ -117,7 +121,7 @@ Do poczytania: https://www.educative.io/answers/what-is-mro-in-python
 
 Koncept, jaki warto kojarzyć, by tworzyć ładne interfejsy i sensowne klasy to metoda klasowa i metoda statyczna.
 
-Co to znaczy? Metoda klasowa/classmethod to taka metoda, która nie potrzebuje instancji danej klasy, jedynie samej klasy. Znaczy to tyle, że nie będziemy mieli dostępu do zainicjalizowanego obiektu i jego atrybutów, które definiujemy w `__ini__` a jedynie do zmiennych na poziomie samej klasy, czyli w jej scopie.
+Co to znaczy? Metoda klasowa/classmethod to taka metoda, która nie potrzebuje instancji danej klasy, jedynie samej klasy. Znaczy to tyle, że nie będziemy mieli dostępu do zainicjalizowanego obiektu i jego atrybutów, które definiujemy w `__init__` a jedynie do zmiennych na poziomie samej klasy, czyli w jej scopie.
 
 Metoda statyczna, to metoda, która nie potrzebuje nawet zmiennych z klasy i się do nich nie odnosi, nie odnosi się też do innych metod z danej klasy.
 
@@ -156,22 +160,23 @@ print(person2.age)
 print(Person.is_adult(22))
 ```
 
-
-
 Do poczytania: https://www.geeksforgeeks.org/class-method-vs-static-method-python/?ref=lbp
 
 ## Menadżery kontekstu
 
-Menadżery kontekstu to takie klasy, które definiują `__enter__` oraz `__exit__`. To te cosie, których używamy razem z klauzulą `with`. W skrócie, te klasy po prostu definiują magiczne metody, które są odpalane przy wejściu do bloku kodu z with oraz po ukończeniu przetwarzania tego bloku. Pozwalają one nam, cóż, ustawić jakiś określony kontekst a potem po nim posprzatać.
+Menadżery kontekstu to takie klasy, które definiują `__enter__` oraz `__exit__`. To te cosie, których używamy razem z klauzulą `with`. W skrócie, te klasy po prostu definiują magiczne metody, które są odpalane przy wejściu do bloku kodu z with oraz po ukończeniu przetwarzania tego bloku i wyjściu z niego. Pozwalają one nam, cóż, ustawić jakiś określony kontekst a potem po nim posprzatać.
 
 Przykładem dobrym są tu operacje na plikach. Najpierw chcemy plik otworzyć, ustawić odpowiednio kursor etc a dopiero na nim pracować. Jak skończymy pracę na pliku to chcielibyśmy go zamknąć, żeby nic nie wisiało w pamięci. Zamiast robić to ręcznie za każdym razem, używamy kontekst menadżera, który wchodzi cały na biało.
 
 ```python
 class File(object):
+    
     def __init__(self, file_name, method):
         self.file_obj = open(file_name, method)
+        
     def __enter__(self):
         return self.file_obj
+    
     def __exit__(self, type, value, traceback):
         self.file_obj.close()
 
@@ -189,6 +194,7 @@ def open_file(name):
         yield f
     finally:
         f.close()
+
 with open_file('some_file') as f:
     f.write('hola!')
 ```
@@ -197,9 +203,9 @@ Do poczytania: https://realpython.com/python-with-statement/
 
 ## Typehints
 
-Type hinting to mechanizm w Pythonie, który pozwala niejako "podpowiedzieć" interpreterowi jakiego typu danych oczekujemy w danym miejscu programu. W Pythonie nie ma konieczności deklarowania typów zmiennych, więc type hinting jest opcjonalnym narzędziem, które można wykorzystać w celu ułatwienia kodowania lub dokumentowania kodu.
+Type hinting to mechanizm w Pythonie, który pozwala niejako "podpowiedzieć" programiście jakiego typu danych oczekujemy w danym miejscu programu. W Pythonie nie ma konieczności deklarowania typów zmiennych, więc type hinting jest opcjonalnym narzędziem, które można wykorzystać w celu ułatwienia kodowania lub dokumentowania kodu.
 
-Type hinting może być używany w kilku różnych miejscach kodu, takich jak deklaracje funkcji i metod, oraz w komentarzach.
+Type hinting może być używany w kilku różnych miejscach kodu, takich jak deklaracje funkcji, zmiennych i metod, oraz w komentarzach.
 
 Przykłady użycia type hinting:
 
@@ -226,7 +232,57 @@ Do poczytania:
 1. https://towardsdatascience.com/12-beginner-concepts-about-type-hints-to-improve-your-python-code-90f1ba0ac49
 2. https://docs.python.org/3/library/typing.html
 
+## Docstrings
+
+Docstringi (ang. "documentation strings") to ciągi znaków umieszczane w kodzie Python, które służą jako dokumentacja do kodu. Są one umieszczane bezpośrednio po deklaracji funkcji, metody, klasy itp. i są zwykle umieszczane w trójkątnych nawiasach.
+
+Docstringi są często używane do opisywania tego, co dana funkcja, metoda lub klasa robi, jakie argumenty przyjmuje i jakie wartości zwraca. Docstringi są później używane przez narzędzia do tworzenia dokumentacji (np. Sphinx) do automatycznego tworzenia dokumentacji kodu.
+
+Oto przykład użycia docstringów w Pythonie:
+
+```python
+def add(x, y):
+  """
+  Funkcja dodająca dwie liczby.
+
+  Args:
+    x (int): pierwsza liczba do dodania
+    y (int): druga liczba do dodania
+
+  Returns:
+    int: suma dwóch liczb
+  """
+  return x + y
+```
+
+W powyższym przykładzie docstring opisuje, co robi funkcja `add`, jakie argumenty przyjmuje i jakie wartości zwraca.
+
+Uwaga: pamiętaj, że docstringi muszą być umieszczone bezpośrednio po deklaracji funkcji i muszą być zamknięte w trójkątnych nawiasach. Docstringi nie mogą zawierać żadnych instrukcji kodu ani nie mogą być używane jako zwykłe komentarze.
+
+Docstringi i type hinty to diabelsko użyteczne rzeczy, które naprawde gorąco polecam stosować. Nawet jak pracujesz samodzielnie nad projektem amatorskim. Dlaczego? Bo sam też zapominasz co robił dany kod. O wiele łatwiej wrócić do własnego projektu nawet, wtedy, kiedy jest on dobrze udokumentowany za pomocą type hintów czy docstringów i treściwych komentarzy.
+
+Bzdury typu "Dobry kod nie wymaga komentarzy" zostawmy między bajka
+
 ## Operator is
+
+Operator `is` w Pythonie służy do sprawdzania, czy dwie zmienne wskazują na to samo miejsce w pamięci. Natomiast operator `==` służy do sprawdzania, czy dwie zmienne zawierają tę samą wartość.
+
+Oto przykład użycia operatorów `is` i `==`:
+
+```python
+x = [1, 2, 3]
+y = x
+z = [1, 2, 3]
+
+print(x is y)  # wypisze True
+print(x is z)  # wypisze False
+print(x == y)  # wypisze True
+print(x == z)  # wypisze True
+```
+
+W powyższym przykładzie zmienna `x` i `y` wskazują na to samo miejsce w pamięci (obie zmienne wskazują na tę samą listę), dlatego operator `is` zwraca wartość True. Zmienna `z` zawiera tę samą wartość co zmienna `x`, ale wskazuje na inną lokalizację w pamięci, dlatego operator `is` zwraca False. Natomiast operator `==` sprawdza tylko wartości obu zmiennych, więc zwraca True zarówno dla porównania `x == y`, jak i `x == z`.
+
+Uwaga: pamiętaj, że operator `is` jest szybszy niż operator `==`, ponieważ nie musi porównywać wartości zmiennych, ale sprawdza tylko, czy wskazują one na to samo miejsce w pamięci. Dlatego operator `is` jest często używany w miejscach, gdzie szybkość jest ważna, a dokładność porównania nie jest konieczna.
 
 ##  
 

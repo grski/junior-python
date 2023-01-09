@@ -1,4 +1,7 @@
+\pagebreak
+
 # Ustawiamy środowisko
+
 Przejdźmy wreszcie do czegoś konkretnego – ubrudźmy sobie nieco ręce, bo do tej pory tylko gadam i gadam. Zaczniemy od ustawienia środowiska/zainstalowania Pythona oraz czegoś do edycji tekstu. Tylko moment, czego? Istnieją dwie opcje – prosty edytor tekstu lub IDE. Co wybierzemy my?
 
 

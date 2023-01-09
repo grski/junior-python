@@ -33,6 +33,17 @@ Wiem, że wydać się to może śmieszne, ale podświadomie nieco bardziej powa�
 
 Na koniec dnia oczywiście liczy się tylko to, czy dowozisz i nie jesteś dzbanem, ale wciąż.
 
+Oto kilka wskazówek dla osób pracujących zdalnie:
+
+1. Stwórz odpowiednie miejsce do pracy: Zadbaj o to, aby Twoje miejsce pracy było wygodne i ergonomiczne. Unikaj pracy z łóżka lub na kanapie, ponieważ może to prowadzić do problemów z kręgosłupem i innych schorzeń.
+2. Ustal granice czasowe: Ważne jest, aby ustalić granice czasowe dla swojej pracy, tak aby móc odpowiednio rozdzielić pracę i życie prywatne.
+3. Zadbaj o dobrą komunikację: Praca zdalna wymaga dobrej komunikacji z innymi członkami zespołu i przełożonymi. Upewnij się, że masz dostęp do odpowiednich narzędzi komunikacyjnych, takich jak komunikatory internetowe lub wideokonferencje.
+4. Dbaj o swoje zdrowie: Praca zdalna może prowadzić do siedzącego trybu życia, co nie jest zdrowe. Upewnij się, że zachowujesz prawidłową postawę przy komputerze i wstań co jakiś czas, aby się rozprostować i zrobić kilka ćwiczeń.
+5. Utrzymuj dyscyplinę: Praca zdalna może być trudna, jeśli nie masz odpowiedniej dyscypliny. Ustal swój plan dnia i trzymaj się go tak, jakbyś pracował w biurze.
+6. Zachowaj rutynę: Praca zdalna może być rozpraszająca, więc ważne jest, aby zachować rutynę, taką jak ustalenie stałych godzin pracy i utrzymywanie regularnych przerw.
+
+
+
 
 
 \pagebreak
