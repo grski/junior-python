@@ -42,7 +42,7 @@ Jest bowiem we mnie i zawsze było, pragnienie rozwoju, które przez jakiś czas
 
 A jak już to zrobiłem, to postanowiłem spisać swoje przemyślenia, wiedzę i doświadczenia właśnie tu, ale to nie jedyny powód.  Żeby napisać tę książkę, sam będę musiał się w sporej ilości tematów dokształcić, by przedstawić wszystko rzetelnie i sensownie, gdyż wstyd byłoby mi dawać Ci, drogi czytelniku, bubel zrobiony na odwal się, byle coś wydać.
 
-W tej chwili nie wiem, ile ta książka ostatecznie będzie liczyła stron, ale pewien jestem jednego, że raczej krótka to ona nie będzie. Mentalnie mam wstępny obraz, który mówi mi, że poniżej 300 stron, to nie zejdę. Zwłaszcza biorąc pod uwagę fakt, że jak już zacznę gadać, to czasami ciężko skończyć, bo jeden temat wiedzie do następnego i tak w kółko.
+W tej chwili nie wiem, ile ta książka ostatecznie będzie liczyła stron, ale pewien jestem jednego, że raczej krótka to ona nie będzie. Mentalnie mam wstępny obraz, który mówi mi, że poniżej 250 stron, to nie zejdę. Zwłaszcza biorąc pod uwagę fakt, że jak już zacznę gadać, to czasami ciężko skończyć, bo jeden temat wiedzie do następnego i tak w kółko.
 
 Ostatnia jeszcze, swego rodzaju, uwaga – mój styl pisania jest specyficzny. Jak widać. Tak po prostu. Mam swoją manierę, wielokrotnie było mi to wypominane przez różne osoby i jestem tego świadom, niemniej jednak uważam to za część specyfiki moich prac.
 
@@ -68,29 +68,25 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 
 ...mojej najukochańszej i jedynej Babci. Za wszystko, za to, jakim człowiekiem jestem. Za miłość. Za wyrzeczenia.
 
-...tobie, **Rafale**, wraz z rodziną, której nie będę tu wymieniał ze względu na Waszą prywatność – twoją rodziną, której w pewnym stopniu czuję się już w zasadzie częścią, za otoczenie mnie opieką, naukę wielu rzeczy i realny, wielki wpływ na mnie i moje życie. Nie mam ojca, ale gdyby ktoś mnie spytał, kto jest mi najbliższym jego obrazem, to za długo bym chyba nie myślał.
-
 ...tobie, **Wiktorio Chmielewska**, za dwa najszczęśliwsze wyjazdy w moim życiu, za poświęcenie, za troskę i przyjaźń, za ratowanie mi skóry i nie odpuszczenie, kiedy inni dawno już to zrobili.
 
-...tobie, **Najdroższy**. Jesteś mi jak brat, nigdy nie zawiodłeś mordzia.
+...wam, **Łukaszu i Batu**. Fajnie, że jesteście. Co ja będę dużo pisał, Bóg jest miłością i piąteczka szefuńciu. 
+
+...tobie, **Rafale**, wraz z rodziną, której nie będę tu wymieniał ze względu na Waszą prywatność – twoją rodziną, której w pewnym stopniu czuję się już w zasadzie częścią, za otoczenie mnie opieką, naukę wielu rzeczy i realny, wielki wpływ na mnie i moje życie. Nie mam ojca, ale gdyby ktoś mnie spytał, kto jest mi najbliższym jego obrazem, to za długo bym chyba nie myślał.
+
+...tobie, **Najdroższy**. K R A B O W A N I E. 
 
 ... **Jakubowi Gąsiorskiemu**, osobie, która odbywała ze mną rozmowę o pierwszą pracę. Uważam, że to właśnie jemu zawdzięczam fakt, że ostatecznie padła decyzja, by mnie przyjąć, bo postanowił dać mi szansę wtedy i później, wiele razy. Tutaj należą się też podziękowania **Maciejowi Mondrzyckiemu**, CEO YumaSoft, bo finalna decyzja, czy warto we mnie zainwestować, należała do niego.
 
 ...**Sebastianowi Opałczyńskiemu**, gdyż to osoba, którą uznaję za mojego pierwszego mentora, jakiś wzorzec tego, jak się rozwijać jako programista, oraz osobę, która do powstania tej książki się przyczyniła w dużym stopniu. Wyniosła mnie powyżej tego, co mogłem osiągnąć sam i jemu bardzo dużo zawdzięczam, naprawdę. Dzięki Łysy. Czasami wskazał mi właściwy kierunek w kilku rzeczach, cierpliwie odpowiadał na różne pytania, miło wspominam też różnorakie nasze rozmowy. Jesteś bardzo dobrym nauczycielem i człowiekiem. Zastanawiałeś się kiedyś, czym jest samiec alfa?
 
-...**Piotrkowi Nietrzebce** za bycie ludzkim człowiekiem kiedy trzeba, szczwanym dziadem w innych okazjach, za pokazanie pewnych ułomności i że się da je pokonać, albo przynajmniej można spróbować.
+...**Piotrkowi Nietrzebce** za bycie ludzkim człowiekiem kiedy trzeba, szczwanym dziadem w innych okazjach, za pokazanie pewnych ułomności i że się da je pokonać, albo przynajmniej można spróbować, za dotrzymanie obietnicy.
 
 ...**p. dyr. Pawłowi Boryczce** z Zespołu Szkół w Kozienicach, za to, że przez 3 lata sprawował nade mną pieczę i wiele mi w życiu pomógł. Dzięki temu udało mi się rozwinąć pewne umiejętności, poznać różnych ludzi, których prawdopodobnie nie odkryłbym w innym wypadku. Będę o tym pamiętał.
-
-...wszystkim wspaniałym ludziom w **Synerise**. Kurczę, czasami brodziliśmy w ciężkich technicznie tematach [;)], ale do pracy, do biura, przychodziłem prawie zawsze z wielką chęcią, trochę się też nauczyłem podczas naszej przygody. Zatem pozdrawiam serdecznie cały zespół Fireplace, mojego druha od importów dla pań z akcentowanej firmy, taneczne dziewczyny z Wolfa, jak i całą resztę firmy.
-
-...to samo z ludkami z **thirty3**. Love you guys. Even you Sylvestre and your `agility` too.
 
 ...tobie, **Emilio**. Sama wiesz za co. Eryk pozdrawia Blankę z zaświatów, odszedł już w zapomnienie.
 
 ...tobie, **Falo**, ty stary ch**u kochany. Za to, żeś jest ciepłą kochaną kluseczką, która sobie odejmie i nie będzie miał, ale da komuś. Jesteś cudownym człowiekiem, nie zmieniaj się, jeśli stare wygi sam wiesz skąd, mówią, że "jesteś za dobry na to miejsce", to wiedz, że coś się dzieje.
-
-...wam, **Łukaszu i Batu**. Uważam was za bardzo dobrych ludzi. Niełatwo przyjąć kogoś z ulicy, zaufać i niejako pomóc. Wiem, że zawszę mogę na was liczyć, że jesteście dla mnie jak potrzebuje, staram się odwdzięczyć tym samym. 
 
 ...wam, **Łukaszu i Olu**. Kocham jak rodzinę, przesyłam ciepłe myśli wam i dzieciakom.
 
@@ -98,9 +94,11 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 
 ...tobie, **Kingo**, że jesteś i byłaś.
 
-...tobie **Pawle Poldeczku**, za przygarnięcie mnie pod swoje skrzydła w ciężkich chwilach. Pamiętam.
+...tobie, **Zimmermanie.** za okazanie zrozumienia kiedy potrzebowałem.
 
-...tobie **Szymonie Szambelanie**, za otworzenie się, naukę i dobro, cenne lekcje.
+...tobie **Pawle Poldeczku**, za przygarnięcie mnie pod swój dach w ciężkich chwilach. Pamiętam.
+
+...tobie **Szymonie Szambelanie**, WUJA, DZIĘKUJĘ.
 
 ...tobie **Muffi**. Za dobre serce bracie.
 

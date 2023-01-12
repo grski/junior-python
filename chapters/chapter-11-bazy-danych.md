@@ -35,7 +35,7 @@ VALUES (value1, value2, value3, ...);
 
 ## Relacyjne bazy danych
 
-To generalnie bazy danych, gdzie posiadamy jakąś strukturę formalną powiedzmy poprzez zdefiniowane tabele (najczęściej) oraz gdzie między tabelami możemy definiować relacje.  Dla ułatwienia roboty dodam małe generalne podsumowanie:
+To generalnie bazy danych, gdzie posiadamy jakąś strukturę formalną, powiedzmy, poprzez zdefiniowane tabele (najczęściej) oraz gdzie między tabelami możemy definiować relacje.  Dla ułatwienia roboty dodam małe generalne podsumowanie:
 
 SQL (Structured Query Language) to język zaprojektowany do komunikacji z bazami danych relacyjnych. Pozwala on na wykonywanie operacji takich jak tworzenie, modyfikowanie i zapytania dotyczące danych zapisanych w bazie danych.
 
@@ -67,7 +67,9 @@ Tabela może zawierać dowolną ilość rekordów i pol, a dane w niej zapisane 
 
 Tabela jest podstawową strukturą danych w bazie danych i jest używana do przechowywania i udostępniania danych w aplikacjach.
 
-Do poczytania: https://www.plukasiewicz.net/SQL/Introduction (trochę formalnie wszystko opisane, ale może być)
+Do poczytania:
+
+1. https://www.plukasiewicz.net/SQL/Introduction (trochę formalnie wszystko opisane, ale może być)
 
 ### Indeksy
 

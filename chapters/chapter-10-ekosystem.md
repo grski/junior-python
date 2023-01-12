@@ -174,103 +174,79 @@ Obecnie trendem w Pythonie jest dbanie o pewne rzeczy, które choć nie są kluc
 Pora przejść na ciemną stronę mocy.
 
 #### Kilka słów o formatowaniu i blacku
-Częściej niż w projektach, które nie są tak zautomatyzowane i mogłyby korzystać z niektórych narzędzi dem, można znaleźć ludzi w pull requestach kłócących się o to, które formatowanie jest lepsze. Jak zmienić formatowanie? Który z nich jest lepszy? Który jest bardziej zgodny z pep8?
+Częściej niż w projektach, które nie są tak zautomatyzowane jakby być mogły i powinny, można znaleźć ludzi w pull requestach kłócących się o to, które formatowanie jest lepsze. Jak zmienić formatowanie? Które jest lepsze? Który jest bardziej zgodny z pep8?
 
-To może być koszmar, który jest tak kontrproduktywny, jak to tylko możliwe.
+To może być koszmar, który jest tak kontrproduktywny, że to się nawet w korpo nie mieści.
 
-Aby pozbyć się takich problemów i mieć to załatwione za nas, używamy black w Pythonie. Black jest formatyzatorem kodu, który, cóż, po prostu formatuje kod za Ciebie. Możesz sprawić, by black automatycznie formatował Twój kod przed jego popełnieniem. W ten sposób można uniknąć wszelkiego rodzaju sporów o pep8 i preferencje formatowania kodu przez recenzentów/autorów, co sprawia, że cały projekt ma spójny wzór formatowania, co sprawia, że jest łatwiejszy do odczytania i tak dalej. Im łatwiejszy do odczytania jest kod, tym lepiej. To jest podejście leniwego człowieka. Jeśli wiesz, czego się spodziewać, nie będziesz zaskoczony. Im mniej musisz się zajmować, tym lepiej.
-
-
-
-Przykład z geeksforgeeks.org.
+Aby pozbyć się takich problemów i mieć to załatwione za nas, w Pythonie mamy coś takiego jak Black. Black jest formatyzatorem kodu, który, cóż, po prostu formatuje kod za Ciebie. Możesz sprawić, by black automatycznie formatował Twój kod przed jego zacommitowaniem. W ten sposób można uniknąć wszelkiego rodzaju sporów o pep8 i preferencje formatowania kodu przez recenzentów/autorów, co sprawia, że cały projekt ma spójny wzór formatowania, co sprawia, że jest łatwiejszy do odczytania i tak dalej. Im łatwiejszy do odczytania jest kod, tym lepiej. Podejście leniwego człowieka. Jeśli wiesz, czego się spodziewać, nie będziesz zaskoczony. Im mniej na głowie, tym lepiej.
 
 #### ' vs "
 
-Jedną z rzeczy wartych uwagi jest fakt, że Python jako Język pozwala na użycie zarówno ' jak i " do oznaczania ciągów znaków. Black domyślnie preferuje podwójne cytaty nad pojedynczymi. Dlaczego. Czytelność, użycie pojedynczego cudzysłowu w języku angielskim i konieczność ucieczki od niego za każdym razem, gdy używamy go wewnątrz naszych łańcuchów, trudniej pomylić się ze znakiem.
+Jedną z rzeczy wartych uwagi jest fakt, że Python jako język pozwala na użycie zarówno ' jak i " do oznaczania ciągów znaków. Black domyślnie preferuje podwójne cytaty nad pojedynczymi. Dlaczego. Czytelność, użycie pojedynczego cudzysłowu w języku angielskim i konieczność escapeowania go za każdym razem, gdy używamy go wewnątrz naszych łańcuchów, nie jest zbyt fajna. To plus trudniej się pomylić.
 
-I tak dalej. Można się tutaj spierać, ja stoję po stronie podwójnego cytatu, ponieważ IMO jest to lepsze podejście. Czytelność jest królem.
+I tak dalej. Można się tutaj spierać, ja stoję po stronie podwójnego ciapka, ponieważ IMO jest to lepsze podejście. Czytelność jest królem.
 
 ### Isort
-Czy słyszałeś o sortowaniu importów? To ma sens
+Czy słyszałeś o sortowaniu importów? To ma sens wbrew pozorom i wcale nie jest fanaberią. Dlaczego powinieneś odpowiednio posortować swoje importy? Im większy projekt, nad którym pracujemy, zwykle tym więcej rzeczy importujemy z innych części kodu.
 
-Dlaczego powinieneś odpowiednio posortować swój import
-Im większy projekt, nad którym pracujemy, zwykle tym więcej rzeczy importujemy z innych części kodu.
+Z biegiem czasu te importy mogą stać się nieprzyzwoicie duże/liczne. Często tak jest. Isort to coś, co pomaga nam w tym, optymalizując nasze importy, sortując je odpowiednio, alfabetycznie, grupując w sekcjach i tak dalej. Wiem, że to może wyglądać jak drobnostka, ale to właśnie te drobne rzeczy dodają do ogólnej jakości kodu. Googlnij sobie przykład zmian w kodzie po isorcie i zobacz jak to wygląda.
 
-Z biegiem czasu ten import może stać się nieporządny. Często jest tak, że. Isort to coś, co pomaga nam w tym, optymalizując nasz import, sortując go odpowiednio, alfabetycznie, grupując w sekcjach i tak dalej. Wiem, że to może wyglądać jak drobnostka, ale to właśnie te drobne rzeczy dodają ogólnej jakości kodu. Spójrz teraz na poniższe obrazki, lewy jest przed isortem, prawy po nim. Który z nich jest dla Ciebie bardziej czytelny?
+### Importy jak wódka - Absolutne
 
-### Import absolutny
-
-Nowym standardem jest posiadanie importów absolutnych. Dlaczego tak jest możesz przeczytać na własną rękę. Było wiele debat na ten temat, wynikiem których jest: kiedy można preferować import absolutny. Sprawiają one, że jest mniej dwuznaczności i zapewniają wyraźniejsze rozróżnienie, czego naprawdę używamy, z którego pakietu.
-
-Mamy również narzędzie do tego celu, którym jest absolufy-imports. To narzędzie jest szczególnie przydatne w przypadku starszych projektów, gdzie możesz potrzebować poprawić importy w wielu plikach, aby dopasować je do nowej konwencji. To narzędzie robi to za ciebie.
+Nowym standardem w Pythonie jest używanie importów absolutnych. Dlaczego tak jest możesz przeczytać na własną rękę. Było wiele debat na ten temat, wynikiem których jest: preferujemy import absolutny kiedy tylko można. Sprawiają one, że jest mniej dwuznaczności i zapewniają wyraźniejsze rozróżnienie, czego naprawdę używamy, z którego pakietu. Mamy również narzędzie do tego celu, którym jest absolufy-imports. To narzędzie jest szczególnie przydatne w przypadku starszych projektów, gdzie możesz potrzebować poprawić importy w wielu plikach, aby dopasować je do nowej konwencji. To narzędzie robi to za ciebie.
 
 To:
 
 ```python
 from .notifications.some_important_file import SomeClass
 from .another_important_file import AnotherClass
+```
+
 Zostaje zamieniony na to:
 
+```python
 from em.jobs.notifications.some_important_file import SomeClass
 from em.jobs.notifications.another_important_file import AnotherClass
 ```
-
-
 
 
 ### Bandit
 Statyczna analiza naszego kodu pod kątem potencjalnych uchybień bezpieczeństwa.
 
 #### Dlaczego czasami potrzebujesz bandyty w swoim życiu
-Kiedy piszemy nasz kod powinniśmy mieć na uwadze bezpieczeństwo. Chyba, że czasem chcesz narazić swoją firmę na potencjalną utratę milionów. Przesadzam z tym przykładem, ale jednak. Bezpieczeństwo jest ważne.
+Kiedy piszemy nasz kod powinniśmy mieć na uwadze bezpieczeństwo. Chyba, że czasem chcesz narazić swoją firmę na potencjalną utratę milionów. Przesadzam z tym przykładem, ale jednak. Bezpieczeństwo jest ważne. W jakiś sposób możemy popełnić błędy proste, z powodu zapomnienia i zaniedbania, którym można było zapobiec w inny sposób. Aby nam o tym przypomnieć i przestrzec istnieją różne narzędzia, które można wykorzystać.
 
-W jakiś sposób możemy popełnić błędy proste z powodu zapomnienia i zaniedbania, którym można było zapobiec w inny sposób. Aby nam o tym przypomnieć istnieją różne narzędzia, które można wykorzystać.
-
-Wśród nich jest bandit. Bandit jest narzędziem do analizy statycznej, które skanuje Twój kod w poszukiwaniu potencjalnie niebezpiecznych fragmentów kodu i ostrzega Cię o nich. Kiedy uruchomisz bandit przeciwko swojemu kodowi, otrzymasz raport taki jak ten oraz listę miejsc w kodzie, w których znajdują się potencjalne problemy.
-
-Skanowany kod: 
+Wśród nich jest bandit. Bandit jest narzędziem do analizy statycznej, które skanuje Twój kod w poszukiwaniu potencjalnie niebezpiecznych fragmentów kodu i ostrzega Cię o nich. Kiedy uruchomisz bandit na soim kodzie, otrzymasz raport oraz listę miejsc w kodzie, w których znajdują się potencjalne problemy.
 
 ### autoflake
 Im mniej masz...
 
-#### Zmniejszanie ilości odpadów
-Czasami tak się zdarza, że w naszym kodzie możemy mieć niewykorzystane deklaracje importu lub niewykorzystane zmienne. Zdarza się to najlepszym. Aby automatycznie się tym zająć, możemy chcieć włączyć do naszych projektów autoflake.
-
-Jest to narzędzie, które po prostu się tym zajmuje - usuwa nieużywane importy i zmienne.
-
-Nie ma tu żadnej magii.
+#### Odchudzamy kod jak Putin obywateli
+Czasami tak się zdarza, że w naszym kodzie możemy mieć niewykorzystane deklaracje importu lub niewykorzystane zmienne. Zdarza się to najlepszym. Aby automatycznie się tym zająć, możemy chcieć włączyć do naszych projektów autoflake. Jest to narzędzie, które po prostu się tym zajmuje - usuwa nieużywane importy i zmienne. Nie ma tu żadnej magii.
 
 ### pyupgrade
-Ten kawałek oprogramowania automatycznie aktualizuje niektóre stare wzorce składni do nowszych. To wszystko.
+Ten kawałek oprogramowania automatycznie aktualizuje niektóre stare wzorce składniowe na nowe. To wszystko.
 
 ### bumpversion
 Jest taka rzecz, którą nazywamy semantycznym wersjonowaniem lub semver. Jest to konwencja, która mówi nam, aby wersjonować nasz kod według następującego wzorca: MAJOR.MINOR.PATCH
 
 Na przykład: v0.2.12
 
-Część majorowa jest zwiększana, gdy przechodzimy do głównych rolloutów, które zmieniają wiele.
+Część major jest zwiększana, gdy przechodzimy do głównych rolloutów, które zmieniają wiele.
 
-Mniejszy kawałek jest zwiększany, gdy robimy normalne wydania, np. z większymi funkcjami.
+Minor jest zwiększany, gdy robimy normalne wydania, np. z większymi funkcjami.
 
 Patch jest czymś, czego używamy dla mniejszych funkcji, łatek, poprawek itp. Ten element rośnie najszybciej.
 
-Abyśmy nie musieli zarządzać tym ręcznie, mamy narzędzie zwane bumpversion. Aktualizuje ono wersję, tworzy commit ze zmianami, tworzy tag git i tak dalej, wszystko automatycznie. Jest to zgrabne narzędzie, które można mieć w swoim CI/CD.
+Abyśmy nie musieli zarządzać tym ręcznie, mamy narzędzie zwane bumpversion. Aktualizuje ono wersję, tworzy commit ze zmianami, tworzy tag git i tak dalej, wszystko automatycznie. Jest to zgrabne narzędzie, które można mieć w swoim CI/CD. Ułatwia to zarządzanie wersjami, tworzenie changelogów, filtrowanie commitów i zauważanie zmian, błędów, wersjonowanie pakietów/api itp. Możesz zobaczyć przykładową historię commitów i użycie bumpversion w historii commitów mojego projektu - braindead Zajrzyj.
 
-Ułatwia to zarządzanie wersjami, tworzenie changelogów, filtrowanie commitów i zauważanie zmian, błędów, wersjonowanie pakietów/api itp.
-
-Możesz zobaczyć przykładową historię commitów i użycie bumpversion tutaj, w historii commitów mojego projektu - braindead
-
-Czy uruchamiamy to wszystko ręcznie?
-
-Nie. Chcemy być leniwi.
+Czy uruchamiamy to wszystko ręcznie? Nie. Chcemy być leniwi.
 
 ### Git hooks & pre-commit
-Zautomatyzuj nudne zadania.
+Zautomatyzuj nudne zadania, żyj długo i szczęśliwie.
 
 #### Git hooks i pre-commit
-Jeśli chcesz, aby wszystko to działo się automatycznie, możesz stworzyć haki gita, które są uruchamiane np. podczas commitu lub przed commitem. Jednym ze sposobów jest po prostu stworzenie pliku .pre-commit i umieszczenie go w folderze .git i wykorzystanie np. Makefile lub użycie czegoś takiego jak narzędzie pre-commit.
-
-Jest to miłe, poręczne narzędzie, które zajmuje się tym za ciebie. Musisz je zainstalować i stworzyć dla niego config, aby powiedzieć mu, które rzeczy ma robić przed commitem. Nie ma tu żadnej magii.
+Jeśli chcesz, aby wszystko to działo się automatycznie, możesz stworzyć git-hooks, które są uruchamiane np. podczas commitu lub przed commitem. Jednym ze sposobów jest po prostu stworzenie pliku .pre-commit i umieszczenie go w folderze .git i wykorzystanie np. Makefile lub użycie czegoś takiego jak narzędzie pre-commit. Jest to miłe, poręczne narzędzie, które zajmuje się tym za ciebie. Musisz je zainstalować i stworzyć dla niego config, aby powiedzieć mu, które rzeczy ma robić przed commitem. Nie ma tu żadnej magii.
 
 Pozwolę ci wygooglować szczegóły samemu.
 
