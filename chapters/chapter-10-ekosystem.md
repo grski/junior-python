@@ -110,59 +110,31 @@ Podzbiór funkcjonalności virtualenv jest zintegrowany z domyślną instalacją
 #### Poetry
 Co by było, gdyby pip i virtualenv miały dziecko, które w dodatku wali sterydy? Cóż, otrzymalibyśmy Poetry.
 
-Problemem z pipem jest zazwyczaj zarządzanie wersjami zależności.
+Problemem z pipem jest zazwyczaj zarządzanie wersjami zależności. Nawet jeśli wiemy, że nasz projekt A, wymaga pakietu Z w wersji 1.0.0, zazwyczaj na pierwszy rzut oka pip nie mówi nam o zależnościach tego pakietu Z. Wprowadza to możliwość wystąpienia problemów, gdy twój projekt osiągnie punkt, w którym ma zainstalowane trochę więcej pakietów. Ponieważ te pakiety również mają zależności, a ich zależności również mają zależności. Zależnościocepcja.
 
-Nawet jeśli wiemy, że nasz projekt A, wymaga pakietu Z w wersji 1.0.0, zazwyczaj na pierwszy rzut oka pip nie mówi nam o zależnościach tego pakietu Z.
+Zazwyczaj nie jest to piekło zależności jak w światach JS, ale w pewnym momencie może również stać się nieco podstępne, jeśli zablokujesz zależności tylko na najwyższym poziomie. I w pewnym momencie, jest to prawie gwarantowane, że będą z tym problemy. A poza tym - jeśli wersje tych zależności nie są domyślnie gwarantowane, co z debugowaniem? Mam na myśli, że jeden build może mieć wersje 1.2.3 jakiejś zależności, ale inny build, wykonany 10 minut wcześniej może mieć 1.2.2, jeśli wersje nie są rozwiązywane w deterministyczny, gwarantowany sposób, umożliwia to pojawienie się paskudnych błędów.
 
-Wprowadza to możliwość wystąpienia problemów, gdy twój projekt osiągnie punkt, w którym ma zainstalowane trochę więcej pakietów. Ponieważ te pakiety również mają zależności, a ich zależności również mają zależności. Zależnościocepcja.
+Jest to również zagrożenie bezpieczeństwa, ponieważ jeśli nie wiesz, jaką wersję zależności dokładnie masz, złośliwa wersja może znaleźć drogę bez naszej wyraźnej wiedzy, co jest całkiem łatwym sposobem na strzelenie sobie w stopę. Jak temu zaradzić?
 
-Zazwyczaj nie jest to piekło zależności jak w światach JS, ale w pewnym momencie może również stać się nieco podstępne, jeśli zablokujesz zależności tylko na najwyższym poziomie.
+Mamy coś, co nazywa się dependency resolving i dependency locking. Zasadniczo jest to po prostu proces upewniania się, że znamy zależności naszych zależności i ich zależności, a także mamy jasną listę ich wersji, zwykle podpisanych hashem. Pozwala to na coś, co nazywa się deterministycznymi buildami, co jest jednym z kluczowych elementów nowoczesnych CI/CD i aplikacji, które trzymają się wzorca Twelve-factor app.
 
-I w pewnym momencie, gdy osiągniesz rozmiar projektu na poziomie korporacyjnym, jest to prawie gwarantowane, aby mieć z tym problemy. Również jeśli wersje tych zależności nie są domyślnie gwarantowane, co z debugowaniem?
+To jest dokładnie to, co robi Poetry. A robi to prze-elegancko.
 
-Mam na myśli, że jeden build może mieć wersje 1.2.3 jakiejś zależności, ale inny build, wykonany 10 minut wcześniej może mieć 1.2.2, jeśli wersje nie są rozwiązywane w deterministyczny, gwarantowany sposób, umożliwia to pojawienie się paskudnych błędów.
-
-Jest to również zagrożenie bezpieczeństwa, ponieważ jeśli nie wiesz, jaką wersję zależności dokładnie masz, złośliwa wersja może znaleźć drogę bez naszej wyraźnej wiedzy, co jest okazją do wprowadzenia vulerability.
-
-Mamy coś, co nazywa się dependency resolving i dependency locking*.
-
-Zasadniczo jest to po prostu proces upewniania się, że znamy zależności naszych zależności i ich zależności.
-
-A także mamy jasny rachunek ich wersji, zwykle podpisany hashem*.
-
-Pozwala to na coś, co nazywa się deterministycznymi buildami, co jest jednym z kluczy nowoczesnych CI/CD i aplikacji, które trzymają się wzorca Twelve-factor app.
-
-To jest dokładnie to, co robi Poetry i robi to dobrze.
-
-Poza tym, skoro już przy tym jesteśmy, Poezja ułatwia również zarządzanie projektami, zajmuje się tworzeniem i zarządzaniem virtualenvs za Ciebie i umożliwia łatwiejszą, bardziej scentralizowaną konfigurację projektu poprzez wprowadzenie pyproject.toml
-
-pyproject.toml jest zazwyczaj nowym standardowym plikiem konfiguracyjnym pakietów python.
-
-Och również ułatwia budowanie pakietów, ponieważ może połączyć twój kod pythona i opublikować go w indeksie pakietów do wyboru.
+Poza tym, skoro już przy tym jesteśmy, Poetry ułatwia również zarządzanie projektami, zajmuje się tworzeniem i zarządzaniem virtualenvs za Ciebie i umożliwia łatwiejszą, bardziej scentralizowaną konfigurację projektu poprzez wprowadzenie pyproject.toml. pyproject.toml jest teraz zazwyczaj nowym standardowym plikiem konfiguracyjnym projektów pythonowych. A i jeszcze ułatwia budowanie pakietów, ponieważ może spakować/zbundlować twój kod pythona i opublikować go w indeksie pakietów twojego wyboru np. w pypi.
 
 Ogólnie rzecz biorąc, Poetry jest w pytę.
 
 #### Pyenv
 
-Python to osobliwe małe zwierzę, które zrzuca skórę od czasu do czasu. Oznacza to, że sam Python, tak jak nasze zależnosci, również ma swoje wersje. Każda wersja zawiera nowe funkcje, różne ulepszenia. Niektóre z nich są czasem nawet wstecznie niekompatybilne.
+Python to osobliwe małe zwierzę, które zrzuca skórę od czasu do czasu. Oznacza to, że sam Python, tak jak nasze zależności, również ma swoje wersje. Każda wersja zawiera nowe funkcje, różne ulepszenia. Niektóre z nich są czasem nawet wstecznie niekompatybilne. Standardowo nie jest trywialne zainstalowanie różnych wersji Pythona i ogarnięcie tego, by jedna z drugą nie kolidowały.
 
-Standardowo nie jest trywialne zainstalowanie różnych wersji Pythona i ich poprawne działanie na tej samej maszynie.
+Ale po co to w ogóle robić? Cóż, tak samo jak w przypadku zależności. Jeden projekt może zależeć od Pythona 3.10, inny od 2.7, a jeszcze inny od 3.12. Potrzebujemy czegoś takiego jak virtualenv, który zapewniłby izolację, ale zamiast na poziomie projektu, to na poziomie systemu i nie dla paczek ale dla wersji pythona..
 
-Dlaczego miałbyś tego potrzebować? Cóż, tak samo jak w przypadku zależności. Jeden projekt może zależeć od Pythona 3.10, inny od 2.7, a jeszcze inny od 3.12.
+Jak to zrobić? Za pomocą pyenv. Pyenv został wzbogacony o zgrabną wtyczkę, która pozwala nam tworzyć takie jakby virtualenvy, ale z różnych wersji/interpretacji pythona. Pyenv + pyenv-virtualenv pięknie się integruje z Poetry.
 
-Potrzebujemy czegoś takiego jak virtualenv, który zapewniłby izolację, ale zamiast poziomu projektu dla zależności od pythona, zamiast tego dla systemu na poziomie wersji pythona.
+Tak czy inaczej. Mamy pyenv-virtualenv, który jest wrapperem dla pyenv, który z kolei jest opakowaniem wokół zarządzania wersjami pythona, pracujący z Poetry, która jest wrapperem dla pip i pip-tools, zintegrowanym z virtualenv, który jest również rodzajem wrappera.
 
-Jak to zrobić?
-
-Za pomocą pyenv. Pyenv został wzbogacony o zgrabną wtyczkę, która pozwala nam tworzyć wirtualne biblioteki z różnych wersji/interpretacji pythona.
-
-Pyenv + pyenv-virtualenv jest również miły pod względem integracji z poezją.
-
-Tak czy inaczej. Tak więc mamy pyenv-virtualenv, który jest wirtualnym opakowaniem dla pyenv, który z kolei jest opakowaniem wokół zarządzania wersjami pythona, pracując nad poezją, która jest opakowaniem dla pip i pip-tools, zintegrowanym z virtualenv, który jest również rodzajem opakowania.
-
-Mamy więc wrapper wrappera pracującego nad wrapperem wrappera. Wrapper-ception.
-
-
+Mamy więc wrapper wrappera pracującego nad wrapperem wrappera. Wrapperocepcja, zależnościocepcja, dziki, kuny, jenoty.
 
 ### Piptools
 Jeśli twój projekt jest wystarczająco prosty lub nie chcesz zawracać sobie myśli tym wszystkim, możesz użyć pip-tools do przypięcia swoich zależności i mieć z głowy całe to rozważanie. pip-tools jest wystarczająco dobry dla niektórych projektów, natomiast ja w ramach wygody i innych rzeczy, jakie oferuje poetry, korzystam tak naprawdę praktycznie wszędzie, gdzie mogę. Convention over configuration.
@@ -171,51 +143,35 @@ Jeśli twój projekt jest wystarczająco prosty lub nie chcesz zawracać sobie m
 
 W Pythona czasami trzeba walnąć sprzętem, oprzyrządowaniem czy też mówiąc po angielsku, toolingiem. Od kiedy zacząłem brzmieć jak prawilniaki na fejm mma? Coś poszło nie tak z pisaniem tego akapitu. Zacznijmy od nowa.
 
-
-
-Formatowanie i analiza statyczna kodu Pythona, czyli jego oprzyrządowanie/tooling, to ważny element podejścia leniwego człowieka do zapewnienia jakości kodu. To rzeczy, które robią i dbają o inne rzeczy za nas, żeby łatwiej się pracowało. Pomówimy trochę o nich, ale najpierw o Pipelinach.
+Formatowanie i analiza statyczna kodu Pythona, czyli jego oprzyrządowanie/tooling, to ważny element podejścia leniwego człowieka do zapewnienia jakości kodu. To rzeczy, które robią i dbają o jakość za nas, żeby łatwiej się pracowało. Pomówimy trochę o nich, ale najpierw o Pipelinach.
 
 ### Pipeliny
-Czym są i dlaczego ich potrzebujemy
+Czym są i dlaczego ich potrzebujemy Automatyzacja rzeczy? Rurociągi na ratunek. O jak to dziwnie brzmi spolszczone. Kiedy chcemy dbać o jakość naszego kodu w Pythonie, zwykle chcemy dbać o takie rzeczy jak formatowanie, spójne wzorce importu, bezpieczeństwo i utrzymywanie naszych standardów na bieżąco. Jeśli chcemy to zrobić w naszym repo/w chmurze automatycznie, możemy użyć pipelineów.
 
-Automatyzacja rzeczy? Rurociągi na ratunek
+Pipeliny to po prostu zestaw kroków, które składają się na nasz proces CI/CD. Jest to mniej więcej tylko kawałek kodu, który wykonuje za nas pewne kroki. Zazwyczaj pajpy są definiowane jako plik yaml, który określa jakie kroki/akcje chcemy podjąć w ramach naszego procesu CI/CD, czyli analizowanie, sprawdzanie jakości, formatowanie naszego kodu i budowanie/deployowanie go.
 
-Kiedy chcemy dbać o jakość naszego kodu w Pythonie, zwykle chcemy dbać o takie rzeczy jak formatowanie, spójne wzorce importu, bezpieczeństwo i utrzymywanie naszych standarów na bieżąco. Jeśli chcemy to zrobić w naszym repo/w chmurze automatycznie, możemy użyć potoków.
+Do najczęściej znanych narzędzi służących do tego w chmurze należą: GitHub Actions, GitLab CI/CD, Bitbucket Pipelines, CircleCI, Azure DevOps. Zazwyczaj są to rzeczy, które odpalają się, gdy np. tworzymy merge/pull request, wpychamy jakiś kod do repo, mergujemy jedną gałąź w drugą. Uruchamiają one różne kontrole, budowanie, testy i co tam jeszcze.
 
-Pipeliny to po prostu zestaw kroków, które składają się na nasz proces CI/CD.
+Flow wygląda tak:
 
-Jest to mniej więcej tylko kawałek kodu, który wykonuje za nas pewne kroki. Zazwyczaj potoki są definiowane jako plik yaml, który określa jakie kroki/akcje chcemy podjąć w ramach naszego procesu CI/CD, czyli analizowanie, sprawdzanie jakości, formatowanie naszego kodu i budowanie/deponowanie go.
+Trigger jest odbierany (np. Branch jest pchany do repo) -> pipeline jest odpalany -> różne kontrole/akcje są wykonywane -> na podstawie tego pipeline może się udać lub nie.
 
-W tej prezentacji chciałbym skupić się na krokach związanych z automatyzacją procesu zapewniania jakości przy tworzeniu aplikacji w Pythonie.
-
-Do najczęściej znanych narzędzi służących do tego w chmurze należą: GitHub Actions, GitLab CI/CD, Bitbucket Pipelines, CircleCI, Azure DevOps.
-
-Zazwyczaj są to rzeczy, które odpalają się, gdy np. tworzymy merge/pull request, wpychamy jakiś kod do repo, łączymy jedną gałąź w drugą. Uruchamiają one różne kontrole, budowanie, testy i co nie.
-
-Przepływ wygląda tak:
-
-Trigger jest odbierany (np. Branch jest pchany do repo) -> pipeline jest odpalany -> różne kontrole są wykonywane -> na podstawie tego pipeline może się nie udać lub udać.
-
-Poza tym, że rurociągi są tam w chmurze, uważam, że niektóre ich części są również integralną częścią lokalnego rozwoju. Głównie części związane z rzeczami o kontroli jakości.
+Poza tym, że pajpy są tam w chmurze, uważam, że niektóre ich części są również integralną częścią lokalnego rozwoju. Głównie części związane z rzeczami o kontroli jakości/formatowaniu/etc.
 
 ### Co sprawia, że kod jest dobry?
 
-Obecnie trendem w Pythonie jest dbanie o pewne rzeczy, które choć nie są kluczowe, z czasem przyczyniają się do jakości, czytelności i łatwości utrzymania projektu.
-
-Na wysokim poziomie, w mojej książce, każdy kawałek kodu Pythona może używać niektórych z:
+Obecnie trendem w Pythonie jest dbanie o pewne rzeczy, które choć nie są kluczowe, z czasem przyczyniają się do jakości, czytelności i łatwości utrzymania projektu. Na wysokim poziomie, w mojej opinii, każdy kawałek kodu Pythona zyskałby coś mając:
 
 1. Spójne formatowanie
-2. Uporządkowany import, który jest podzielony na sekcje
-3. Bezwzględny import
-4. Używanie nowoczesnych standardów, które są zgodne z najnowszymi standardami
-5. Brak nieużywanych importów i zmiennych
+2. Uporządkowany import, które są podzielony na sekcje
+3. Bezwzględne importy zamiast relatywnych
+4. Używanie nowoczesnych standardów, które są zgodne nowymi konwencjami
+5. Brak nieużywanych importów i nieużywanych zmiennych
 6. Skanowanie bezpieczeństwa/podatności
-
-
 
 ### Ciemna strona mocy - black
 
-Pora przejść na ciemną stronę mocy
+Pora przejść na ciemną stronę mocy.
 
 #### Kilka słów o formatowaniu i blacku
 Częściej niż w projektach, które nie są tak zautomatyzowane i mogłyby korzystać z niektórych narzędzi dem, można znaleźć ludzi w pull requestach kłócących się o to, które formatowanie jest lepsze. Jak zmienić formatowanie? Który z nich jest lepszy? Który jest bardziej zgodny z pep8?

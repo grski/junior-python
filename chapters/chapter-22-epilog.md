@@ -35,11 +35,7 @@ Pozycje poszerzające horyzonty, ale które można przeczytać nieco później.
 5. Extreme Programming - Kent Beck <- Trochę o tym jak wygląda proces dostarczania oprogramowania i o sposobach kolaboracji.
 6. Deep Work - Cal Newport <- o pracy w skupieniu. 
 
-Oprócz tego trochę praktyki:
-
-1. https://www.practicepython.org/ <- zadania do przerobienia
-2. https://codingbat.com/python <- kolejna lista zadąń
-3. https://www.w3resource.com/python-exercises/ <- i ostatnia
+Co do praktyki, to stay tuned - za niedługo powinienem wypuścić zbiór zadań, który warto przerobić by nabyć trochę praktyki. Zaglądaj na bloga/linkedin.
 
 Uważam, że jeśli sumiennie przeczytasz i przerobisz materiały powyżej, zdobędziesz solidną wiedzę, pozwalającą ci startować już w jakiś rekrutacjach. Wymagane jest jednak to, by samodzielnie faktycznie wykonywać zadania, czytać ze zrozumieniem, tworzyć analogie i porównania, być w stanie się wypowiedzieć w danym temacie. Dodatkowo zaznaczę, iż wiem, że niektóre zadania obecnie mogą wydawać się trywialne, ale wciąż, zrób je. Chodzi o to by jak najbardziej przyzwyczaić cię do pisania kodu i zaznajomić ze standardową biblioteką Pythona.
 
