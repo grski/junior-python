@@ -77,8 +77,7 @@ Do poczytania: https://bootcamp.uxdesign.cc/i-tried-40-project-note-taking-apps-
 
 ## Pyenv, poetry i inne nicponie
 
-Pyenv, poezja i inne łobuzy - nowoczesne zarządzanie zależnościami i wersjami Pythona
-O współczesnych wersjach Pythona, środowiskach i zarządzaniu zależnościami.
+Pyenv, poezja i inne łobuzy - nowoczesne zarządzanie zależnościami i wersjami Pythona, czyli o współczesnych wersjach Pythona, środowiskach i zarządzaniu zależnościami.
 
 #### PIP
 
@@ -89,9 +88,9 @@ W skrócie pip dostarcza narzędzi do pobierania pakietów z Python Package Inde
 #### Indeks pakietów
 Czym dokładnie jest indeks pakietów/package indeks?
 
-Właściwie to nic skomplikowanego. Jest to po prostu serwer http, powiedzmy, który dostarcza listę pakietów paczek pythonowych- pakietów i pewnych metadanych o nich. Nic więcej.
+Właściwie to nic skomplikowanego. Jest to po prostu serwer http, powiedzmy, który dostarcza listę pakietów/paczek pythonowych - pakietów i pewnych metadanych o nich. Nic więcej.
 
-Ciekawe zadanie do domu, aby poeksperymentować z czymś nowym: spróbuj zaimplementować własną wersję pypi i dodać do niej pewne ficzery, takie jak chroniony przez tokeny dostęp do paczek lub nawet więcej tokenów z funkcją granularnych uprawnień/permissionów.
+Ciekawe zadanie do domu, aby poeksperymentować z czymś nowym: spróbuj zaimplementować własną wersję pypi i dodać do niej pewne ficzery, takie jak chroniony przez tokeny dostęp do paczek lub nawet więcej - tokeny z funkcją granularnych uprawnień/permissionów.
 
 #### Domyślna instalacja pakietów
 

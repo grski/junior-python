@@ -94,8 +94,6 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 
 ...wam, **Łukaszu i Olu**. Kocham jak rodzinę, przesyłam ciepłe myśli wam i dzieciakom.
 
-...tobie, **Jochny** bracie. Ślę pozdrowienia dla Ciebie i mamy.
-
 ...tobie, **Alino**. Dużo mnie nauczyłaś, dużo mi dałaś, uczyniłaś moje życie lepszym, tak po prostu. Przeżyłem z tobą cudowne lato.
 
 ...tobie, **Kingo**, że jesteś i byłaś.
@@ -104,25 +102,21 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 
 ...tobie **Szymonie Szambelanie**, za otworzenie się, naukę i dobro, cenne lekcje.
 
-...tobie **Wiciu**. Co ja będę dużo gadał. <3 
-
-...tobie **Muffi**. Za dobre serce.
-
-...**Sebastianowi, Mariannie, Jackowi, Annie**, jak i całej reszcie dawnej ekipy z kravki, bo jesteście dobrymi ludźmi, zawsze będę o Was pamiętał.
+...tobie **Muffi**. Za dobre serce bracie.
 
 ...tobie **Robercie**, za pewne dobre pomysły z nieco gorszą egzekucją.
 
 ...wam **Kubuni i Dominiczkowi**. Za zdrowe kolana i wszystko.
 
-... tobie **Maniek**, `... król podwóra`. Jesteś dobrym człowiekiem, dziękuję za wiarę we mnie i pomoc.   
+... tobie **Maniek**, aka Król Podwóra, Jesteś dobrym człowiekiem, dziękuję za wiarę we mnie i pomoc.   
 
-...całej załodze, byłej jak i obecnej, **Bar Maxxu/Whisky House**, gdzie część tej książki powstała. Kocham to miejsce.
+...całej załodze, byłej jak i obecnej, **Mojego ulubionego i jedynego słusznego baru**, gdzie część tej książki powstała. Kocham to miejsce.
 
 ...tobie **Bartuś**. Zawsze mi pomogłeś jak potrzebowałem.
 
 ...tobie **Brodziatku** boś równy gość.
 
-...moim rozmaitym przyjaciołom, inspiracjom, dobrym ludziom, **Tomaszowi, Andrzejowi**, (grubemu nie, bo mi podnosi ciśnienie i musi iść do psychiatry), **Adamowi, Takurze, Pawłowi, Katarzynie, Amelii, Dimie, Marasowi**. Dobra, grubemu też.
+...moim rozmaitym przyjaciołom, inspiracjom, dobrym ludziom, **Tomaszowi, Andrzejowi**, (grubemu nie, bo mi podnosi ciśnienie i musi iść do psychiatry), **Adamowi, Takurze, Amelii, Dimie**. Dobra, grubemu też.
 
 ...do not think that I’ve forgotten about you, my dear brother, **Kunaal**. I thank you and I’m grateful that you’ve been there for me. Always.
 

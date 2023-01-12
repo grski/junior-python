@@ -29,7 +29,7 @@ Oprócz przeczytania tej książki, równocześnie lub nawet przed przeczytaniem
 Pozycje poszerzające horyzonty, ale które można przeczytać nieco później.
 
 1. Zrozumieć Programowanie - Gynvael Coldwind <- jeśli wydaje ci się, że w tej książce liznąłeś niskopoziomowych podstaw, to przeczytaj to wyżej. Pozycja wybitnie wartościowa, ale oznaczyłbym ją jako opcjonalną, bo do łatwych nie należy i można się zrazić. Natomiast warto jednak przerobić ten tom. Polecam też inną twórczość Gynvaela, bardzo inspirująca i znana postać na scenie.
-2. Pragmatyczny programista - Thomas Hunt <- co ja się będę rozpisywał. klasyk
+2. Pragmatyczny programista - Thomas Hunt <- co ja się będę rozpisywał. Klasyk.
 3. Bezpieczeństwo Aplikacji Webowych - Securitum <- Świetna książka o bezpieczeństwie w kontekście aplikacji webowych od światowej klasy ekspertów. Swoją droga ciekawostka - Polska ma jedną z mocniejszych reprezentacji jeśli o security idzie. Poland stonks.
 4. Modern Software Engineering - David Farley <- O nowoczesnych sposobach wytwarzania oprogramowania.
 5. Extreme Programming - Kent Beck <- Trochę o tym jak wygląda proces dostarczania oprogramowania i o sposobach kolaboracji.

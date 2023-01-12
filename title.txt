@@ -5,7 +5,7 @@ author: Olaf Górski © 2022
 year: 2022
 rights:  Wszystkie prawa zastrzeżone
 header-includes: |
-    \usepackage[polish]{babel}
+
     \usepackage{fancyhdr}
     \pagestyle{fancy}
 language: pl-PL

@@ -16,9 +16,9 @@ Droga ciekawa, bo przed tym, jeszcze będąc w szkole, gimnazjum i liceum, łapa
 
 ## Obecnie
 
-Pracuje sobie jako Tech Leda, kodzę w Pythonie, Django, Architektura, do tego ogarniam coś Jirę czasem, jakieś szczątkowe PO, do tego menadżerowanie czy mentorowanie członków mojego zespołu i w sumie tyle. Bunkrów nie ma, ale też jest zajebiście.
+Pracuje sobie jako Lead, kodzę w Pythonie, Django, Architektura, do tego ogarniam coś Jirę czasem, jakieś szczątkowe PO, do tego menadżerowanie czy mentorowanie członków mojego zespołu i w sumie tyle. Bunkrów nie ma, ale też jest zajebiście.
 
-Tak na codzień prowadzę sobie bloga [grski.pl](https://grski.pl), chodzę na siłownię, uważam, że powyżej 5 powtórzeń to cardio, marnuję czas na wykopie, mirko, 4programmers i innych zakątkach internetu. Lubię też pisać, rozmawiać, rozważać tematy filozoficzne, szukać sensu w życiu, słuchać Wattsa, czytać Frankla, Petersona czy stoików, klepać projekty na boku i czytać o czysto technicznych nowinkach, które prawdopodobnie, w 99.99% przypadków, nigdy mi się nie przydadzą w realnej pracy, natomiast z jakiegoś względu bardzo mnie interesują i dają frajdę.
+Tak na codzień prowadzę sobie bloga [grski.pl](https://grski.pl), chodzę na siłownię, piszę, żyję, trzeźwieję, zmagam się z demonami. Życie jest w pytę, ale nie jest kolorowe czasami.
 
 Nie wiem, wydaje mi się, że ot, całkiem normalny gość. Czasem trochę krindżu tu i ówdzie, ale hej, taki już jestem.
 

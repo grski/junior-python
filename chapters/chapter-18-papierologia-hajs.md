@@ -437,7 +437,7 @@ Mam w życiu więcej szczęścia, niż rozumu. Wróciłem po prawie rocznej prze
 
 Tak by się zdawać mogło.  Bajka, co? Była, aż do czasu gdy pierwszego tygodnia pracy ktoś przeczytał mój artykuł o tym, iż zarządzać ludźmi trzeba po ludzku a nie bazując na excelu, który za zgodą i review zespołu od tworzenia treści, umieściliśmy na blogu. Wtedy zostałem zwolniony ze skutkiem natychmiastowym. Ordnung must sein. Zderzyłem się z hipokryzją organizacji gdzie wycierano sobie mordę stawianiem na człowieka, sprawiedliwością i ludzkim podejściem, a gdzie rzeczywistość była przeciwieństwem, gdzie menadżer w pierwszym tygodniu rzucił słowami "Olaf, to twój zespół, nie jestem do nich przywiązany i mnie to nie interesuje, jak ci się coś z nimi nie podoba, to możemy ich zwolnić i zatrudnić kogoś innego.". Tak średnio ludzkie podejście. Zupełnie to nie grało z moim podejściem, które zakłada, że człowiek to coś więcej niż trybik w maszynie.
 
-Tego samego dnia jednak dogadałem się już z inna firmą, którą pierwotnie odrzuciłem. Nie mógłbym być bardziej zadowolony z tego, jak sprawy się potoczyły. Tutaj, gdzie jestem, czyli w Keyloop, czuję się w domu.
+Tego samego dnia jednak dogadałem się już z inna firmą, którą pierwotnie odrzuciłem. Nie mógłbym być bardziej zadowolony z tego, jak sprawy się potoczyły. 
 
 ### Małe podsumowanie mojej historii zarobkowej
 

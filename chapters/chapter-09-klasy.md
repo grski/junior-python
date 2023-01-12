@@ -8,13 +8,9 @@
 
 Można o klasach myśleć, w uproszczeniu, jak o po prostu pewnych zbieraninach funkcji. Funkcje tworzone wewnątrz klasy nazywają się nagle `metodami`. 
 
-Klasy można 'łączyć', co nazywa się dziedziczeniem. Przykład klasy:
-
-
+Klasy można 'łączyć', co nazywa się dziedziczeniem. Jak jedna klasa dziedziczy po drugiej, to przyjmuje jej metody, o ile ich nie nadpiszemy. Przykład klasy:
 
 \pagebreak
-
-
 
 ```python
 from collections import defaultdict
@@ -109,7 +105,8 @@ Algorytm C3 działa następująco:
 
 1. Wszystkie klasy są umieszczane na liście, w kolejności, w jakiej są podane jako argumenty dziedziczenia. Na przykład, w klasie `D` zdefiniowanej jako `class D(B, C)`, klasa `B` znajduje się przed klasą `C`.
 2. Dla każdej klasy na liście, dodaj jej klasę bazową do końca tej samej listy.
-3.  (...)
+
+Czyli najpierw od góry do dołu potem lewo do prawa.
 
 Resztę pominę.
 
@@ -156,7 +153,6 @@ person2 = Person.from_birth_year('Sasin', 1996)
  
 print(person1.age)
 print(person2.age)
- 
 print(Person.is_adult(22))
 ```
 
@@ -225,7 +221,7 @@ class Point:
 
 Zaletą używania type hinting jest to, że może pomóc w dokumentowaniu kodu i ułatwić jego odczytanie dla innych programistów. Type hinting może również pomóc w detekcji błędów w czasie kompilacji, ponieważ interpreter może zgłaszać błędy, jeśli dane oczekiwanego typu nie zostaną przekazane do funkcji lub metody.
 
-Wadą używania type hinting jest to, że może on być uciążliwy w implementacji, zwłaszcza w dużych projektach, gdzie konieczne jest ręczne dodawanie type hinting do wielu miejsc w kodzie. Ponadto, ponieważ type hinting nie jest obowiązkowy w Pythonie, niektórzy programiści mogą nie używać go w swoich projektach, co może utrudnić współpracę i odczytanie kodu przez innych.
+Wadą używania type hinting jest to, że może on być uciążliwy w implementacji, zwłaszcza w dużych projektach, gdzie konieczne jest ręczne dodawanie type hinting do wielu miejsc w kodzie. Ponadto, ponieważ type hinting nie jest obowiązkowy w Pythonie, niektórzy programiści mogą nie używać go w swoich projektach, co może utrudnić współpracę i odczytanie kodu przez innych, ale olać ich. Type hinting jest w pytę, ja polecam.
 
 Do poczytania: 
 
@@ -257,11 +253,11 @@ def add(x, y):
 
 W powyższym przykładzie docstring opisuje, co robi funkcja `add`, jakie argumenty przyjmuje i jakie wartości zwraca.
 
-Uwaga: pamiętaj, że docstringi muszą być umieszczone bezpośrednio po deklaracji funkcji i muszą być zamknięte w trójkątnych nawiasach. Docstringi nie mogą zawierać żadnych instrukcji kodu ani nie mogą być używane jako zwykłe komentarze.
+Uwaga: pamiętaj, że docstringi muszą być umieszczone bezpośrednio po deklaracji funkcji i muszą być zamknięte w potrójne ". Docstringi nie mogą zawierać żadnych instrukcji kodu ani nie mogą być używane jako zwykłe komentarze.
 
 Docstringi i type hinty to diabelsko użyteczne rzeczy, które naprawde gorąco polecam stosować. Nawet jak pracujesz samodzielnie nad projektem amatorskim. Dlaczego? Bo sam też zapominasz co robił dany kod. O wiele łatwiej wrócić do własnego projektu nawet, wtedy, kiedy jest on dobrze udokumentowany za pomocą type hintów czy docstringów i treściwych komentarzy.
 
-Bzdury typu "Dobry kod nie wymaga komentarzy" zostawmy między bajka
+Bzdury typu "Dobry kod nie wymaga komentarzy" zostawmy między bajkami.
 
 ## Operator is
 
@@ -283,6 +279,8 @@ print(x == z)  # wypisze True
 W powyższym przykładzie zmienna `x` i `y` wskazują na to samo miejsce w pamięci (obie zmienne wskazują na tę samą listę), dlatego operator `is` zwraca wartość True. Zmienna `z` zawiera tę samą wartość co zmienna `x`, ale wskazuje na inną lokalizację w pamięci, dlatego operator `is` zwraca False. Natomiast operator `==` sprawdza tylko wartości obu zmiennych, więc zwraca True zarówno dla porównania `x == y`, jak i `x == z`.
 
 Uwaga: pamiętaj, że operator `is` jest szybszy niż operator `==`, ponieważ nie musi porównywać wartości zmiennych, ale sprawdza tylko, czy wskazują one na to samo miejsce w pamięci. Dlatego operator `is` jest często używany w miejscach, gdzie szybkość jest ważna, a dokładność porównania nie jest konieczna.
+
+Dodatkowo `is` to element języka, niezmienialny powiedzmy. Zaś użycie operatora `==` zależy od tego, jak zaimplementowano magicznę(dunder) metodę `__eq__` albo `__equals__`? Nie pamiętam, sprawdź. Co to znaczy? Otóż możemy sami definiować to, jak Python będzie porównywał obiekty przy `==`. Poczytaj.
 
 ##  
 

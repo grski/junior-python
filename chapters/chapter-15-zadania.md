@@ -666,6 +666,64 @@ islice(accumulate(cycle("Close"), func=lambda x, y: x + ord(y), initial=0), 1, N
 
 Fajne, 
 
+## Code review
 
+W poniższym kodzie jest mnóstwo błędów. Zrób code review i zasugeruj jak można go poprawić. 
+
+```python
+
+"""Change user name endpoint."""
+# Please review the following code as if a colleague requested
+# feedback from you as a normal course of working on a project together.
+
+import logging
+import re
+import sqlalchemy
+import sqlalchemy.orm
+from flask import Response
+
+from close.models import *
+from close.main import app, tiger
+
+logger = logging.getLogger('change_user')
+Session = sqlalchemy.orm.sessionmaker(bind=sqlalchemy.create_engine(autocommit=True))
+
+
+def get_session():
+    """Get PostgreSQL session."""
+    return Session()
+
+
+@app.route('/api/v1/user/<user_id>/change_name/<string:n>/', methods=['POST'])
+def rename_user_view(user_id, n):
+    session = get_session()
+    user = session(User).get(user_id)
+
+    rex = re.compile('^[A-Z][a-z]*$')
+    if len(n) < 2 or rex.match(n) is None:
+        return Response('{"error":"Invalid user"}', status=500)
+
+    change_data_task.delay(user_id=user_id)
+    user.name = n
+    session.commit()
+
+
+@tiger.task()
+def change_data_task(user_id):
+    """TaskTiger task that asynchronously updates user names."""
+    session = get_session()
+    user = session(User).get(user_id)
+
+    tables = [Leads, Contacts, Emails, Calls, Notes]
+    rows = []
+    for t in tables:
+        row_count = session.query(t).filter(
+            t.created_user_id == user.id).update({'created_by': user.name})
+        rows.append(row_count)
+
+    logger.debug('Changed user data %s %s' % (user_id, rows))
+```
+
+Główne 
 
 \pagebreak

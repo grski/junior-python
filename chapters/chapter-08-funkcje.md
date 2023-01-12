@@ -8,13 +8,13 @@ Czym są funkcje i dlaczego są ważne w programowaniu? Zaraz pomówimy o tym sz
 
 ## Zwykłe funkcje/metody
 
-Najpierw omówmy tradycyjne  funkcje, czy jeśli mówimy o funkcjach definiowanych w klasach, metodach.
+Najpierw omówmy tradycyjne funkcje, czy jeśli mówimy o funkcjach definiowanych w klasach, metodach.
 
 #### Składnia definiowania funkcji w Pythonie.
 
 W Pythonie definicja funkcji rozpoczyna się od słowa kluczowego `def`, po którym następuje nazwa funkcji oraz nawiasy z argumentami. Kod wewnątrz funkcji jest wcięty. Przykład definicji funkcji:
 
-```
+```python
 def nazwa_funkcji(arg1, arg2):
     # kod funkcji
     return wynik
@@ -43,7 +43,7 @@ print(b)  # Output: 6
 
 #### Wincy wartości do zwrotu
 
-W Pythonie możliwe jest zwracanie wielu wartości z funkcji za pomocą tuple lub słownika. Aby zwrócić wiele wartości w formie krotki, należy je po prostu oddzielić przecinkami. Przykład: 
+W Pythonie możliwe jest zwracanie wielu wartości z funkcji za pomocą krotki lub słownika. Aby zwrócić wiele wartości w formie krotki, należy je po prostu oddzielić przecinkami. Przykład: 
 
 ```python
 def min_max(x):
@@ -151,11 +151,14 @@ def greet(greeting='Hello', name):
 
 ### Śledzik na raz
 
-Wartości domyślne argumentów są jak śledzik na raz - interpreter Pythona zerknie na nie tylko raz, chluśnie i więcej nie będzie się zajmował. Co to znaczy? Ano to, że interpreter działa w takis sposób, że jak może, inicjuje domyślne argumenty tylko raz. O ile przy strignach, liczbach to nie ma problemu, tak przy obiektach mutowalnych pojawia się problem. Jak sądzisz, jaki?
+Wartości domyślne argumentów są jak śledzik na raz - interpreter Pythona zerknie na nie tylko raz, chluśnie i więcej nie będzie się zajmował. Co to znaczy? Ano to, że interpreter działa w taki sposób, że jak może, inicjuje domyślne argumenty tylko raz. O ile przy strignach, liczbach to nie ma problemu, tak przy obiektach mutowalnych pojawia się problem. Jak sądzisz, jaki?
 
-Otóż każde kolejne wywołanie funkcji, wbrew temu czego by się można spodziewać, nie będzie powodować stworzenia nowej instancji elementu domyślnego a po prostu użyje referencji do na początku zainicjowanego obiektu np. listy.
+Otóż każde kolejne wywołanie funkcji, wbrew temu czego by się można spodziewać, nie będzie powodować stworzenia nowej instancji elementu domyślnego a po prostu użyje referencji do na początku zainicjowanego obiektu np. listy. Rozważ przykład niżej.
 
  ```python
+ >>> def xd(default_list=[]):
+         default_list.append(1)
+         return default_list
  >>> xd()
  [1]
  >>> xd
