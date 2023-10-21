@@ -31,7 +31,7 @@ W nazwach zmiennych możemy stosować również polskie znaki, ale nie róbmy te
 
 Zmienne nazywamy po angielsku, korzystając przy tym ze snake case - to taka praktyka, gdzie poszczególne wyrazy w nazwie zmiennej dzielimy od siebie za pomocą znaku _. Trzymaj się tego, bo to ważne, bardzo ważne.
 
-Teoretycznie rzecz ujmując, jeśli pracujesz w 100% polskim zespole, gdzie masz pewność, że w przyszłości NA PEWNO nikt, kto polskiego nie zna, nie będzie czytał tego kodu (czyli nigdy), to okej. Teoretycznie możnaby pisać kod po polsku, ale... Nie jest to ogółem dobra praktyka, proszę, nie rób tego o ile tylko możesz. Czasem mogą cię przymusić na przykład przy projektach z sektoru publicznego, realizowanych przez pewne duże korporacje, ale to nie do końca są projekty, w których chcesz się znaleźć. Zazwyczaj.
+Teoretycznie rzecz ujmując, jeśli pracujesz w 100% polskim zespole, gdzie masz pewność, że w przyszłości NA PEWNO nikt, kto polskiego nie zna, nie będzie czytał tego kodu (czyli nigdy), to okej. Teoretycznie można by pisać kod po polsku, ale... Nie jest to ogółem dobra praktyka, proszę, nie rób tego o ile tylko możesz. Czasem mogą cię przymusić na przykład przy projektach z sektoru publicznego, realizowanych przez pewne duże korporacje, ale to nie do końca są projekty, w których chcesz się znaleźć. Zazwyczaj.
 
 Czyli sprawa ma się tak: zmienne i wszystko w naszym kodzie nazywamy opisowo, tak by od razu było wiadomo, co dany kawałek kodu robi, co znajduje się w zmiennej. Nie przesadzajmy jednak w drugą stronę – nazwą zmiennej nie powinien być cały poemat. Do tego w nazwach raczej używamy tylko liter, cyfr(rzadziej), podkreślenia. Tutaj konserwatywnie i bez szału. Zwięzłe, trafne nazwy.
 
@@ -86,7 +86,7 @@ Czasami, naprawdę, bardzo, ale to bardzo rzadko trafia się taka okoliczność,
 
 Trzeba doliczyć tu też fakt, że ja oczywiście tutaj mocno przejaskrawiam przykład, ale chodzi o to, by pokazać pewien fakt.
 
-Zatem jak widzisz – nazwy są krytycznie ważne a każdemu, co tworzy kod jak ten w drugim przykładzie, trzeba zasądzić a) rentę z racji braku mózgu b) wyrok 15 lat kodzenia w legacy code napisanym w C++, jako gratis.
+Zatem jak widzisz – nazwy są krytycznie ważne, a każdemu, co tworzy kod jak ten w drugim przykładzie, trzeba zasądzić a) rentę z racji braku mózgu b) wyrok 15 lat kodzenia w legacy code napisanym w C++, jako gratis.
 
 Także tak.
 
@@ -136,7 +136,7 @@ I gotowe!
 
 ## Znowu trochę teorii
 
-Wróćmy do tego, co lubię. Czyli zgłębiania tego, dlaczego, co i jak.
+Wróćmy do tego, co lubię. Czyli zgłębiania tego dlaczego, co i jak.
 
 Te nasze zmienne całe. Na czym one polegają? Jak komputer je rozumie? A no dość prosto, zatem już tłumaczę.
 
@@ -287,11 +287,11 @@ Pierwszym argumentem jest całe to wyrażenie `WORD PTR [rbp-2]`. Oznacza ono ni
 
 A jako drugi argument mamy wartość, którą trzeba tam wstawić, czyli `1`.
 
-Przeanalizuj to sobie na spokojnie, nie jest to aż tak skomplikowane. Zwróć uwagę na to, że typ `short`, który ma rozmiar 2 bajtów w tej implemenacji, czyli 16 bitów, jakoś brzmi tak podobnie do rozmiaru, którego kompilator użył przy pierwszym argumencie, tam jest `WORD` - też 2 bajty i 16 bitów. Przypadek? 
+Przeanalizuj to sobie na spokojnie, nie jest to aż tak skomplikowane. Zwróć uwagę na to, że typ `short`, który ma rozmiar 2 bajtów w tej implementacji, czyli 16 bitów, jakoś brzmi tak podobnie do rozmiaru, którego kompilator użył przy pierwszym argumencie, tam jest `WORD` - też 2 bajty i 16 bitów. Przypadek? 
 
 Do tego wróć się trochę i popatrz na dalszą część tego kodu, zwłaszcza deklaracje następnych zmiennych, ich typy i fragmenty z X PTR [rbp-XD].
 
-Po tym wszystkim powinna ci się lampka zaświecić. Odpowiadając na pytanie z początku rozdziału - skąd program wie, kiedy przestać czytać? Otóż w procesie kompilacji znika coś takiego jak `a`. Jego wystąpienia zastępywane są czymś pokroju `WORD PTR [rbp-2]`. Mając to z kolei, program doskonale wie, kiedy przestać czytać i kiedy zacząć, bo mamy i adres, i ilość bajtów jaką odczytać.
+Po tym wszystkim powinna ci się lampka zaświecić. Odpowiadając na pytanie z początku rozdziału - skąd program wie, kiedy przestać czytać? Otóż w procesie kompilacji znika coś takiego jak `a`. Jego wystąpienia zastępowane są czymś pokroju `WORD PTR [rbp-2]`. Mając to z kolei, program doskonale wie, kiedy przestać czytać i kiedy zacząć, bo mamy i adres, i ilość bajtów jaką odczytać.
 
 Spędź chwilę czasu nad tym, pomyśl. Nie musi od razu zaskoczyć. Przeanalizuj najpierw cały ten kod. Spokojnie. Dopiero potem przejdź dalej.
 
@@ -305,7 +305,7 @@ W Pythonie mechanizm deklaracji zmiennych wygląda troszkę inaczej (jak, to por
 
 Do tego nie przejmuj się naprawdę, jeśli powyższe nie jest dla ciebie oczywiste, ten fragment z kodem. Na spokojnie. posiedź troszkę nad nim, to nie jest takie proste! Zastanów się, przeanalizuj samodzielnie, poguglaj nawet. To, że po sekundzie nie rozumiesz, co się tam dzieje, nie sprawia, że jesteś nierozumna czy głupi. Także do przodu!
 
-## Inna inoszość
+## Inna inszość
 
 Jak już o inności Pythona mówimy, to powiedzmy trochę, dosłownie dwa zdania, o tym, jak Python, jako język interpretowany, jest inny od języków kompilowanych, ale tylko pozornie.
 
@@ -317,7 +317,7 @@ Otóż kod Pythonowy, który napiszesz też jest kompilowany, ale nie do kodu ma
 
 Następnie, nasz skompilowany bytecode jest wykonywany przez interpreter Pythona, zaś interpreter Pythona to nic innego jak inny kod skompilowany do kodu maszynowego, czyli zwykły program. Mówiąc w skrócie Python to kompilowany język interpretowany tak jakby.
 
-Zastanawiałeś się kiedyś czym są i dlaczego się tworzą pliki *.pyc po tym, jak uruchomisz swój kod? To swego rodzaju forma optymalizacji i zapamiętania przez Pythona pośredniego kroku kompilacji. Python patrzy na plik źródłowy, na jego podstawie liczy sobię jakąś tam sumę z tegoż pliku, czy 'liczbę', w końcu każdy plik pod spodem to nic innego jak jakaś tam bardzo długa binarna nawijka. Binarne ciągi zaś można przetłumaczyć, przeliczyć na zwykłą liczbę, w uproszczeniu. Zatem Python pod spodem sobie to robi, patrzy, czy istnieje plik *.pyc, jeśli nie, to go tworzy. Następnie sprawdza, czy ta liczba, która jest unikalna dla każdego pliku źródłowego, jest taka sama. Jeśli tak, to nie wykonuje kroku kompilacji ponownie, od razu przeskakuje do interpretowania. 
+Zastanawiałeś się kiedyś czym są i dlaczego się tworzą pliki *.pyc po tym, jak uruchomisz swój kod? To swego rodzaju forma optymalizacji i zapamiętania przez Pythona pośredniego kroku kompilacji. Python patrzy na plik źródłowy, na jego podstawie liczy sobie jakąś tam sumę z tegoż pliku, czy 'liczbę', w końcu każdy plik pod spodem to nic innego jak jakaś tam bardzo długa binarna nawijka. Binarne ciągi zaś można przetłumaczyć, przeliczyć na zwykłą liczbę, w uproszczeniu. Zatem Python pod spodem sobie to robi, patrzy, czy istnieje plik *.pyc, jeśli nie, to go tworzy. Następnie sprawdza, czy ta liczba, która jest unikalna dla każdego pliku źródłowego, jest taka sama. Jeśli tak, to nie wykonuje kroku kompilacji ponownie, od razu przeskakuje do interpretowania. 
 
 Jeśli dokonamy jakiejkolwiek zmiany w kodzie to Python wyłapie zmianę, gdyż zmieni się ta 'liczba' i przed interpretowaniem przeprowadzi proces 'kompilacji' ponownie.
 
@@ -341,7 +341,7 @@ Przypomnijmy sobie o tym, o czym pisałem w tym rozdziale.
 
 Nasz komputer jest całkiem dobry w zapamiętywaniu rzeczy, znacznie lepszy, niż nasze mózgi, zatem warto z tego korzystać. Zazwyczaj podczas programowania do zapamiętywania na jakiś czas pewnych rzeczy wykorzystujemy **RAM**. 
 
-Przy okazji notka - wyrażenie `pamięc RAM` to pleonazm językowy, gdyż RAM znaczy `Random Access Memory` zatem pisanie pamięc RAM to jakby pisać masło maślane. Wróćmy jednak do tematu - wykorzystujemy RAM. Kiedy?
+Przy okazji notka - wyrażenie `pamięć RAM` to pleonazm językowy, gdyż RAM znaczy `Random Access Memory` zatem pisanie pamięć RAM to jakby pisać masło maślane. Wróćmy jednak do tematu - wykorzystujemy RAM. Kiedy?
 
 Robimy to chociażby używając **zmiennych/stałych**, które są niczym innym jak jakąś **nazwą, aliasem**, który tworzymy dla tego, co chcemy zapamiętać, przez co komputer wie, gdzie w swojej pamięci, pod jakim adresem, dokładniej mówiąc, danej rzeczy szukać, a nam jest łatwiej wpisać i zapamiętać `first_name` jako nazwę zmiennej/odniesienie/alias zamiast `0xA1FBA`. 
 

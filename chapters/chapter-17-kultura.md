@@ -6,15 +6,15 @@ O kulturze pracy programisty słów kilka. O nastawieniu i takich tam. Mimo, że
 
 ## Trochę o menadżerach/liderach
 
-Dobry menago/lider zespołu jest osobą, która może albo zespół doprowadzić do ruinacj 	i albo dodać mu skrzydeł. Zespoły to podstawowy blok budulcowy firm. Jeśli menago może zniszczyć lub uskrzydlić zespół, to podobnie może z całą firmą. To podkreśla jak ważny jest ktoś normalny w roli lidera. W jaki sposób uskrzydla się lub niszczy? Operując na tym, z czego zespół się składa. Na ludziach. Człowiek to podstawowa i najważniejsza jednostka w firmie, której chęć, a głównie wygenerowana niechęc, do pracy, jest mocno zależna od wpływów liderów. Opiszę trochę przemyśleń moich z tym związanych a raczej obserwacji na temat drogi, jaką co niektórzy przechodzą i jak ich to zmienia w efekcie.
+Dobry menago/lider zespołu jest osobą, która może albo zespół doprowadzić do ruiny albo dodać mu skrzydeł. Zespoły to podstawowy blok budulcowy firm. Jeśli menago może zniszczyć lub uskrzydlić zespół, to podobnie może z całą firmą. To podkreśla jak ważny jest ktoś normalny w roli lidera. W jaki sposób uskrzydla się lub niszczy? Operując na tym, z czego zespół się składa. Na ludziach. Człowiek to podstawowa i najważniejsza jednostka w firmie, której chęć, a głównie wygenerowana niechęć do pracy, jest mocno zależna od wpływów liderów. Opiszę trochę przemyśleń moich z tym związanych a raczej obserwacji na temat drogi, jaką co niektórzy przechodzą i jak ich to zmienia w efekcie.
 
 Na mej programistycznej drodze spotkałem już wielu menadżerów w wielu różnych firmach. Niektórzy byli wspaniali, wpłynęli pozytywnie na moje życie, inni byli kompletnymi kretynami, jeszcze inni zaś są dla mnie teraz prawie jak rodzina. Po pewnym czasie zacząłem przyuważać pewne wzorce, które występowały prawie zawsze, i które pozwoliły mi wyizolować trzy graniczne poziomy bycia menadżerem.
 
-### Poziom pierszy: mistrz Excela
+### Poziom pierwszy: mistrz Excela
 
-Mistrzowie Excela to często świeżo upieczeni menadżerowie, liderzy, którzy nie mają jeszcze za dużo doświadczenia, ale za to pełno ego, dumy i buńczuczności. Świat stoi przed nimi otworem i jest do zdobycia! Uwielbiają swoje arkusze, wszystko w nich zapisują, optymalizują, czasami uprawiają mikromagament. To ludzie będący w początkowym okresie kariery menadżerskiej, gdzie człowiek może się nieco upoić początkowo swoją włądzą.
+Mistrzowie Excela to często świeżo upieczeni menadżerowie, liderzy, którzy nie mają jeszcze za dużo doświadczenia, ale za to pełno ego, dumy i buńczuczności. Świat stoi przed nimi otworem i jest do zdobycia! Uwielbiają swoje arkusze, wszystko w nich zapisują, optymalizują, czasami uprawiają mikromanagement. To ludzie będący w początkowym okresie kariery menadżerskiej, gdzie człowiek może się nieco upoić początkowo swoją władzą.
 
-Ten typ człowieka widzi często tylko jedną rzecz: piniondz. Oj często takich spotykałem do pewnego czasu, za często. Pazeroty. I to oni są właśnie najbardziej niebezpiecznym typem menadżera, jaki się firmie może przytafić, spośród trzech wymienionych przeze mnie. 
+Ten typ człowieka widzi często tylko jedną rzecz: piniondz. Oj często takich spotykałem do pewnego czasu, za często. Pazeroty. I to oni są właśnie najbardziej niebezpiecznym typem menadżera, jaki się firmie może przytrafić, spośród trzech wymienionych przeze mnie. 
 
 Pozornie rzecz ujmując mistrzowie Excela wyglądają całkiem spoko. Cyferki się zgadzają, plany, prezentacje, no bajeczka. ALe nie do końca. W rzeczywistości wszystko się rozjeżdża. Dlaczego są najbardziej niebezpiecznym rodzajem? Z powodu fasady, którą narzucają - nie są tymi, których zwykle podejrzewa się o bycie źródłem problemu, ale po poznaniu gatunku tego zwierza, w przyszłości ciężko nie dostrzec i potem bardzo często ich rozpoznajesz z łatwością. Jak? Po prostu znajdź najbardziej nieszczęśliwy zespół w firmie. Milczący zespół, który trwa w cichej rezygnacji, pozornie z jakiegoś nieuchwytnego powodu. Nie szukaj zespołu, który skarży się. Oni nadal mają nadzieję. Szukaj czegoś innego.
 
@@ -32,7 +32,7 @@ Spotkałem wielu takich ludzi. Mają jedną rzecz wspólną. Zawieruchę, jaką 
 
 Najlepsze, co mogą osiągnąć menedżerowie pierwszego poziomu, to bardzo krótkotrwałe projekty. Projekty, w których ludzie nie mają szansy poznania się, spotkania z trudnościami i prawdziwymi wyzwaniami. Powiedziałbym maksymalnie parę tygodni. To jest możliwe z poziomu jeden, ponieważ w tak krótkim czasie nie są w stanie wystarczająco zniszczyć swoich członków zespołu. Nie mogą ich zaatakować do stanu rozpaczy, chyba że są bardzo utalentowani w tym.
 
-Zwykle ci ludzie albo pozostają zamknięci w tym nastawieniu przez dłuuuuuuugo czas, albo spróbują różnych rad, aby może poprawić lub naprawić zespół. Ponieważ często nie widzą błędu w swoim zachowaniu. W każdym razie.
+Zwykle ci ludzie albo pozostają zamknięci w tym nastawieniu przez dłuuuuuuugi czas albo spróbują różnych rad, aby może poprawić lub naprawić zespół, ponieważ często nie widzą błędu w swoim zachowaniu. W każdym razie.
 
 Zazwyczaj prowadzi to do nauki o empatii. Co nas prowadzi do...
 
@@ -42,11 +42,11 @@ Tu rzeczy stają się nieco interesujące, powiedziałbym. Osoba, która osiągn
 
 Cholera, nie. To jest problem z menedżerami drugiego poziomu. Widzą empatię tylko jako narzędzie, narzędzie do zmuszenia zespołu do pracy. Albo do lepszej wydajności. W każdym razie, to nie jest prawdziwa empatia w żadnym razie. To po prostu obliczona manipulacja w rzeczywistości.
 
-Nie zrozum mnie źle - prawdziwy lider POWINIEN i MUSI znać się trochę na manipulacji, powinno to być dla niego naturalne, ale nie powinien tego używać. Dobrzy menedżerowie powinni umieć odczytywać ludzi i ich emocje, ale nigdy nie wykorzystywać tego przeciwko nim, nigdy nie manipulować swoim zespołem w celu wykonania pewnych rzeczy. To nie działa na dłuższą metę, ale może przynieść czasem krótkotrwałe korzyści. Co jest bez sensu.
+Nie zrozum mnie źle - prawdziwy lider POWINIEN i MUSI znać się trochę na manipulacji, powinno to być dla niego naturalne, ale nie powinien tego nadużywać. Dobrzy menedżerowie powinni umieć odczytywać ludzi i ich emocje, ale nigdy nie wykorzystywać tego przeciwko nim, nigdy nie manipulować swoim zespołem w celu wykonania pewnych rzeczy. To nie działa na dłuższą metę, ale może przynieść czasem krótkotrwałe korzyści. Co jest bez sensu.
 
 Ta umiejętność powinna być wykorzystywana do współczucia, wiedzieć kiedy się wycofać, dać członkowi zespołu trochę luzu czasami, z różnych powodów, które zaobserwowałeś.
 
-Więc chociaż menedżer drugiego poziomu jest trochę lepszy niż pierwszego, to nadal jest zły, przynajmniej próbuje i udaje. To już coś, prawda? O jakim udawaniu i jakiej udawanej empatii tu mówię?
+Więc chociaż menedżer drugiego poziomu jest trochę lepszy od pierwszego, to nadal jest zły, przynajmniej próbuje i udaje. To już coś, prawda? O jakim udawaniu i jakiej udawanej empatii tu mówię?
 
 Oh, hi Susan. Dobra robota na warsztacie empatii z naszym trenerem Agile w zeszłym tygodniu. To bardzo ważne, aby promować empatię w naszej firmie! Twoja mama zmarła wczoraj, więc chciałabyś dziś wyjść wcześniej? Och, nie ten rodzaj empatii. Może kolejne warsztaty z trenerem Agile/Empatii pomogą Ci to poprawić? Firma za to zapłaci! Zastanów się nad tym Susan i trzymaj tak dalej, mistrzu!
 
@@ -72,7 +72,8 @@ Dlaczego uważam ich za tak ważnych? Ponieważ jeśli masz z nimi szczerą wię
 
 Nawet jeśli to, nad czym pracujecie, jest całkowitym śmieciem, to przynajmniej macie siebie, prawda? Wiesz, że twój kierownik ma plecy twoje i twojego zespołu. Wiesz, że nie chodzi tylko o wskaźniki KPI i twoje wyniki. Co jak na ironię sprawia, że osiągasz lepsze wyniki.
 
-To tylko prosty, ale bardzo głęboki i znaczący akt postrzegania cię takim, jakim jesteś - człowiekiem, a nie trybikiem w maszynie. Brzmi to tak prosto, a jednak czasami osiągnięcie tego poziomu zajmuje lata i jest trudne. Tak jest. Ludzie są skomplikowanymi istotami.
+To tylko prosty, ale bardzo głęboki i znaczący akt postrzegania cię takim, jakim jesteś 
+- człowiekiem, a nie trybikiem w maszynie. Brzmi to tak prosto, a jednak czasami osiągnięcie tego poziomu zajmuje lata i jest trudne. Tak jest. Ludzie są skomplikowanymi istotami.
 
 Jak rozpoznać poziom trzeci? Nie boją się swoich porażek, potrafią być naprawdę wrażliwe i pokazać swoją słabą stronę, podzielić się, sprawić, byś się trochę otworzył i odniósł. Mają bardzo dobre relacje ze swoim zespołem i znają ludzi, którzy pod nimi pracują. To jest złe słowo. Nie mają ludzi, którzy pracują pod nimi. Mają ludzi, którzy z nimi pracują. To jest jedna z większych różnic tutaj. Bycie menedżerem i posiadanie partnerstwa z zespołem w celu osiągnięcia wspólnego celu versus posiadanie zespołu niewolników, którym się zarządza.
 
@@ -94,7 +95,7 @@ Wszyscy już tam byliśmy. Jeśli obecnie znajdujesz się na poziomie pierwszym,
 
 Ważnym i istotnym elementem każdego kawałka kodu czy systemu, który tworzysz, jest jego design. Co to konkretnie znaczy? 
 
-Otóż chodzi o to, by kod, jaki napiszesz był **przemyślany**. Tutaj wchodzi coś, co nazywamy `incremental design`. Znaczy to tyle, że generalnie nie da się od razu, dla projektów mniej trywialnych aniżeli Hello World, stworzyc rozwiązania idealnego. Zamiast tego trzeba myśleć o dostarczaniu rozwiązania jak o procesie, przez który przechodzimy krok po kroku.
+Otóż chodzi o to, by kod, jaki napiszesz był **przemyślany**. Tutaj wchodzi coś, co nazywamy `incremental design`. Znaczy to tyle, że generalnie nie da się od razu, dla projektów mniej trywialnych aniżeli Hello World, stworzyć rozwiązania idealnego. Zamiast tego trzeba myśleć o dostarczaniu rozwiązania jak o procesie, przez który przechodzimy krok po kroku.
 
 Najpierw powinniśmy zrozumieć dany problem, dobrze go pojąć i wrzucić w nasz mózg, by przemielić go na analogie i koncepcje dla nas zrozumiałe. 
 
@@ -106,13 +107,13 @@ Coś, co od siebie polecam, to następujące kroki:
 
 1. Zrozumienie problemu i zadawanie pytań. To tu jest miejsce na przemyślenia, analogie i próbę oswojenia się z danym problemem. Pytaj, nawet o pozornie głupie rzeczy, zrozum o co tutaj chodzi i jaki jest problem. Zrozum **domenę** problem i **zamodeluj** go sobie w jakiś sposób w swojej głowie. Co to znaczy? Abstrakcyjny koncept przedstaw i wyobraź sobie w nieco mniej abstrakcyjny, zrozumiały dla siebie sposób.
 2. Rozrysuj koncepcję z punktu wyżej lub podsumuj swoje przemyślenia w formie pisemnej. To tutaj warto by skonfrontować twoje wyobrażenia z rzeczywistością, zapytać odpowiednich osób, czy to właśnie o to chodziło. Diagramy są tutaj nieziemsko przydatne. Zaznaczam jednak, że nie chodzi o szczegółowy plan implementacji czy coś w tym stylu. Nie. Generalny rozrys tego, o co się rozchodzi w problemie.
-3. Dopiero teraz pora na pierwsze implementacje najmniejszych kawałków. Zadanie podzielone na małe części, to zadanie łatwe do ogarnięcia. Mały kawałek łatwiej ogarnąć jednorazowo, aniżeli ogromny problem. Może zastosuj teraz TDD? Napisz jakiś kawałek kodu, który odwzoruje model i jakiś kawałek rozwiązania problemu, stestuj i skonfronuj z rzeczywistością. Warto tu zaznaczyć, że kod należy pisać tak, by jak najłatwiej było go potem zmienić, zastąpić, zrefactorować. Im bardziej skomplikowany i powiązany z innymi fragmentami kod, tym trudniejszy w edycji i refactoringu. Nie jest to jednak zachęta do tego, by tworzyć ogromnego molosa, który będzie zawierał tony boilerplate kodu i robił wszystko, jednocześnie nic. Nic bardziej mylnego.
+3. Dopiero teraz pora na pierwsze implementacje najmniejszych kawałków. Zadanie podzielone na małe części, to zadanie łatwe do ogarnięcia. Mały kawałek łatwiej ogarnąć jednorazowo, aniżeli ogromny problem. Może zastosuj teraz TDD? Napisz jakiś kawałek kodu, który odwzoruje model i jakiś kawałek rozwiązania problemu, przetestuj i skonfronuj z rzeczywistością. Warto tu zaznaczyć, że kod należy pisać tak, by jak najłatwiej było go potem zmienić, zastąpić, zrefactorować. Im bardziej skomplikowany i powiązany z innymi fragmentami kod, tym trudniejszy w edycji i refactoringu. Nie jest to jednak zachęta do tego, by tworzyć ogromnego molosa, który będzie zawierał tony boilerplate kodu i robił wszystko, jednocześnie nic. Nic bardziej mylnego.
 4. Mając w ręku coś, co sensownie faktycznie rozwiązuje problem i odwzorowuje dobrze model problemu, teraz można nieco zrefaktorować, poprawić, podciągnąć, uczynić kod łatwiejszym i lepiej napisanym.
 5. Krok 3 i 4 powtarzamy ile trzeba. Być może też krok 2.
 
 Nie zachęcam tutaj do tego, by od razu z góry tworzyć **waterfallowy** model, gdzie z góry planujemy wszystko w szczególe. 
 
-Iteracja po iteracji poprawiamy swój design i kod, idąc do przodu. To o to się rozchodzi. Dzięki temu możemy testować malutkie kawałki, walidować swoje pomysły na biężąco (np. z klientem poprzez dostarczanie malutkich fragmentów, ale często) i żyć ze znośnym kodem.
+Iteracja po iteracji poprawiamy swój design i kod, idąc do przodu. To o to się rozchodzi. Dzięki temu możemy testować malutkie kawałki, walidować swoje pomysły na bieżąco (np. z klientem poprzez dostarczanie malutkich fragmentów, ale często) i żyć ze znośnym kodem.
 
 Programowanie paradoksalnie, jeśli dobrze zrobione, często nie opiera się na programowaniu.
 
@@ -141,7 +142,7 @@ Podobno o wartościach i zasadach najwięcej mówią ci, co ich nie mają, bo re
 4. Poczuwanie się do odpowiedzialności i bycie dumnym ze swojej pracy
    Jak coś tworzysz, bierz za to odpowiedzialność, bądź z tego dumny. Ta zasada ma daleko idące implikacje jak dbanie o swój kod, dostarczanie holistycznych rozwiązań, które zostały przetestowane, czasem `going the extra mile`, jeśli trzeba, posiadanie i wykazywanie inicjatywy zamiast ślepego podążania za taskami. 
 5. Merytokracja
-   Moim zdaniem ego chowamy do kieszeni. Krytykę, merytokratyczną znaczy się, twojego rozwiązania, kodu czy nawet swojej osoby, nie traktuj osobiście i jako atak. Nie. To raczej cenne lekcje, z których można się uczyć, ino trzeba odsunąć ego na dalszy plan a skupić się na tym, co ważne, czyli dobro projektu, klienta, dostarczanie wartości. Nie znaczy to, że masz się ciąglę poświęcać, nie. Szanuj siebie przede wszystkim, ale powtarzam. Ego chowamy do kieszeni a rzeczy w pracy staramy się bazować na logice, argumentom i dyskusjom prowadzonym w dorosły sposób. Dodatkowo chciałbym też nadmienić, że nie masz się też co bać proponować swoich rozwiązań, nawet jeśli idą niejako w sprzeczności z rozwiązaniami np. lidera, starszego programisty czy klienta. Jeśli pracujesz z odpowiednimi ludźmi, to docenią to a rozwiązanie wybierzecie na podstawie faktów a nie innych czynników.
+   Moim zdaniem ego chowamy do kieszeni. Krytykę, merytokratyczną znaczy się, twojego rozwiązania, kodu czy nawet swojej osoby, nie traktuj osobiście i jako atak. Nie. To raczej cenne lekcje, z których można się uczyć, ino trzeba odsunąć ego na dalszy plan, a skupić się na tym, co ważne, czyli dobro projektu, klienta, dostarczanie wartości. Nie znaczy to, że masz się ciągle poświęcać, nie. Szanuj siebie przede wszystkim, ale powtarzam. Ego chowamy do kieszeni a rzeczy w pracy staramy się bazować na logice, argumentom i dyskusjom prowadzonym w dorosły sposób. Dodatkowo chciałbym też nadmienić, że nie masz się też co bać proponować swoich rozwiązań, nawet jeśli idą niejako w sprzeczności z rozwiązaniami np. lidera, starszego programisty czy klienta. Jeśli pracujesz z odpowiednimi ludźmi, to docenią to a rozwiązanie wybierzecie na podstawie faktów, a nie innych czynników.
 6. Współpraca
    Bądź niezależny w swojej pracy lokalnie, natomiast zorientowany na współpracę globalnie. Co to znaczy? Myśl i miej gdzieś z tyłu głowy szerszą perspektywę i staraj się koordynować swoje indywidualne starania tak, by wpasowywały się w jakiś szerszy plan. Przykład tutaj to: "Zacznę implementowąć najpierw tego taska, bo dzięki temu odblokuję frontend."
 7. Zakładaj dobre intencje
@@ -169,7 +170,6 @@ Wiedza jest bardzo cenna. To coś w co należy ciągle inwestować, gdyż daje o
 
 ## Relacja z prowadzenia pierwszego retro
 
-
 Ostatnio miałem okazję po raz pierwszy w życiu facylitować retrospektywę, to będzie moje podsumowanie tego doświadczenia.
 
 Pomysł zaczął się od tego, że jeden z founderów firmy dla której wtedy pracowałem zapytał mnie, czy nie chciałbym tego zrobić.
@@ -180,7 +180,7 @@ Cóż, zgodziłem się bez wahania. Pomimo tego, że w większości nie jestem w
 
 W każdym razie - widząc mnóstwo takiego szumu, od razu staję się sceptyczny. Stąd postanowiłem sprawdzić, co jest po drugiej stronie płotu.
 
-Oczywiście zdawałem sobie sprawę, że jest wiele wartościowych praktyk, rzeczy, nawyków i schematów myślenia, których można się nauczyć od gromady Agile, to nie jest tak, że mówię, że wszystko co agile jest bezużyteczne. Nie interpretuj moich słów w ten sposób. Po prostu niektórzy ludzie robią szalone rzeczy, które nie są Agile i nazywają je Agile. Szczególnie w Polsce tak się wydaje. A to czasem prowadzi do szaleństwa. Widziałem to na własne oczy, żaden psychoterapeuta nie pomógł później[. Odbiegam od tematu.
+Oczywiście zdawałem sobie sprawę, że jest wiele wartościowych praktyk, rzeczy, nawyków i schematów myślenia, których można się nauczyć od gromady Agile, to nie jest tak, że mówię, że wszystko co agile jest bezużyteczne. Nie interpretuj moich słów w ten sposób. Po prostu niektórzy ludzie robią szalone rzeczy, które nie są Agile i nazywają je Agile. Szczególnie w Polsce tak się wydaje. A to czasem prowadzi do szaleństwa. Widziałem to na własne oczy, żaden psychoterapeuta nie pomógł później. Odbiegam od tematu.
 
 Ponieważ był to mój pierwszy raz, zaoferowano mi pomoc. Firma załatwiła mi kilka godzin z naszym zaprzyjaźnionym trenerem agile, który pomaga nam w budowaniu pewnych procesów w firmie. Odbyliśmy krótką rozmowę, zanim zaplanowałem swoją retrospektywę.
 

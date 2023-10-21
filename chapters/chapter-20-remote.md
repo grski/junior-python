@@ -4,7 +4,7 @@
 
 Trochę o pracy zdalnej pogadamy i jak zrobić to po ludzku.
 
-Wiele osób nie zdaje sobię sprawy z tego, że praca zdalna wymaga tego, by pewne kwestie rozwiązać dobrze. Inaczej długoterminowo może być nieprzyjemna. Praca zdalna to nie tylko pracowanie z domu. Dobrze zaimplementowana wymaga zmian nie tylko w lokacji wykonywanej pracy. 
+Wiele osób nie zdaje sobie sprawy z tego, że praca zdalna wymaga tego, by pewne kwestie rozwiązać dobrze. Inaczej długoterminowo może być nieprzyjemna. Praca zdalna to nie tylko pracowanie z domu. Dobrze zaimplementowana wymaga zmian nie tylko w lokacji wykonywanej pracy. 
 
 ## Ergonomia
 
@@ -14,20 +14,20 @@ Co to konkretnie znaczy omówię na swoim przykładzie.
 
 ### Mój ergonomiczny setup
 
-Przenalizujmy to, jak wygląda moja  sytuacja i jakiego sprzętu używam.
+Przeanalizujmy to, jak wygląda moja  sytuacja i jakiego sprzętu używam.
 
 1. Monitor zewnętrzny + laptop. 
-   Prosta sprawa. Dodatkowy monitor zewnętrzy pozwala mi ułatwić prace poprzez większą powierzchnię do wyświetlania rzeczy. Fajnie, żeby były to przynajmniej 27", wysokiej rozdzielczości. Dla jednych FullHD wystarcza, dla innych 2K to mało. Ja osobiście skłaniam się ku 2k/4k. 4k może kapkę za dużo, stąd kompromisem wydaje mi się 2k. Porządny monitor nie będzie męczył oczu. U mnie sprawdza się 27" poleasingówka od della, którą nabyłem za 800 zł. Rozdzielczość 2k. Ten dodatkowy monitor naprawdę poprawił i usprawnił moją pracę.
+   Prosta sprawa. Dodatkowy monitor zewnętrzny pozwala mi ułatwić prace poprzez większą powierzchnię do wyświetlania rzeczy. Fajnie, żeby były to przynajmniej 27", wysokiej rozdzielczości. Dla jednych FullHD wystarcza, dla innych 2K to mało. Ja osobiście skłaniam się ku 2k/4k. 4k może kapkę za dużo, stąd kompromisem wydaje mi się 2k. Porządny monitor nie będzie męczył oczu. U mnie sprawdza się 27" poleasingówka od della, którą nabyłem za 800 zł. Rozdzielczość 2k. Ten dodatkowy monitor naprawdę poprawił i usprawnił moją pracę.
 2. Mikrofon
    Pracując zdalnie fajnie jest mieć dobry mikrofon. Za 200-300 zł można mieć naprawdę porządny sprzęt a mamy gwarancję, że będzie nas dobrze słychać, redukcja szumów etc. Polecam Thronmaxxy. Cena do jakości jest niesamowita. Zawsze miło, kiedy nie ma się problemów ze zrozumieniem współpracownika. Diabeł tkwi w szczegółach.
 3. Kamerka
-   Zazwyczaj starczy ta wbudowana czy też dla bardziej wymagających zewnętrzna kamerka lub dla najbardziej wymagających geeków ewnętrzny aparat cyfrowy podłączony do laptopa. Fajnie jest mieć od czasu do czasu kontakt wzrokowy z współpracownikami. Nie ma co tego jednak nadużywać, nie zawsze kamerka jest potrzebna.
+   Zazwyczaj starczy ta wbudowana czy też dla bardziej wymagających zewnętrzna kamerka lub dla najbardziej wymagających geeków wewnętrzny aparat cyfrowy podłączony do laptopa. Fajnie jest mieć od czasu do czasu kontakt wzrokowy z współpracownikami. Nie ma co tego jednak nadużywać, nie zawsze kamerka jest potrzebna.
 4. Biurko stojące.
    Jestem strasznie hiperaktywny. Biurko stojące pomaga mi tym zarządzać. Dodatkowo fakt, że od czasu do czasu wstaję, dobrze wpływa na moje zdrowie, plecy i ogólną kondycję fizyczną. Siedzenie jest średnio zdrowe. Przykurcze, problemy z kręgosłupem. Można się załatwić. 
 5. Porządny fotel
-   Jak już siedzimy dużo, to najlepiej na czymś spoko. Jedni lubią piłki gimnastyczne, inni ergonomiczne fotele, jeszcze inni taborety. Upodobań jest wiele. Ja od siebie polecam jednak porządny fotel typu Ergohuman czy coś w tym stylu, ale tańsze. Wydatek jednorazowy a popłaca.
+   Jak już siedzimy dużo, to najlepiej na czymś spoko. Jedni lubią piłki gimnastyczne, inni ergonomiczne fotele, jeszcze inni taborety. Upodobań jest wiele. Ja od siebie polecam jednak porządny fotel typu Ergohuman czy coś w tym stylu, ale tańsze. Wydatek jednorazowy, a popłaca.
 
-Powyższe rzeczy to moim zdaniem podstawy w ergonomicznej pracy zdalnej, które przydatne są, jeśli chcemy zachować zdrowie na lata. Oczywiście, da się pracować i bez tego. Nie musisz od razu do samej nauki zaopatrywać się w krzesło za tysiąc złotych czy mikrono za trzysta. Nie. Natomiast jeśli jesteś już profesjonalistą, to nie bój się inwestować w swój sprzęt. To narzędzia twojej pracy takie same jak wszystkie inne. Ułatwisz życie sobie i innym.
+Powyższe rzeczy to moim zdaniem podstawy w ergonomicznej pracy zdalnej, które przydatne są, jeśli chcemy zachować zdrowie na lata. Oczywiście, da się pracować i bez tego. Nie musisz od razu do samej nauki zaopatrywać się w krzesło za tysiąc złotych czy mikrofon za trzysta. Nie. Natomiast jeśli jesteś już profesjonalistą, to nie bój się inwestować w swój sprzęt. To narzędzia twojej pracy takie same jak wszystkie inne. Ułatwisz życie sobie i innym.
 
 Wiem, że wydać się to może śmieszne, ale podświadomie nieco bardziej poważnie biorę osoby, które mają fajny setup. Nie jest to wyznacznikiem niczego, ale tak jakoś mam. To sygnalizuje mi pewne rzeczy podświadomie.
 

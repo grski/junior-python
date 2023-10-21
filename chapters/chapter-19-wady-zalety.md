@@ -58,7 +58,7 @@ Podałem tu trochę przykład ekstremalny, ale bardzo prawdopodobny, jeśli traf
 
 IT to też stygmat – przygotuj się na to, że wszyscy znajomi, rodzina i inne osoby, które znasz, będą oczekiwać od ciebie wiedzy wielkiej w dziedzinach, które są choćby najmniej powiązane z programowaniem. 
 
-Jaki wybrać telefon, jaki komputer, jaki router, jak go skonfigurować i tak dalej. To nie ważne, że nie pracujesz jako admin, devops czy jakiś inny help desk. Każdy oczekuje, że będziesz się znał na wszystkim, co z it/technologią związane. Nie jest to jakaś duża wada, ale po pewnym czasie potrafi być irytujące.
+Jaki wybrać telefon, jaki komputer, jaki router, jak go skonfigurować i tak dalej. To nieważne, że nie pracujesz jako admin, devops czy jakiś inny help desk. Każdy oczekuje, że będziesz się znał na wszystkim, co z it/technologią związane. Nie jest to jakaś duża wada, ale po pewnym czasie potrafi być irytujące.
 
 Protip: nigdy się nie oferuj nigdzie, że 'reinstalniesz komuś system', zwłaszcza za darmo. Potem wszyscy będą przychodzić do ciebie ze swoimi problemami technologicznymi i ciebie za nie winić. 
 
@@ -96,7 +96,7 @@ Jak zwykle, wszystko zależy od Ciebie, twoich projektów, kontrybucji open sour
 
 ### Wymarzona praca
 
-'Rób to, co lubisz, a nie przepracujesz nawet jednego dnia.' Czy jakoś tak. Nie wiem, kto to powiedział, ale kretyn z niego. Nawet jeśli jara cię programowanie tak jak mnie, to wciąż w pracy czeka cię masa rzeczy, które nie są strice programowaniem, ale są konieczne przy procesie tworzenia oprogramowania. 
+'Rób to, co lubisz, a nie przepracujesz nawet jednego dnia.' Czy jakoś tak. Nie wiem, kto to powiedział, ale kretyn z niego. Nawet jeśli jara cię programowanie tak jak mnie, to wciąż w pracy czeka cię masa rzeczy, które nie są stricte programowaniem, ale są konieczne przy procesie tworzenia oprogramowania. 
 
 Meetingi, spotkania, dyskusje, papierologia, przekonywanie klienta do pewnych rozwiązań czy też jego jakieś fanaberie. Wiele mógłbym tu wymieniać.
 
@@ -114,7 +114,7 @@ Tak nie będzie. Po prostu. To nierealne. W programowaniu są ciężkie chwile, 
 
 Są też słabe projekty, zadania, do których nie mamy ochoty siadać, ale i tak musimy. Programowanie naprawdę bywa męczące i to bardzo.
 
-I mówię Ci to ja, osoba, która kiedyś pracowała na budowie. W zasadzie czasami tęsknię za tym, jakie to proste było. Czasami z chęcią bym sobie obsadził takie narożniki gdzieś na glifach jakiś. Idealnie, do ładnego kąta prostego. Goldbandzikiem ładnie przejechać. Oj tak. Potem gładź na dwa razy i wyszlifować na lusterko. Nie ma  lepszego uczucia.
+I mówię Ci to ja, osoba, która kiedyś pracowała na budowie. W zasadzie czasami tęsknię za tym, jakie to było proste. Czasami z chęcią bym sobie obsadził takie narożniki gdzieś na glifach jakichś. Idealnie, do ładnego kąta prostego. Goldbandzikiem ładnie przejechać. Oj tak. Potem gładź na dwa razy i wyszlifować na lusterko. Nie ma lepszego uczucia.
 
 Pewnie, taka praca męczy fizycznie, czasami bardzo, zwłaszcza jak trzeba dymać na rusztowaniu przy ogromnej wilgotności, bo farba schnie, i przy 35-stopniowym upale w lecie, albo gdy musisz przerzucić milion pustaków lub paletę 25 kilowych worków tynku wnieść na 4 piętro. 
 
@@ -130,15 +130,15 @@ Podsumowując, praca programisty, zwłaszcza wtedy, kiedy jesteś zafascynowany 
 
 ## Zalety
 
-Narzekania już starczy, teraz pora na zalety. Oh boi. Od czego by tu zacząć.
+Narzekania już starczy, teraz pora na zalety. Oh boy. Od czego by tu zacząć.
 
 ### Pitos
 
-Co tu dużo gadać. Hajs się zgadza. Natomiast warto zaznaczyć, że występują skrajne różnice. Otóż znam osoby, które mają podobny staż co ja a zarobki od 20% do 80% niższe od moich. W IT jest szansa na to, by dobrze zarabiać, dość duża, ale trzeba też włożyć wysiłku i znać się na tym, co się robi. Do tego dochodzą umiejętności miękkie.
+Co tu dużo gadać. Hajs się zgadza. Natomiast warto zaznaczyć, że występują skrajne różnice. Otóż znam osoby, które mają podobny staż co ja, a zarobki od 20% do 80% niższe od moich. W IT jest szansa na to, by dobrze zarabiać, dość duża, ale trzeba też włożyć wysiłku i znać się na tym, co się robi. Do tego dochodzą umiejętności miękkie.
 
 ### Możliwości rozwoju
 
-IT to tak dynamiczna branża, że nigdy nie można narzekać na nudę. Rzeczy ewoluują tu tak szybko, że ścieżki rozwoju i jego możliwości są w zasadzie niezliczone. To mega spoko. Z drugiej strony, jak już wspominiałem o tym, dla niektórych może być  to wada. Albo idziesz do przodu, albo umierasz, bo jak stoisz w miejscu to się cofasz. Aż zapachniało Kołczem Majkiem. Every day we stray further away from God.
+IT to tak dynamiczna branża, że nigdy nie można narzekać na nudę. Rzeczy ewoluują tu tak szybko, że ścieżki rozwoju i jego możliwości są w zasadzie niezliczone. To mega spoko. Z drugiej strony, jak już wspomniałem o tym, dla niektórych może być  to wada. Albo idziesz do przodu, albo umierasz, bo jak stoisz w miejscu to się cofasz. Aż zapachniało Kołczem Majkiem. Every day we stray further away from God.
 
 ### Ciekawa praca
 
@@ -148,11 +148,11 @@ Do tego same technikalia i szczegóły implementacyjne naszej pracy bywają napr
 
 ### Zdalna również często
 
-W obecnych czasach praca w IT jest bardzo często zdalna. Niesie to ze sobą pewne wady, o których już pisałem, gdzie cierpi zwłaszcza socjalizacja i życie społeczene, przynajmniej u niektórych, ale jednocześnie daje nam wiele możliwości. Praca zdalna to przede wszystkim ogromna elastyczność w grafiku, życiu. Wygoda - nie tracimy czasu na dojazdy. Natomiast najważniejsze dla mnie w pracy zdalnej jest chyba to, że możemy pracować dla firm z całego świata i wykorzystywać siłę nabywczą mocniejszej waluty z zamożniejszego kraju, mieszkając w miejscu, gdzie lokalna waluta ma słabą siłę nabywczą.
+W obecnych czasach praca w IT jest bardzo często zdalna. Niesie to ze sobą pewne wady, o których już pisałem, gdzie cierpi zwłaszcza socjalizacja i życie społeczne, przynajmniej u niektórych, ale jednocześnie daje nam wiele możliwości. Praca zdalna to przede wszystkim ogromna elastyczność w grafiku, życiu. Wygoda - nie tracimy czasu na dojazdy. Natomiast najważniejsze dla mnie w pracy zdalnej jest chyba to, że możemy pracować dla firm z całego świata i wykorzystywać siłę nabywczą mocniejszej waluty z zamożniejszego kraju, mieszkając w miejscu, gdzie lokalna waluta ma słabą siłę nabywczą.
 
 Mówiąc po chłopsku, jak mieszkasz w takiej Polsce, gdzie złotówka to żeton zrobiony z kartonu a rząd regularnie urządza ruchanie tegoż żetonu po same kukle, bez wazeliny, gdzie dolar jest po pinć złoty, to zarabiając w euro czy dolarach będziesz miał tu prawdopodobnie jeszcze większe eldorado niż w porównaniu do twoich kolegów, którzy zarabiają w złotówkach.
 
-Dodatkowo firma, która jest z zagranicy i pracuje w trybie zdalnym też umie policzyć. Lepiej zapłacić inżynierowi z USA, gdzie koszty życia są większe i nie zgodzi się on za pracę za mniej niż 20k USD na miesiąc, załóżmy, czy dać 10k USD polakowi, który pracę wykona prawdopodobnie podobnie albo równie dobrze, będzie mega zadowolony z pensji a mimo tego połowę tańszy bo za 10k USD w Polsce można żyć prawdopodobnie na większym poziomie niż w USA za 20k USD? Oczywiście liczyb są zmyślone, ale obrazują sytuacje.
+Dodatkowo firma, która jest z zagranicy i pracuje w trybie zdalnym też umie policzyć. Lepiej zapłacić inżynierowi z USA, gdzie koszty życia są większe i nie zgodzi się on za pracę za mniej niż 20k USD na miesiąc, załóżmy, czy dać 10k USD polakowi, który pracę wykona prawdopodobnie podobnie albo równie dobrze, będzie mega zadowolony z pensji a mimo tego połowę tańszy bo za 10k USD w Polsce można żyć prawdopodobnie na większym poziomie niż w USA za 20k USD? Oczywiście liczby są zmyślone, ale obrazują sytuacje.
 
 Polska jest chyba jednym z niewielu krajów, gdzie różnice w zarobkach między średnią pensją a pensją w IT są tak ogromne. W Norwegii tego nie ma. W Szwajcarii też niekoniecznie. W Niemczech podobnie. Znaczy jest, oczywiście, ale nie są to różnice rzędu 10x średnia pensja. 
 

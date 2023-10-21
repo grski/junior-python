@@ -43,9 +43,9 @@ Technologie powinny być króciutko opisane, odpowiednie materiały zalinkowane,
 
 ### Instrukcja tworzenia środowiska lokalnego
 
-Tutaj umieszczamy kroki wykonać, aby lokalnie postawić środowisko. Dodatkowo to w tej sekcji umiejscawiamy instrukcje jak wykonać często używane operacje, jakich komend najczęściej się używa jak np. czyszczenie bazy danych, albo jej tworzenie, migracje etc. To tutaj ląduje też wiedza, która jest mocno specyficzna dla danego projektu np. jak rozwiązano problem lokalizacji, internacjonalizacji używając np. PhraseApp czy OneSky.
+Tutaj umieszczamy kroki, które należy wykonać, aby lokalnie postawić środowisko. Dodatkowo to w tej sekcji umiejscawiamy instrukcje jak wykonać często używane operacje, jakich komend najczęściej się używa jak np. czyszczenie bazy danych, albo jej tworzenie, migracje etc. To tutaj ląduje też wiedza, która jest mocno specyficzna dla danego projektu np. jak rozwiązano problem lokalizacji, internacjonalizacji używając np. PhraseApp czy OneSky.
 
-Zalecam by akurat tę sekcję opisać szczególnie dobrze, mając na wzgląd użytkoników mniej technicznych, który być może będą potrzebowali postawić środowisko lokalnie w celach testowych. Czasami są to nietechniczne osoby, testerzy, stakeholderzy, produkt ownerzy etc. Im też należy się możliwość posiadania środowiska lokalnego. Dodatkowo cały proces stawiania środowiska powinien być jak najbardziej zautomatyzowany.
+Zalecam, by akurat tę sekcję opisać szczególnie dobrze, mając na wzgląd użytkowników mniej technicznych, który być może będą potrzebowali postawić środowisko lokalnie w celach testowych. Czasami są to nietechniczne osoby, testerzy, stakeholderzy, produkt ownerzy etc. Im też należy się możliwość posiadania środowiska lokalnego. Dodatkowo cały proces stawiania środowiska powinien być jak najbardziej zautomatyzowany.
 
 ### Deployment
 
@@ -120,7 +120,7 @@ Mamy coś, co nazywa się dependency resolving i dependency locking. Zasadniczo 
 
 To jest dokładnie to, co robi Poetry. A robi to prze-elegancko.
 
-Poza tym, skoro już przy tym jesteśmy, Poetry ułatwia również zarządzanie projektami, zajmuje się tworzeniem i zarządzaniem virtualenvs za Ciebie i umożliwia łatwiejszą, bardziej scentralizowaną konfigurację projektu poprzez wprowadzenie pyproject.toml. pyproject.toml jest teraz zazwyczaj nowym standardowym plikiem konfiguracyjnym projektów pythonowych. A i jeszcze ułatwia budowanie pakietów, ponieważ może spakować/zbundlować twój kod pythona i opublikować go w indeksie pakietów twojego wyboru np. w pypi.
+Poza tym, skoro już przy tym jesteśmy, Poetry ułatwia również zarządzanie projektami, zajmuje się tworzeniem i zarządzaniem virtualens za Ciebie i umożliwia łatwiejszą, bardziej scentralizowaną konfigurację projektu poprzez wprowadzenie pyproject.toml. pyproject.toml jest teraz zazwyczaj nowym standardowym plikiem konfiguracyjnym projektów pythonowych. A i jeszcze ułatwia budowanie pakietów, ponieważ może spakować/zbundlować twój kod pythona i opublikować go w indeksie pakietów twojego wyboru np. w pypi.
 
 Ogólnie rzecz biorąc, Poetry jest w pytę.
 
@@ -130,7 +130,7 @@ Python to osobliwe małe zwierzę, które zrzuca skórę od czasu do czasu. Ozna
 
 Ale po co to w ogóle robić? Cóż, tak samo jak w przypadku zależności. Jeden projekt może zależeć od Pythona 3.10, inny od 2.7, a jeszcze inny od 3.12. Potrzebujemy czegoś takiego jak virtualenv, który zapewniłby izolację, ale zamiast na poziomie projektu, to na poziomie systemu i nie dla paczek ale dla wersji pythona..
 
-Jak to zrobić? Za pomocą pyenv. Pyenv został wzbogacony o zgrabną wtyczkę, która pozwala nam tworzyć takie jakby virtualenvy, ale z różnych wersji/interpretacji pythona. Pyenv + pyenv-virtualenv pięknie się integruje z Poetry.
+Jak to zrobić? Za pomocą pyenv. Pyenv został wzbogacony o zgrabną wtyczkę, która pozwala nam tworzyć takie jakby virtualeny, ale z różnych wersji/interpretacji pythona. Pyenv + pyenv-virtualenv pięknie się integruje z Poetry.
 
 Tak czy inaczej. Mamy pyenv-virtualenv, który jest wrapperem dla pyenv, który z kolei jest opakowaniem wokół zarządzania wersjami pythona, pracujący z Poetry, która jest wrapperem dla pip i pip-tools, zintegrowanym z virtualenv, który jest również rodzajem wrappera.
 

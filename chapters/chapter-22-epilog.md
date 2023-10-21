@@ -53,7 +53,7 @@ github: @grski
 
 Co bardziej ogarniętych może gdzieś postaram się polecić. Kto wie.
 
-Pamiętaj, że mi też ktoś kiedyś pomóg, a ja chcę przekazać pałęczkę dalej. Znaczy to tyle, że jestem tylko człowiekiem a nie niewiadomo kim. Jeśli do mnie napiszesz do spokojnie, nie gryzę. Postaram się pomóc najlepiej jak potrafię.
+Pamiętaj, że mi też ktoś kiedyś pomógł, a ja chcę przekazać pałeczkę dalej. Znaczy to tyle, że jestem tylko człowiekiem, a nie nie wiadomo kim. Jeśli do mnie napiszesz do spokojnie, nie gryzę. Postaram się pomóc najlepiej jak potrafię.
 
 Nie zapomnij o https://github.com/grski/junior-python-exercises gdzie robiąc pull requesty do repozytorium możesz uzyskać dodatkowe wskazówki plus będzie to zawsze coś, co wzbogaci twojego githuba o kontrybucje ;) 
 

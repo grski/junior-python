@@ -8,7 +8,7 @@ Zanim weźmiemy się za naukę Pythona, nieco opowiem o historii samego języka,
 
 ## Jak korzystać z tej książki
 
-Chwila, stop. Chciałbym nieco powiedzieć Ci, jak moim zdaniem należy z tej książki korzystać. Po pierwsze, starałem się, by była ona napisana tak, żeby z jednego tematu naturalnie przechodzić do następnego – od tematów prostych, do tych nieco bardziej skomplikowanych. Dzięki liniowej budowie powinna być ona łatwa do zrozumienia.
+Chwila, stop. Chciałbym nieco Ci powiedzieć, jak moim zdaniem należy z tej książki korzystać. Po pierwsze, starałem się, by była ona napisana tak, żeby z jednego tematu naturalnie przechodzić do następnego – od tematów prostych, do tych nieco bardziej skomplikowanych. Dzięki liniowej budowie powinna być ona łatwa do zrozumienia.
 
 Jednak jeśli jesteś już nieco bardziej doświadczonym programistą, czy też po prostu chcesz sobie przypomnieć pewne rzeczy, to skacz po niej śmiało – większość rozdziałów jest w miarę zamkniętymi komponentami.
 
@@ -18,9 +18,9 @@ Uważam, że to niezbędna wiedza, by zostać dobrym programistą, który się r
 
 Jeśli chcesz dobrze przyswoić informacje tu zawarte i naprawdę się nauczyć czegoś nowego, to dobrze radzę: po pierwsze, rób notatki, krótkie, treściwe i proste. 
 
-Po drugie – kod przepisuj. Nie korzystaj z metody Copiego Pasty. Przepisuj samodzielnie i koniec.
+Po drugie – przepisuj kod. Nie korzystaj z metody Copiego Pasty. Przepisuj samodzielnie i koniec.
 
-Na koniec trzy – samodzielnie wykonuj zadania, które będę umieszczał na końcu rozdziałów, ale to nie wszystko – eksperymentuj z kodem. Zmieniaj go, zobacz, jakie będą efekty tych zmian. Przekonaj się o tym w praktyce, przeanalizuj swoje modyfikacje, przemyśl je i ich rezultaty, to jak wypływają na działanie programu. To jest najlepsza metoda nauki. To podstawowe założenie, które przyświecało mi przy pisaniu, że będziesz samodzielnie wykonywał/wykonywała ćwiczenia, czytał/czytała dodatkowo inne artykuły, książki, prowadzić eksperymenty z kodem.
+Na koniec, trzy – samodzielnie wykonuj zadania, które będę umieszczał na końcu rozdziałów, ale to nie wszystko – eksperymentuj z kodem. Zmieniaj go, zobacz, jakie będą efekty tych zmian. Przekonaj się o tym w praktyce, przeanalizuj swoje modyfikacje, przemyśl je i ich rezultaty, to jak wypływają na działanie programu. To jest najlepsza metoda nauki. To podstawowe założenie, które przyświecało mi przy pisaniu, że będziesz samodzielnie wykonywał/wykonywała ćwiczenia, czytał/czytała dodatkowo inne artykuły, książki, prowadzić eksperymenty z kodem.
 
 Więcej o tym, jak powinno się uczyć i jakie metody się sprawdzają, możecie przeczytać we wpisie na blogu Gynvael’a Coldwind’a – Poradnik początkującego programisty. Grski poleca. W ogóle cały blog wam polecam. Mało jest miejsc w Internecie, gdzie znaleźć można tak dobre i ciekawe treści. Googlnijcie, bo warto.
 
@@ -34,7 +34,7 @@ Na moim githubie znajdziesz repozytorium `junior-python-exercises - https://gith
 
 Python obecnie jest głównie w dwóch wersjach – Python 2 i Python 3. Są to dwa ‘główne’ wydania tego samego języka, jednakże wersja 3 jest nowsza, wprowadza pewne nowe rzeczy, które nie są wstecznie kompatybilne z wersją nr 2, stąd ten przeskok numeru.
 
-Wprowadzenie Pythona 3 nastąpiło wiele lat temu, obecnie mamy czasy, kiedy Python 2 nie jest już rozwijamy. Umarł i koniec. Jedyne projekty, jakie w nich są, to jakieś grubsze legacy. Poza tym, gdzieś tam słychać powoli jakieś głoski o Pythonie 4.
+Wprowadzenie Pythona 3 nastąpiło wiele lat temu, obecnie mamy czasy, kiedy Python 2 nie jest już rozwijany. Umarł i koniec. Jedyne projekty, jakie w nich są, to jakieś grubsze legacy. Poza tym, gdzieś tam słychać powoli jakieś głoski o Pythonie 4.
 
 Co to znaczy z twojej perspektywy, jako początkującego? Nic. Po prostu wiedz, że obecnie uczysz się Pythona 3 i tyle. To wciąż ten sam język, jednak występują między nim, a Pythonem 2 pewne różnice, które w razie czego, możesz bez problemu poznać w kilka chwil. Ja wybieram wersję najnowszą, by przedstawić ci najświeższe informacje to raz, a dwa, tak szczerze, Python 2 staje się już powoli reliktem przeszłości, a kto tworzy w nim obecnie nowy software, robi błąd, chociaż nie wydaje mi się, by takie przypadki można było jeszcze gdzieś znaleźć, poza paroma korpo wyjątkami. 
 
@@ -47,7 +47,7 @@ Python 2 przechodzi do przeszłości i dobrze, niemniej jednak czasem napomnę o
 
 Python jest językiem dość starym, że się tak wyrażę. Starszym ode mnie, chociaż to żadne osiągnięcie akurat.
 
-Obecnie pełno na rynku języków dość nowych, dzieci jak Scala, Dart, Elm, Elixir, Kotlin czy wiele, wiele innych. W porównaniu z nimi Python jest staruszkiem, pojawił się on bowiem na początku roku 1991 na CWI – Centrum Matematyki i Informatyki w Amsterdamie. Nie jest to co prawda dziadunio taki jak np. C z roku 1972, ale taki pełnoprawny język w średnim wieku, to już jak najbardziej.
+Obecnie jest pełno nowych języków na rynku języków dość nowych, dzieci jak Scala, Dart, Elm, Elixir, Kotlin czy wiele, wiele innych. W porównaniu z nimi Python jest staruszkiem, pojawił się on bowiem na początku roku 1991 na CWI – Centrum Matematyki i Informatyki w Amsterdamie. Nie jest to co prawda dziadunio taki jak np. C z roku 1972, ale taki pełnoprawny język w średnim wieku, to już jak najbardziej.
 
 Jego głównym twórcą był Guido van Rossum, który do dziś ma przydomek „Benevolent Dictator for Life” (a w zasadzie miał, o czym za chwilę) i w zasadzie uznawany jest za najwyższy autorytet w świecie Pythona.
 
@@ -65,7 +65,7 @@ Oprócz ABC, w Pythonie wyraźne są pewne wpływy lub elementy zapożyczone z t
 
 
 ## Abdykacja Guido
-W okolicach czasu pisania tej książki, w sumie na samym początku (cóż mogę powiedzieć, robiłem długie przerwy...), stała się rzecz niesłychana, otóż Guido van Rossum, autor Pythona, postanowił oddalić się od łańcucha decyzyjnego w świecie Pythona i zrzucić swój tytuł BDFL, powoli w ogóle przechodząc na emeryturę niejako. Całość spowodowana była PEP 572, który zaproponował między innymi sam Guido, a który wywołał dość nieprzychylne reakcje społeczności. O co się rozchodziło? 
+W okolicach czasu pisania tej książki, w sumie na samym początku (cóż mogę powiedzieć, robiłem długie przerwy...), stała się rzecz niesłychana, otóż Guido van Rossum, autor Pythona, postanowił oddalić się od łańcucha decyzyjnego w świecie Pythona i zrzucić swój tytuł BDFL, powoli w ogóle przechodząc na emeryturę. Całość spowodowana była PEP 572, który zaproponował między innymi sam Guido, a który wywołał dość nieprzychylne reakcje społeczności. O co się rozchodziło? 
 
 O operator := i przypisanie w wyrażeniach. Spora część osób bardzo głośno i donośnie zaczęła krytykować ten pomysł, często bez jakichkolwiek podstaw, gdyż, przynajmniej mnie, sam PEP wydaje się raczej przemyślany i fajny, ta funkcjonalność na pewno się gdzieś przyda w Pythonie. O samym tym PEP-ie porozmawiamy później jeszcze, więc na razie bez szczegółów.
 
@@ -75,7 +75,7 @@ Poniżej zamieszczam, przetłumaczono przeze mnie tekst e-maila, który opubliko
 
 Chciałbym kompletnie odizolować się od procesu decyzyjnego w kwestiach związanych z Pythonem. Przez chwilę wciąż zamierzam pozostać aktywnym jako zwykły Core Developer, dalej będę mentorował ludzi — teraz w sumie nawet może więcej. Niemniej jednak oficjalnie daję swojej osobie takie permanentne wakacje od tytułu BDFL, musicie radzić sobie sami.
 
-No bo tak w zasadzie to cóż, jest to coś, co prędzej czy później i tak by was czekało — za każdym rogiem wciąż czai się gdzieś jakiś tir, który chce mnie rozjechać, to raz a dwa, że lat mi nie ubywa z biegiem czasu... Oszczędzę wam listy moich problemów zdrowotnych.
+No bo tak w zasadzie to cóż, jest to coś, co prędzej czy później i tak by was czekało — za każdym rogiem wciąż czai się gdzieś jakiś tir, który chce mnie rozjechać, to raz, a dwa, że lat mi nie ubywa z biegiem czasu... Oszczędzę wam listy moich problemów zdrowotnych.
 
 Nie zamierzam wyznaczać swego następcy.
 
@@ -107,7 +107,7 @@ Co prawda nie do końca darzę go pełnią sympatii, przez różne mocno poprawn
 
 Pytanie jednak jak będzie wyglądał świat Pythona bez tego człowieka? Jaki kierunek wybierze? To okazja do wzrostu, ale zarazem zagrożenie, że zgubimy kierunek, który obecnie jest dość fajny.
 
-W każdym razie... Nowy wiatr zadmie w żagle, dokąd nas zaprowadzi? Czas pokaże. Za rok, dwa pięć. Zdecydujemy o tym my, społeczność, która tworzy Pythona, czyli w zasadzie za niedługo i ty, drogi czytelniku.
+W każdym razie... Nowy wiatr zadmie w żagle, dokąd nas zaprowadzi? Czas pokaże. Za rok, dwa, pięć. Zdecydujemy o tym my, społeczność, która tworzy Pythona, czyli w zasadzie za niedługo i ty, drogi czytelniku.
 
 Notka: tak z perspektywy czasu, to dalej jest git. Zwinięcie Guido nie zmieniło jakoś Pythona na gorsze.
 
@@ -129,7 +129,7 @@ Następnym celem, który miał przed sobą Python, jest otwartość. Niektóre j
 
 Z Pythonem tego problemu nie ma – jest on kompletnie darmowy w użytkowaniu, modyfikacji, dystrybucji i czymkolwiek tam jeszcze sobie użytkownik życzy. 
 
-Dodatkowo Python jest otwarto-źródłowy a za jego rozwojem stoi społeczność. Co to znaczy w praktyce? Każdy ma wgląd do źródeł języka to raz, dwa, że jeżeli coś ci się w Pythonie nie podoba, uważasz, że coś mogłoby zostać zrobione lepiej, to… 
+Dodatkowo Python jest otwarto-źródłowy, a za jego rozwojem stoi społeczność. Co to znaczy w praktyce? Każdy ma wgląd do źródeł języka to raz, dwa, że jeżeli coś ci się w Pythonie nie podoba, uważasz, że coś mogłoby zostać zrobione lepiej, to… 
 
 Nie ma problemu. Weź daną funkcję i po prostu ją dopisz, zmień. Jeśli społeczność uzna, że twoje zmiany są zasadne i przydatne, to wylądują one w samym języku. Każdy może mieć zatem realny wpływ na to, jak wygląda Python, jak on działa. Świetna sprawa.
 
@@ -144,17 +144,17 @@ Dlatego też na przestrzeni lat Python stawał się coraz to popularniejszy, je�
 
 Dzięki temu Python stał się całkiem popularny jako język wykorzystywany do pisania aplikacji internetowych, ale to nie wszystko. W obecnych latach możemy zauważyć nieustający wzrost zapotrzebowania na różnych specjalistów związanych z Data Science, Artifical Inteligence, Machine Learning czy Neural Networks.
 
-Wszystkie te i pokrewne branże rozwijają się niesamowicie a językiem, który w zasadzie praktycznie tam króluje, jest Python. Ma tam swojego konkurenta w postaci R, czy szybko rosnącej zawodniczce w postaci Julii, ale wciąż, trzyma się mocno ten nasz wąż.
+Wszystkie te i pokrewne branże rozwijają się niesamowicie, a językiem, który w zasadzie praktycznie tam króluje, jest Python. Ma tam swojego konkurenta w postaci R, czy szybko rosnącej zawodniczce w postaci Julii, ale wciąż, trzyma się mocno ten nasz wąż.
 
 Dlaczego? Spójrzcie na idee, jakie przyświecają Pythonowi – samo się wyjaśni. Analityk nie ma być dobrym koderem, on ma za zadanie przetworzyć dane, zatem potrzebny jest mu język, który szybko pozwoli mu, bez zbędnego zagłębiania się w składnie czy to, jak działa sam język, przelać swoje myśli w kod.
 
-Python idealnie się do tego nadaje z racji swej prostoty i wszechstronności. Już sobie to wyobrażam jak siedzi taki analityk jeden z drugim i patrzą, czy na pewno zwolnili całą zaalokowaną wcześniej pamięć w ich super pięknym kodzie napisanym w C albo C++. Nie ma takiej opcji po prostu. I dobrze.
+Python idealnie się do tego nadaje z racji swej prostoty i wszechstronności. Już sobie wyobrażam jak siedzi taki analityk jeden z drugim i patrzą, czy na pewno zwolnili całą zaalokowaną wcześniej pamięć w ich super pięknym kodzie napisanym w C albo C++. Nie ma takiej opcji po prostu. I dobrze.
 
 Co prawda powstaje tutaj pewien problem w postaci wydajności, ale o tym później, bo jest to coś, co można przeskoczyć i rozwiązać o wiele łatwiej, niż gdyby próbować nauczyć każdego C/C++.
 
 Oczywiście Pythona wciąż używa się w różnego rodzaju skryptach, automatyzacji i tak dalej, niemniej jednak uważam, że nie jest to już jego główne zastosowanie, jak to było lata, lata temu.
 
-Tak więc, jak widzicie, Python się rozwija i pojawia w coraz większej ilości projektów, dziedzin i stref związanych z ogólnie pojętą informatyką. Osobiście uważam, że ten trend raczej się utrzyma, podobnie zresztą, jak do tej pory, i Python z roku na rok będzie zyskiwał co raz to większą popularność, wejdźmy jednak w szczegóły – dlaczego?
+Tak więc, jak widzicie, Python się rozwija i pojawia w coraz większej ilości projektów, dziedzin i stref związanych z ogólnie pojętą informatyką. Osobiście uważam, że ten trend raczej się utrzyma, podobnie zresztą, jak do tej pory, i Python z roku na rok będzie zyskiwał coraz większą popularność, wejdźmy jednak w szczegóły – dlaczego?
 
 
 ## Zalety Pythona
@@ -282,7 +282,7 @@ Czy to znaczy, że te języki są gorsze, a Python jest królem? Absolutnie nie,
 
 Każdy język jest jak narzędzie – ma swoje zastosowania, w których jest dobry, wyśmienity, ale ma też takie, do których kompletnie się nie nadaje. Tak jest i tutaj. Tak jest wszędzie. Owszem, czasem zdarzają się fanatycy danych technologii czy rozwiązań, którym językowo-technologiczne zapalenie opon mózgowych przyćmiewa obiektywny osąd, ale to nic. My nie chcemy tacy być. Bądźmy mądrzy i rozsądni, ułatwiajmy sobie życie, używając odpowiednich narzędzi do odpowiednich zadań.
 
-Niemniej jednak Python pozwala nam pisać więcej w mniejszej ilości kodu. To oczywiście przychodzi w zamian za pewną cenę, którą trzeba zapłacić, i która sprawia, że Python dobry jest w pewnych sytuacjach a w innych już nie. 
+Niemniej jednak Python pozwala nam pisać więcej w mniejszej ilości kodu. To oczywiście przychodzi w zamian za pewną cenę, którą trzeba zapłacić, i która sprawia, że Python dobry jest w pewnych sytuacjach, a w innych już nie. 
 
 ### Prostota
 
@@ -306,7 +306,7 @@ int someNumber = 123;
 
 Zapis powyżej mówi ‘programowi’, który będzie wykonywał nasz kod, że chcemy utworzyć zmienną o nazwie someNumber, która będzie zawierała dane typu int – integer, czyli nic innego jak liczby całkowite.  A co to w ogóle znaczy, że ma utworzyć zmienną? 
 
-Spróbuję wytłumaczyć to dość prosto, ale może mi się nie udać i jeśli nie do końca zrozumiesz zasadę działania tego mechanizmu, lub trudno będzie Ci, wyobrazić sobie jak to funkcjonuje, to nie przejmuj się, wrócimy do tematu później.
+Spróbuję wytłumaczyć to dość prosto, ale może mi się nie udać i jeśli nie do końca zrozumiesz zasadę działania tego mechanizmu, lub trudno będzie Ci wyobrazić sobie jak to funkcjonuje, to nie przejmuj się, wrócimy do tematu później.
 
 To polecenie spowoduje ‘powiedzenie’ naszemu komputerowi czegoś takiego:
 
@@ -330,7 +330,7 @@ Z czego to wynika, dowiesz się już nieco dalej w książce, ale głównie chod
 
 ### Społeczność
 
-Python ma jedną, naprawdę dużą zaletę. Jest to jego społeczność, która raz, że jest naprawdę pomocna, dwa, że jej rozmiar jest imponujący. Dzięki temu ilość dostępnych materiałów, poradników, bibliotek, frameworków i skryptów potrafi po prostu pozytywnie zaskoczyć.
+Python ma jedną, naprawdę dużą zaletę. Jest to jego społeczność, która raz, że jest naprawdę pomocna, dwa, że jej rozmiar jest imponujący. Dzięki temu ilość dostępnych materiałów, poradników, bibliotek, framework'ów i skryptów potrafi po prostu pozytywnie zaskoczyć.
 
 Dzięki otwarto-źródłowej kulturze Pythona wiele niesamowitych narzędzi codziennie jest oddawanych w nasze ręce do użytku, zupełnie za darmo, tak po prostu. 
 
@@ -432,7 +432,7 @@ Z racji prostoty i mnogości bibliotek w Pythonie, aplikacje, jak i sam kod, mo�
 
 Mało tego, zazwyczaj ten zrobiony na szybko kod jest też dość przyzwoitej jakości.
 
-No i faktem jest też, że nawet jeśli nie chcemy wykorzystać Pythona produkcyjnie, to wciąż możemy go użyć, by stworzyć malutkie MVP. Co to MVP? Minimal viable product – czyli taką appkę, która będzie miała minimum funkcjonalności, ale gdzieś tam ktoś już za to będzie chciał zapłacić, bo do czegoś mu się przyda, co ucieszy inwestorów i w ogóle ludzi, bo jest super, mamy MVP, VC sypną, znowu, groszem, kolejna runda finansowania, hajs i hype się zgadza, nasz statek zwany startupem płynie dalej.
+No i faktem jest też, że nawet jeśli nie chcemy wykorzystać Pythona produkcyjnie, to wciąż możemy go użyć, by stworzyć malutkie MVP. Co to MVP? Minimal viable product – czyli taką appkę, która będzie miała minimum funkcjonalności, ale gdzieś tam ktoś już za to będzie chciał zapłacić, bo do czegoś mu się przyda, co ucieszy inwestorów i w ogóle ludzi, bo jest super, mamy MVP, VC sypną, znowu, groszem, kolejna runda finansowania, hajs i hype się zgadza, nasz statek zwany startup'em płynie dalej.
 
 Zapamiętaj ten skrót – MVP to gorący buzzword w zwariowanym świecie STARTAPUFF!
 
@@ -530,7 +530,7 @@ Jak ktoś ci mówi inaczej, to lepiej olej typa, bo Python mu wszedł za mocno i
 
 Często może być tak, że po tym, jak zaczniesz pisać w Pythonie, przesiadka na inne języki, gdzie pewne rzeczy musisz zrobić zupełnie inaczej, jest troszkę bolesna. To również potencjalna wada Pythona.
 
-Piszesz sobie szczęśliwie swoje programy w Pythonie, sporo rzeczy robisz jedną linijką kodu, jest fajnie pięknie, ale nagle przychodzi ci napisać coś w Javie i następuje brutalne zderzenie z rzeczywistością, które powoduje, iż lądujesz w otchłaniach ciemności, rozpaczy i depresji, twoje życie traci sens a żona musi rano zrzucać cię z łóżka, co byś wstał. Nie no, żartuje, pisanie w Javie nie jest takie złe, nie mam nic do języka. Po prostu mało który język jest tak fajny, jak Python.
+Piszesz sobie szczęśliwie swoje programy w Pythonie, sporo rzeczy robisz jedną linijką kodu, jest fajnie pięknie, ale nagle przychodzi ci napisać coś w Javie i następuje brutalne zderzenie z rzeczywistością, które powoduje, iż lądujesz w otchłaniach ciemności, rozpaczy i depresji, twoje życie traci sens a żona musi rano zrzucać cię z łóżka, żebyś wstał. Nie no, żartuje, pisanie w Javie nie jest takie złe, nie mam nic do języka. Po prostu mało który język jest tak fajny, jak Python.
 
 ### Tyle
 
@@ -548,7 +548,7 @@ Cały YouTube w zasadzie stoi (stał) na Pythonie. W Google mówi się: ‘Tam, 
 
 Całkiem sporo, prawda? No cóż, nic dziwnego, z racji tego, że Python, według indeksu TIOBE jest obecnie 3. najpopularniejszym językiem programowania na świecie. Nad nim są już tylko Java, C, C++. Dodatkowo Python co roku zdobywa coraz większą popularność i rośnie w siłę. Jak to ktoś kiedyś powiedział, niekoniecznie mądry, `tej siły już nie powstrzymacie`.
 
-Poniżej widzicie tabelke z indeksem TIOBE, który to, powiedzmy, jest standardem w świecie programowania, jeśli chodzi o mierzenie popularności pewnych technologii, trendów i tak dalej.
+Poniżej widzicie tabelkę z indeksem TIOBE, który to, powiedzmy, jest standardem w świecie programowania, jeśli chodzi o mierzenie popularności pewnych technologii, trendów i tak dalej.
 
 
 |Sep 2019|Sep 2018|Change|Programming Language|Ratings|Change|

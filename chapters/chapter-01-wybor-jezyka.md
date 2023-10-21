@@ -6,7 +6,7 @@ W książce tej będziemy operować praktycznie jedynie na Pythonie. Dlaczego? P
 
 ## Język niezbędny
 
-Ciekawe co to za język? C, Python? Może C++ albo JavaScript? Bynajmniej! Mowa o... Angielskim.
+Ciekawe co to za język! C, Python? Może C++ albo JavaScript? Bynajmniej! Mowa o... języku angielskim.
 
 Żyjemy w czasach globalizacji. Wszystko się trochę ujednolica. Te same seriale, te same filmy, te same ubrania, marki i... język. Język angielski od dawna obecny był w naszym języku rodzimym — polskim, anglicyzmy istnieją od wielu, wielu lat, jednakże w ostatnich latach, latach istnienia i rozwoju cywilizacji globalnej, ilość anglicyzmów i zapożyczeń, która pojawia się w naszej mowie, zwłaszcza wśród młodzieży, rośnie w tempie wykładniczym. Nie bez powodu. I mówię to ja, gość piszący książkę po polsku. Na upartego dasz radę bez niego, owszem, ale jeśli na poważnie myślisz o karierze… Nie. Serio.
 
@@ -22,7 +22,7 @@ Chcesz się więcej nauczyć? Najlepiej z angielskich materiałów. Mało tego, 
 
 No właśnie, tłumaczenie. Pewne terminy w naszym światku po przetłumaczeniu stają się dość dziwne i niezrozumiałe. Wyobrażacie sobie na co dzień pracować z ZŚP — Zintegrowanym Środowiskiem Programistycznym zamiast z IDE? Odpluskwiacz zamiast debuggera? Popłoch jądra zamiast kernel panic. Dla nas, doświadczonych już programistów, to coś niewyobrażalnego. Nikt, poza własnym krajem, by cię nie rozumiał. Zamiast pulli i commitów wrepowzięcia (XD) i zatwierdzenia. Po co inity, skoro mogą być wstępniaki. Przykłady można mnożyć.
 
-A dokumentacja to podstawa tak swoją drogą. Czy to przy tworzeniu poważnego projektu, czy przy korzystaniu z niego, więc będziesz ją nie tylko czytał, ale i również tworzył. Jak zachęcisz innych developerów do pracy nad twoim otwartoźródłowym projektem, skoro nie będą go mogli zrozumieć, gdyż kod źródłowy i dokumentacja będą po polsku? Mocno ograniczasz swoje horyzonty w ten sposób.
+A dokumentacja to podstawa tak swoją drogą. Czy to przy tworzeniu poważnego projektu, czy przy korzystaniu z niego, więc będziesz ją nie tylko czytał, ale i również tworzył. Jak zachęcisz innych developerów do pracy nad twoim otwarto-źródłowym projektem, skoro nie będą go mogli zrozumieć, gdyż kod źródłowy i dokumentacja będą po polsku? W ten sposób mocno ograniczasz swoje horyzonty.
 
 ### Komunikacja
 
@@ -63,7 +63,7 @@ Dostajesz kserówkę ze strukturami gramatycznymi, którą uzupełniasz. Czasem 
 ### Jak zatem powinno to wyglądać, panie mądralo?
 Już mówię. Przede wszystkim nie można skupiać się cały czas na rzeczy zupełnie zbędnej w dużej mierze — gramatyce. 
 
-Popatrzmy bowiem na małe dzieci. Takie załóżmy z 1-2 klasy podstawówki. Umie mówić w swoim języku? A no umie. Nawet zazwyczaj w miarę poprawnie. A zapytajmy tego dziecka, co wie o częściach zdania i mowy. Usłyszymy raczej tyle, co i głuchy. 
+Popatrzmy zatem na małe dzieci. Takie załóżmy z 1-2 klasy podstawówki. Umie mówić w swoim języku? A no umie. Nawet zazwyczaj w miarę poprawnie. A zapytajmy tego dziecka, co wie o częściach zdania i mowy. Usłyszymy raczej tyle, co i głuchy. 
 
 Czyli dziecko gramatyki tak w zasadzie, formalnie, nie zna, ale językiem poprawnie się posługuje. Ciekawe.
 

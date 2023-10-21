@@ -6,7 +6,7 @@ W poprzednim rozdziale mówiliśmy sobie o zmiennych. Będąc przy tym, siłą r
 
 Jak już w poprzednich rozdziałach pisałem, Python nie wymaga od nas definiowania typów dla naszych zmiennych, nie ma w nim statycznego typowania. Przypomnij sobie co to oznaczało i odpowiedz na pytanie - co oznacza brak statycznego typowania? Czym jest dynamiczne typowanie? Jakie są tego wady/zalety. Poszukaj w książce, może w odpowiedziach do poprzednich rozdziałów. Zrób to teraz.
 
-Mimo tego dobrze wiedzieć, na jakie typy zazwyczaj dzielimy sobie różne zmienne. Dlaczego? Bo Python też ich używa, tylko sam niejako zgaduje jakiego typu użyliśmy. Zaleznie od typu na zmiennej można wykonywać różne operacje. Jak sobie o tym pomyślimy, to jest to logiczne, bo mimo tego, że pod spodem to wszystko to samo - kod binarny, to na pewnych fragmentach, które interpretujemy jako X, chcemy wykonywać tylko operacje ze zbioru Z, a gdy interpretujemy G, to tylko z F. Mówiąc prościej jak coś oznaczamy jako tekst, to inaczej to potraktujemy, czy inne modyfikacje bedziemy mogli zastosować, niż w sytuacji, gdy coś jest liczbą. Na liczbach możemy wykonywać operacje arytmetyczne dla odmiany a w tekście chociażby szukać swojego imienia. Zależnie od typu inne operacje. Logiczne, prawda?
+Mimo tego dobrze wiedzieć, na jakie typy zazwyczaj dzielimy sobie różne zmienne. Dlaczego? Bo Python też ich używa, tylko sam niejako zgaduje jakiego typu użyliśmy. Zależnie od typu na zmiennej można wykonywać różne operacje. Jak sobie o tym pomyślimy, to jest to logiczne, bo mimo tego, że pod spodem to wszystko to samo - kod binarny, to na pewnych fragmentach, które interpretujemy jako X, chcemy wykonywać tylko operacje ze zbioru Z, a gdy interpretujemy G, to tylko z F. Mówiąc prościej jak coś oznaczamy jako tekst, to inaczej to potraktujemy, czy inne modyfikacje będziemy mogli zastosować, niż w sytuacji, gdy coś jest liczbą. Na liczbach możemy wykonywać operacje arytmetyczne dla odmiany a w tekście chociażby szukać swojego imienia. Zależnie od typu inne operacje. Logiczne, prawda?
 
 A więc w Pythonie wyróżniamy między innymi następujące podstawowe typy danych:
 
@@ -48,13 +48,13 @@ Otóż przedstawię wam, jak to wygląda, znowu, w C. Sposobów i pomysłów jak
 
 Dobrze, mając 8 bitów, mamy do dyspozycji 8 zer i/lub jedynek. Czyli możemy maksymalnie przedstawić 256 wartości, prawda? Czyli na przykład liczby od 0, do 255. A no nie do końca! 
 
-W domyślnym przypadku będziemy mieć do dyspozycji 256 wartości, prawda, ale z innego zakresu: od **-127** do **127**. Można to określić wzorem: $(+/-)2^7-1$
+W domyślnym przypadku będziemy mieć do dyspozycji 256 wartości, prawda, ale z innego zakresu: od **-128** do **127**. Można to określić wzorem: $(+/-)2^7-1$
 
 Skąd ta zmiana? A no stąd, że zabieramy sobie jeden bajt by oznaczyć czy dana liczba jest dodatnia, czy ujemna, tak w dużym skrócie. W C, jeśli wiemy, że nie interesują nas wartości ujemne, możemy powiedzieć kompilatorowi, żeby przesunął zakres ujemny na dodatki. Zmienne ze znakiem vs zmienne bez. Signed variables vs unsigned variables. 
 
 Swoją drogą jak już jesteśmy przy tym to dorzucę jeszcze jedną ciekawostkę. Wiesz, że nawet sposób zapisu kolejności bitów w pamięci jest umowny? Co to znaczy? Otóż niektórzy ludzie nie byli w stanie dogadać się co jest lepsze, zapisywanie bita o najwyższej wartości pierwszego czy ostatniego. Stąd też mamy dwa standardy: big endian (grubokońcowość) i little endian (cienkokońcowość). Co to znaczy i jak wygląda w praktyce? Prosta rzecz.
 
-Załóżmy, że r ozmawiamy o Big Endian. Chcemy pod adresem 100 wpisać wartość np. 0x4A3B2C1D. Wyglądałoby to tak.
+Załóżmy, że rozmawiamy o Big Endian. Chcemy pod adresem 100 wpisać wartość np. 0x4A3B2C1D. Wyglądałoby to tak.
 
 | 100  | 101  | 102  | 103  |
 | ---- | ---- | ---- | ---- |
@@ -66,9 +66,9 @@ A Little Endian?
 | ---- | ---- | ---- | ---- |
 | 1D   | 2C   | 3B   | 4A   |
 
-Czyli odwrotnie. Chodzi generalnie o to, który zapisać gdzie. Robi nam to różnicę przy przeliczaniu/odczytywaniu tych wartości. Która lepsza? Łatwiejsze do ogarnięcia będzie pewnie Big Endian gdyż jest analogiczna do zapisu jakiego używamy na codzień w systemie dziesiętnym.
+Czyli odwrotnie. Chodzi generalnie o to, który zapisać gdzie. Robi nam to różnicę przy przeliczaniu/odczytywaniu tych wartości. Która lepsza? Łatwiejsze do ogarnięcia będzie pewnie Big Endian, gdyż jest analogiczna do zapisu jakiego używamy na codzień w systemie dziesiętnym.
 
-Różne procesory mają różne konwencje, całe szczęście  ty nie musisz się tym martwić w swoim kodzie - interpreter Pythona zrobi to za ciebie.
+Różne procesory mają różne konwencje, całe szczęście ty nie musisz się tym martwić w swoim kodzie - interpreter Pythona zrobi to za ciebie.
 
 ### Liczby zmiennoprzecinkowe i niedokładność ich reprezentacji 
 
@@ -92,7 +92,7 @@ Rozważmy prosty program w C(sprawa dotyczy praktycznie każdego języka):
     }
 ```
 
-Prosty kod, prawda? Myślę, ża każdy powinien go zrozumieć, jeśli zna choćby podstawy programowania. Oczekiwanym przez sporą część wynikiem działania tego kodu byłoby wydrukowanie 'Equal' w konsoli, racja? Ja też oczywiście tak myślałem na początku. Sprawdźcie jednak sami, co się stanie gdy kod skompilujecie i uruchomicie.
+Prosty kod, prawda? Myślę, że każdy powinien go zrozumieć, jeśli zna choćby podstawy programowania. Oczekiwanym przez sporą część wynikiem działania tego kodu byłoby wydrukowanie 'Equal' w konsoli, racja? Ja też oczywiście tak myślałem na początku. Sprawdźcie jednak sami, co się stanie gdy kod skompilujecie i uruchomicie.
 
 O dziwo "Equal" się nie wyświetliło. Dlaczego? Coś się pomyliło? Liczby pozornie te same, no bo i tu 0.1 i tu 0.1, co jest? Hm, może zmienną nam źle zapisało. Wypiszmy ją sobie i zobaczmy.
 
@@ -133,7 +133,7 @@ Daje nam
 
 Lekka modyfikacja naszego kodu i wszystko jasne. Nasz `example_float` nie jest równy dokładnie 0.1, tylko troszkę więcej. Dlaczego?
 
-Wszystko wynika stąd, że komputer 'operuje' na języku binarnym. Oznacza to, że przy tworzeniu liczb dostępne są jedynie potęgi dwójki, mnożone odpowiednio przez 1 lub 0, które można sumować(tak w dużym uproszczeniu, mówiliśmy o tym już). Nic zatem dziwnego, że nasz float tak wygląga. No bo spróbujcie z takich liczb `{..., 1/128, 1/64, 1/32, 1/16, 1/8, 1/4, 1/2, 0, 1, 2, 4, 8, 16, ...}` zbudować dokładnie 0.1. Nie da się tego zazwyczaj zrobić idealnie. Teoretycznie w wyimaginowanym świecie, gdzie mielibyśmy nieskończoną ilość pamięci do dyspozycji i nieskończoną ilość czasu, to moglibyśmy zbliżyć się nieskończenie blisko, nawet ją osiągnąć czasem, do dowolnej liczby. Ale o tym jak chcecie więcje, to o limitach sobie poczytajcie albo przypomnijcie z liceum i z matematyki.
+Wszystko wynika stąd, że komputer 'operuje' na języku binarnym. Oznacza to, że przy tworzeniu liczb dostępne są jedynie potęgi dwójki, mnożone odpowiednio przez 1 lub 0, które można sumować(tak w dużym uproszczeniu, mówiliśmy o tym już). Nic zatem dziwnego, że nasz float tak wygląda. No bo spróbujcie z takich liczb `{..., 1/128, 1/64, 1/32, 1/16, 1/8, 1/4, 1/2, 0, 1, 2, 4, 8, 16, ...}` zbudować dokładnie 0.1. Nie da się tego zazwyczaj zrobić idealnie. Teoretycznie w wyimaginowanym świecie, gdzie mielibyśmy nieskończoną ilość pamięci do dyspozycji i nieskończoną ilość czasu, to moglibyśmy zbliżyć się nieskończenie blisko, nawet ją osiągnąć czasem, do dowolnej liczby. Ale o tym jak chcecie więcej, to poczytajcie sobie o limitach albo przypomnijcie z liceum i z matematyki.
 
 Stąd ta niedokładność - wynika ona jedynie z tego jak reprezentowane są liczby zmiennoprzecinkowe w pamięci komputera. O ile w większości przypadków, za pomocą skończonej ilości pamięci można uzyskać zadowalającą dokładność, tak są takie przypadki, gdzie niestety ta dokładność nie będzie wystarczająca.
 
@@ -242,7 +242,7 @@ Przy okazji - mała notka. Do szybkiego przeliczania mogą zainteresować cię f
 '1'
 ```
 
-Czyli `ord`, `bin`, `hex`, `oct`, `chr`. Pobaw się i poczytaj. Gdzie? W dokumentacji [Pythona(https://docs.python.org/3/)](https://docs.python.org/3/). Najlepiej po angielsku. Swoje wnioski i efekty zabawy podsumuj pisząc artykuł, w którym opisujesz o co chodzi z którą funkcją, po krótce zcharakteryzujesz każdy z typów. Podasz przykłady dla których funkcje nie działają i domysły dlaczego. Ewentualnie skorzystaj z funkcji `help` np. `help(int)` 
+Czyli `ord`, `bin`, `hex`, `oct`, `chr`. Pobaw się i poczytaj. Gdzie? W dokumentacji [Pythona(https://docs.python.org/3/)](https://docs.python.org/3/). Najlepiej po angielsku. Swoje wnioski i efekty zabawy podsumuj pisząc artykuł, w którym opisujesz o co chodzi z którą funkcją, po krótce scharakteryzujesz każdy z typów. Podasz przykłady dla których funkcje nie działają i domysły dlaczego. Ewentualnie skorzystaj z funkcji `help` np. `help(int)` 
 
 Do tego pokażę ci mały trik:
 
@@ -281,9 +281,9 @@ Do tego pokażę ci mały trik:
 
 Otóż funkcję `dir`. Funkcja dir to funkcja, która zwraca wszystkie dostępne metody/atrybuty danego obiektu. 
 
-Póki co nie zajmuj się tymi, które zaczynają się od `__` czy `_` a skup na tych, które zaczynają się od normalnych liter. Czym jednak one są? Metody zaczynające się od `__` to tak zwane Python Magic Methods/Dunder Methods/Metody Magiczne. To coś o czym porozmawiamy później, ale to takie specjalne rodzaje metod/funkcji danego obiektu, które mają spełniać określone role. Te, które zaczynają się od pojedyńczego podkreślenia `_`, są metodami prywatnymi.
+Póki co nie zajmuj się tymi, które zaczynają się od `__` czy `_` a skup na tych, które zaczynają się od normalnych liter. Czym jednak one są? Metody zaczynające się od `__` to tak zwane Python Magic Methods/Dunder Methods/Metody Magiczne. To coś o czym porozmawiamy później, ale to takie specjalne rodzaje metod/funkcji danego obiektu, które mają spełniać określone role. Te, które zaczynają się od pojedynczego podkreślenia `_`, są metodami prywatnymi.
 
-W Pythonie nie ma enkapsulacji, co znaczy, że generalnie jak dodamy jakis atrybut/metodę do klasy/obiektu, to nie możemy jakoś bardzo skutecznie zabronić innym wołać, nawet jeśli chcemy by użyszkodnik nie miał mozliwości tego zrobić, gdyż np. dana metoda jest tylko pomocnicza, **prywatna**. Konwencja zatem mówi, byśmy dawali podkreślenie przed prywatnymi zmiennymi, metodami a my jako programiści nie powinniśmy używać takowych o ile nie jest to wewnątrz defnicji. Porozmawiamy o tym jeszcze później. W międzyczasie możesz sobie pogooglować o tej całej enkapsulacji.
+W Pythonie nie ma enkapsulacji, co znaczy, że generalnie jak dodamy jakis atrybut/metodę do klasy/obiektu, to nie możemy jakoś bardzo skutecznie zabronić innym wołać, nawet jeśli chcemy by użytkownik nie miał możliwości tego zrobić, gdyż np. dana metoda jest tylko pomocnicza, **prywatna**. Konwencja zatem mówi, byśmy dawali podkreślenie przed prywatnymi zmiennymi, metodami a my jako programiści nie powinniśmy używać takowych o ile nie jest to wewnątrz definicji. Porozmawiamy o tym jeszcze później. W międzyczasie możesz sobie pogooglować o tej całej enkapsulacji.
 
 Podsumowując: za pomocą `dir` możesz sprawdzić, co na danym obiekcie można robić, jakie ma metody/funkcje etc. Przydatne.
 
@@ -353,7 +353,7 @@ another line """
 
 A zatem jest to po prostu tekst otoczony `"` lub `'`. Python zezwala na użycie zarówno podwójnego jak i pojedynczego 'ciapka'. Moją praktyką jest, by preferować `"`. Technicznie rzecz ujmując standard pozwala na to by używać zarówno jednego jak i drugiego, byle nie mieszać ich ze sobą w jednym projekcie. Co to znaczy?
 
-Jeśli mamy już jakiś codebase/kod/projekt, i postanowimy używać `'` zamiast `"` to okej, niechże tak będzie, chociaż nie jest to moja preferencja, ale nie mieszajmy stylów. Konwencją jest, by trzymać się jednego i mieć ujednolicony styl w całym kodzie. To znaczy, że jak gdzieś zaczniemy używać pojedynczych ciapków, to używajmy ich już wszędzie w danym projekcie. Jak podwójnych to podwójnych. Wspominałem już, że preferuje podwójnę i uważam je za lepsze? Tak samo uważają twórcy narzędzia do formatowania kodu - `black` plus obiektywnie podwójne ciapki mają swoje zalety typu lepsza czytelność czy też łatwiejsze używanie razem z językiem angielskim gdzie mamy sporo znaków `'` w tekście. Nie trzeba dodawać znaku ucieczki.
+Jeśli mamy już jakiś codebase/kod/projekt, i postanowimy używać `'` zamiast `"` to okej, niechże tak będzie, chociaż nie jest to moja preferencja, ale nie mieszajmy stylów. Konwencją jest, by trzymać się jednego i mieć ujednolicony styl w całym kodzie. To znaczy, że jak gdzieś zaczniemy używać pojedynczych ciapków, to używajmy ich już wszędzie w danym projekcie. Jak podwójnych to podwójnych. Wspominałem już, że preferuje podwójne i uważam je za lepsze? Tak samo uważają twórcy narzędzia do formatowania kodu - `black` plus obiektywnie podwójne ciapki mają swoje zalety typu lepsza czytelność czy też łatwiejsze używanie razem z językiem angielskim gdzie mamy sporo znaków `'` w tekście. Nie trzeba dodawać znaku ucieczki.
 
 A no właśnie, znak ucieczki. Porozmawiajmy sobie o znakach specjalnych. Co jeśli w naszym tekście, który zdefiniowaliśmy za pomocą `"`, będziemy potrzebowali użyć też tego znaku? Spróbujmy.
 
@@ -361,13 +361,13 @@ A no właśnie, znak ucieczki. Porozmawiajmy sobie o znakach specjalnych. Co je�
 quote = "chciałbym tutaj zacytować "paula coelho" ale nie wiem czy moge"
 ```
 
- Podany kod nie zadziała. Dlaczego? Python nie potrafi domyśleć się, że chcesz akurat tutaj cytować i ten znak powinien traktowany być specjalnie a nie tak jak zwykle. Trzeba mu o tym powiedzieć. Jak? Prosta rzecz.
+ Podany kod nie zadziała. Dlaczego? Python nie potrafi domyśleć się, że chcesz akurat tutaj cytować i ten znak powinien traktowany być specjalnie, a nie tak jak zwykle. Trzeba mu o tym powiedzieć. Jak? Prosta rzecz.
 
 ```python
 quote = "chciałbym tutaj zacytować \"paula coelho\" i wiem, że mogę"
 ```
 
-Zwyczajnie starczy dodać `\` przed danym znakiem, który chcemy traktować w specjalny sposób. Teraz może ci kapkę zaświtać dlaczego `"` > `'`. Otóż w języku angielskim często występuje pojedynczy ciapek. Jeśli używamy go do definiowania stringów to pojawia się problem w postaci tego, że musimy często stosować znak ucieczki. Jak użyjemy podwójnego to już rzadziej. A zatem powodem jest lenistwo i czytelność kodu, czyli w sumie też lenistwo. Yay!
+Zwyczajnie wystarczy dodać `\` przed danym znakiem, który chcemy traktować w specjalny sposób. Teraz może ci kapkę zaświtać dlaczego `"` > `'`. Otóż w języku angielskim często występuje pojedynczy ciapek. Jeśli używamy go do definiowania stringów to pojawia się problem w postaci tego, że musimy często stosować znak ucieczki. Jak użyjemy podwójnego to już rzadziej. A zatem powodem jest lenistwo i czytelność kodu, czyli w sumie też lenistwo. Yay!
 
 Anyway, wróćmy do głównego tematu.
 
@@ -392,13 +392,13 @@ Hm, skoro stringi to łańcuchy znaków to co z pojedynczymi ogniwami tychże ł
 
 ### Zmienne w tekście
 
-Oprócz prostych stringów, którep o prostu zawierają hardcodowany tekst, czyli dla przykładu:
+Oprócz prostych stringów, które po prostu zawierają hardcodowany tekst, czyli dla przykładu:
 
 ```python
 name = "Aryo"
 ```
 
-Istnieje możliwośc przeprowadzania operacji na stringach, które umożliwiają nam wstawianie do tekstu zmiennych, dodawania stringów etc. Istnieje kilka sposobów by to osiągnąć. Zamiast się rozpisywać, po prostu zaprezentuję.
+Istnieje możliwość przeprowadzania operacji na stringach, które umożliwiają nam wstawianie do tekstu zmiennych, dodawania stringów etc. Istnieje kilka sposobów by to osiągnąć. Zamiast się rozpisywać, po prostu zaprezentuję.
 
 ```python
 age = 23
@@ -407,7 +407,7 @@ name_and_age = "Olaf {age}".format(age)
 name_and_age = "Olaf " + str(age)
 ```
 
-Pierwszy sposób nazywami f-stringami. Są eleganckie. Piękne. Kozackie. Prawilne.
+Pierwszy sposób nazywamy f-stringami. Są eleganckie. Piękne. Kozackie. Prawilne.
 
 Druga opcja, to funkcja format.
 
@@ -459,7 +459,7 @@ format: 1000000 loops, best of 3: 0.264 usec per loop
 #### Zaskoczenie
 
 Powiem szczerze, że nie spodziewałem się tego, że f-stringi są nie tylko eleganckim rozwiązaniem, ale i najszybszym! Bardzo mnie to cieszy.
-Na drugin miejscu uplasowała się konkatenacja, join bez lookupu, join, format bez lookupu, format, a na samym końcu template string. Z racji tego, że optymalizacja, którą poczyniłem, jest dość niepraktyczna i raczej w kodzie nikt takich potworów nie będzie tworzył poza pewnymi wyjątkami, które być może powinny być napisane w C a nie w Pythonie, to nie umieszczam wyników bez lookupów w rankingu, który wygląda tak:
+Na drugim miejscu uplasowała się konkatenacja, join bez lookupu, join, format bez lookupu, format, a na samym końcu template string. Z racji tego, że optymalizacja, którą poczyniłem, jest dość niepraktyczna i raczej w kodzie nikt takich potworów nie będzie tworzył poza pewnymi wyjątkami, które być może powinny być napisane w C a nie w Pythonie, to nie umieszczam wyników bez lookupów w rankingu, który wygląda tak:
 
 1. f-string
 2. Konkatenacja
@@ -503,7 +503,7 @@ Zacznijmy od tego, co się zmieniło. Join wskoczył z 3. miejsca na 1. Konkaten
 
 Pierwsze miejsce join w takiej sytuacji jest oczywiste - popatrzmy co tam robimy - joinujemy tak jakby ze sobą wiele stringów ze wspólnym stringiem, czyli dokładnie to, do czego join został stworzony. Jestem niemalże pewnym, iż pod spodem na poziomie implementacji metody czy nawet interpretera są zrobione pod to optymalizacje, dzięki czemu join świetnie poradzi sobie z dużą ilością argumentów. Cieszy mnie to - ponownie rozwiązanie, które w tym przypadku wygląda najbardziej elegancko, wypada pierwsze.
 
-Drugie miejsce f-string. Tutaj też się nie zdziwiłem. Dlaczego? Otóz f-stringi, pierwotnie co prawda były wolne, bardzo wolne, - w pierwszej implementacji były one "kompilowane" na nic innego jak zbiór odpowiednich joinów albo formatów, nie pamiętam. Niemniej jednak w kolejnej implementacji f-stringi doczekały się własnego, zoptymalizowanego OPCODE w CPythonie, co pozwoliło poczynić znaczne oszczędności i lepiej dostosować kod C, który jest pod spodem.
+Drugie miejsce f-string. Tutaj też się nie zdziwiłem. Dlaczego? Otóż f-stringi, pierwotnie co prawda były wolne, bardzo wolne, - w pierwszej implementacji były one "kompilowane" na nic innego jak zbiór odpowiednich joinów albo formatów, nie pamiętam. Niemniej jednak w kolejnej implementacji f-stringi doczekały się własnego, zoptymalizowanego OPCODE w CPythonie, co pozwoliło poczynić znaczne oszczędności i lepiej dostosować kod C, który jest pod spodem.
 
 Dlaczego format wyprzedził konkatenacje? Cóż, domyślam się. Wydaje mi się, iż chodzi o ewaluację. Być może Python, z racji tego, że stringi są niemutowalne w Pythonie, za każdym razem, kiedy wykonywał operacje dodania na dwóch stringach, musiał zaalokować nowy kawałek pamięci, który pomieści X znaków, gdzie X to suma długości dwóch stringów, potem je tam przekopiować, by otrzymać finalną wartość. Z racji doświadczenia tego, jak python działa, to założę się, że w naszym wypadku, kiedy mieliśmy kod w postacie a + ' ' + b + ..., Python wykonywał każdą operacje dodawania oddzielnie. To znaczy, prawdopodobnie instrukcje pod spodem wyglądały tak:
 
@@ -608,7 +608,7 @@ True
 False
 ```
 
-Mała notka. Funkcja `bool` to w Pythonie coś, co próbuje 'przekonertować' zadaną wartość do `booleana` czyli typu logicznego/boolowskiego. Zasady Przedstawiłem ci wyżej. Inne typy również mają swoje odpowiedniki, pobaw się nimi.
+Mała notka. Funkcja `bool` to w Pythonie coś, co próbuje 'przekonwertować' zadaną wartość do `booleana` czyli typu logicznego/boolowskiego. Zasady Przedstawiłem ci wyżej. Inne typy również mają swoje odpowiedniki, pobaw się nimi.
 
 ### Przykłady podstawowych operacji na typie boolowskim
 
@@ -618,29 +618,29 @@ Mała notka. Funkcja `bool` to w Pythonie coś, co próbuje 'przekonertować' za
 
 Czym jest lista? Lista to nic innego jak mutowalny zbiór elementów. Swego rodzaju 'tablica'. Możesz sobie pomyśleć o tym w kategoriach stringa. Dlaczego? A bo czymże jest string, aniżeli listą znaków? To po prostu pewien obszar w pamięci, który jest mutowalny. Co to znaczy? Otóż oznacza to, że lista jest zbiorem elementów, który po zadeklarowaniu można dowolnie modyfikować. Listę można zmniejszać, kasować z niej elementy. Można dodawać do niej elementy. Można znowu je usunąć. Rozmiar listy można zmienić. Poszczególne elementy można nadpisać. Co chcesz, to masz.
 
-Lista może składać się z praktycznie dowolnych elementów, oznacza to, że do listy można włożyć prawie każdy obiekt z Pythona. Nie zawsze tak jest. W innych językach programowania czesto jest tak, że jak definiujemy tablicę, to po pierwsze z góry znana jest jej długość, chyba, że używamy tablic dynamicznych, dwa, jej elementy często są ograniczone do jednego tylko typu z różnych powodów. Dlaczego?
+Lista może składać się z praktycznie dowolnych elementów, oznacza to, że do listy można włożyć prawie każdy obiekt z Pythona. Nie zawsze tak jest. W innych językach programowania często jest tak, że jak definiujemy tablicę, to po pierwsze z góry znana jest jej długość, chyba, że używamy tablic dynamicznych, dwa, jej elementy często są ograniczone do jednego tylko typu z różnych powodów. Dlaczego?
 
 ### Lista od strony niskopoziomowej
 
-Jednym z powodów będzie coś, co nawiązuje do samego poczatku tej książki, gdzie opisywaliśmy sobie zagadnienie związane z tym, kiedy program wie, gdzie przestać czytać pamięc w przypadku odczytu zmiennej spod danego adresu.
+Jednym z powodów będzie coś, co nawiązuje do samego początku tej książki, gdzie opisywaliśmy sobie zagadnienie związane z tym, kiedy program wie, gdzie przestać czytać pamięć w przypadku odczytu zmiennej spod danego adresu.
 
 Otóż tutaj zastosowanie ma podobna analogia. Np. w C deklarując tablicę/listę, podajesz jej długość i typ. Po co? Po to by kompilator/program mógł sobie ogarnąć ile pamięci zaalokować i jak poradzić sobie z adresami, gdzie przestać czytać etc. 
 
 Zatem 10 elementowa tablica charów zaalokuje nam w C pamięć o rozmiarze `10 * size(char)`. Komputer będzie wiedział gdzie, i co, i jak czytać, kiedy skończyć.
 
-Załóżmy, że nasza tablica znajduje się pod adresem `0x1` i w jej środku znajdują się 4 elementy, kazdy z nich o wielkości jednego bajta:
+Załóżmy, że nasza tablica znajduje się pod adresem `0x1` i w jej środku znajdują się 4 elementy, każdy z nich o wielkości jednego bajta:
 
 | Bit (hex)   | 0x01 | 0x10 | 0x18 | 0x20 |
 | ----------- | ---- | ---- | ---- | ---- |
 | **Wartość** | A    | B    | C    | D    |
 
-Tutaj przypomnij sobie jak wygląda pamięc, ile bitów używamy standardowo do zapisu pojedyńczego znaku, załóżmy ASCII w tym wypadku i jak liczyć z szesnastkowego na dziesiętny/binarny.
+Tutaj przypomnij sobie jak wygląda pamięć, ile bitów używamy standardowo do zapisu pojedynczego znaku, załóżmy ASCII w tym wypadku i jak liczyć z szesnastkowego na dziesiętny/binarny.
 
 Mamy już zobrazowane nieco jak to wygląda w przypadku np. C i tablicy/listy o jednakowym typie i znanej długości. Co w przypadku Pythona?
 
 ### Referencje i wartości
 
-W Pythonie jest nieco inaczej, ale podobnie. Otóż można  by się zapytać: to skąd Pythonie wie kiedy przestać czytać dany adres, skoro tam pod spodem to też najcześciej jest C, w przypadku CPythona przynajmniej? Otóż lista w pythonie tak naprawdę nie jest listą wartości z danymi typami a listą referencji niejako. Cóż to takie? Otóż Python tak naprawdę, kiedy tworzymy listę, to przechowuje on sobie zbiór referencji do danych wartości a nie same wartości. Zatem wracając do naszej wcześniejszej analogii i porównania z C, gdzie musieliśmy zadeklarować typ wartości w tablicy, nagle wszystko ma sens. Okazuje się, że w Pythonie, tam pod spodem, też mamy w pewnym sensie jeden rodzaj wartości - referencje. Referencje to, w uproszczeniu, odniesienia do jakiś obiektów. Obiekt może być np. inną listą czy instancją jakiejś klasy.
+W Pythonie jest nieco inaczej, ale podobnie. Otóż można  by się zapytać: to skąd Pythonie wie kiedy przestać czytać dany adres, skoro tam pod spodem to też najcześciej jest C, w przypadku CPythona przynajmniej? Otóż lista w pythonie tak naprawdę nie jest listą wartości z danymi typami a listą referencji niejako. Cóż to takie? Otóż Python tak naprawdę, kiedy tworzymy listę, to przechowuje on sobie zbiór referencji do danych wartości, a nie same wartości. Zatem wracając do naszej wcześniejszej analogii i porównania z C, gdzie musieliśmy zadeklarować typ wartości w tablicy, nagle wszystko ma sens. Okazuje się, że w Pythonie, tam pod spodem, też mamy w pewnym sensie jeden rodzaj wartości - referencje. Referencje to, w uproszczeniu, odniesienia do jakiś obiektów. Obiekt może być np. inną listą czy instancją jakiejś klasy.
 
 Czyli w Pythonie, w pamięci nasza tablica będzie wyglądała +/- w taki sposób:
 
@@ -662,7 +662,7 @@ Co się dzieje gdy zmieniamy rozmiar listy/dodajemy nowe elementy?
 
 Generalnie przypadek tutaj mamy taki, że Python podczas deklaracji jakiejś listy alokuje więcej pamięci niż nam potrzeba! CZO?! JAK TO? 
 
-Ano tak. Generalnie zazwyczaj jest to około $2n$ zakładając, że $2n>=2$ gdzie n to liczba elementów. Zatem nawet kiedy inicjalizujemy pustą listę Python pod spodem alokuje sobie miejsce na przynajmniej dwa elementy, albo więcej. Nie pamiętam już nawet. Po co? A no po to, że interpreter spodziewa się tego, iż będziemy dodawać kolejne elementy. Jeśli osiągniemy zadaną wielkość i spróbujemy dodać kolejny element nastąpi wtedy alokacja nowej pamięci, znowu zachodzi proces opisany przed chwilą i nadalokacja pamięci po czym wartości ze starego miejsca w pamięci/starej listy są kopiowane w nowe miejsce gdzie mamy zaalokowany większy fragment pamięci a całość jest dynamicznie podmieniana gdzie trzeba w taki sposób, że my, jako programista/użytkownik końcowy, nawet nie zauważymy.
+Ano tak. Generalnie zazwyczaj jest to około $2n$ zakładając, że $2n>=2$ gdzie n to liczba elementów. Zatem nawet kiedy inicjalizujemy pustą listę Python pod spodem alokuje sobie miejsce na przynajmniej dwa elementy, albo więcej. Nie pamiętam już nawet. Po co? A no po to, że interpreter spodziewa się tego, iż będziemy dodawać kolejne elementy. Jeśli osiągniemy zadaną wielkość i spróbujemy dodać kolejny element nastąpi wtedy alokacja nowej pamięci, znowu zachodzi proces opisany przed chwilą i nadalokacja pamięci, po czym wartości ze starego miejsca w pamięci/starej listy są kopiowane w nowe miejsce gdzie mamy zaalokowany większy fragment pamięci, a całość jest dynamicznie podmieniana gdzie trzeba w taki sposób, że my, jako programista/użytkownik końcowy, nawet nie zauważymy.
 
 Jak widzisz Python robi za nas wiele rzeczy byśmy nie musieli się tym martwić. Oczywiście, ma to swój koszt w postaci wydajności czy to komputacyjnej czy pamięciowej, ale niestety, coś za coś. Python szybki nie jest, ale jest wystarczająco szybki, ale tę rozprawkę już czytałeś - w rozdziale o wadach i zaletach Pythona.
 
@@ -743,13 +743,14 @@ zadana_lista[początkowy_element:końcowy_element:skok]
 
 Początkowy czy końcowy element to raczej znany koncept. Skok to po prostu informacja, co który element mamy zabierać.
 
-Ważna informacja: slicing tworzy kopie listy, świezutką nowiutką kopię listy. Jest to jednak płytka kopia a nie głęboka. Co to znaczy, opiszę nieco dalej. Dowód:
+Ważna informacja: slicing tworzy kopie listy, świeżutką, nowiutką kopię listy. Jest to jednak płytka kopia, a nie głęboka. Co to znaczy, opiszę nieco dalej. Dowód:
+
 ```python
 >>> numbers is numbers[:]
 False
 ```
 
-Jak widać slicing powoduje skopiowanie i utworzenie nowej listy pod spodem. Albo inaczej. Pamięć zostanie skopiowana w drugie miejsce i zduplikowana w ten sposób, natomiast referencje w środku będę te same. Jeśli lista zawiera referencje do obiektu, który jest pass-by-reference, to modyfikacja tego obiektu spowoduje zmianę wartości w obu listach, tej skopiowanej też, natomiast jeśli coś jest pass-by-value (niemutowalne typy w większości przypadków), to modyfikacja będzie dotyczyła tylko tej listy której element modyfikowaliśmy. 
+Jak widać slicing powoduje skopiowanie i utworzenie nowej listy pod spodem. Albo inaczej. Pamięć zostanie skopiowana w drugie miejsce i zduplikowana w ten sposób, natomiast referencje w środku będę te same. Jeśli lista zawiera referencje do obiektu, który jest pass-by-reference, to modyfikacja tego obiektu spowoduje zmianę wartości w obu listach, tej skopiowanej też, natomiast jeśli coś jest   pass-by-value (niemutowalne typy w większości przypadków), to modyfikacja będzie dotyczyła tylko tej listy której element modyfikowaliśmy. 
 
 ```python
 >>> pass_by_reference = [[1,2,3], 1, 2, 3]
@@ -779,7 +780,7 @@ Pomyśl o tym. Pogadamy pewnie jeszcze na ten temat przy omawianiu kluczy w sło
 
 ### Dlaczego indeksujemy od zera
 
-Stwierdziłem kiedyś gdzieś, że indeksowanie od zera jest logiczne i ma swoje powody, to naturalne i jest tak, jak w RHC przykazali. Padł jednak komentarz, że jest w zasadzie na odwrót a my, programiści, indeksujemy sobie od 0 tak po prostu, bo się przyzywczailiśmy.
+Stwierdziłem kiedyś gdzieś, że indeksowanie od zera jest logiczne i ma swoje powody, to naturalne i jest tak, jak w RHC przykazali. Padł jednak komentarz, że jest w zasadzie na odwrót a my, programiści, indeksujemy sobie od 0 tak po prostu, bo się przyzwyczailiśmy.
 
 Otóż nie. [Mimo tego, że sam kiedyś podobnie myślałem](https://4programmers.net/Mikroblogi/View/8661#entry-8661), to indeksowanie od 0 jest logiczne i ma swoją zasadność. Jaką?
 
@@ -825,7 +826,7 @@ Zakładam, że pierwsza część printa jest zrozumiała dla każdego, może poz
 
 A co to to całe `&numbers` - operator & mówi, że chcę otrzymać adres danej zmiennej - czyli jej lokację w pamięci. Bo jak dobrze wiemy, zmienne alokowane są w pamięci, w pewnym miejscu wybranym przez komputer. Ponownie - mówiliśmy już o tym w rozdziałach 4. i 5. 
 
-To miejsce zazwyczaj opisuje się jako 'adres' - czyli liczba bajtów/bitów od 'poczatku' pamięci, którą procesor musi 'przeskoczyć', by dotrzeć do danej zmiennej.
+To miejsce zazwyczaj opisuje się jako 'adres' - czyli liczba bajtów/bitów od 'początku' pamięci, którą procesor musi 'przeskoczyć', by dotrzeć do danej zmiennej.
 
 Nasza tablica (czyli taka jakby lista z Pythona, ale nie do końca), znajduje się pod adresem: 0x7ffc9f728f20 (zapis szesnastkowy), i jest to tym samym adres naszego pierwszego elementu.
 
@@ -884,7 +885,7 @@ Oba te rozwiązania są bezsensowne, bo o ile nie jest to niby dużo - kilka baj
 
 Dodatkowo ileż kodu bazuje już na indeksowaniu od 0. Niemożliwym by było to wszystko zmienić.
 
-Oczywiście, są również inne argumenty, by indeksować czy liczyć elementy od zera, jak chociażby [te, głoszone przez Dijsktrę - Why numbering should start at zero](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html). To taki raczej znany i ważny Pan, dla tych, którzy nie kojarzą ;)
+Oczywiście, są również inne argumenty, by indeksować czy liczyć elementy od zera, jak chociażby [te, głoszone przez Dijsktrę - Why numbering should start at zero](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html)]. To taki raczej znany i ważny Pan, dla tych, którzy nie kojarzą ;)
 
 Ogółem użyłem tutaj trochę uproszczeń i skrótów myślowych, ale generalny koncept przekazany.
 
@@ -906,7 +907,7 @@ Oprócz tego mamy tutaj jeszcze jedną zaletę. Wydajność.
 
 Otóż jeśli jest to niemutowalna struktura danych to interpreter pythona wie dokładnie ile pamięci zaalokować plus z pewnych względów proces ten zachodzi szybciej. Czyli tutaj alokacja ponad potrzeby nie ma miejsca plus do tego instrukcja wykonuje się niejako szybciej, python wie jakie typy są użyte, zna konkretne dane które wykorzystaliśmy etc.
 
-Jako anegdotkę przytocze historię, gdy zastosowanie tupli zmniejszyło nam zużycie pamięci z 4 GB do ~2.1 GB w pewnej niedużej webappce. W innych wypadkach redukcja bywała nawet bardziej drastyczna.
+Jako anegdotkę przytoczę historię, gdy zastosowanie tupli zmniejszyło nam zużycie pamięci z 4 GB do ~2.1 GB w pewnej niedużej webappce. W innych wypadkach redukcja bywała nawet bardziej drastyczna.
 
 ### Przykłady podstawowych operacji na krotkach
 
@@ -960,11 +961,11 @@ Przewidywalne. Reszta działa również podobnie jak w liście.
 
 Co jest różnego od działania listy jest to, że o ile w liście zapewniona jest gwarancja tego, że elementy zawsze będą w tej kolejności w jakiej je do listy włożyliśmy. Tak hashmapa z definicji takiego czegoś nie przewiduje. Obecna implementacja CPythona, od wersji bodajże 3.8, mimo wszystko zapewnia coś takiego dodatkowo, czyli ze zwykłego `Dicta` zrobił nam się `OrderedDict`, natomiast lepiej się nie nastawiać na to, gdyż wersje pythona typu 3.6 czy 3.7 są dość całkiem nowe i jest mnóstwo projektów w nich napisanych. Co z tego? A no to, że kod, który będziesz pisał prawdopodobnie może być odpalany na wersji Pythona, która nie bierze pod uwagę i nie gwarantuje zachowania kolejności insercji elementów, zatem lepiej na tym zbytnio nie polegać, bo w większości przypadków ta kolejność będzie zachowana mimo wszystko, ale nie jest ona gwarantowana implementacyjnie, czyli zawsze znajdzie się ten 1%, gdzie jednak coś pójdzie nie tak. Potem weź takiego buga dostań do inwestygacji.
 
-Oczywiście jeśli jesteś świadom i wiesz co robisz, plus masz gwarancje tego, na jakich wersjach pythona twój kod będzie banglał, to śmiało. Natomiast pamiętaj, W najnowszej wersji pythona -> spoko, poniżej 3.8 albo 3.7 juz niekoniecznie. Sprawdź dokładnie w której wersji wprowadzono `OrderedDict` jako domyślny.
+Oczywiście jeśli jesteś świadom i wiesz co robisz, plus masz gwarancje tego, na jakich wersjach pythona twój kod będzie banglał, to śmiało. Natomiast pamiętaj, W najnowszej wersji pythona -> spoko, poniżej 3.8 albo 3.7 już niekoniecznie. Sprawdź dokładnie w której wersji wprowadzono `OrderedDict` jako domyślny.
 
 ### Jak przebiega proces dodawania elementów do dicta?
 
-Otóż generalnie tak jak w przypadku listy mieliśmy numeryczny indeks, za pomocą którego Python liczył sobie offset w pamięci, tak wp rzypadku dicta mamy coś takiego jak funkcja hashująca. Ta funkcja bierze sobie za argument klucz jakiego używamy i na jego podstawie próbuje generować w miarę unikalny hash. Potem na podstawie hashu, zazwyczaj poprzez operacje modolu, ogarniamy sobie adres/offset gdzie trzymana jest dana wartość.
+Otóż generalnie tak jak w przypadku listy mieliśmy numeryczny indeks, za pomocą którego Python liczył sobie offset w pamięci, tak w przypadku dicta mamy coś takiego jak funkcja hashująca. Ta funkcja bierze sobie za argument klucz jakiego używamy i na jego podstawie próbuje generować w miarę unikalny hash. Potem na podstawie hashu, zazwyczaj poprzez operacje modolu, ogarniamy sobie adres/offset gdzie trzymana jest dana wartość.
 
 Logiczne? Czyli tak, za każdym razem jak ktoś wpisuje `some_dict["key"]` to pod spodem dzieje się coś takiego, że interpreter Pythona, by uzyskać adres z jakiego odczytać ma wartość dla danego klucza, bierze tenże klucz, wrzuca go w funkcję hashującą, nie wiem, załóżmy `hash("key")`, ta funkcja zaś zwraca nam jakiś tam możliwie unikalny hash wygenerowany/obliczony na podstawie danego klucza. Z hasha wyczarowujemy sobie adres/offset. Jakoś tak.
 
@@ -972,7 +973,7 @@ Dlaczego w miarę unikalny?
 
 ### Kolizja hashy
 
-Hash collision to coś co się czasami zdarza. Dlaczego? Otóż funkcja hashująca nie może byc kompletnie losowa. Musi być stabilna i powtarzalna. To znaczy, dla zadanego argumentu musi zawsze zwracać to samo, generacja hashu musi odbywać się w sposób przewidywalny. Dlaczego? Otóż gdyby było inacej a dla jednego klucza dało by się wygenerować kilka hashy, to powstałby problem w postaci takiej, że nigdy nie moglibyśmy, albo czasem byśmy nie mogli, trafić do dokładnego adresu, gdzie pierwotnie przypisaliśmy wartość. Co to oznacza?
+Hash collision to coś co się czasami zdarza. Dlaczego? Otóż funkcja hashująca nie może być kompletnie losowa. Musi być stabilna i powtarzalna. To znaczy, dla zadanego argumentu musi zawsze zwracać to samo, generacja hashu musi odbywać się w sposób przewidywalny. Dlaczego? Otóż gdyby było inaczej, a dla jednego klucza dało by się wygenerować kilka hashy, to powstałby problem w postaci takiej, że nigdy nie moglibyśmy, albo czasem byśmy nie mogli, trafić do dokładnego adresu, gdzie pierwotnie przypisaliśmy wartość. Co to oznacza?
 
 Brak kompletnej losowości sprawia to, że algorytmy hashujące są w jakimś tam stopniu ograniczone. Ograniczone są też wydajnością i czasem jaki komputer może poświęcić na hashowanie, które dzieje się dość często jednak, bez kosztów dla użytkownika. Trzeba było zatem znaleźć kompromis pomiędzy skomplikowaniem funkcji hashującej i jej zasobożernością, czasem wykonywania a unikalnością dostarczanych hashy dla różnych kluczy.
 
@@ -984,9 +985,9 @@ Kluczem w słowniku może być dowolna wartość/zmienna/obiekt, który jest has
 
 ### Pass by value & Pass by reference
 
-O co tutaj chodzi? O przekazywanie zawartości poprzez referencje lub poprzez wartość. Dokładniej mówiąc chodzi o to, że niektóre obiekty Python skopiuje, tak jak ma to miejsce w przypadku slicingu listy i otrzymania jej kopii w sposób, który wewnętrzne elementy tegoż obiektu uwspólni dla kopii jak i dla orginału. Troszkę rozpisywałem się już o tym podczas pisania o listach. 
+O co tutaj chodzi? O przekazywanie zawartości poprzez referencje lub poprzez wartość. Dokładniej mówiąc chodzi o to, że niektóre obiekty Python skopiuje, tak jak ma to miejsce w przypadku slicingu listy i otrzymania jej kopii w sposób, który wewnętrzne elementy tegoż obiektu uwspólni dla kopii jak i dla oryginału. Troszkę rozpisywałem się już o tym podczas pisania o listach. 
 
-Wydaje mi się, że zostało to tam w miarę jasno wytłumaczone. Teraz tak - dlaczego wspominam o tym w kontekście dictów? Otóż mutowalne typy danych często przekazywane są przez referencje, czyli zamiast samego obiektu, dostajemy referencję doń. Z tego też powodu np. lista nie może być kluczem w słowniku - jest ona mutowalna, przekazywana przez referencję a z tego też powodu nie implementuje metody `__hash__` przez co jest niehashowalna a zatem implementacja słownika w pythonie, przy próbie ustanowienia nowego klucza będącego listą, wyrzuci błąd.
+Wydaje mi się, że zostało to tam w miarę jasno wytłumaczone. Teraz tak - dlaczego wspominam o tym w kontekście dictów? Otóż mutowalne typy danych często przekazywane są przez referencje, czyli zamiast samego obiektu, dostajemy referencję doń. Z tego też powodu np. lista nie może być kluczem w słowniku - jest ona mutowalna, przekazywana przez referencję a z tego też powodu nie implementuje metody `__hash__` przez co jest niehashowalna, a zatem implementacja słownika w pythonie, przy próbie ustanowienia nowego klucza będącego listą, wyrzuci błąd.
 
 Przypomnijmy sobie kod, którym ilustrowałem przekazywanie przez referencje vs przez wartość.
 
@@ -1025,7 +1026,7 @@ test(student)
 print("Poza funkcją:", student)
 ```
 
-Jak widać wyżej dict przekazywany jest poprzez referencje, czyli adres tak jakby. Python zatem idzie pod dany adres i modyfikuje obiekt przez co zmiany są rozpowszechnione w miejscach, gdzie niewprawiony programista mógłby się niespodziewać. W przypadku przekazania wartości sprawa ma się inaczej. Orginalny obiekt nie jest modyfikowany, jedynie jego kopia.
+Jak widać wyżej dict przekazywany jest poprzez referencje, czyli adres tak jakby. Python zatem idzie pod dany adres i modyfikuje obiekt przez co zmiany są rozpowszechnione w miejscach, gdzie niewprawiony programista mógłby się nie spodziewać. W przypadku przekazania wartości sprawa ma się inaczej. Oryginalny obiekt nie jest modyfikowany, jedynie jego kopia.
 
 ```python
 >>> student_name = "NAFO"
@@ -1044,13 +1045,13 @@ Nie wiem, czy ma to sens, może wrócimy do tego jeszcze. Przeanalizuj i poszuka
 
 ### Kopia płytka i kopia głęboka a klucze w słowniku
 
-Mamy te całe przekazywanie referencji, wartości etc. Pomówmy teraz zatem o kopiach płytkich i głebokich. Krótko bo krótko, ale warto wspomnieć.
+Mamy te całe przekazywanie referencji, wartości etc. Pomówmy teraz zatem o kopiach płytkich i głębokich. Krótko bo krótko, ale warto wspomnieć.
 
 Kiedy użyliśmy slicingu jako metody kopiowania listy, otrzymaliśmy tak zwaną płytką kopię tejże listy. Co to znaczy płytką? Mianowicie skopiowany został tylko początkowy obiekt, obiekt z samej góry. Wszystko co w środku a co było przekazywane przez referencje, nie zostało zduplikowane. Skopiowane zostały jedynie referencje. To jest płytka kopia.
 
 Głęboka kopia to kopia, gdzie interpreter 'wchodzi' do obiektu, który kopiujemy i kopiuje wszystko przez wartość, nie przez referencje. Sprawia to, że otrzymujemy faktyczny, samodzielny i niezależny duplikat danego obiektu a nie tylko jego 'top levelu' jak w przypadku kopii płytkiej.
 
-Czasami potrzebne. Warto wiedzieć, gdyż w niektórych przypadkach myslimy, że mamy dwa różne obiekty po skopiowaniu używając kopii płytkiej, modyfikujemy jeden obiekt a tu bam, zmiany w obu. Potrafi to spowodować naprawdę brzydkie do debugowania błędy. Niepolecam.
+Czasami potrzebne. Warto wiedzieć, gdyż w niektórych przypadkach myślimy, że mamy dwa różne obiekty po skopiowaniu używając kopii płytkiej, modyfikujemy jeden obiekt a tu bam, zmiany w obu. Potrafi to spowodować naprawdę brzydkie do debugowania błędy. Nie polecam.
 
 ### dict.values() keys() items()
 
@@ -1096,7 +1097,7 @@ Out[21]: dict_items([('NAFO', 'OK'), ('SS', 'NOT OK')])
 
 Czym są zbiory? Analogicznie jak w matematyce. To taka jakby lista, ale bez powtórzeń. Przynajmniej pozornie. Pod spodem jest nieco inaczej, bo pod spodem zbiorom/setom bliżej do hash mapy. W sumie to jest niejako hashmapa. Po co na co i dlaczego? Otóż zadajmy sobie pytanie, jakie są atrybuty zbiorów. Każdy element występuje tylko raz. Niekoniecznie zachowana kolejność insercji. Zaczyna brzmieć znajomo? Yup. Sety to tak jakby hashmapy gdzie wartości są tez i kluczami niejako.
 
-Jaka jest zaleta zbioru? Pierwsze to deduplikacja elementów -> każdy występuje dokładnie raz. Możemy wyciągnąc 'statystyki' z danego elementu, ile razy został dodany do seta, ale w samym secie pojawi się on tylko raz. Druga jest wydajnościowa. 
+Jaka jest zaleta zbioru? Pierwsze to deduplikacja elementów -> każdy występuje dokładnie raz. Możemy wyciągnąć 'statystyki' z danego elementu, ile razy został dodany do seta, ale w samym secie pojawi się on tylko raz. Druga jest wydajnościowa. 
 
 ### Przeszukanie szybsze niż na warszawskiej Woli
 
@@ -1150,7 +1151,7 @@ Mało tego, implementacja od zera jest często też bezsensowna z pewnego bardzo
 
 Do tego dam sobie rękę uciąć, wierząc w to, że dzięki wysiłkowi tysięcy kontrybutorów kod z biblioteki standardowej Pythona będzie lepiej zoptymalizowany. Korzystaj z tego, co zbudowano i nie wynajduj koła na nowo tworząc własne naiwne implementacje algorytmu sortowania czy coś. Czasami zdarza się taka potrzeba, prawda, ale wątpię, byś ty takowe miewał jako junior wannabe. 
 
-Dlatego koniecznością jest dobra znajomość biblioteki standardowej Pythona. Własne implementacje zostaw na cele związane z nauką czy zabawą, by zrozumieć jak coś działa. W kodzie produkcyjnym starajmy się tego unikac zaś na rzecz sprawdzonych rozwiązań z biblioteki standardowej.
+Dlatego koniecznością jest dobra znajomość biblioteki standardowej Pythona. Własne implementacje zostaw na cele związane z nauką czy zabawą, by zrozumieć jak coś działa. W kodzie produkcyjnym starajmy się tego unikać zaś na rzecz sprawdzonych rozwiązań z biblioteki standardowej.
 
 To nie tylko ułatwia zadanie, ale sprawia, że kod  będzie solidniejszy, bardziej zoptymalizowany i prawdopodobnie szybciej dostarczony. Łatwiej poskładać coś z gotowych klocków niż samemu budować dom zaczynając od wydobycia gliny i wypalenia cegieł. 
 

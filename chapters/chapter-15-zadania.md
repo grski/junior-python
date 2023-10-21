@@ -88,7 +88,7 @@ To, z jakimi pytaniami się spotkasz, zależy ściśle od tego, co umieścisz w 
 1. Zachowanie kolejności dodania itemów do słownika w Pythonie, czym?
       Odp: W Pythonie < 3.7: OrderedDict() z collections. W >= 3.7 sam dict() domyślnie zachowuje kolejność.
 
-1. Różnice między listą a setem.
+1. Różnice między listą, a setem.
       Odp: W liście elementy mogą się powtarzać. W secie nie. Na secie możemy wykonywać pewne operacje, których na listach już nie możemy – podobnie jak na normalnych zbiorach w matematyce – suma, część wspólna, różnica. W najprostszym przypadku można myśleć o secie jak o liście bez powtórzeń. Warto też pamiętać, że dane w secie są nieuporządkowane z założenia, więc set kompletnie nie nadaje się do porządkowania elementów.
 
 1. Jakiego typu obiekty zwracają funkcje dict.keys(), dict.values(), dict.items()?
@@ -134,7 +134,7 @@ To, z jakimi pytaniami się spotkasz, zależy ściśle od tego, co umieścisz w 
 ## Git
 1. Czym różni się merge od rebase?
 Odp: Merge tworzy nam ‘merge commit’, natomiast ‘rebase’ niejako wkleja nam commity z mergowanego brancha. Poza tym, używając rebase, można nieźle zepsuć git loga. Co jest lepsze? Zależy kogo zapytać, są różne szkoły.
-1. Różnice między Gitem a GitHubem.
+1. Różnice między Gitem, a GitHubem.
 Odp: Git to narzędzie – system kontroli wersji, natomiast GitHub to serwis, na którym możemy hostować swoje repozytoria Git’a i ogółem współpracować z innymi.
 1. Co robi git stash? A git stash pop?
 
@@ -154,7 +154,7 @@ Odp: Git to narzędzie – system kontroli wersji, natomiast GitHub to serwis, n
    Odp: JWT to po prostu sposób autentykacji, gdzie mamy określony trzy częściowy token wygenerowany za pomocą jakiegoś sekretnego klucza/certyfikatu, który zawiera określony payload. 
 1. Czy możliwa jest już autentykacja na poziomie load balancera tak, żeby później aplikacja nie musiała tego robić dodatkowo?
    Odp: Jeszcze jak. JWT ftw.
-1. Sposoby autentykacji requesta: basic auth i tokena - opisz i zcharakteryzuj czym się różnią.
+1. Sposoby autentykacji requesta: basic auth i tokena - opisz i scharakteryzuj czym się różnią.
    Odp: Googlaj
 1. Skąd serwer bierze username i password przy basic auth?
    Odp: Nagłówek. Jaki?
@@ -184,7 +184,7 @@ Odp: Git to narzędzie – system kontroli wersji, natomiast GitHub to serwis, n
 ## Kamień papier nożyce
 
 1. Napisz funkcję rock_paper_scissors(), która zasymuluje losowy przebieg gry w kamień papier nożyce i następnie wyświetli, który gracz, p1 czy p2, wygrał daną rundę. Czy zawsze ktoś wygrywa? Może być remis? Spróbuj uczynić swoje rozwiązanie jak najkrótszym. Spróbuj nie korzystać w ogóle z ifów. Tak, da się to zrobić bez tego.
-   Mnie udało się napisać samą funkcję symulującą pojedyńczy losowy przebieg gry w 5 linijkach kodu łącznie, bez ifa.
+   Mnie udało się napisać samą funkcję symulującą pojedynczy losowy przebieg gry w 5 linijkach kodu łącznie, bez ifa.
 
 2. Teraz dopisz kod, która wywoła taką symulacje 10 razy i wyprintuje jej wynik na wyjście.
 
@@ -300,7 +300,7 @@ Zadanie bezczelnie podwędzone z rekrutacji.
 
 Stwórz klasę, która będzie przechowywać całkowity czas egzekucji danego zapytania. Jako dane wejściowe dostaniesz rekordy, które będą zawierały id zapytania oraz czas trwania. Rekordy mogą być częściowe, czyli jedno id może mieć wiele rekordów. Powinno się takie wartości sumować razem.
 
-Dodatkowo zaimplenetuj w tejże klasie metodę `get_top_k_records`, która zwróci zadaną liczbę zapytań o najdłuższym czasie egzekucji.
+Dodatkowo zaimplementuj w tejże klasie metodę `get_top_k_records`, która zwróci zadaną liczbę zapytań o najdłuższym czasie egzekucji.
 
 ```python
 from collections import defaultdict
@@ -370,7 +370,7 @@ Zakładamy, ze dane wejściowe są poprawne.
 
 ### Format danych wyjściowych
 
-Jak już wczytamy informacje o nowym zlecenu i bedziemy chcieli wypisać zaktualizowany stan książki zleceń, to obiekt JSON, jaki powinniśmy wyprintować powinien mieć następujące właściwości/atrybuty: `buyOrders` oraz `sellOrders`. Każde zlecenie powinno zawierać pola "id", "price" oraz "quantity". Posortowane według ceny. Zlecenia kupna nierosnąco. Sprzedaży niemalejąco. Jeśli cena taka sama to priorytet bierze czas dodania zlecenia. Przykład:
+Jak już wczytamy informacje o nowym zleceniu i będziemy chcieli wypisać zaktualizowany stan książki zleceń, to obiekt JSON, jaki powinniśmy wyprintować powinien mieć następujące właściwości/atrybuty: `buyOrders` oraz `sellOrders`. Każde zlecenie powinno zawierać pola "id", "price" oraz "quantity". Posortowane według ceny. Zlecenia kupna nierosnąco. Sprzedaży niemalejąco. Jeśli cena taka sama to priorytet bierze czas dodania zlecenia. Przykład:
 
 ```json
 {"buyOrders": [{"id": 2, "price": 15, "quantity": 20}, 
@@ -457,11 +457,11 @@ Analogicznie odwrotne działanie też zachodzi.
   - /decode - skrócony odkodowuje na pełny.
 
 -   Oba zwracają JSON
--   To jak bedzie odbywało się kodowanie to detal implementacyjny. Wybierz jak uważasz. Byle dało się zakodowac a potem odkodować. Nie musisz doklejac bazy danych - możemy trzymać w pamięci.
+-   To jak bedzie odbywało się kodowanie to detal implementacyjny. Wybierz jak uważasz. Byle dało się zakodować, a potem odkodować. Nie musisz doklejać bazy danych - możemy trzymać w pamięci.
 
 -   Stwórz dokumentację jak uruchomić i używać.
 -   Napisz testy.
--   Korzystaj z GITa i za pomoca historii commitów pokaż swoje rozumowanie
+-   Korzystaj z GITa i za pomocą historii commitów pokaż swoje rozumowanie
 -   Kod pisz tak, jakby miał iść na produkcję. Czyściutki, elegancki, piękniutki.
 
 Przykładowe rozwiązanie na moim githubie - [github.com/grski](https://github.com/grski)
@@ -500,7 +500,7 @@ def find_all_markdown_and_md_files(directory: str) -> Iterable[str]:
     return chain(md_files, markdown_files)
 ```
 
-W kodzie sa komentarze, zatem dodatkowo opisywał raczej nie będę. Kolejny kawałek kodu:
+W kodzie są komentarze, zatem dodatkowo opisywał raczej nie będę. Kolejny kawałek kodu:
 
 ```python
 md: Markdown = Markdown(
@@ -648,7 +648,7 @@ def render_index(posts: Iterable[dict]) -> None:
     )
 ```
 
-Szerzej rozpisane jest to we [wpisie na moim blogu](https://grski.pl/braindead.html) a całość kodu źródłowego na githubie - [braindead](https://github.com/grski/braindead). Tam też jest historia commitów, opis etc. Zerknij.
+Szerzej rozpisane jest to we [wpisie na moim blogu](https://grski.pl/braindead.html), a całość kodu źródłowego na githubie - [braindead](https://github.com/grski/braindead). Tam też jest historia commitów, opis etc. Zerknij.
 
 ## Jednolinijkowiec
 

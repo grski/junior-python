@@ -57,7 +57,7 @@ Jak rekruterzy ustalają pytania? Czy jest jakaś lista, z której wybierają ws
 
 Takie listy raczej nie istnieją. Rekruterzy po prostu zadają pytania, które... Ktoś im kiedyś zadał. Mają kilka swoich ulubionych pytań, czasem wymieniają się nimi między sobą i tyle. Zdarzają się też oczywiście jakieś sztampowe przykłady pytań, które trafiają się wszędzie, ale takie znajdziesz w liście pytań, którą zamieściłem w tej książce gdzieś niżej.
 
-Raczej nie ma jakiś wewnątrz firmowych tajemnych list, które zawierają pytania do potencjalnych pracowników. Także tutaj nie wysilaj się niepotrzebnie i ich nie szukaj. Zwyczajnie należy być przygotowanym i tyle. Warto jednak zaznaczyć, że jeśli firma często para się pisaniem REST API to o to pewnie będzie pytać. Ogółem dobrą wskazówką jest przejrzeć profil projektów firmy i zobaczyć z czym mają codziennie doczynienia i przygotować się pod to. Jeśli firma pracuje w Pythonie to nie będą raczej pytać o technologie związane z Javą.
+Raczej nie ma jakiś wewnątrz firmowych tajemnych list, które zawierają pytania do potencjalnych pracowników. Także tutaj nie wysilaj się niepotrzebnie i ich nie szukaj. Zwyczajnie należy być przygotowanym i tyle. Warto jednak zaznaczyć, że jeśli firma często para się pisaniem REST API to o to pewnie będzie pytać. Ogółem dobrą wskazówką jest przejrzeć profil projektów firmy i zobaczyć z czym mają codziennie do czynienia i przygotować się pod to. Jeśli firma pracuje w Pythonie to nie będą raczej pytać o technologie związane z Javą.
 
 Co to znaczy być przygotowanym? To nie tylko znać jakieś konkretne zagadnienia, nie. Rozmowy rekrutacyjne są trudne, często bywają stresujące, zwłaszcza jeśli zależy nam na danej posadzie. To wszystko ogromnie wpływa na to, jak będzie ci się pracować nad danym Ci zadaniem. To raz. Dwa, częstym problemem jest też to, że ktoś zna dane zagadnienie, ale nie potrafi go wykorzystać w praktyce. 
 
@@ -113,7 +113,7 @@ Tak samo, jak o przykładowych pytaniach, na jakie możesz się natknąć.
 
 Rekrutacje to też umiejętność. Na początku może ci wychodzić średnio. Mimo tego, że w innych warunkach rozwiążesz zadanie, na żywo podczas rekrutacji nagle zjada stres, albo stajesz w miejscu. Zdarza się. Dlatego warto ćwiczyć i przed rekrutacją poprosić kogoś (np. grskiego), żeby przeprowadził z Tobą testową rozmowę. Poważnie.
 
-Rekrutacje to też test tego, jak dobrze umiesz się sprzedać, bez kłamania oczywiście, oraz test twoich umiejętności miękkich, negocjacyjnych. Nie raz zdarzało mi się zarabiać więcej od moich znacznie bardziej doświadczonych kolegów, tylko dlatego, że nie bałem się prosić o podwyżki czy spore kwoty plus wypadałem całkiem znośnie na rekrutacjach, gdyż często brałem w nich udział nawet dla samego ćwiczenia, sam prowadziłem, byłem w nich dobry. Dzięki temu mogłem negocjować fajne warunki nadwyraz często.
+Rekrutacje to też test tego, jak dobrze umiesz się sprzedać, bez kłamania oczywiście, oraz test twoich umiejętności miękkich, negocjacyjnych. Nie raz zdarzało mi się zarabiać więcej od moich znacznie bardziej doświadczonych kolegów, tylko dlatego, że nie bałem się prosić o podwyżki czy spore kwoty plus wypadałem całkiem znośnie na rekrutacjach, gdyż często brałem w nich udział nawet dla samego ćwiczenia, sam prowadziłem, byłem w nich dobry. Dzięki temu mogłem negocjować fajne warunki nad wyraz często.
 
 ### Negocjacje 
 
@@ -133,13 +133,13 @@ Generalnie można odnieść wrażenie, że mam negatywny stosunek i mówię o st
 
 Wtedy tak, wtedy to całe przedsięwzięcie nie ma sensu. Lepiej już idź tyrać do jakiejkolwiek roboty bo i tak zero pożytku z tych studiów wyciągniesz męcząc się jedynie. 
 
-Jeśli zaś sensownie podchodzisz do tematu swoich studiów to bedą one jedynie atutem a nie czymś, co może ci zaskodzić. Wtedy to fajna okazja.
+Jeśli zaś sensownie podchodzisz do tematu swoich studiów to bedą one jedynie atutem a nie czymś, co może ci zaszkodzić. Wtedy to fajna okazja.
 
 ### Czy żałuję nie pójścia na studia?
 
 Życie niejako wybrało za mnie, zostałem trochę zmuszony do szybkiego podjęcia pracy, to fakt. Można zatem zadać sobie pytanie, czy tego żałuję? Nie. Mając 3 lata doświadczenia, kiedy moi rówieśnicy gdzieś tam dopiero zaczynali raczkować, byli stażystami, ja już zarządzałem zespołem, poznałem cudownych ludzi i rozwinąłem znajomości w branży. 
 
-Nie oddałbym tego za te dodatkowych kilka lat beztrostki.
+Nie oddałbym tego za te dodatkowych kilka lat beztroski.
 
 Zaznaczam jednak, że to tylko mój przypadek. Nie każdy będzie miał tyle szczęścia. Studia to zatem coś co naprawdę warto rozważyć, niemniej nie jest to element konieczny.
 
@@ -171,7 +171,7 @@ Pisałem do różnych firm, waliłem mejle, wiadomości. Nawet jak nie szukali a
 
 ### Jakieś rezultaty
 
-Niemniej jednak z tych 8 czy 9 odpowiedzi udało się uzyskać 3 mejle, gdzie zaproszono mnie do rozmowy. W jednym przypadku chodziło o regulara(xD), w drugim o juniora a w trzecim o staż. 
+Niemniej jednak z tych 8 czy 9 odpowiedzi udało się uzyskać 3 mejle, gdzie zaproszono mnie do rozmowy. W jednym przypadku chodziło o regulara(xD), w drugim o juniora, a w trzecim o staż. 
 
 ### Pierwsze rozmowy
 
@@ -179,11 +179,11 @@ Pierwszą oblałem na etapie testu algorytmicznego, Codilime. 10% mi zbrakło. T
 
 Druga, czyli ta, gdzie wakat był na staż, poszła jak po maśle. Już oczyma widziałem się w tej robocie.
 
-Zanim nastała data umówionej trzeciej rozmowy, dostałem telefon. Prezes jednej z firm, do których spamowałem, znalazł moją wiadomość w swoim folderze SPAM, ale mimo tego przeczytał. Jakoś tak się złożyło, że miałem w CV coś tam o tym, że umiem te całe pajtony albo, że kiedyś używałem, a akurat im sie coś tam zwolniło, potrzebują robochłopa. 
+Zanim nastała data umówionej trzeciej rozmowy, dostałem telefon. Prezes jednej z firm, do których spamowałem, znalazł moją wiadomość w swoim folderze SPAM, ale mimo tego przeczytał. Jakoś tak się złożyło, że miałem w CV coś tam o tym, że umiem te całe pajtony albo, że kiedyś używałem, a akurat im się coś tam zwolniło, potrzebują robochłopa. 
 
 To powiedziałem zatem, że będę czymkolwiek chce żebym był, dawaj człowiek mi ten interview. No to dał. 
 
-Nie poszła mi ta rozmowa za świetnie. Spodziewałem się pytań o Pythona a tu nagle zonk bo gość przepytywał mnie głównie z podstaw programowania, struktur danych i takich tam, które wtedy moim forte nie były. Całe szczęście pamiętałem jakieś podstawy, bo robiłem kurs od harvardu - CS50, więc parę zdań udało mi się sklecić. W głowie jednak dalej była chillera utopia, gdyż w moim odbiorze, ta druga rozmowa poszła mi perfekcyjnie.
+Nie poszła mi ta rozmowa za świetnie. Spodziewałem się pytań o Pythona, a tu nagle zonk bo gość przepytywał mnie głównie z podstaw programowania, struktur danych i takich tam, które wtedy moim forte nie były. Całe szczęście pamiętałem jakieś podstawy, bo robiłem kurs od harvardu - CS50, więc parę zdań udało mi się sklecić. W głowie jednak dalej była chillera utopia, gdyż w moim odbiorze, ta druga rozmowa poszła mi perfekcyjnie.
 
 ### Zdziwionko
 
@@ -193,7 +193,7 @@ Cóż, okazało się, że ta rozmowa o staż niekoniecznie tak świetnie mi wypa
 
 Otóż kto inny oddzwonił. Prezes od wiadomości w SPAMie. Zadzwonił z informacją, że zrobiłem spoko wrażenie, dużo jeszcze jest do poprawy oczywiście, ale całkiem ze mnie fajny gość więc możemy się dogadać.
 
-Zaoferowali mi pracę zdalną, co dla mnie, będącego jeszcze w liceum, było idealne. Hajsik, jak na tamte czasy, też spoko bo chyba jakoś 20 ziko za godzinę, gdzie na budowie zarabiało się 11 zł a korepetycji udzielałem za 30 zł. Także tego no.
+Zaoferowali mi pracę zdalną, co dla mnie, będącego jeszcze w liceum, było idealne. Hajsik, jak na tamte czasy, też spoko bo chyba jakoś 20 ziko za godzinę, gdzie na budowie zarabiało się 11 zł, a korepetycji udzielałem za 30 zł. Także tego no.
 
 Biorąc wszystko to pod uwagę nie zastanawiałem się nawet chwili, od razu się zgodziłem i przy okazji poinformowałem tą ostatnią firmę, z która miałem umówioną rozmowę, że podziękuję.
 
@@ -203,7 +203,7 @@ Generalnie umowa była taka, że pierwsze dwa miesiące mam okres próbny, jak b
 
 Po dwóch miesiącach dostałem podwyżkę i przedłużenie. Udało się. 
 
-Skakałem z radości ogółem. Tutaj jeszcze raz, poza tymi podziękowaniami na wstępie, pragnę podziękowac Jakubowi Gąsiorskiemu i Maciejowi Mondrzyckiemu. To te dwie osoby w dużej mierze odpowiadają za to, gdzie jestem i kim jestem. Pozwolili mi złapać pierwsze doświadczenie, zainwestowali i podjęli pewne ryzyko, zatrudniając nieznanego typa, dzieciaka z liceum co ledwo 18 skończył, do poważnej firmy. Kudos.
+Skakałem z radości ogółem. Tutaj jeszcze raz, poza tymi podziękowaniami na wstępie, pragnę podziękować Jakubowi Gąsiorskiemu i Maciejowi Mondrzyckiemu. To te dwie osoby w dużej mierze odpowiadają za to, gdzie jestem i kim jestem. Pozwolili mi złapać pierwsze doświadczenie, zainwestowali i podjęli pewne ryzyko, zatrudniając nieznanego typa, dzieciaka z liceum co ledwo 18 skończył, do poważnej firmy. Kudos.
 
 ### Podsumowanie
 
@@ -213,7 +213,7 @@ A jak już o CV mowa....
 
 ## CV
 
-Czytelne, ładnie odpicowane CV to połowa sukcesu. Porozmawiajmy sobie zatem o sztuce tworzenia czytalnego CV. Ekspertem w tej dziedzinie nie jestem, ale wydaje mi się, że widziałem już wystarczającą liczbę cefałek by wiedzieć, co jest plus minus ok, a co nie.
+Czytelne, ładnie odpicowane CV to połowa sukcesu. Porozmawiajmy sobie zatem o sztuce tworzenia czytelnego CV. Ekspertem w tej dziedzinie nie jestem, ale wydaje mi się, że widziałem już wystarczającą liczbę cefałek by wiedzieć, co jest plus minus ok, a co nie.
 
 ### Moje ostatnie CV
 
@@ -236,9 +236,9 @@ Z czego składa się CV wyżej?
 4. Krótkie podsumowanie
    Tutaj w dużym skrócie przedstawiłem siebie, swoje wartości i dotychczasowe doświadczenia. Krótko i zwięźle.
 5. Doświadczenie
-   Lista kolejnych prac jakie podejmowałem. Tutaj mogą znaleźć się też staże, udział w projektach różnorakich etc. Najświeższe na górze, najstarsze na dole. Kolejnośc sortowania. Opisz przykładowe technologie, jakie były wyzwania, jakie akcje podjęto, jaki był rezultat i co wyróżniało tę pracę na tle innych. Takie porady.
+   Lista kolejnych prac jakie podejmowałem. Tutaj mogą znaleźć się też staże, udział w projektach różnorakich etc. Najświeższe na górze, najstarsze na dole. Kolejność sortowania. Opisz przykładowe technologie, jakie były wyzwania, jakie akcje podjęto, jaki był rezultat i co wyróżniało tę pracę na tle innych. Takie porady.
 6. Umiejętności
-   Czyli słowa kluczowe dla rekruterów. Rekruterzy często są nietechniczni. Z technicznego żargonu mogą niezrozumieć a jedyne co robią, to skanują cefałki w poszukiwaniu określonych słów kluczowych. To tutaj jest miejsce, by je umieścić. Ważne jednak jest to, by nie wrzucać tu wszystkiego jak leci. Jeśli napisałeś hello worlda w Javie to nie dodawaj jej do swoich umiejętności. Załóż, że z każdego skilla tu wpisanego będziesz przepytywany. Jak przyłapią Cię na kłamstwie to Game Over.
+   Czyli słowa kluczowe dla rekruterów. Rekruterzy często są nietechniczni. Z technicznego żargonu mogą nie zrozumieć, a jedyne co robią, to skanują cefałki w poszukiwaniu określonych słów kluczowych. To tutaj jest miejsce, by je umieścić. Ważne jednak jest to, by nie wrzucać tu wszystkiego jak leci. Jeśli napisałeś hello worlda w Javie to nie dodawaj jej do swoich umiejętności. Załóż, że z każdego skilla tu wpisanego będziesz przepytywany. Jak przyłapią Cię na kłamstwie to Game Over.
 7. Przykłady projektów
    Też chyba jasne.
 8. Rekomendacje artykułów
@@ -246,13 +246,13 @@ Z czego składa się CV wyżej?
 9. Referencje
    Też opcjonalne.
 10. Hobby(?)
-    U mnie akurat brak tego, bo miejsca miałem mało z racji dużej liczby wpisów w Doświadczenie, natomiast, jak to często u Juniorów bywa, jak cefałka nieco pusta, to dorzuć coś od siebie o swoich hobby, zainteresowaniach, generalnie tym, jakim człowiekiem jesteś. Na juniora/stażyste i tak bardziej zatrudnia się osobę a nie konkretne umiejętności, bo trzeba zainwestować, więc daj się poznać z dobrej strony. 
+    U mnie akurat brak tego, bo miejsca miałem mało z racji dużej liczby wpisów w Doświadczenie, natomiast, jak to często u Juniorów bywa, jak cefałka nieco pusta, to dorzuć coś od siebie o swoich hobby, zainteresowaniach, generalnie tym, jakim człowiekiem jesteś. Na juniora/stażystę i tak bardziej zatrudnia się osobę a nie konkretne umiejętności, bo trzeba zainwestować, więc daj się poznać z dobrej strony. 
 11. Zgoda na przetwarzanie danych
     Na samym dole malutkim tekstem jest klauzula, którą niestety trzeba dorzucić do każdego CV, bo inaczej firma nie może przeprocesować takiego dokumentu.
 
 ### Zdjęcie
 
-For the love of god, don't. To nie rekrutacja na asystentkę prezesa żeby zdjęcia wrzucać. Nie. Nie ma potrzeby. To jakiś dziwny polski wymysł z tymi zdjeciami w CV. Zagramanico tego nie znają.
+For the love of god, don't. To nie rekrutacja na asystentkę prezesa żeby zdjęcia wrzucać. Nie. Nie ma potrzeby. To jakiś dziwny polski wymysł z tymi zdjęciami w CV. Zagramanico tego nie znają.
 
 ### Podsumowanie
 
@@ -260,7 +260,7 @@ Moje CV wygląda jak wygląda. Jego elementy opisałem. Nie jest to jakaś absol
 
 ## Co umiałem idąc do pierwszej pracy - studium przypadku
 
-Dziś o tym, co konkretnie trzeba umieć, żeby zdobyć pierwszą pracę, albo raczej o tym, co ja umiałem, gdy pierwszej pracy szukałem. Tytuł chwytliwy, bo w różnych firmach są różne wymagania co do juniorów i w jednej taki gość jak ja jest stażystą a w drugiej już juniorem, różnie to bywa. Niemniej jest to jednak tylko moja perspektywa, nie jakiś absolutny wyznacznik, ale te rzeczy niżej pozwoliły mi zostać junior python devem, także ten.
+Dziś o tym, co konkretnie trzeba umieć, żeby zdobyć pierwszą pracę, albo raczej o tym, co ja umiałem, gdy pierwszej pracy szukałem. Tytuł chwytliwy, bo w różnych firmach są różne wymagania co do juniorów i w jednej taki gość jak ja jest stażystą, a w drugiej już juniorem, różnie to bywa. Niemniej jednak jest to tylko moja perspektywa, nie jakiś absolutny wyznacznik, ale te rzeczy niżej pozwoliły mi zostać junior python devem, także ten.
 
 Oprócz tego opiszę też jakieś swoje projekty, które umieściłem w CV.
 
@@ -284,7 +284,7 @@ Jak bez niego współpracować z zagranicznymi klientami, współpracownikami, k
 
 Plus zagranica najczęściej lepiej płaci. 
 
-> Mówta co chceta, ale na koniec dnia hajs się zgadzac musi.
+> Mówta co chceta, ale na koniec dnia hajs się zgadzać musi.
 > 2 List Proroka Stonogiasza do Polaków 
 
 Jaki poziom jest potrzebny? Minimalnie taki, by być w stanie przeczytać dokumentację techniczną jakiegoś języka/frameworka. Na początek starczy.
@@ -358,7 +358,7 @@ A teraz dorzucę też trochę takich różnych ogólnych pojęć z szeroko rozum
 
 1. VPS – w skrócie virtual private server, taki twój własny kawałek jakiegoś serwera można by powiedzieć
 2. VPN – virtual private network, taka sieć prywatna można rzec
-3. Docker, Vagrant – to pierwsze to tylko nazwe kojarzę, i że to coś z serwerami i deployem appki, a to drugie to już poczytajcie, bo fajne narzędzie
+3. Docker, Vagrant – to pierwsze to tylko nazwę kojarzę, i że to coś z serwerami i deployem appki, a to drugie to już poczytajcie, bo fajne narzędzie
 4. Protokół HTTP, HTTPS, SSL, SSH , IMAP, POP3 (!) - tak tylko pobieżnie który idzie do czego i czym się różnią
 5. IDE – czyli zintegrowane środowisko programistyczne
 6. MVC – model, view, controller – model przetwarzania danych używany w sporej ilości nowoczesnych frameworków
@@ -380,7 +380,7 @@ A teraz dorzucę też trochę takich różnych ogólnych pojęć z szeroko rozum
 22. Hash, crypto – co to takiego ten hash, kryptografia – czym to się w ogóle zajmuje.
 23. Machine code, binary, hex – kod maszynowy, binarny, heksowy. Takie różne systemy liczbowe przydatne, bo nimi posługuje się komputer, a nie dziesiętnym.
 24. Production, dev, qa, localhost – produkcja, czyli serwer, na którym stoi rzeczywista strona/appka klienta, dev – środowisko developerskie, lokalne, localhostowe, qa/testing – takie do testowania można rzec, zanim poleci na produkcje, często wędruje tam, chociaż jak to mówią najlepsze testy to tylko na produkcji. Tak serio to nie, nie próbujcie tego w domu.
-25. Segfault – segmentation fault, czyli co się dzieje, jak trochę nie ogarniesz w niskopoziomowym języku, lub rzadziej, w wysokopoziomoowym
+25. Segfault – segmentation fault, czyli co się dzieje, jak trochę nie ogarniesz w niskopoziomowym języku, lub rzadziej, w wysokopoziomowym
 26. Bluescreen - chyba wiesz :-) 
 27. Cieknąca pamięć - googlaj
 28. Integer overflow - też
@@ -439,11 +439,11 @@ No jest coś takiego. Jak to wygląda? Chodzi o przeklikanie appki? No nie zawsz
 
 ### Systemy operacyjne
 
-Jak słyszałeś, że jest coś takiego jak Linux, to spoko. Jak nie, no to też nie najgorzej. Ty już na pewno słyszałeś bo pisałem o nim wcześniej. Szczerze to mocno zależne od twojej pracy, czy będzie ci potrzebne, ale moim zdaniem dobrze jest wiedzieć na początku chociaż jakieś podstawy. Nie każę ci tu instalować od razu Gentoo czy coś, ale jak będziesz umiał poruszać się po systemie za pomocą konsoli, utworzyć, przenieść czy zmienić nazwę pliku, usunąć go, za pomocą linuxowej(albo windowsowej) konsoli, to będzie świetnie. Czyli my jesteśmy bezpieczni po przeczytaniu tej książki.
+Jak słyszałeś, że jest coś takiego jak Linux, to spoko. Jak nie, no to też nie najgorzej. Ty już na pewno słyszałeś bo pisałem o nim wcześniej. Szczerze to mocno zależne od twojej pracy, czy będzie ci potrzebne, ale moim zdaniem dobrze jest wiedzieć na początku chociaż jakieś podstawy. Nie każę ci tu instalować od razu Gentoo czy coś, ale jak będziesz umiał poruszać się po systemie za pomocą konsoli, utworzyć, przenieść czy zmienić nazwę pliku, usunąć go, za pomocą linuxowej (albo windowsowej) konsoli, to będzie świetnie. Czyli my jesteśmy bezpieczni po przeczytaniu tej książki.
 
 Jeśli o mnie chodzi, to po prostu korzystałem na co dzień z Linuxa, ale nie jest to konieczne. Z czego konkretnie? Manjaro (głównie), Solus, Ubuntu. Do tego drugiego stworzyłem nawet paczkę z pycharmem-community edition bo w repo nie było z racji, że to nowy projekt. Czy ty też musisz? No nie. Tak jak wyżej napisałem, wystarczy umieć się poruszać, bo nuż widelec przyjdzie ci coś zrobić za pomocą SSH, chociażby na VPSie i co? Lipa. A tak to cyk i umiesz.
 
-Chociaż teraz na przykład w ogóle nie korzystam z linuxa, bo praucję na macu, poprzednio był to windows z WSL – tak akurat się w pracy złożyło. Tak tylko mówię, żeby raz jeszcze zaznaczyć, że znajomość linuxa nie jest konieczna, ale baaardzo przydatna.
+Chociaż teraz na przykład w ogóle nie korzystam z linuxa, bo pracuję na macu, poprzednio był to windows z WSL – tak akurat się w pracy złożyło. Tak tylko mówię, żeby raz jeszcze zaznaczyć, że znajomość linuxa nie jest konieczna, ale baaardzo przydatna.
 
 Ale załóżmy, że jesteś ambitny. Co w takim razie? Polecenia: **cd, ls, touch, mv, cp, ps, kill, rm, man, echo, grep*, cat, chown, cat, sed** Do tego jak instalować pakiety w danym distro, jak aktualizować.
 
@@ -453,7 +453,7 @@ To wszystko.
 
 To porozmawiajmy o rzeczach nieco niżej poziomowych. Tak, te okropne, archaiczne rzeczy. Yup. Otóż wyobraźcie sobie, że moje zrozumienie informatyki, programowania i ogólne pojęcie, wzrosło zasadniczo po tym, jak trochę ogarnąłem te właśnie podstawy.
 
-To, jak komputer reprezentuje wszystko w pamięci, jak ta pamięć wygląda, stos i sterta, różnice między nimi, kiedy które używamy. Struktury danych jak wyglądają, czemu arraye indeksujemy od 0 a nie 1, jak wygląda ta linked list od środka, liczenie w binarnym systemie, hexowym.
+To, jak komputer reprezentuje wszystko w pamięci, jak ta pamięć wygląda, stos i sterta, różnice między nimi, kiedy które używamy. Struktury danych jak wyglądają, czemu arraye indeksujemy od 0, a nie 1, jak wygląda ta linked list od środka, liczenie w binarnym systemie, hexowym.
 
 Co to ten assembler, jak wygląda proces kompilacji, jaka różnica jest między językami kompilowanymi a interpretowanymi, typowanie statycznie a dynamicznie.
 
@@ -483,7 +483,7 @@ Czyli tak. Ogarniamy debugger. Tak zwany odpluskwiacz. Nie, nikt nie używa tego
 
 Chodzi tu głównie o organizacje kodu, nazywanie zmiennych i tak dalej. Zmienne powinny być nazywane zwięźle, ale dokładnie, opisowo, konkretnie. Co robi zmienna x? No tego nie wie nikt, ty też zapomnisz, ale jeśli zmienna nazywa się number_of_clients to już coś nam to mówi.
 
-Co do nazw mówimy, to mamy różne metodologie nazywania zmienny, metod, klas. Camel case, uderscore i tak dalej. Jaka? Bez znaczenia, byleś trzymał się jednej konsekwentnie. Poczytaj PEP8. 
+Co do nazw mówimy, to mamy różne metodologie nazywania zmienny, metod, klas. Camel case, underscore i tak dalej. Jaka? Bez znaczenia, byleś trzymał się jednej konsekwentnie. Poczytaj PEP8. 
 
 Funkcje, które piszesz nie powinny być też zbyt długie – nie upychaj wszystkiego do jednego wora. Dziel problemy na mniejsze elementy, rozbijaj je i programuj, twórz w sposób pozwalający na ich wielokrotne wykorzystanie bez powtarzania kodu.
 
@@ -543,6 +543,6 @@ Ino jak masz wrzucać crap tylko po to, by go mieć, to może przemyśl.
 
 Wyżej zawarłem informacje podsumowujące to, co umiałem, gdy szedłem na rozmowę. Większość z tego możecie nauczyć się dzięki CS50 (C, Python, Linux, algo/struktury i tak dalej) na edexie – szczerze polecam każdemu początkującemu. A co potem? Projekty, projekty i projekty.
 
-Oczywiście notka: powyższy tekst jest pełen uproszczeń doprawdy znacznych, ale co zrobić. O części rzeczy pewnie też zapomniałem, ale trudno. Nie uważam się za żaden autorytet, dlatego też we wpisie wielokrotnie powtarzam, że to tylko moja opinia i opis stanu mojej wiedzy jak szedłem na pierwszą rekrutacje, a nie żaden absolut czy wyznacznik, zatem traktujcie wszystko to, co tu napisane, z pewną dozą dystansu. Sam pracuje od grudnia dopiero a to, co wyżej to jedynie relacja moich umiejętności, jakie posiadałem idąc na rozmowę.
+Oczywiście notka: powyższy tekst jest pełen uproszczeń doprawdy znacznych, ale co zrobić. O części rzeczy pewnie też zapomniałem, ale trudno. Nie uważam się za żaden autorytet, dlatego też we wpisie wielokrotnie powtarzam, że to tylko moja opinia i opis stanu mojej wiedzy jak szedłem na pierwszą rekrutacje, a nie żaden absolut czy wyznacznik, zatem traktujcie wszystko to, co tu napisane, z pewną dozą dystansu. Sam pracuje od grudnia dopiero, a to, co wyżej to jedynie relacja moich umiejętności, jakie posiadałem idąc na rozmowę.
 
 \pagebreak

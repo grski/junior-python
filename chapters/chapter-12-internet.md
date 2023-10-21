@@ -2,9 +2,9 @@
 
 # Internet
 
-Tutaj poruszymy sobie różnorakie kwestie związane z siecią, Internetem i całą resztą. Mimo tego, że jako junior-python wannabe najbardziej przejmujemy się samym Pythonem i programowaniem, to należy pamiętać, że kod, który piszemy a potem uruchamiamy, nie działa w jakiejś próźni. 
+Tutaj poruszymy sobie różnorakie kwestie związane z siecią, Internetem i całą resztą. Mimo tego, że jako junior-python wannabe najbardziej przejmujemy się samym Pythonem i programowaniem, to należy pamiętać, że kod, który piszemy a potem uruchamiamy, nie działa w jakiejś próżni. 
 
-Wszystkie nasze web appki, programy etc. uruchamiane są w jakimś konkretnym środowisku. To środowisko oddziałowuje na sposób egzekucji naszych programów, to jak one działają. Dodatkowo nierzadko musimy z nim w jakiś sposób wchodzić w interakcję, często obustronną. Co to znaczy? A no, że oprócz samego naszego Pythona wypada znać też całą otoczkę gdzie to bangla i tak dalej, gdyż inaczej można sobie czasem strzelić w stopę. Do tego wiedza o środowisku i rzeczach powiązanych, z których pośrednio lub bezpośrednio korzystamy, czesto nie mając świadomości, czyli po prostu inne komponenty `Systemu` jaki projektujemy, tworzymy czy utrzymujemy, są jego integralną częścią jak i czymś co wpływa na naszą prace i nasz kod.
+Wszystkie nasze web appki, programy etc. uruchamiane są w jakimś konkretnym środowisku. To środowisko oddziaływuje na sposób egzekucji naszych programów, to jak one działają. Dodatkowo nierzadko musimy z nim w jakiś sposób wchodzić w interakcję, często obustronną. Co to znaczy? A no, że oprócz samego naszego Pythona wypada znać też całą otoczkę gdzie to bangla i tak dalej, gdyż inaczej można sobie czasem strzelić w stopę. Do tego wiedza o środowisku i rzeczach powiązanych, z których pośrednio lub bezpośrednio korzystamy, często nie mając świadomości, czyli po prostu inne komponenty `Systemu` jaki projektujemy, tworzymy czy utrzymujemy, są jego integralną częścią jak i czymś co wpływa na naszą prace i nasz kod.
 
 Przez System rozumiem tu jakiś układ, zestaw elementów. W IT jest to zazwyczaj, dla przykładu, nasza webappka, serwery gdzie jest ona uruchamiana, klient, etc.
 
@@ -32,7 +32,7 @@ Dobrze, wróćmy jednak do zapytania.
 
 Mamy obecnie tak: twoja przeglądarka (klient) -> ISP -> DNS -> Serwer.
 
-Następnie na serwerze często znajdują się Load Balancery/Proxy, czyli takie kawałki softwareu, które odpowiednio nakierowują rządania/zapytania do nich trafiające na pasujące zasoby lokalne/usługi/API etc.
+Następnie na serwerze często znajdują się Load Balancery/Proxy, czyli takie kawałki softwareu, które odpowiednio nakierowują żądania/zapytania do nich trafiające na pasujące zasoby lokalne/usługi/API etc.
 
 Z LB/Proxy żądanie trafia do docelowego serwisu. Następnie otrzymujemy odpowiedź i gotowe.
 
@@ -40,7 +40,7 @@ Pomiędzy może być jeszcze wiele innych usług jak cache, CDN etc, ale przedst
 
 ## CDN
 
-Czym jest CDN i dlaczego jest ważny? To w zasadzie dzięki nim możemy bez problemów korzystać z mobilnej sieci, mniej płacić za Internet, to dzięki CDNom nie zacina ci się film ze śmiesznymi kotkami na wypoku, a twój operator może obsłużyć obecną liczbę klientów zamiast np. połowy. Wiem, trochę przesadzam, ale no tak troszkę tylko. Czym zatem jest?
+Czym jest CDN i dlaczego jest ważny? To w zasadzie dzięki nim możemy bez problemów korzystać z mobilnej sieci, mniej płacić za Internet, to dzięki CDNom nie zacina ci się film ze śmiesznymi kotkami na wykopie, a twój operator może obsłużyć obecną liczbę klientów zamiast np. połowy. Wiem, trochę przesadzam, ale no tak troszkę tylko. Czym zatem jest?
 
 ### Wprowadzenie
 
@@ -62,7 +62,7 @@ Problem pojawia się, kiedy tych danych i użytkowników przybywa na całym świ
 
 Wyobraź sobie, że jesteś w urzędzie i żeby załatwić określoną sprawę potrzebujesz podpisu dziesięciu różnych urzędników a na koniec jeszcze podpis przełożonego z Ameryki, do którego jest długa kolejka. Zabiera to dużo czasu, energii i tak dalej, prawda? Tak. Skomplikowana sprawa ogółem. Rolą CDN'a jest skrócenie tej listy potrzebnych podpisów do jednego urzędnika, który jest akurat w lokalnym urzędzie.
 
-Czyli jak z serwerami - twoje zapytanie zamiast tłuc się do serwera w Azji czy Ameryce i męczyć jeden serwer, spyta najpierw lokalnego gościa, który jest miasto obok. W 99% przypadków on wystarczy. W pozostałym 1% trzeba będzie tarabanić do Ameryki, ale na miejscu sprawe załatwimy szybko, bo dzięki pomocy z obsługą petentów lokalnie, wujek Sam ma do obsługi mniej, przez co kolejka jest znacznie mniejsza.
+Czyli jak z serwerami - twoje zapytanie zamiast tłuc się do serwera w Azji czy Ameryce i męczyć jeden serwer, spyta najpierw lokalnego gościa, który jest miasto obok. W 99% przypadków on wystarczy. W pozostałym 1% trzeba będzie tarabanić do Ameryki, ale na miejscu sprawę załatwimy szybko, bo dzięki pomocy z obsługą petentów lokalnie, wujek Sam ma do obsługi mniej, przez co kolejka jest znacznie mniejsza.
 
 ### Szczegóły
 
@@ -92,7 +92,7 @@ Jeśli na jednym nie ma, to leci do kolejnego z CDPFów pod swoją kontrolą. Co
 
 Jeśli każdy CCF stwierdzi, że tego contentu nie ma na CDPFach pod ich kontrolą? Wtedy CD & LCF robi request do serwera twórcy treści, stamtąd sobie dane pobiera i zachowuje lokalnie. Także oryginalny serwer jest męczony w bardzo niewielkiej ilości przypadków, dzięki czemu sam serwer jak i jego okoliczna sieć jest znacznie odciążona, ruch zostaje rozrzucony po lokalnych i rozproszonych CCFach zamiast być skupiony w jednej lokalizacji.
 
-To między innymi dzięki takim rozwiązaniom (lub podobnym) GitHub z pomocą firmy Akamai, byli w stanie sprostać niedawnemu rekordowemu atakowi DDOS skierowanymi przeciwko tej popularnej platformie, który w szczytowej fazie przybrał rozmiar 1.35 Tbps - prawie półtora Tb na sekundę. Niesamowite. To dzięki temu Wypok jako-tako działa. Dzięki temu Netflix nie zapycha całego Internetu.
+To między innymi dzięki takim rozwiązaniom (lub podobnym) GitHub z pomocą firmy Akamai, byli w stanie sprostać niedawnemu rekordowemu atakowi DDOS skierowanymi przeciwko tej popularnej platformie, który w szczytowej fazie przybrał rozmiar 1.35 Tbps - prawie półtora Tb na sekundę. Niesamowite. To dzięki temu Wykop jako-tako działa. Dzięki temu Netflix nie zapycha całego Internetu.
 
 ### Podsumowanie
 
@@ -102,7 +102,7 @@ Wiele rzeczy jest, dzięki którym nasze dni są łatwiejsze, a nawet tego nie w
 
 Czym jest cache? Cache to taka jakby baza danych, ale o przeznaczeniu nieco innym. W domyśle cache zachowuje dane na określoną ilość czasu, zazwyczaj dość krótką, relatywnie do bazy danych, które czasami zachowują dane permanentnie. 
 
-Cache zatem to taka baza danych o krótkim terminie ważności, w której przychowujemy zapamiętane wyniki komputacji, tych, które są kosztowne zazwyczaj i tylko te, które dotyczą odczytu a nie zapisu do bazy danych na przykład.
+Cache zatem to taka baza danych o krótkim terminie ważności, w której przechowujemy zapamiętane wyniki komputacji, tych, które są kosztowne zazwyczaj i tylko te, które dotyczą odczytu a nie zapisu do bazy danych na przykład.
 
 Czyli jeśli mamy sobie jakiś widok/funkcję, cokolwiek, która przyjmuje argument, u nas to będzie akurat jakiś request, to dla podobnych albo takich samych, cache zwróci wynik 'z pamięci' zamiast liczyć/pobierać od nowa.
 
@@ -155,7 +155,7 @@ Otóż docker to narzędzie służące budowaniu i uruchamianiu kontenerów, kon
 
 VMki stawiają cały system i emulują wszystko od podstaw. Docker korzysta z gotowych komponentów twojego systemu przez co jest o wiele mniej zasobożerny.
 
-Dzięki kontenerom możemy pobierać gotowe 'obrazy', które zawierają wszystko, czego aplikacja po trzebuje do uruchomienia jak i samą aplikację. 
+Dzięki kontenerom możemy pobierać gotowe 'obrazy', które zawierają wszystko, czego aplikacja potrzebuje do uruchomienia jak i samą aplikację. 
 
 Wyobraź sobie, że musisz ręcznie instalować wszystkie zależności, pakiety etc. 
 

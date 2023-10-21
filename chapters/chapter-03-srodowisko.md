@@ -184,7 +184,7 @@ Na Linuxie (zazwyczaj) znakiem ~ oznaczamy katalog domowy użytkownika, więc je
 
 Jeszcze jedna uwaga, nie wszystkie linuxy mają zaimportowany obecny katalog roboczy do PATH, zatem czasami może wystąpić potrzeba, że trzeba będzie wpisać, jako lokację pliku w obecnym CWD, ./plik.txt zamiast plik.txt, zależnie od distro. Łatwo można to naprawić, dodając CWD do PATH. To samo może być z samym Pythonem. Pamiętaj, by podczas instalacji dodać go do PATH. Ewentualnie jak nie podczas instalacji, to ręcznie sobie dodaj. 
 
-Jak? Googluj, linuxiarzu. Linuxów się zachciał instalować, to teraz masz. A męcz się, męcz, jak chciałeś, czy chciałaś! 
+Jak? Googluj, linuxiarzu. Linuxów się zachciało instalować, to teraz masz. A męcz się, męcz, jak chciałeś, czy chciałaś! 
 
 Nawigować już umiemy, ale do konsoli jeszcze wrócimy. Jak odpalić nasz kod źródłowy?
 
@@ -202,7 +202,7 @@ Zaś by uruchomić interpreter pythona wystarczy wpisać:
 python
 ```
 
-I tyle. Odpali nam to interpreter. Różnica między interpreterem a odpalaniem z pliku jest taka, że w interpreterze wpisujemy sobie polecenia a python na biężaco je interpretruje. W przypadku pliku mamy mniej interaktywne podejście. Pobaw się i przekonaj
+I tyle. Odpali nam to interpreter. Różnica między interpreterem a odpalaniem z pliku jest taka, że w interpreterze wpisujemy sobie polecenia a python na bieżąco je interpretuje. W przypadku pliku mamy mniej interaktywne podejście. Pobaw się i przekonaj
 
 Środowisko ogarnięte, poruszanie się w konsoli też. Bierzemy się wreszcie do pracy!
 

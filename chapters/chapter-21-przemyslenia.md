@@ -60,7 +60,7 @@ Absolutnie nie znaczy to, że masz wykonywać pracę z kogoś, myślę, że rozu
 
 To bardzo ważne, zwłaszcza teraz. Wydaje mi się, że obecnie zaczynamy przykładać co raz, to większą wagę do tego, jak się z kimś współpracuje, bo inaczej zespół będzie leżał. 
 
-Także to bardzo ważne, co już niejednokrotnie podkreślałem i jeszcze niejednokrotnie pewnie powtórzę, zwłaszcza tobie, juniorze. Bo często to twój charakter i nastawienie decydują o tym, czy warto w ciebie zainwestować i przyjąć cię do pracy.
+Także to bardzo ważne, co już nie raz podkreślałem i jeszcze niejednokrotnie pewnie powtórzę, zwłaszcza tobie, juniorze. Bo często to twój charakter i nastawienie decydują o tym, czy warto w ciebie zainwestować i przyjąć cię do pracy.
 
 Zatem naprawdę weź sobie do serca tę radę.
 
@@ -102,7 +102,7 @@ Te dwa wydarzenia sprawiły, że postanowiłem napisać swoje dwa słowa o tym t
 
 Oto lista kilku rzeczy. 
 
-Zacznijmy może od omawianego przykładu zmiany terminologii Pythona. To nie jest odosobniony przypadek. Podobna sytuacja miała już miejsce kilka lat temu, tyle że w kontekście kodu frameworku Django. Jak widać, zaczyna być to trendem. 
+Zacznijmy może od omawianego przykładu zmiany terminologii Pythona. To nie jest odosobniony przypadek. Podobna sytuacja miała już miejsce kilka lat temu, tyle że w kontekście kodu framework'u Django. Jak widać, zaczyna być to trendem. 
 
 Mocno niepokojącym i głupim tak szczerze. Otóż jak pewnie wszyscy wiemy, mamy w świecie IT pewien swoisty słowniczek pojęć, które mają bliżej określone, znane wszystkim, znaczenie. Widząc niektóre słowa, niezależnie od języka, w jakim występują, możemy w dość znacznym stopniu domyślić się, co robi dana funkcja, dana zmienna czy ogółem, dany kod. 
 
@@ -126,7 +126,7 @@ Następna do omówienia jest utworzenie regulaminu dla społeczności tworzącej
 
 Z założenia te nowo powstałe zasady brzmią okej, problem jednak w tym, jak zostaną one wdrożone, bo historia pokazała już, jak to się zazwyczaj dzieje. Coś, co ma być narzędziem wolności dla wszystkich, staje się aparatem ucisku. 
 
-Chodzi zwyczajnie o to, że SJW (Social Justice Warriors) zyskują tutaj potężne narzędzie, które umożliwi im kompletne pozbywanie się osób, które im nie przypadną go gustu. A im do gustu nie przypada raczej większość niż mniejszość. W zasadzie to panuje tam zasada ‘kto nie z nami, tam przeciw nam’. Widzicie tę rozbieżność? Ten dysonans? 
+Chodzi zwyczajnie o to, że SJW (Social Justice Warriors) zyskują tutaj potężne narzędzie, które umożliwi im kompletne pozbywanie się osób, które im nie przypadną go gustu. A im do gustu nie przypada raczej większość niż mniejszość. W zasadzie to panuje tam zasada ‘kto nie z nami, ten przeciw nam’. Widzicie tę rozbieżność? Ten dysonans? 
 
 W teorii mają oni walczyć o sprawiedliwość społeczną, a praktyce są oni często tyranami, którzy niszczą ludzi. Często dobrych ludzi, kompetentnych ludzi. Jeśli nawet na Linusa udało się wpłynąć, który to jest raczej uparty i kontrowersyjny w swoich poglądach, to co będzie z innymi osobami? Co, gdy jakiś naprawdę porządny deweloper ‘urazi’ kogoś albo podpadnie kaście SJW?
 
@@ -160,7 +160,7 @@ Jak właśnie czytasz ten tekst i jesteś oburzony czy oburzona, to wiesz co… 
 
 ## Szanujmy czytelników, szanujmy Internet
 
-Zanim przejdziesz dalej, to czysto opiniowy wpis, zero w nim rzeczy technicznych a jedynie moje narzekanie na pewien temat i moja perspektywa. Jeśli zaglądasz tu tylko dla tematów technicznych, to ten wpis możesz odpuścić, bo to subiektywne podejście w pewnej sprawie.
+Zanim przejdziesz dalej, to czysto opiniowy wpis, zero w nim rzeczy technicznych, a jedynie moje narzekanie na pewien temat i moja perspektywa. Jeśli zaglądasz tu tylko dla tematów technicznych, to ten wpis możesz odpuścić, bo to subiektywne podejście w pewnej sprawie.
 
 O co mi chodzi? Popatrzcie na to, jak duża część witryn, zwłaszcza tych polskich, dziś wygląda. Bez AdBlocka są niemożliwe do przeglądania, bo zwyczajnie większość ich powierzchni stanowią reklamy. Jedne w formie video, inne - zwykły obrazek. Automatycznie odtwarzające się reklamy z dźwiękiem. To dopiero zmora. Tak samo jak to, ile transferu potrafi to całe dziadostwo zeżreć.
 
@@ -302,9 +302,9 @@ Nie będę wchodził w szczegóły tego, jak działa ten lek jak jest metabolizo
 
 W Polsce oficjalnie średnio można dostać w aptekach, nieoficjalnie idzie kupić za przyzwoite pieniądze. Uwaga: nie namawiam tutaj do spożywania. Wspominam tylko, że istnieje coś takiego, na mnie działa, i może nieco tłumacze jak to możliwe, że niektórzy menadżerowie czy prezesowie pracują po 16h dziennie i mają dalej kopa. :-) 
 
-Są inne leki podobne do modafinilu, lecz np. jak adderal, aczkolwiek adderal jest tak naprawdę solą amfetaminy. Modafinil nie. Modafinil król nootropów jest jak lew jest król dżungli.
+Są inne leki podobne do modafinilu, lecz np. jak adderal, aczkolwiek adderal jest tak naprawdę solą amfetaminy. Modafinil nie. Modafinil król nootropów jest jak lew, jak król dżungli.
 
-Metylofenidat kolejny stwór do poczytania.
+Metylofenidat - kolejny stwór do poczytania.
 
 Osobiście zdarza mi się modafinil zażywać kiedy potrzebuje siąść i bardzo dużo wydajnie popracować lub się czegoś trudnego nauczyć jak na przykład teraz, kiedy piszę te słowa.
 

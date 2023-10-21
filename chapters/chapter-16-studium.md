@@ -2,7 +2,7 @@
 
 # Studium przypadku różnych aplikacji
 
-Tutaj porozmawiamy i przenalizujemy różne przypadki konkretnych implementacji, pogadamy o decyzjach i o System Designie, dlaczego coś jest tak a nie inaczej, etc.
+Tutaj porozmawiamy i przeanalizujemy różne przypadki konkretnych implementacji, pogadamy o decyzjach i o System Designie, dlaczego coś jest tak a nie inaczej, etc.
 
 ## Skracacz linków
 
@@ -113,7 +113,7 @@ Cóż, moje poszukiwania szybko pokazały mi, że serwer bez problemu identyfiku
 
 ### Format?
 
-Cżyżby to wina formatu? No bo .avi działa, .mpa też, ale okazuje się, że pewne pliki .mp4 już nie.
+Czyżby to wina formatu? No bo .avi działa, .mpa też, ale okazuje się, że pewne pliki .mp4 już nie.
 
 Bynajmniej, gdyż udało mi się znaleźć pliki .mp4 działające - to nie to.
 
@@ -142,6 +142,6 @@ Mimo tego, że de facto samego programowania tu nie było, to przyznam, że i ta
 
 Pokazało mi ono również, że wiedza ogólna, o której to tak często się mówi 'a po co mi to', czasem się przydaje.
 
-Podsumowując, czasami wystarczy zmienić jedną cyferkę z 2.11.2 na 2.11.3, by nagle coś gdzieś przestało działać a praca developera to nie zawsze tylko klepanie nowych landing pageów.
+Podsumowując, czasami wystarczy zmienić jedną cyferkę z 2.11.2 na 2.11.3, by nagle coś gdzieś przestało działać, a praca developera to nie zawsze tylko klepanie nowych landing pageów.
 
 \pagebreak

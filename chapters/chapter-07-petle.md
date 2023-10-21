@@ -7,7 +7,7 @@ Opowiemy sobie trochę o pętlach w Pythonie, o iteracji też słów kilka. Co t
 Co to jednak w ogóle znaczy? 
 
  Pętle to koncept w programowaniu służący wykonaniu jakieś czynności, jakiegoś kawałka kodu, zadaną ilość razy. Otóż wyobraź sobie, że musisz przetworzyć 10 elementów z tablicy. Na każdej z nich wykonać jakieś operacje. Załóżmy, że te operacje to nie jest jedna linijka a skomplikowane przetwarzanie. Chociaż nie, dla naszego przykładu nawet mnożenie weźmy. I co teraz?
-Naiwne rozwiązanie wyglądąłoby tak:
+Naiwne rozwiązanie wyglądałoby tak:
 
 ```python
 >>> elements = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -24,7 +24,7 @@ Koszmar. Teraz pomyślcie, że tych elementów jest więcej. Na przykład milion
 
 ### Krótka charakterystyka
 
-Zacznijmy od czegoć, co nazywa się pętla krokowa. Jest to pętla, która pozwala nam 'przejść się' po elementach zadanego obiektu i umożliwa, krok po kroku, czyli element po elemencie, przetwarzanie danego elementu. To znaczy, że słowo kluczowe `for` umożliwia nam iterację po elementach obiektu iterowalnego.
+Zacznijmy od czegoś, co nazywa się pętla krokowa. Jest to pętla, która pozwala nam 'przejść się' po elementach zadanego obiektu i umożliwia, krok po kroku, czyli element po elemencie, przetwarzanie danego elementu. To znaczy, że słowo kluczowe `for` umożliwia nam iterację po elementach obiektu iterowalnego.
 
 ### Obiekt iterowalny
 
@@ -32,7 +32,7 @@ Czymże jest obiekt iterowalny? To taki obiekt, który po wrzuceniu do funkcji `
 
 To takie obiekty, które mają zaimplementowaną metodę `__iter__` i kolejno `__next__`, czyli w skrócie programista powiedział pythonowi jak ma brać kolejne elementy z danego obiektu/danej struktury i która zwraca obiekt iteratora. 
 
-W listach, dictach, tuplach mamy to domyślnie jako część języka. Jeśli sami tworzymy jakieś wyspecjalizowane klasy, to równiez możemy uczynić je iterowalnymi poprzez zaimplementowanie tejże metody. Czyli tak w skrócie to takie coś po czym można iterować. 
+W listach, dictach, tuplach mamy to domyślnie jako część języka. Jeśli sami tworzymy jakieś wyspecjalizowane klasy, to również możemy uczynić je iterowalnymi poprzez zaimplementowanie tejże metody. Czyli tak w skrócie to takie coś po czym można iterować. 
 
 Iterować znaczy przechodzić krok po kroku po elementach danej struktury. Zrozumiałe? Oby tak. Jak nie to googlaj albo patrz kod niżej.
 
@@ -53,7 +53,7 @@ Całość, przekuta na instrukcję w języku polskim, wygląda tak.
 
 1. Weź obiekt elements. Elements to lista.
 2. Przekaż obiekt elements jako argument dla funkcji enumerate.
-3. Funkcja enumerate zwraca nowy obiekt. Obiekt ten jest czymś z kolei, co zwraca nam kolejne elementy orginalnego obiektu i dokleja do nich niejako indeks/numerek
+3. Funkcja enumerate zwraca nowy obiekt. Obiekt ten jest czymś z kolei, co zwraca nam kolejne elementy oryginalnego obiektu i dokleja do nich niejako indeks/numerek
 
 Następnie kiedy mamy ten nowo zwrócony obiekt, pętla for wchodzi do życia i jedzie z tematem.
 
@@ -129,7 +129,7 @@ set_comprehension_variation = set(x for x in range 10)
 tuple_comprehension = tuple(x for x in range(10) if x % 2)
 ```
 
-Poczytaj kapkę więcej i poeksperymentuj sobie samodzielnie. Pamiętaj, że comprehensions można zagnieżdżać, czyli mieć listę składaną składaną z listy składanej. Book. Incepcja
+Poczytaj kapkę więcej i poeksperymentuj sobie samodzielnie. Pamiętaj, że comprehensions można zagnieżdżać, czyli mieć listę składaną składaną z listy składanej. Book. Incepcja.
 
 Wspomnę tylko dodatkowo o tym, że ja osobiście lubię dłuższe listy składane rozpisywać w następujący sposób:
 
@@ -178,7 +178,7 @@ Traceback (most recent call last):
 
 ## Walrus 
 
-Od Pythona 3.8 mamy do dyspozycji coś, co nazywane jest Walrusem lub operatorem przypisania w wyrażenia. Pozwala on nam na przypisywanie zmiennych nie tylko w stwierdzeniach, ale również i wyrażeniach, za pomoca operatora `NAME := expr`.
+Od Pythona 3.8 mamy do dyspozycji coś, co nazywane jest Walrusem lub operatorem przypisania w wyrażenia. Pozwala on nam na przypisywanie zmiennych nie tylko w stwierdzeniach, ale również i wyrażeniach, za pomocą operatora `NAME := expr`.
 
 No dobrze, ale co to znaczy w praktyce. Spójrzmy na kod.
 

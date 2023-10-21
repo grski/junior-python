@@ -6,11 +6,11 @@ Trochę o papierologii.
 
 ## Netto, brutto, umowy, statusy, koszty
 
-Mała notka dla mniej obeznanych: netto to kwota do ręki, brutto, to kwota przed częścią podatków, a całkowity koszt, jaki płaci za ciebie pracodawca to jeszcze zupełnie inna	 kwota w większości przypadków. Trochę to się inaczej ma podczas rozliczania na B2B, ale to już insza inszość. Opiszę to za chwilę.
+Mała notka dla mniej obeznanych: netto to kwota do ręki, brutto, to kwota przed częścią podatków, a całkowity koszt, jaki płaci za ciebie pracodawca to jeszcze zupełnie inna kwota w większości przypadków. Trochę to się inaczej ma podczas rozliczania na B2B, ale to już insza inszość. Opiszę to za chwilę.
 
 Kolejna mała notka, fajny atut przy pierwszej pracy to status ucznia/studenta. Otóż jak szukasz pierwszej pracy albo gdzieś tam jeszcze zaczynasz, to dobrą rzeczą jest fakt, że prawdopodobnie masz poniżej 26 lat i możesz uzyskać lub też posiadasz, status ucznia/studenta. 
 
-Co to daje? Otóż jeśli masz do 26 lat i masz ten status, to jesteś ubezpieczony i zatrudniając Cię na umowę zlecenie, twój pracodawca nie musi płacić żadnych składek w zasadzie. Powoduje to, że całkowity koszt twojego zatrudnienia maleje i to znacznie a ty przy tym masz ubezpieczenie. Podam ci przykład wzięty z mojego przypadku.
+Co to daje? Otóż jeśli masz do 26 lat i masz ten status, to jesteś ubezpieczony i zatrudniając Cię na umowę zlecenie, twój pracodawca nie musi płacić żadnych składek w zasadzie. Powoduje to, że całkowity koszt twojego zatrudnienia maleje i to znacznie, a ty przy tym masz ubezpieczenie. Podam ci przykład wzięty z mojego przypadku.
 
 Zatrudniając mnie i płacąc mi przy tym 3024 zł 'do ręki' miesięcznie, czyli 3024 zł netto, to kwota brutto, która widnieje na umowie zleceniu, wynosiła 3533 zł. Z racji tego, że miałem status ucznia/studenta, to ta kwota brutto była też również finalnym kosztem pracodawcy.
 
@@ -40,7 +40,7 @@ Tutaj szybko, najtańsza dla pracodawcy forma zatrudnienia i chyba najgorsza dla
 
 Z tego też rezultatu możesz być rozliczany i o ile jest dobrze, to jest dobrze, ale jeśli trafisz na szefa Janusza, skopiesz robotę lub po prostu coś pójdzie grubo nie po twojej myśli, to może zrobić ci się gorąco pod stopami, bo twój szef ma prawo zwyczajnie zareklamować efekt twojej pracy i koniec. To raz.
 
-Dwa, na umowie o dzieło nie obowiązują cię oskładkowanie. Ubezpieczenie emerytalne, chorobowe, rentowe, wypadkowe i co najważniejsze, zdrowotne. 
+Dwa, na umowie o dzieło nie obowiązują cię oskładkowania: Ubezpieczenie emerytalne, chorobowe, rentowe, wypadkowe i co najważniejsze, zdrowotne. 
 
 O ile ja jakoś zbytnio nie liczę na emeryturę z ZUSu, tak ubezpieczenie zdrowotne wole jakieś mieć, bo w razie kłopotów wizyta w szpitalu potrafi być kosztowna. Bardzo.
 
@@ -134,7 +134,7 @@ Do tego dochodowy, zależnie od tego, jaki wybierzemy, ale dla prostoty założy
 
 VAT tutaj pominiemy i będziemy rozmawiać o kwocie netto, bez VAT, ponieważ jeśli firma pracodawcy cokolwiek na siebie zarabia, to VAT przy pensjach jest tak naprawdę tylko czymś, co sobie przerzucamy wzajemnie.
 
-Zakładając, że na B2B dogadamy się na jakieś 8000 zł netto, czyli jakieś 500 zł mniej niż normalnie by zapłacił za nas pracodawca na UoP, do ręki zostanie nam wtedy: kwota netto na fakutrze - podatek dochodowy - zus, czyli:
+Zakładając, że na B2B dogadamy się na jakieś 8000 zł netto, czyli jakieś 500 zł mniej niż normalnie by zapłacił za nas pracodawca na UoP, do ręki zostanie nam wtedy: kwota netto na fakturze - podatek dochodowy - zus, czyli:
 8000 zł - 8000 zł * 12% - zus = 8000 zł  - ~900 zł - ~500 zł = 6700 zł.
 
 Od 2022 w IT mamy 12% ryczałt albo np. 19% liniowy. Załóżmy liniowy.
@@ -189,7 +189,7 @@ A tych trochę jest. Dlatego warto przemyśleć, czy B2B jest wyborem dla nas �
 
 Pamiętasz, co wspominałem wcześniej? To o składkach, podatkach, urzędach? Przy innych formach współpracy, wszystko to jest na głowie twojego pracodawcy. Ciebie zupełnie nic nie interesuje, poza sprawdzeniem, czy przelew już jest.
 
-W momencie, kiedy przejdziesz na B2B, wszystko obowiązki formalne, spadają na ciebie. Twój pracodawca jedynie musi pamiętać o tym, by opłacić fakturę, którą mu wystawisz.
+W momencie, kiedy przejdziesz na B2B, wszystkie obowiązki formalne, spadają na ciebie. Twój pracodawca jedynie musi pamiętać o tym, by opłacić fakturę, którą mu wystawisz.
 
 Co takiego zatem trzeba robić, jako przedsiębiorca? Trochę tego jest. Pierwsza rzecz to opłacenie składek ZUS. Następna – opłacenie zaliczek na PIT – raz na miesiąc lub raz na kwartał, zależnie jak wybierzesz. 
 
@@ -257,7 +257,7 @@ Nie jest jednak tak źle, przynajmniej w naszej branży, bo niektóre banki, wid
 
 Nie demonizujmy tutaj jednak całego procesu z drugiej strony, bo to też głównie formalności, zwłaszcza jeśli bierzemy kredyt w tym samym banku, w którym mamy konto firmowe.
 
-### Podusmowanie
+### Podsumowanie
 
 Podsumowując, B2B nie jest formą zatrudnienia dla każdego. Ma swoja wady takie jak to, że odpowiedzialność za różne rzeczy spada na twoją głowę, ale za to i zalety, bo z większą odpowiedzialnością, przychodzi większa władza. W tym aspekcie akurat nad pieniędzmi, jakie wydaje na ciebie pracodawca.
 
@@ -265,11 +265,11 @@ Czy to dobra forma dla ciebie? Nie wiem. Prawie jednak na pewno powiem jedno, ż
 
 Poza tym masz do wyboru UoD, UZ, UoP. Każda ma swoje wady i zalety, które ci przedstawiłem nieco wyżej.
 
-Imho na początku, jeśli masz poniżej 26. lat i dopiero zaczynasz, to nie ma żadnej dyskusji. Ogarniaj status ucznia/studenta i ciśnij UZ.
+Imo na początku, jeśli masz poniżej 26. lat i dopiero zaczynasz, to nie ma żadnej dyskusji. Ogarniaj status ucznia/studenta i ciśnij UZ.
 
 Jeśli masz powyżej 26. lat i dopiero zaczynasz, zarabiasz poniżej 85k rocznie wal UoP.
 
-Jeśli zarabiasz nieco więcej już, czyli powyże 100k, zakładaj JDG, zwłaszcza jeśli przysługuje ci Ulga na Start/Mały zus. 
+Jeśli zarabiasz nieco więcej już, czyli powyżej 100k, zakładaj JDG, zwłaszcza jeśli przysługuje ci Ulga na Start/Mały zus. 
 
 Gdy nieco więcej już, np ćwierć bani rocznie, pomyśl nad spółką z o. o. albo coś. Chociaż to raczej nie ten target, tutaj warto zainwestować w doradce podatkowego.
 
@@ -377,7 +377,7 @@ Nigdy jednak nie dochodziło do takich sytuacji, bym przepracował, nie wiem, 30
 
 ### Dalsze losy
 
-Tak spędziłem następne 3 miesiące – pracując na dwa fronty. Potem zrezygnowałem z drugiego etatu, zostałem w jednej pracy, stacjonarnej. W sumie to nie zrezygnowałem a hajs z funduszy unijnych się prezesowi skończył. Znaczy hajs na developerów. Zawinął co swoje i zniknął xD 
+Tak spędziłem następne 3 miesiące – pracując na dwa fronty. Potem zrezygnowałem z drugiego etatu, zostałem w jednej pracy, stacjonarnej. W sumie to nie zrezygnowałem, a hajs z funduszy unijnych się prezesowi skończył. Znaczy hajs na developerów. Zawinął co swoje i zniknął xD 
 
 Tam zabawiłem jeszcze przez następne 3 miesiące. W międzyczasie udało mi się znaleźć źródło zleceń dla zagranicznych klientów. Tutaj stawka skoczyła mi już do 60 zł/h netto. Nie było tego za dużo, ale trochę się trafiało.
 
@@ -415,15 +415,15 @@ Tutaj ponownie wychodzi moje szczęście w życiu i to, że poznaje ludzi, któr
 
 Powiem wam jedno, świat IT w Polsce, a w Warszawie to już w ogóle, jest bardzo, bardzo mały. Nawiązując dobre relacje, zostawiając po sobie dobrą opinię i będąc ogółem po prostu dobrym człowiekiem, można sporo zyskać. Do mnie ta okazja spadła właśnie przez coś takiego. Powiem szczerze, cieszę się bardzo. 
 
-Tym bardziej że robota zdalna. Jakby tego było mało, to naprawdę ogarnięty zespół. Szczerze to trochę mi się wydaje, że na taką kasę nie zasługuję, biorąc pod uwagę moje umiejętności, tak naprawdę nie umiem niczego specjalnego honestly. Nie mam pojęcia, jak to się stało.
+Tym bardziej, że robota zdalna. Jakby tego było mało, to naprawdę ogarnięty zespół. Szczerze to trochę mi się wydaje, że na taką kasę nie zasługuję, biorąc pod uwagę moje umiejętności, tak naprawdę nie umiem niczego specjalnego honestly. Nie mam pojęcia, jak to się stało.
 
 Będę tylko musiał znowu zaprzyjaźnić się z gołębiem Bartkiem siedzącym na parapecie, bo powrót do pracy zdalnej i brak kontaktu ludzkiego z biura pewnie tego będzie wymagał.
 
 W każdym razie. Oficjalnie doszedłem do poziomu, gdzie zarabiam 10 razy więcej, niż jeszcze 2-3 lata temu. To nie był łatwy okres.
 
-### Nic  co dobre nie trwa jednak wiecznie
+### Nic co dobre nie trwa jednak wiecznie
 
-Następny okres, to czas, kiedy moje życie było burzliwe zawodowo. Miałem wtedy 3 lata doświadczenia i odszedłem z dopiero co opisanej firmy po około 1,5 roku. Tu zaczęła się niezła jazda i wariacje, które skończyły się generalnie tym, że jakoś wylądowałem z własną firmą i 7-8 pracownikami na etacie. WHAT THE. Do tego jednocześnie robiłem etat dodatkowo. Moje zarobki tutaj potrafiły być szalone od 100 zł za godzinę do, rekordowo, 600 zł/h. Tak. 600 zł/h. Niezły mix. W tym okresie moje miesięczne zarobki wahały się od 15k do okolic 60-70k miesięcznie. Średnio wychodziło różnie, ale pod koniec przynajmniej 5 dych do łapy zgarniałem, natomiast warto zaznaczyć, że pracowałem kapkę za dużo. Poniosła mnie fantazja, presja, kompleks Boga i zachlyśnięcie się pieniędzmi. W pewnym momencie coś pękło. W 4. kwartale roku 2021. Zszedłem ze sceny i zniknąłem na dość długo.  Tak rozpoczęła się moja roczna przerwa w życiorysie, mój upadek, z którego dopiero wracam, rok, gdy zaliczyłem rekordowe personalne wzloty jak i upadki.
+Następny okres, to czas, kiedy moje życie było burzliwe zawodowo. Miałem wtedy 3 lata doświadczenia i odszedłem z dopiero co opisanej firmy po około 1,5 roku. Tu zaczęła się niezła jazda i wariacje, które skończyły się generalnie tym, że jakoś wylądowałem z własną firmą i 7-8 pracownikami na etacie. WHAT THE. Do tego jednocześnie robiłem etat dodatkowo. Moje zarobki tutaj potrafiły być szalone od 100 zł za godzinę do, rekordowo, 600 zł/h. Tak. 600 zł/h. Niezły mix. W tym okresie moje miesięczne zarobki wahały się od 15k do okolic 60-70k miesięcznie. Średnio wychodziło różnie, ale pod koniec przynajmniej 5 dych do łapy zgarniałem, natomiast warto zaznaczyć, że pracowałem kapkę za dużo. Poniosła mnie fantazja, presja, kompleks Boga i zachłyśnięcie się pieniędzmi. W pewnym momencie coś pękło. W 4. kwartale roku 2021. Zszedłem ze sceny i zniknąłem na dość długo.  Tak rozpoczęła się moja roczna przerwa w życiorysie, mój upadek, z którego dopiero wracam, rok, gdy zaliczyłem rekordowe personalne wzloty jak i upadki.
 
 Co się wtedy ze mną działo? To długa historia. 
 
@@ -435,13 +435,13 @@ Firma jest w fazie dynamicznego wzrostu i zanim te 5 lat minie to oczekuje, że 
 
 Mam w życiu więcej szczęścia, niż rozumu. Wróciłem po prawie rocznej przerwie i trafiło się ślepej kurze ziarno.
 
-Tak by się zdawać mogło.  Bajka, co? Była, aż do czasu gdy pierwszego tygodnia pracy ktoś przeczytał mój artykuł o tym, iż zarządzać ludźmi trzeba po ludzku a nie bazując na excelu, który za zgodą i review zespołu od tworzenia treści, umieściliśmy na blogu. Wtedy zostałem zwolniony ze skutkiem natychmiastowym. Ordnung must sein. Zderzyłem się z hipokryzją organizacji gdzie wycierano sobie mordę stawianiem na człowieka, sprawiedliwością i ludzkim podejściem, a gdzie rzeczywistość była przeciwieństwem, gdzie menadżer w pierwszym tygodniu rzucił słowami "Olaf, to twój zespół, nie jestem do nich przywiązany i mnie to nie interesuje, jak ci się coś z nimi nie podoba, to możemy ich zwolnić i zatrudnić kogoś innego.". Tak średnio ludzkie podejście. Zupełnie to nie grało z moim podejściem, które zakłada, że człowiek to coś więcej niż trybik w maszynie.
+Tak by się zdawać mogło.  Bajka, co? Była, aż do czasu gdy pierwszego tygodnia pracy ktoś przeczytał mój artykuł o tym, iż zarządzać ludźmi trzeba po ludzku, a nie bazując na excelu, który za zgodą i review zespołu od tworzenia treści, umieściliśmy na blogu. Wtedy zostałem zwolniony ze skutkiem natychmiastowym. Ordnung must sein. Zderzyłem się z hipokryzją organizacji gdzie wycierano sobie mordę stawianiem na człowieka, sprawiedliwością i ludzkim podejściem, a gdzie rzeczywistość była przeciwieństwem, gdzie menadżer w pierwszym tygodniu rzucił słowami "Olaf, to twój zespół, nie jestem do nich przywiązany i mnie to nie interesuje, jak ci się coś z nimi nie podoba, to możemy ich zwolnić i zatrudnić kogoś innego.". Tak średnio ludzkie podejście. Zupełnie to nie grało z moim podejściem, które zakłada, że człowiek to coś więcej niż trybik w maszynie.
 
 Tego samego dnia jednak dogadałem się już z inna firmą, którą pierwotnie odrzuciłem. Nie mógłbym być bardziej zadowolony z tego, jak sprawy się potoczyły. 
 
 ### Małe podsumowanie mojej historii zarobkowej
 
-Tutaj streszczona lista mojej historii zarobkowej, którą skopiowałem ze swojego postu na 4programmers.
+Tutaj streszczona lista mojej historii zarobkowej, którą skopiowałem ze swojego posta na 4programmers.
 
 Data zaczęcia: 12/2017
 

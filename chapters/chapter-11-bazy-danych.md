@@ -2,7 +2,7 @@
 
 # Bazy danych
 
-Trochę o tym, co czym warto poczytać i o co chodzi z bazami danych.
+Trochę o tym, o czym warto poczytać i o co chodzi z bazami danych.
 
 Co to w ogóle są bazy danych? To po prostu miejsce, gdzie w sposób w miarę trwały chcemy przechowywać jakieś dane. 
 
@@ -10,7 +10,7 @@ Bazy danych są różnorakie i rozmaite, dzielą się na różne kategorie. My p
 
 Od razu zaznaczę, że przez to, iż istnieją różne rodzaje baz danych, to czasami powstają gównoburze. Która lepsza etc. Coś jak Linux vs Windows, które distro Linuxa najlepsze, Jabłka czy Śliwki, etc.
 
-Prawda jest taka, że kretynizmem jest wychwalać w każdej sytuacji tylko jedno rozwiązanie. Każda baza ma własne zastosowanie i pewne nisze, do których nadaje się najlepiej. No, może poza OracleDB, która powinna już dawno umrzeć i przestać ludzi katować swoim istnieniem.  Anyway.
+Prawda jest taka, że kretynizmem jest wychwalać w każdej sytuacji tylko jedno rozwiązanie. Każda baza ma własne zastosowanie i pewne nisze, do których nadaje się najlepiej. No, może poza OracleDB, która powinna już dawno umrzeć i przestać ludzi katować swoim istnieniem. Anyway.
 
 ## SQL
 
@@ -35,7 +35,7 @@ VALUES (value1, value2, value3, ...);
 
 ## Relacyjne bazy danych
 
-To generalnie bazy danych, gdzie posiadamy jakąś strukturę formalną, powiedzmy, poprzez zdefiniowane tabele (najczęściej) oraz gdzie między tabelami możemy definiować relacje.  Dla ułatwienia roboty dodam małe generalne podsumowanie:
+To generalnie bazy danych, gdzie posiadamy jakąś strukturę formalną, powiedzmy, poprzez zdefiniowane tabele (najczęściej) oraz gdzie między tabelami możemy definiować relacje. Dla ułatwienia roboty dodam małe generalne podsumowanie:
 
 SQL (Structured Query Language) to język zaprojektowany do komunikacji z bazami danych relacyjnych. Pozwala on na wykonywanie operacji takich jak tworzenie, modyfikowanie i zapytania dotyczące danych zapisanych w bazie danych.
 
@@ -46,7 +46,7 @@ Zaletami języka SQL są:
 3. Wydajność - SQL jest zoptymalizowany do wykonywania szybkich zapytań na dużych zbiorach danych.
 4. Standaryzacja - język SQL jest dość standaryzowany, co oznacza, że różne bazy danych będą miały podobną składnię i zestaw funkcji.
 
-SQL jest często używany w aplikacjach internetowych do zarządzania danymi zapisanymi w bazie danych, takich jak rejestracja użytkowników, przechowywanie produktów w sklepie internetowym i tworzenie raportów. Jest również cz
+SQL jest często używany w aplikacjach internetowych do zarządzania danymi zapisanymi w bazie danych, takich jak rejestracja użytkowników, przechowywanie produktów w sklepie internetowym i tworzenie raportów. 
 
 ### Tabele
 
@@ -113,7 +113,7 @@ Normalizacja danych jest przeprowadzana w kilku krokach, zwanych stopniami norma
 1. Ułatwienie zarządzania danymi - dzięki mniejszej liczbie tabel i brakowi redundancji dane są łatwiejsze do zarządzania, mniejszy bałagan.
 2. Poprawa wydajności - mniejsze tabele są łatwiejsze do przeszukiwania i zapytań, co prowadzi do lepszej wydajności.
 
-Ale o szczegółach to 
+Ale o szczegółach później. 
 
 ### Transakcje i współbieżność
 
@@ -134,7 +134,7 @@ Do poczytania: https://mst.mimuw.edu.pl/lecture.php?lecture=bad&part=Ch7
 
 ### Subskrypcje/Powiadomienia
 
-Czasami chcemy, żeby o naszych zmianach np. dodanie rekordu do bazy danych, informować zainteresowane strony. Wyobraźmy sobie, że np. mamy notyfikacje w naszej aplikacji i informujemy uższkodników o promocji, o uptejdzie aplikacji czy coś podobnego.
+Czasami chcemy, żeby o naszych zmianach np. dodanie rekordu do bazy danych, informować zainteresowane strony. Wyobraźmy sobie, że np. mamy notyfikacje w naszej aplikacji i informujemy użytkowników o promocji, o updejcie aplikacji czy coś podobnego.
 
 Istnieją zaawansowane rozwiązania, można po prostu odpytywać API, natomiast jest to średnie rozwiązanie.
 
@@ -203,11 +203,11 @@ Pierwsze dni w nowej pracy zawsze są trudne i przysięgam, że kiedy konfigurow
 
 W tym przypadku difference-makerem było połączenie Dockera i Makefile. Wszystko, co musiałem zrobić, to pobrać dockera (i docker-compose) na mój komputer i postępować zgodnie z cholernym README.md, aby mieć wszystko gotowe i działające. Aplikacja działa. Dokumentacja, praktyki są zdefiniowane, kod jest jasny i łatwy do zrozumienia, testy są. To była bryza.
 
-Przynajmniej do pewnego momentu. Nie minęło wiele czasu, gdy zostałem uderzony przez architekturę multi-tenant. Co to jest. Wyobraź sobie, że masz aplikację używaną przez wiele firm (tenatów). Chciałbyś mieć pewność, że nie dojdzie do przypadkowego wycieku danych między firmami, a jednocześnie, że architektura będzie skalowalna i wydajna.
+Przynajmniej do pewnego momentu. Nie minęło wiele czasu, gdy zostałem uderzony przez architekturę multi-tenant. Co to jest. Wyobraź sobie, że masz aplikację używaną przez wiele firm (tenantów). Chciałbyś mieć pewność, że nie dojdzie do przypadkowego wycieku danych między firmami, a jednocześnie, że architektura będzie skalowalna i wydajna.
 
 #### Tenanty na ratunek
 
-W thirty3 używaliśmy django-tenants do rozwiązania tego problemu, przynajmniej w kilku przypadkach. Istnieje jedna instancja bazy danych do przechowywania danych dla dla aplikacji, ale wiele schem - jedna dla każdego tenanta (firmy). Tworzy to logiczną separację między danymi. Zanim przeskoczę do przykładów, jak próbowałem zrozumieć tę koncepcję i początkowwięc, miejmy nadzieję, natychmiast zauważysz moje błędy i zrozumiesz, jak to działa. Załóżmy, że mamy bardzo prosty projekt Django, który pozwala firmom tworzyć projekty, nad którymi będą pracować. 
+W thirty3 używaliśmy django-tenants do rozwiązania tego problemu, przynajmniej w kilku przypadkach. Istnieje jedna instancja bazy danych do przechowywania danych dla aplikacji, ale wiele schem - jedna dla każdego tenanta (firmy). Tworzy to logiczną separację między danymi. Zanim przeskoczę do przykładów, jak próbowałem zrozumieć tę koncepcję i początki, więc, miejmy nadzieję, natychmiast zauważysz moje błędy i zrozumiesz, jak to działa. Załóżmy, że mamy bardzo prosty projekt Django, który pozwala firmom tworzyć projekty, nad którymi będą pracować. 
 
 Potrzebujemy dwóch django appek:
 
@@ -231,7 +231,7 @@ class Project:
 ```
 Zachowanie, które chcielibyśmy mieć polega na tym, że każda Firma ma swoje Projekty, które nie są dostępne dla innych firm.
 
-Jak wspomniałem wcześniej każdy najemca ma swój schemat w bazie danych - jakby baza w bazie. Powstaje on wraz z utworzeniem modelu, który dziedziczy po TenantMixin (Company). Rzeczą, która pozwala nam odróżnić lokatorów jest unikalny atrybut schema_name (atrybut TenantMixin), którą musimy podać przy tworzeniu każdego obiektu Company. (Uwaga Olafa: to nie musi być nazwa schematu - może to być ID lub prawie wszystko naprawdę, tak długo jak jest unikalne. Ogólnie schema_name jest tylko metadaną, która pozwala nam wiedzieć gdzie szukać w db)
+Jak wspomniałem wcześniej każdy najemca ma swój schemat w bazie danych - jakby baza w bazie. Powstaje on wraz z utworzeniem modelu, który dziedziczy po TenantMixin (Company). Rzeczą, która pozwala nam odróżnić lokatorów jest unikalny atrybut schema_name (atrybut TenantMixin), którą musimy podać przy tworzeniu każdego obiektu Company. (Uwaga Olafa: to nie musi być nazwa schematu - może to być ID lub prawie wszystko naprawdę, tak długo jak jest unikalne. Ogólnie schema_name jest tylko metadaną, która pozwala nam wiedzieć gdzie szukać w db).
 
 Poza tym musimy stworzyć specyficzny schemat o nazwie "public", którego celem (O: Właściwie jest on tam w postgresie domyślnie, po prostu tworzymy model w naszej tabeli z tenantami i setupujemy publica jako wspolną schemę) jest przechowywanie globalnych danych nie specyficznych dla danego tenanta/firmy oraz wszystkich schema_name tenantów.
 
@@ -263,7 +263,7 @@ class TenantsTestCase(BaseTenantTestCase):
         ...
 ```
 
-Oczekiwane zachowaniem dla mnie byłoby uzyskać wszystkie firmy, a jednak w ynikiem był pusty QuerySet. Ok, może muszę stworzyć jakiegoś tenanta zanim wyświetle, logiczne, spróbujmy.
+Oczekiwane zachowaniem dla mnie byłoby uzyskać wszystkie firmy, a jednak wynikiem był pusty QuerySet. Ok, może muszę stworzyć jakiegoś tenanta zanim wyświetle, logiczne, spróbujmy.
 
 ```python
 class TenantsTestCase(BaseTenantTestCase):
@@ -374,7 +374,7 @@ Dużym atutem tenantów jest również fakt, że kwerendy dalej pozostają prost
 #### Różne metody zarządzania tenantami
 Tak zwana ścieżka wyszukiwania, którą ustawiamy dla zapytań Postgresa za pomocą naszego db routera, może być ustawiona na wiele sposobów. Tradycyjny wzorzec tenanta wykorzystuje subdomeny jako sposób identyfikacji tenanta- np. x.myproduct.com będzie wyszukiwał tenanta x. To jeden ze sposobów. Należy pamiętać, aby zabronić użytkownikom rejestrowania tenantów z nazwami często używanych subdomen np.` ftp, mail, static` i tak dalej, w przeciwnym razie może czekać nas niemiła niespodzianka. Pamiętaj również, aby mieć certyfikaty, które mają symbol wieloznaczny dla subdomen - w przeciwnym razie zostaniesz bez SSL dla subdomen swoich najemców, co jest całkiem do bani.
 
-Innym rozwiązaniem jest na przykład umieszczenie go jako części adresu url, ale nie subdomeny. Na przykład:`api.example.com/v1/tenant/someendpoint` . My używaliśmy tego drugiego.
+Innym rozwiązaniem jest na przykład umieszczenie go jako części adresu url, ale nie subdomeny. Na przykład:`api.example.com/v1/tenant/someendpoint`. My używaliśmy tego drugiego.
 
 #### Co tenanty nam dały
 Osiągnęliśmy:
@@ -385,13 +385,13 @@ Osiągnęliśmy:
 4. dane klientów są od siebie logicznie odseparowane
 5. zapytania dalej pozostają proste, tak samo jak permissiony i tabele
 
-W każdym razie. Plus minut tak wygladają i działają tenanty. 
+W każdym razie. Plus minut tak wyglądają i działają tenanty. 
 
 PS: minusy posiadania mnie jako mentora - prawdopodobnie zaczniesz pisać.
 
 ## ORM
 
-Co to takiego ORM?  A no parę słów o tym jakże przydatnym narzedziu.
+Co to takiego ORM?  A no parę słów o tym jakże przydatnym narzędziu.
 
 ### Czym jest ORM?
 
@@ -401,13 +401,13 @@ ORM, czyli Object-Relational Mapping, a po naszemu **Mapowanie obiektowo-relacyj
 
 Różnica między ORM a tradycyjnym podejściem, gdzie samodzielnie piszemy czysty SQL, jest diametralna.
 
-#### Wincy abstrakcji
+#### Wincyj abstrakcji
 
 Pierwszą różnicą będzie fakt, że ORM ukrywa wiele rzeczy przed nami, dostarczając warstwę abstrakcji ponad samym SQLem. Robi to kosztem wydajności i kosztem tego, iż zakłada się, że programista wie, w jaki sposób ORM działa, gdyż ich twórcy podejmują za nas pewne decyzje. Te decyzje wpływają na to, jak ORM działa i jak tworzy zapytania. Czasami ich nieznajomość sprawia, że możemy strzelić sobie w twarz, nieświadomie. Niewiedza momentami potrafi zaboleć. Do tego ta wydajność. 
 
 #### Mniejsza wydajność
 
-Nie jest to niewiadomo jaki narzut, natomiast przy skomplikowanych zapytaniach prawdopodobonie będzie trzeba się odnieść do napisania czystego SQLa. Może też się okazać, że coś, co w czystym SQLu zajmie minutkę, w ORMie, przez np. nietypowość zagadnienia, może zająć godziny. I vice versa. Tak też bywa.
+Nie jest to niewiadomo jaki narzut, natomiast przy skomplikowanych zapytaniach prawdopodobnie będzie trzeba się odnieść do napisania czystego SQLa. Może też się okazać, że coś, co w czystym SQLu zajmie minutkę, w ORMie, przez np. nietypowość zagadnienia, może zająć godziny. I vice versa. Tak też bywa.
 
 #### Mimo wszystko warto
 

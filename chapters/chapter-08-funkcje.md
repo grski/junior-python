@@ -41,7 +41,7 @@ b = powieksz(a)
 print(b)  # Output: 6
 ```
 
-#### Wincy wartości do zwrotu
+#### Wincyj wartości do zwrotu
 
 W Pythonie możliwe jest zwracanie wielu wartości z funkcji za pomocą krotki lub słownika. Aby zwrócić wiele wartości w formie krotki, należy je po prostu oddzielić przecinkami. Przykład: 
 
@@ -59,11 +59,11 @@ print(min_a)  # Output: 1
 print(max_a)  # Output: 3
 ```
 
-Przy okazji linijka z wywołaniej tejże funkcji, to przykład tak zwanego tuple unpacking - rozpakowywania krotki. 
+Przy okazji linijka z wywołanej tejże funkcji, to przykład tak zwanego tuple unpacking - rozpakowywania krotki. 
 
 Przydatna i ważna rzecz.
 
-Jeśli stwierdzamy, że drugi argument zwracany przez funkcję jest nam zbędny albo, że w funkcji, która zwraca trzy arugmenty, chcemy tylko pierwszy, albo tylko drugi, lub może ostatni, to też się da. Jak? Przeanalizuj kod niżej.
+Jeśli stwierdzamy, że drugi argument zwracany przez funkcję jest nam zbędny albo, że w funkcji, która zwraca trzy argumenty, chcemy tylko pierwszy, albo tylko drugi, lub może ostatni, to też się da. Jak? Przeanalizuj kod niżej.
 
 ```python
 def min_max(x):
@@ -151,7 +151,7 @@ def greet(greeting='Hello', name):
 
 ### Śledzik na raz
 
-Wartości domyślne argumentów są jak śledzik na raz - interpreter Pythona zerknie na nie tylko raz, chluśnie i więcej nie będzie się zajmował. Co to znaczy? Ano to, że interpreter działa w taki sposób, że jak może, inicjuje domyślne argumenty tylko raz. O ile przy strignach, liczbach to nie ma problemu, tak przy obiektach mutowalnych pojawia się problem. Jak sądzisz, jaki?
+Wartości domyślne argumentów są jak śledzik na raz - interpreter Pythona zerknie na nie tylko raz, chluśnie i więcej nie będzie się zajmował. Co to znaczy? Ano to, że interpreter działa w taki sposób, że jak może, inicjuje domyślne argumenty tylko raz. O ile przy stringach, liczbach to nie ma problemu, tak przy obiektach mutowalnych pojawia się problem. Jak sądzisz, jaki?
 
 Otóż każde kolejne wywołanie funkcji, wbrew temu czego by się można spodziewać, nie będzie powodować stworzenia nowej instancji elementu domyślnego a po prostu użyje referencji do na początku zainicjowanego obiektu np. listy. Rozważ przykład niżej.
 

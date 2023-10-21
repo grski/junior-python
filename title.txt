@@ -1,8 +1,8 @@
 ---
 title: "Programowanie z Górskim: Junior Python Developer"
 subtitle: "Czyli co warto wiedzieć jako nieopierzony junior."
-author: Olaf Górski © 2022
-year: 2022
+author: Olaf Górski © 2023
+year: 2023
 rights:  Wszystkie prawa zastrzeżone
 header-includes: |
 
@@ -18,8 +18,6 @@ geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 include-before:
 - \newpage{}
 - "Czyli Tech Lead bierze się za uczenie innych Pythona, podstawowych umiejętności przydatnych w karierze i nieco opowiada o sobie."
+- "Pomoc przy korekcie: Weronika Sosnowska"
 - \newpage{}
 ---
-
-
-

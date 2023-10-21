@@ -160,7 +160,7 @@ Do poczytania: https://www.geeksforgeeks.org/class-method-vs-static-method-pytho
 
 ## Menadżery kontekstu
 
-Menadżery kontekstu to takie klasy, które definiują `__enter__` oraz `__exit__`. To te cosie, których używamy razem z klauzulą `with`. W skrócie, te klasy po prostu definiują magiczne metody, które są odpalane przy wejściu do bloku kodu z with oraz po ukończeniu przetwarzania tego bloku i wyjściu z niego. Pozwalają one nam, cóż, ustawić jakiś określony kontekst a potem po nim posprzatać.
+Menadżery kontekstu to takie klasy, które definiują `__enter__` oraz `__exit__`. To te cosie, których używamy razem z klauzulą `with`. W skrócie, te klasy po prostu definiują magiczne metody, które są odpalane przy wejściu do bloku kodu z with oraz po ukończeniu przetwarzania tego bloku i wyjściu z niego. Pozwalają one nam, cóż, ustawić jakiś określony kontekst a potem po nim posprzątać.
 
 Przykładem dobrym są tu operacje na plikach. Najpierw chcemy plik otworzyć, ustawić odpowiednio kursor etc a dopiero na nim pracować. Jak skończymy pracę na pliku to chcielibyśmy go zamknąć, żeby nic nie wisiało w pamięci. Zamiast robić to ręcznie za każdym razem, używamy kontekst menadżera, który wchodzi cały na biało.
 
@@ -280,7 +280,7 @@ W powyższym przykładzie zmienna `x` i `y` wskazują na to samo miejsce w pami�
 
 Uwaga: pamiętaj, że operator `is` jest szybszy niż operator `==`, ponieważ nie musi porównywać wartości zmiennych, ale sprawdza tylko, czy wskazują one na to samo miejsce w pamięci. Dlatego operator `is` jest często używany w miejscach, gdzie szybkość jest ważna, a dokładność porównania nie jest konieczna.
 
-Dodatkowo `is` to element języka, niezmienialny powiedzmy. Zaś użycie operatora `==` zależy od tego, jak zaimplementowano magicznę(dunder) metodę `__eq__` albo `__equals__`? Nie pamiętam, sprawdź. Co to znaczy? Otóż możemy sami definiować to, jak Python będzie porównywał obiekty przy `==`. Poczytaj.
+Dodatkowo `is` to element języka, 'niezmienialny' powiedzmy. Zaś użycie operatora `==` zależy od tego, jak zaimplementowano magiczne(dunder) metodę `__eq__` albo `__equals__`? Nie pamiętam, sprawdź. Co to znaczy? Otóż możemy sami definiować to, jak Python będzie porównywał obiekty przy `==`. Poczytaj.
 
 ##  
 
