@@ -19,5 +19,7 @@ include-before:
 - \newpage{}
 - "Czyli Tech Lead bierze się za uczenie innych Pythona, podstawowych umiejętności przydatnych w karierze i nieco opowiada o sobie."
 - "Pomoc przy korekcie: Weronika Sosnowska"
+- "ISBN: 978-83-967638-0-8 (wersja elektroniczna)"
+- "Olaf Górski/OnionMindset, Kozienice 2023"
 - \newpage{}
 ---

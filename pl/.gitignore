@@ -1,8 +1,7 @@
-.idea
+../.idea
 .idea/
 .idea/*
-en/dist/
+dist/
 dist
 dist/*
 .DS_Store
-.python-version

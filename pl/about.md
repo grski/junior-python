@@ -46,6 +46,6 @@ Na koniec dnia mam tylko jedną intencje, by ta książka, zawarta w niej wiedza
 
 Plus jest to efekt realizacji tego, że powyżej pewnego progu, pieniądze przestają zgrywać aż tak ważną rolę, a na wierzch wychodzą ważniejsze rzeczy. Potrzeba jakiegoś sensu, robienia czegoś wyższego aniżeli kolejnego tysiąca na wypłatę. Dobra, starczy mojego bajdurzenia.
 
-Moją dokładną historię zarobkową czy takie tam szczegóły znajdziesz w innym rozdziale, gdzieś pod koniec książki. Jeśli nie moje słowa i moja osoba, to niech chociaż one przekonają Cię do tego, że być może warto tę książkę przeczytać.
+Moją dokładną historię zarobkową czy takie tam szczegóły znajdziesz w innym rozdziale, gdzieś pod koniec książki. Jeśli nie moje słowa i moja osoba, to niech chociaż one przekonają Cię do tego, że być może warto tę książkę przeczytać.
 
 \pagebreak

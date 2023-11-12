@@ -22,13 +22,11 @@ Przykłady do analizy jeśli nie chce ci się samodzielnie googlować:
 SELECT column1, column2, ... FROM table_name;
 SELECT * FROM table_name;
 SELECT DISTINCT column1, column2, ... FROM table_name;
-
+DELETE FROM table_name WHERE condition;
 DELETE FROM table_name WHERE condition;
 SELECT column1, column2, ... FROM table_name WHERE condition;
-
 SELECT column1, column2, ... FROM table_name 
 ORDER BY column1, column2, ... ASC|DESC;
-
 INSERT INTO table_name (column1, column2, column3, ...) 
 VALUES (value1, value2, value3, ...);
 ```
@@ -415,9 +413,7 @@ Niemniej jednak dla większości, zdecydowanej większości, w którą wliczasz 
 
 #### Debugowanie/profilowanie ORM
 
-ORM jest dodatkowo trudniejszy w debugowaniu i profilowaniu - query są generowane przez silnik, często potrafią być niezbyt przyjazne jeśli idzie o czytelność, dla człowieka plus nieco nieoptymalne jeśli idzie o wydajność.
-
-Ponownie, dla 99% przypadków nie będzie miało to znaczenia, bo zapytanie zwracające listę userów będzie tak samo proste i tu i tu.
+ORM jest dodatkowo trudniejszy w debugowaniu i profilowaniu - query są generowane przez silnik, często potrafią być niezbyt przyjazne jeśli idzie o czytelność, dla człowieka plus nieco nieoptymalne jeśli idzie o wydajność. Ponownie, dla 99% przypadków nie będzie miało to znaczenia, bo zapytanie zwracające listę userów będzie tak samo proste i tu i tu.
 
 #### Serializacja z/do obiektów Pythonowych 
 

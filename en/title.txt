@@ -1,0 +1,22 @@
+---
+title: "Programming with Gorski: Junior Python Developer"
+subtitle: "What you should know as a newbie junior dev."
+author: Olaf Górski © 2023
+year: 2023
+rights:  All rights reserved
+header-includes: |
+
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+language: en-US
+numbersections: true
+mainfont: Roboto
+linestretch: 1.1
+fontsize: 10pt
+indent: true
+geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+include-before:
+- \newpage{}
+- "Help with editing: Weronika Sosnowska"
+- \newpage{}
+---
