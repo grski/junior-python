@@ -2,21 +2,21 @@
 
 # Internet
 
-Tutaj poruszymy sobie różnorakie kwestie związane z siecią, Internetem i całą resztą. Mimo tego, że jako junior-python wannabe najbardziej przejmujemy się samym Pythonem i programowaniem, to należy pamiętać, że kod, który piszemy a potem uruchamiamy, nie działa w jakiejś próżni. 
+Here we'll discuss various issues related to networks, the Internet, and everything else. Even though as a junior-python wannabe we're most concerned with Python itself and programming, we should remember that the code we write and then run doesn't operate in some vacuum.
 
-Wszystkie nasze web appki, programy etc. uruchamiane są w jakimś konkretnym środowisku. To środowisko oddziaływuje na sposób egzekucji naszych programów, to jak one działają. Dodatkowo nierzadko musimy z nim w jakiś sposób wchodzić w interakcję, często obustronną. Co to znaczy? A no, że oprócz samego naszego Pythona wypada znać też całą otoczkę gdzie to bangla i tak dalej, gdyż inaczej można sobie czasem strzelić w stopę. Do tego wiedza o środowisku i rzeczach powiązanych, z których pośrednio lub bezpośrednio korzystamy, często nie mając świadomości, czyli po prostu inne komponenty `Systemu` jaki projektujemy, tworzymy czy utrzymujemy, są jego integralną częścią jak i czymś co wpływa na naszą prace i nasz kod.
+All our web apps, programs, etc. run in some specific environment. This environment affects how our programs are executed, how they work. Additionally, we often need to interact with it in some way, often mutually. What does this mean? Well, besides Python itself, it's good to know the whole surrounding environment where it bangs and so on, because otherwise, you can sometimes shoot yourself in the foot. Plus, knowledge about the environment and related things that we use indirectly or directly, often without awareness, meaning simply other components of the `System` we're designing, creating, or maintaining, are its integral part as well as something that affects our work and our code.
 
-Przez System rozumiem tu jakiś układ, zestaw elementów. W IT jest to zazwyczaj, dla przykładu, nasza webappka, serwery gdzie jest ona uruchamiana, klient, etc.
+By System, I mean here some arrangement, a set of elements. In IT, this is usually, for example, our web app, the servers where it runs, the client, etc.
 
-Pomówmy zatem o tym całym systemie i środowisku.
+So let's talk about this whole system and environment.
 
-## Droga żądania
+## Request Path
 
-Większość aplikacji webowych działa w modelu klient - serwer. Klient robi zapytania (requesty) do serwera, serwer zwraca odpowiedź (response). 
+Most web applications operate in a client-server model. The client makes requests to the server, the server returns a response.
 
-Jak to się jednak dzieje, ze jesteśmy w stanie wysłać to zapytanie. Co się dzieje w chwili, kiedy wpisujesz `grski.pl` w pasku przeglądarki a następnie widzisz mojego bloga?
+But how does it happen that we're able to send this request? What happens when you type `grski.pl` in the browser bar and then see my blog?
 
-Otóż sprawa wygląda następująca.
+Well, it looks like this.
 
 Zakładając, że jesteś połączony z Internetem, twoje zapytanie zostanie przetworzone przez twojego ISP (Internet Service Provider/Dostawca Usług Internetowych), który podbije do czegoś, co nazywa się DNS. DNS to Domain Name Server, czyli taka książka telefoniczna, która zawiera mapowanie domen/adresów jak grski.pl, do lokalizacji (IP) w sieci.
 
