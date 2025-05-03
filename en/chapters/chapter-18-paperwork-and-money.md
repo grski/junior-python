@@ -186,4 +186,175 @@ It's not worth it. Unless it gives you pleasure, you don't have a family, and yo
 
 The question is different though - how long can you endure mentally and physically?
 
+## Equity Compensation
+
+In addition to salary, many tech companies offer equity compensation as part of their total compensation package. This can be particularly valuable in startups and high-growth companies.
+
+### Types of Equity Compensation
+
+1. **Stock Options**
+   - Give you the right to buy company stock at a fixed price (strike price)
+   - Usually vest over 4 years with a 1-year cliff
+   - Can be either Incentive Stock Options (ISOs) or Non-Qualified Stock Options (NSOs)
+   - Tax implications vary by country and type
+
+2. **Restricted Stock Units (RSUs)**
+   - Actual shares granted over time
+   - Typically vest over 4 years
+   - Taxed as income when they vest
+   - More common in established companies
+
+3. **Virtual Stock Option Plans (VSOPs)**
+   - Cash-settled options that don't involve actual company shares
+   - Value is tied to company performance
+   - Often used when actual equity isn't possible or practical
+   - Can be structured to mimic traditional stock options
+
+### Understanding Vesting
+
+Vesting is the process by which you earn your equity over time. Common vesting schedules include:
+
+- **4-year vesting with 1-year cliff**: You get nothing if you leave before 1 year, then 25% vests, followed by monthly/quarterly vesting
+- **Monthly vesting**: Equal portions vest each month
+- **Performance-based vesting**: Tied to company or individual milestones
+
+### Evaluating Equity Offers
+
+When considering an equity package:
+
+1. **Understand the current valuation**
+   - What is the company's current valuation?
+   - How many shares are outstanding?
+   - What percentage of the company do your options represent?
+
+2. **Consider the potential**
+   - What's the company's growth trajectory?
+   - What's the exit strategy (IPO, acquisition)?
+   - How long until you can exercise/sell?
+
+3. **Calculate the potential value**
+   - Current strike price vs. potential future value
+   - Tax implications of exercising/selling
+   - Opportunity cost vs. higher salary elsewhere
+
+### Negotiating Equity
+
+When negotiating equity:
+
+1. **Ask about the equity pool**
+   - How much equity is set aside for employees?
+   - What's the typical grant for your level?
+
+2. **Understand the terms**
+   - Vesting schedule
+   - Exercise window if you leave
+   - Any special conditions or restrictions
+
+3. **Consider the trade-offs**
+   - More equity might mean lower salary
+   - Earlier stage companies often offer more equity
+   - Later stage companies might offer RSUs instead of options
+
+### Tax Considerations
+
+Equity compensation can have significant tax implications:
+
+1. **Stock Options**
+   - Exercise may trigger taxable events
+   - Holding periods can affect tax rates
+   - Different rules for ISOs vs. NSOs
+
+2. **RSUs**
+   - Taxed as income when they vest
+   - May need to sell some shares to cover taxes
+   - Capital gains on subsequent appreciation
+
+3. **VSOPs**
+   - Typically taxed as income when paid
+   - May have different tax treatment than traditional options
+   - Check local tax laws for specific rules
+
+### My Experience with Equity
+
+In my career, I've had the opportunity to work with different types of equity compensation:
+
+1. **Early Stage Startups**
+   - Larger equity grants
+   - Higher risk but potentially higher reward
+   - More influence on company direction
+
+2. **Growth Stage Companies**
+   - Mix of salary and equity
+   - More stable but still significant upside
+   - Clearer path to liquidity
+
+3. **Established Companies**
+   - RSUs as part of standard compensation
+   - More predictable value
+   - Regular vesting schedules
+
+The key lesson I've learned is to evaluate equity as part of your total compensation package, considering both the potential upside and the associated risks. While equity can be extremely valuable, it's important to balance it with immediate needs and other forms of compensation.
+
+## My Career Journey
+
+I'll share my personal story to give you a real-world example of how a programming career can progress. This is my authentic journey, with all its ups and downs.
+
+### Early Days
+
+I started my programming career at 18 with no prior experience. My first position was as a Junior Python Backend Developer, working remotely from a small town for a company in a bigger city. This was quite unusual - I haven't met another person who started their career fully remote without any full-time experience. Somehow, I managed to make it work.
+
+My first contract was for a two-month trial period in November 2017. I started at 18 PLN/hour, which translated to about 3,000 PLN monthly for full-time work. After the trial period, I received a 23% raise to 22 PLN/hour (about 3,700 PLN monthly). I actually tried to negotiate for 25 PLN/hour, but my boss declined, promising we'd revisit the topic later. Looking back, I can't help but laugh at my ambitious request for a 40% raise after just two months of learning.
+
+### First Major Jump
+
+After 8 months in my first role, I moved to a new company where my rate increased by about 60% to 37.50 PLN/hour (6,300 PLN monthly). This demonstrated a key lesson: changing companies can lead to significant salary increases. As they say, the easiest way to get a raise is to change jobs.
+
+### Transition to B2B
+
+After about 9 months of experience, I transitioned to B2B (business-to-business contracting) when my student status ended. My rates remained similar but with better tax optimization, allowing me to earn between 8,000-10,000 PLN monthly after taxes. I also started working for multiple clients, including some international ones where my rate jumped to 60 PLN/hour.
+
+### Career Acceleration
+
+At 1.5 years of experience, I received an offer of 86 PLN/hour for fully remote work. This was a significant milestone - I had officially joined what some might call the "high-earner programmer" club. I was working remotely, with a great team, and felt financially appreciated.
+
+### Entrepreneurial Phase
+
+At 21, with 3 years of experience, I started my own company while also working full-time. This period was intense - I had 7-8 full-time employees and was working multiple jobs simultaneously. My earnings fluctuated wildly, from 100 PLN/hour to a record 600 PLN/hour. Monthly earnings ranged from 15,000 to 60,000-70,000 PLN.
+
+However, this period also taught me important lessons about work-life balance. I got carried away by the money, pressure, and a bit of a "God complex." Working too much eventually took its toll, and in Q4 2021, I took a year-long break to recover and reflect.
+
+### Return and New Opportunities
+
+When I was exactly 23 with 5 years of experience (or 8 counting overtime), I signed a significant contract that included:
+- Base salary equivalent to 36,000 PLN gross on employment contract
+- Stock options worth 130,000 EUR, vesting over 5 years
+- 26 days of paid vacation
+- 3,000 EUR annual development budget
+- 20,000 PLN signing bonus
+- Fully remote work
+
+This seemed like a dream come true, but it ended abruptly when I was fired after publishing an article about human-centered management that conflicted with the company's actual practices. However, this turned out to be a blessing in disguise - I immediately found a better opportunity with another company I had previously turned down.
+
+### Current Situation
+
+Today, I'm working as a Lead Python Developer, earning 36,500 PLN net on B2B (about 210 PLN/hour), fully remote. I'm much happier with how things turned out, as the new company better aligns with my values and approach to work.
+
+### Key Lessons from My Journey
+
+1. **Early Career is About Learning**: Don't focus too much on money at the start. Your first job is primarily about gaining experience and skills.
+
+2. **Changing Companies Can Accelerate Growth**: Sometimes the best way to increase your earnings is to move to a new opportunity.
+
+3. **Work-Life Balance is Crucial**: No amount of money is worth burning out. I learned this the hard way during my entrepreneurial phase.
+
+4. **Values Matter**: It's important to work for companies that align with your values. The highest-paying job isn't always the best one.
+
+5. **Remote Work is Powerful**: Starting my career remotely was challenging but ultimately gave me valuable experience in self-management and communication.
+
+6. **Continuous Learning is Key**: Each step of my journey required learning new skills, whether technical or business-related.
+
+7. **Network and Reputation Matter**: Many of my best opportunities came through connections and maintaining a good professional reputation.
+
+This journey shows that with dedication, continuous learning, and a bit of luck, it's possible to progress quickly in the tech industry. However, it's crucial to maintain balance and stay true to your values along the way.
+
 \pagebreak 

@@ -66,7 +66,7 @@ Line 1
 Line 2
 ```
 
-The newline character is usually `\n`. So in reality, instead of just displaying "Line 1", Python displays "Line 1\n". 
+The newline character is usually `\n`. So in reality, instead of just displaying "Line 1", Python displays `"Line 1 \n"`. 
 
 Is all this simple? Anti-climactic? Yes. At least apparently. Because underneath, many very, very interesting things are happening that you have no idea about yet.
 
