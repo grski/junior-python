@@ -5,7 +5,6 @@ pandoc -o dist/python.epub --highlight-style pygments \
   --epub-embed-font=build_settings/fonts/Roboto-*.ttf \
   title.txt \
   preface.md_en \
-  pirates.md_en \
   about.md_en \
   chapters/chapter*
 
@@ -15,6 +14,5 @@ pandoc -o dist/python.pdf --highlight-style pygments \
   -V papersize:b5 \
   title.txt \
   preface.md_en \
-  pirates.md_en \
   about.md_en \
-  chapters/chapter-*en
+  chapters/chapter-*

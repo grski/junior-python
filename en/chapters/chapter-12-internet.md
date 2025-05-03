@@ -2,190 +2,188 @@
 
 # Internet
 
-Here we'll discuss various issues related to networks, the Internet, and everything else. Even though as a junior-python wannabe we're most concerned with Python itself and programming, we should remember that the code we write and then run doesn't operate in some vacuum.
+Here we'll discuss various issues related to networks, the Internet, and everything else. Even though as a junior-python wannabe we're most concerned with Python itself and programming, we need to remember that the code we write and then run doesn't operate in a vacuum.
 
-All our web apps, programs, etc. run in some specific environment. This environment affects how our programs are executed, how they work. Additionally, we often need to interact with it in some way, often mutually. What does this mean? Well, besides Python itself, it's good to know the whole surrounding environment where it bangs and so on, because otherwise, you can sometimes shoot yourself in the foot. Plus, knowledge about the environment and related things that we use indirectly or directly, often without awareness, meaning simply other components of the `System` we're designing, creating, or maintaining, are its integral part as well as something that affects our work and our code.
+All our web apps, programs, etc. are run in some specific environment. This environment affects how our programs are executed and how they work. Additionally, we often need to interact with it in some way, often bidirectionally. What does this mean? Well, besides Python itself, it's worth knowing about the whole environment where it runs and so on, because otherwise, you might sometimes shoot yourself in the foot. Plus, knowledge about the environment and related things that we use directly or indirectly, often without being aware of it, meaning simply other components of the 'System' that we design, create, or maintain, are its integral part and something that affects our work and our code.
 
-By System, I mean here some arrangement, a set of elements. In IT, this is usually, for example, our web app, the servers where it runs, the client, etc.
+By System here, I mean some arrangement, set of elements. In IT, this is usually, for example, our web app, the servers where it runs, the client, etc.
 
-So let's talk about this whole system and environment.
+Let's talk about this whole system and environment.
 
-## Request Path
+## Request Journey
 
-Most web applications operate in a client-server model. The client makes requests to the server, the server returns a response.
+Most web applications work in a client-server model. The client makes requests to the server, the server returns a response.
 
 But how does it happen that we're able to send this request? What happens when you type `grski.pl` in the browser bar and then see my blog?
 
-Well, it looks like this.
+Well, the matter looks like this.
 
-Zakładając, że jesteś połączony z Internetem, twoje zapytanie zostanie przetworzone przez twojego ISP (Internet Service Provider/Dostawca Usług Internetowych), który podbije do czegoś, co nazywa się DNS. DNS to Domain Name Server, czyli taka książka telefoniczna, która zawiera mapowanie domen/adresów jak grski.pl, do lokalizacji (IP) w sieci.
+Assuming you're connected to the Internet, your request will be processed by your ISP (Internet Service Provider), which will hit something called DNS. DNS is the Domain Name Server, like a phone book that contains mappings of domains/addresses like grski.pl to locations (IP) on the network.
 
-Co to znaczy? Każdy serwer ma swoje mniej lub bardziej unikalne IP. Tak zwany adres IP. To coś jak adres zamieszkania. 
+What does this mean? Every server has its more or less unique IP. The so-called IP address. It's like a residential address.
 
-IP wygląda tak: **172.16.254.1**. To 32 bitowa liczba, przynajmniej w przypadku standardu IPv4. Coś takiego trudno zapamiętać, prawda? Mi tak. Natomiast `grski.pl` już tak. Stąd powstało takie oto mapowanie i domeny. Domeny ułatwiają zapamiętanie i pozwalają na to, by ułatwić życie użyszkodnikom.
+IP looks like this: **172.16.254.1**. It's a 32-bit number, at least in the case of IPv4 standard. Something like this is hard to remember, right? For me it is. But `grski.pl` isn't. Hence this mapping and domains came about. Domains make it easier to remember and make life easier for users.
 
-Zarzucę też ciekawostkę. Jeśli IPv4 definiuje adres IP jako 32 bitową liczbę, to pytanie do Ciebie, jakie problem może się tu pojawić w dzisiejszych czasach? Otóż 32 bitowa liczba jest mała jak na dzisiejsze standardy. Pomyślcie ile urządzeń jest połączonych do Internetu, większość z nich ma unikalne adresy publiczne. Matko bosko. Generalnie zbliżamy się do punktu, gdzie nie będzie wolnych unikalnych adresów IP. Przykra sprawa.
+I'll throw in an interesting fact. If IPv4 defines an IP address as a 32-bit number, then the question for you is, what problem might arise here in today's times? Well, a 32-bit number is small by today's standards. Think about how many devices are connected to the Internet, most of them have unique public addresses. Holy moly. Generally, we're approaching a point where there won't be free unique IP addresses. Sad situation.
 
-Powstało zatem IPv6, które ten problem rozwiązuje. Przykład IPv6: **2001:0db8:85a3:0000:0000:8a2e:0370:7334**. Tutaj rozmiar to już 128 bitów. 2 do potęgi 128 daje od ciula dużo opcji, starczy nam na trochę tej przestrzeni adresowej. 
+Therefore, IPv6 was created, which solves this problem. Example of IPv6: **2001:0db8:85a3:0000:0000:8a2e:0370:7334**. Here the size is already 128 bits. 2 to the power of 128 gives a ton of options, this address space will last us for a while.
 
-Dobrze, wróćmy jednak do zapytania.
+Alright, let's get back to the request though.
 
-Mamy obecnie tak: twoja przeglądarka (klient) -> ISP -> DNS -> Serwer.
+Currently we have: your browser (client) -> ISP -> DNS -> Server.
 
-Następnie na serwerze często znajdują się Load Balancery/Proxy, czyli takie kawałki softwareu, które odpowiednio nakierowują żądania/zapytania do nich trafiające na pasujące zasoby lokalne/usługi/API etc.
+Then on the server there are often Load Balancers/Proxy, which are pieces of software that appropriately direct requests coming to them to matching local resources/services/APIs etc.
 
-Z LB/Proxy żądanie trafia do docelowego serwisu. Następnie otrzymujemy odpowiedź i gotowe.
+From LB/Proxy the request goes to the target service. Then we receive a response and done.
 
-Pomiędzy może być jeszcze wiele innych usług jak cache, CDN etc, ale przedstawiłem tutaj wersję skróconą. A jak już o CDN mowa, to...
+There might be many other services in between like cache, CDN etc., but I presented the shortened version here. And speaking of CDN...
 
 ## CDN
 
-Czym jest CDN i dlaczego jest ważny? To w zasadzie dzięki nim możemy bez problemów korzystać z mobilnej sieci, mniej płacić za Internet, to dzięki CDNom nie zacina ci się film ze śmiesznymi kotkami na wykopie, a twój operator może obsłużyć obecną liczbę klientów zamiast np. połowy. Wiem, trochę przesadzam, ale no tak troszkę tylko. Czym zatem jest?
+What is CDN and why is it important? It's actually thanks to them that we can use mobile networks without problems, pay less for Internet, it's thanks to CDNs that your funny cat video on wykop doesn't stutter, and your operator can handle the current number of clients instead of, say, half. I know, I'm exaggerating a bit, but only a little bit. So what is it?
 
-### Wprowadzenie
+### Introduction
 
-Najpierw jednak garść informacji, by zyskać nieco perspektywy. Żyjemy w czasach, gdzie egzystencja bez Internetu jest praktycznie niemożliwa, a na pewno bardzo niewygodna. Większość dzisiejszych luksusów w jakiś sposób bazuje/korzysta z tego wynalazku. Często jednak nie zdajemy sobie sprawy z tego, jak ogromny ten Internet jest i jak szybko się rozwija, pozwólcie, że wyjaśnię.
+First though, a handful of information to gain some perspective. We live in times where existence without the Internet is practically impossible, or at least very inconvenient. Most of today's luxuries somehow base on/use this invention. Often, however, we don't realize how huge this Internet is and how quickly it's growing, let me explain.
 
-W 2018 roku przekroczyliśmy kolejną barierę - to wtedy na Ziemi pękł nowy rekord użyszkodników internetu - 4 miliardy ludzi korzystających z Internetu, czyli to aż 53% populacji. Jest to wzrost niesamowity, biorąc pod uwagę fakt, że jeszcze 4 lata wcześniej użytkowników Internetu było około 2,4 miliarda.
+In 2018, we crossed another barrier - that's when Earth hit a new record of internet users - 4 billion people using the Internet, which is as much as 53% of the population. This is an amazing increase, considering that just 4 years earlier there were about 2.4 billion Internet users.
 
-W 2016 dziennie przez Internet przelatywało 44 miliardów GB danych na dzień. Biorąc pod uwagę fakt, że wtedy userów było znacznie mniej, to uwzględniając użytkowników w 2018, daje to nam około 51 miliardów GB dziennie. Oczywiście jest to mocno niedoszaczowany wynik, gdyż nie dość, że użytkowników przybywa, to i jeszcze pochłaniają oni coraz więcej danych, ale na potrzeby tego artykułu wystarczy, gdyż jakiś obraz to nam daje. Obecnie mamy 2022 i około 5 miliardów. 62,5% populacji.
+In 2016, 44 billion GB of data flew through the Internet per day. Taking into account that there were significantly fewer users then, considering users in 2018, this gives us about 51 billion GB per day. Of course, this is a heavily underestimated result, because not only are users increasing, but they're also consuming more and more data, but for the purposes of this article it's enough, as it gives us some picture. Currently it's 2022 and about 5 billion. 62.5% of the population.
 
-Średni użytkownik smartfona zużywa w ciągu miesiąca 2.9 GB transferu mobilnego (dane ze stycznia 2018). To 50% więcej niż rok wcześniej.. Sieć rozwija się w zatrważającym tempie. Dlaczego w zatrważającym? Cóż, o ile chodzi o połączenie kablowe, to aż takiej tragedii nie ma, no bo można dołożyć kabel czy dwa, chociaż to też wszystko skomplikowane i kosztowane, to prawdziwy problem rodzi sieć danych komórkowych, gdyż jest ona mocno ograniczona przez fizykę, a biorąc pod uwagę ciągły rozrost... Cóż, mamy się troszkę o co martwić albo nasza sieć nieco się zapcha.
+The average smartphone user consumes 2.9 GB of mobile transfer during a month (data from January 2018). That's 50% more than a year earlier.. The network is growing at an alarming rate. Why alarming? Well, while for cable connection there isn't such a tragedy, because you can add a cable or two, although this is also all complicated and costly, the real problem arises with mobile data network, as it's heavily limited by physics, and considering continuous growth... Well, we have something to worry about a bit or our network might get a bit clogged.
 
-### I wtedy wchodzi CDN, cały na biało
+### And Then Enters CDN, All in White
 
-Tak. Sytuację całą łagodzi właśnie CDN. Cóż to takiego? To takie serwery, które cachują najpopularniejsze treści w Internecie, by ogólnie odciążyć sieć, skrócić czasy ładowania i zapobiec pewnym problemom, poprawić bezpieczeństwo. Serwery te rozrzucone są po całej Ziemi w miejscach strategicznych geograficznie dla sieci.
+Yes. The whole situation is mitigated by CDN. What is this? These are servers that cache the most popular content on the Internet to generally offload the network, reduce loading times and prevent certain problems, improve security. These servers are scattered across the Earth in geographically strategic locations for the network.
 
-W sieci mamy dostawców treści. Te treści są różne, tekst, obrazki, filmy, multimedia. Dostawcy treści umieszczają je na swoich stronach, serwerach i jest spoko. W momencie, kiedy chcesz sobie coś w Internecie przeczytać czy obejrzeć, to twoje urządzenie łączy się poprzez Internet z serwerem dostawcy treści i przesyła do Ciebie określoną treść. Wszystko spoko, prawda? No nie. 
+In the network, we have content providers. This content is various, text, pictures, videos, multimedia. Content providers place them on their websites, servers and it's cool. When you want to read or watch something on the Internet, your device connects through the Internet with the content provider's server and transmits specific content to you. All cool, right? Well, no.
 
-Problem pojawia się, kiedy tych danych i użytkowników przybywa na całym świecie. Problem wynika z architektury Internetu. Gdy oglądasz odcinek swojego ulubionego serialu, to twój komputer nie łączy się bezpośrednio z serwerem dostawcy, nie. Zanim się to stanie musi się on przejść przez dziesiątki innych urządzeń, które skierują go we właściwe miejsce, tak samo odpowiedź od tego serwera.
+The problem appears when this data and users increase worldwide. The problem stems from the Internet's architecture. When you watch an episode of your favorite series, your computer doesn't connect directly with the provider's server, no. Before that happens it must go through dozens of other devices that will direct it to the right place, same with the response from that server.
 
-Wyobraź sobie, że jesteś w urzędzie i żeby załatwić określoną sprawę potrzebujesz podpisu dziesięciu różnych urzędników a na koniec jeszcze podpis przełożonego z Ameryki, do którego jest długa kolejka. Zabiera to dużo czasu, energii i tak dalej, prawda? Tak. Skomplikowana sprawa ogółem. Rolą CDN'a jest skrócenie tej listy potrzebnych podpisów do jednego urzędnika, który jest akurat w lokalnym urzędzie.
+Imagine you're in an office and to handle a specific matter you need signatures from ten different officials and at the end also a signature from a supervisor in America, to whom there's a long queue. It takes a lot of time, energy and so on, right? Yes. Complicated matter overall. The role of CDN is to shorten this list of needed signatures to one official who is in the local office.
 
-Czyli jak z serwerami - twoje zapytanie zamiast tłuc się do serwera w Azji czy Ameryce i męczyć jeden serwer, spyta najpierw lokalnego gościa, który jest miasto obok. W 99% przypadków on wystarczy. W pozostałym 1% trzeba będzie tarabanić do Ameryki, ale na miejscu sprawę załatwimy szybko, bo dzięki pomocy z obsługą petentów lokalnie, wujek Sam ma do obsługi mniej, przez co kolejka jest znacznie mniejsza.
+So like with servers - your request instead of beating its way to a server in Asia or America and tiring one server, will first ask a local guy who is in the next city. In 99% of cases he will be enough. In the remaining 1% we'll have to drag to America, but we'll handle the matter quickly on site, because thanks to help with handling petitioners locally, Uncle Sam has less to handle, making the queue much shorter.
 
-### Szczegóły
+### Details
 
-Z serwera Dostawcy Treści do CDNów przesyłane i cachowane są pewne dane - jakie? Te, które są najbardziej popularne - to bardzo ważne, by na CDNach utrzymywać głównie te dane, które są najbardziej popularne, gdyż dzięki temu CDNy przejmują większość ruchu, redukując obciążenie sieci osiągając wysoki hit rate.
+From the Content Provider's server to CDNs, certain data is transmitted and cached - what kind? Those that are most popular - it's very important to maintain mainly that data on CDNs that is most popular, because thanks to this CDNs take over most of the traffic, reducing network load achieving high hit rate.
 
-Jest to skomplikowany proces, bo przecież w różnych regionach popularne są różne treści, a to jak się one zmienią, nie jest banalne do przewidzenia.
+It's a complicated process, because after all different content is popular in different regions, and how they will change is not trivial to predict.
 
-Algorytmy, które się tu wykorzystuje do tego, by przewidzieć co i gdzie będzie popularne, to naprawdę bardzo ciekawa sprawa i ważna - przestrzeń i zasoby CDNów są ograniczone, zatem wybór tych treści jest trudny. Niesamowity przykład takiej optymalizacji i przewidywanie tego, co będzie akurat popularne, można zaobserwować na przykładnie Netflixa i tego, jak oni to rozwiązują.
+The algorithms used here to predict what and where will be popular is really a very interesting matter and important - CDN space and resources are limited, so the choice of this content is difficult. An amazing example of such optimization and prediction of what will be popular right now can be observed on the example of Netflix and how they solve this.
 
-### Czym jest hit rate, lifetime?
+### What is hit rate, lifetime?
 
-Użyłem wcześniej wyrażenia hit rate. To termin, który określa jaki procent requestów userów może być przetworzona przez CDN i tylko CDN, a jaka potrzebuje pomocy z serwera Dostawcy Treści. Obecnie niektórzy potrafią tak zoptymalizować swoje serwery, by hitrate do cache wynosił nawet w okolicach 99%. Niesamowite wyniki.
+I used the term hit rate earlier. This is a term that determines what percentage of user requests can be processed by CDN and only CDN, and what needs help from the Content Provider's server. Currently, some can optimize their servers so well that the hitrate to cache can be even around 99%. Amazing results.
 
-Do tego dochodzi jeszcze określenie czasu, przez który raz wgrane treści mają być dostępne - lifetime - po jego wygaśnięciu cache jest 'usuwany' z serwera i na jego miejsce wskakują nowe (albo wciąż te same, jeśli dalej są popularne)/uaktualnione dane. Jest on zupełnie różny, zależnie od danych, regionu, samego dostawcy usługi.
+Additionally, there's also determining the time for which once uploaded content should be available - lifetime - after its expiration the cache is 'removed' from the server and new (or still the same if they're still popular)/updated data jumps in its place. It's completely different depending on the data, region, the service provider itself.
 
-### Czy CDN to jeden ogromny serwer?
+### Is CDN one huge server?
 
-Nie, to często całe klastry rozproszonych geograficznie serwerów. Setki tysiące maszyn, które mają pewną hierarchię i według niej działają. Jak? Mniej więcej taką. Serwer dostawcy treści to CP.
+No, it's often whole clusters of geographically distributed servers. Hundreds of thousands of machines that have a certain hierarchy and work according to it. How? More or less like this. The content provider's server is CP.
 
-Następnie mamy CD & LCF - to taka centrala można by rzec.
+Then we have CD & LCF - that's like headquarters you could say.
 
-Potem jest CCF a pod nim CDPF. CCF to lokalny urząd, a CDPF to urzędnik.
+Then there's CCF and under it CDPF. CCF is the local office, and CDPF is the official.
 
-Domyślnie, kiedy robisz jakiś request danej treści, to ląduje on w CCF'ie, CCF sprawdza sobie, czy to, czego potrzebujesz, jest gdzieś w jego zasobach, czyli na serwerach CDPF, gdzie trzymane są zcachowane treści. Czyli w skrócie sprawdza, czy to, o co prosisz, jest gdzieś 'skopiowane' na lokalnym serwerze.
+By default, when you make some request for content, it lands in CCF, CCF checks if what you need is somewhere in its resources, meaning on CDPF servers where cached content is kept. So in short it checks if what you're asking for is somewhere 'copied' on the local server.
 
-Jeśli na jednym nie ma, to leci do kolejnego z CDPFów pod swoją kontrolą. Co, jeśli nie znajdzie na żadnym ze swoich CDPFów? Wtedy zgłasza fakt do CD & LCF, który pyta się kolejno pozostałych CCFów.
+If it's not on one, it goes to the next of the CDPFs under its control. What if it doesn't find it on any of its CDPFs? Then it reports the fact to CD & LCF, which asks the remaining CCFs in turn.
 
-Jeśli każdy CCF stwierdzi, że tego contentu nie ma na CDPFach pod ich kontrolą? Wtedy CD & LCF robi request do serwera twórcy treści, stamtąd sobie dane pobiera i zachowuje lokalnie. Także oryginalny serwer jest męczony w bardzo niewielkiej ilości przypadków, dzięki czemu sam serwer jak i jego okoliczna sieć jest znacznie odciążona, ruch zostaje rozrzucony po lokalnych i rozproszonych CCFach zamiast być skupiony w jednej lokalizacji.
+If each CCF states that this content isn't on CDPFs under their control? Then CD & LCF makes a request to the content creator's server, gets the data from there and keeps it locally. So the original server is bothered in a very small number of cases, thanks to which the server itself and its surrounding network is significantly offloaded, traffic gets scattered across local and distributed CCFs instead of being concentrated in one location.
 
-To między innymi dzięki takim rozwiązaniom (lub podobnym) GitHub z pomocą firmy Akamai, byli w stanie sprostać niedawnemu rekordowemu atakowi DDOS skierowanymi przeciwko tej popularnej platformie, który w szczytowej fazie przybrał rozmiar 1.35 Tbps - prawie półtora Tb na sekundę. Niesamowite. To dzięki temu Wykop jako-tako działa. Dzięki temu Netflix nie zapycha całego Internetu.
+It's partly thanks to such solutions (or similar) that GitHub with help from Akamai company, were able to handle the recent record DDOS attack directed against this popular platform, which in its peak phase reached the size of 1.35 Tbps - almost one and a half Tb per second. Amazing. This is why Wykop works somewhat. This is why Netflix doesn't clog the entire Internet.
 
-### Podsumowanie
+### Summary
 
-Wiele rzeczy jest, dzięki którym nasze dni są łatwiejsze, a nawet tego nie wiemy. CDNy były pewnie dla większości z was czymś właśnie takim. Oczywiście w tekście sporo jest uproszczeń, także bear with it.
+There are many things thanks to which our days are easier, and we don't even know it. CDNs were probably something like that for most of you. Of course there are a lot of simplifications in the text, so bear with it.
 
 ## Cache
 
-Czym jest cache? Cache to taka jakby baza danych, ale o przeznaczeniu nieco innym. W domyśle cache zachowuje dane na określoną ilość czasu, zazwyczaj dość krótką, relatywnie do bazy danych, które czasami zachowują dane permanentnie. 
+What is cache? Cache is like a database, but with a somewhat different purpose. By default, cache keeps data for a specified amount of time, usually quite short, relative to databases which sometimes keep data permanently.
 
-Cache zatem to taka baza danych o krótkim terminie ważności, w której przechowujemy zapamiętane wyniki komputacji, tych, które są kosztowne zazwyczaj i tylko te, które dotyczą odczytu a nie zapisu do bazy danych na przykład.
+So cache is like a database with a short expiration date, in which we store remembered results of computations, those that are usually costly and only those that concern reading and not writing to the database for example.
 
-Czyli jeśli mamy sobie jakiś widok/funkcję, cokolwiek, która przyjmuje argument, u nas to będzie akurat jakiś request, to dla podobnych albo takich samych, cache zwróci wynik 'z pamięci' zamiast liczyć/pobierać od nowa.
+So if we have some view/function, anything that takes an argument, in our case it will be some request, then for similar or the same ones, cache will return the result 'from memory' instead of calculating/fetching anew.
 
-Do poczytania:
+For reading:
 
 1. https://www.techtarget.com/searchstorage/definition/cache
 2. https://realpython.com/lru-cache-python/
 3. https://realpython.com/python-memcache-efficient-caching/
 
+## Cloud
 
+AWS, Azure, GCP are cloud service providers. What does this mean? What is the cloud? Cloud is simply like a server room, but at someone else's house. Someone else worries about certain things.
 
-## Chmura
+For an appropriate fee, cloud providers handle certain things for us, provide additional services, take care of most things.
 
-AWS, Azure, GCP to dostawcy usług chmurowych. Co to znaczy? Czym jest chmura? Chmura to po prostu taka jakby serwerownia, ale u kogoś innego na chacie. Kto inny martwi się pewnymi rzeczami.
+These are often such conveniences where in exchange for some cost and the fact that cloud providers sometimes decide for us on certain issues, we shift the burden of taking care of some matters to an external company. In a nutshell.
 
-Za odpowiednią opłatą dostawcy chmurowi ogarniają za nas pewne rzeczy, udostępniają dodatkowe uslugi, zajmują się większością rzeczy.
+AWS is the cloud from Amazon, Azure from Microsoft, and GCP from Google.
 
-To często takie ułatwienia, gdzie w zamian za pewien koszt i fakt, iż dostawcy chmurowi czasem decydują za nas w pewnych kwestiach, ciężar opieki nad niektórymi sprawami przerzucamy na zewnętrzną firmę. W dużym skrócie. 
+Which is better? The one your target employer uses. Basically though, they are similar to each other, only some service names change. Additionally however, one cloud will have a better toolset for specific tasks, another for others.
 
-AWS to chmura od Amazona, Azure od Microsoftu a GCP od Googla.
+IMO if it's about corporations then probably mostly Azure/AWS.
 
-Która lepsza? Ta, której używa twój docelowy pracodawca. W gruncie rzeczy są one jednak do siebie podobne, zmieniają się tylko nazwy niektórych usług. Dodatkowo jednak chmura będzie posiadała lepszy toolset do określonych zadań, druga do innych.
+Startups mainly AWS.
 
-IMO jeśli o korpo idzie to najwięcej chyba na Azure/AWS. 
+GCP is a mix.
 
-Startupy to głównie AWS. 
+Source: institute of data from ass.
 
-GCP to mieszanka.
-
-Źródło: instytut danych z dupy. 
-
-Ja osobiście najczęściej spotykałem się z AWSem, ale to tylko ja. Polecam zapoznać się i pobawić trochę w stawianie różnych usług w chmurze samodzielnie. Każda z nich oferuje programy, gdzie za zarejestrowanie otrzymamy pewien zasób hajsu do przepalenia na nasze zabawy. Wykorzystaj, bo warto. Doda ci to samodzielności i +10 do fejmu jak nauczysz się podstawowych rzeczy z DevOpsowania. A co to to całe devopsowanie? Link numer 4. W skrócie to taki gość od infrastruktury i ogarniania serwerów, czyli miejsca, gdzie nasze aplikacje są uruchamiane.
+I personally most often encountered AWS, but that's just me. I recommend getting familiar and playing a bit with setting up different services in the cloud on your own. Each of them offers programs where for registering we'll receive some amount of cash to burn on our games. Use it, because it's worth it. It will add independence to you and +10 to fame if you learn basic things from DevOps. And what is this whole devops thing? Link number 4. In short, it's a guy from infrastructure and handling servers, meaning the place where our applications are run.
 
 Anyway.
 
-Do poczytania:
+For reading:
 
 1. https://azure.microsoft.com/pl-pl/resources/cloud-computing-dictionary/what-is-the-cloud/
 2. https://experience.dropbox.com/pl-pl/resources/what-is-the-cloud
-3. https://devopsiarz.pl/kurs-ansible/  <- mocno dodatkowo. Ansible to soft do automatyzacji pewnych zadań, żeby ręcznie nie klikać. 
-4. https://devopsiarz.pl/devops/kto-to-jest-devops-engineer/ 
+3. https://devopsiarz.pl/kurs-ansible/  <- strongly additional. Ansible is software for automating certain tasks, so you don't have to click manually.
+4. https://devopsiarz.pl/devops/kto-to-jest-devops-engineer/
 5. https://en.wikipedia.org/wiki/Infrastructure_as_code
 6. https://12factor.net/
 
 ## Docker
 
-Cóż takiego to ten Dokier cały? Wszędzie o nim piszą.
+What is this whole Docker thing? They write about it everywhere.
 
-Otóż docker to narzędzie służące budowaniu i uruchamianiu kontenerów, konteneryzacji. Taka jakby maszyna wirtualna symulująca komputer w komputerze. Główna różnica leży jednak w tym, że kontenery są o wieeeele bardziej wydajne jeśli idzie o zasoby. 
+Well, docker is a tool for building and running containers, containerization. Like a virtual machine simulating a computer in a computer. The main difference lies however in that containers are muuuch more efficient when it comes to resources.
 
-VMki stawiają cały system i emulują wszystko od podstaw. Docker korzysta z gotowych komponentów twojego systemu przez co jest o wiele mniej zasobożerny.
+VMs set up the entire system and emulate everything from scratch. Docker uses ready components of your system which makes it much less resource-hungry.
 
-Dzięki kontenerom możemy pobierać gotowe 'obrazy', które zawierają wszystko, czego aplikacja potrzebuje do uruchomienia jak i samą aplikację. 
+Thanks to containers we can download ready 'images' that contain everything the application needs to run as well as the application itself.
 
-Wyobraź sobie, że musisz ręcznie instalować wszystkie zależności, pakiety etc. 
+Imagine that you have to manually install all dependencies, packages etc.
 
-Teraz wyobraź sobie to samo na 50 serwerach, bo akurat musicie skalować aplikację. Docker nam to ułatwia. Raz zbudowany kompletny obraz wymaga jedynie uruchomienia.
+Now imagine the same on 50 servers, because you need to scale the application. Docker makes this easier for us. Once built complete image only requires running.
 
-Obecnie standardem jest to, że aplikacje się konteneryzuje. 
+Currently it's standard that applications are containerized.
 
-Konteneryzacja aplikacji za pomocą Dockera ma wiele zalet:
+Containerizing applications with Docker has many advantages:
 
-1. Niezawodność: Kontenery Docker pozwalają na uruchamianie aplikacji w sposób niezależny od środowiska, co oznacza, że aplikacja działa tak samo na różnych systemach operacyjnych i infrastrukturach.
-2. Elastyczność: Kontenery Docker są łatwe do przenoszenia między różnymi środowiskami, co oznacza, że można łatwo rozszerzyć aplikację na nowe platformy lub przenieść ją do chmury.
-3. Oszczędność zasobów: Kontenery Docker są lżejsze niż tradycyjne maszyny wirtualne, co oznacza, że można uruchomić więcej aplikacji na tym samym sprzęcie.
-4. Szybkość: Kontenery Docker są szybsze od maszyn wirtualnych, ponieważ nie wymagają instalowania systemu operacyjnego i wszystkich potrzebnych bibliotek.
-5. Łatwość użytkowania: Docker udostępnia narzędzie do tworzenia, dzielenia się i uruchamiania kontenerów, co ułatwia zarządzanie aplikacjami i ich zależnościami.
+1. Reliability: Docker containers allow running applications independently of the environment, which means that the application works the same on different operating systems and infrastructures.
+2. Flexibility: Docker containers are easy to move between different environments, which means you can easily extend the application to new platforms or move it to the cloud.
+3. Resource savings: Docker containers are lighter than traditional virtual machines, which means you can run more applications on the same hardware.
+4. Speed: Docker containers are faster than virtual machines because they don't require installing the operating system and all needed libraries.
+5. Ease of use: Docker provides a tool for creating, sharing and running containers, which makes it easier to manage applications and their dependencies.
 
-Ogólnie rzecz biorąc, konteneryzacja aplikacji za pomocą Dockera pomaga zwiększyć niezawodność, elastyczność, wydajność i łatwość zarządzania aplikacjami, co jest szczególnie przydatne w środowisku chmurowym.
+Generally speaking, containerizing applications with Docker helps increase reliability, flexibility, efficiency and ease of managing applications, which is particularly useful in a cloud environment.
 
-Do poczytania: 
+For reading:
 
-1. https://www.czarnaowca.it/2022/01/docker-tutorial-1-co-to-jest-docker-i-do-czego-jest-nam-potrzeby/	
+1. https://www.czarnaowca.it/2022/01/docker-tutorial-1-co-to-jest-docker-i-do-czego-jest-nam-potrzeby/
 2. https://sii.pl/blog/docker-dla-programistow-co-to-jest/
 
 ## Docker-compose
 
-W telegraficznym skrócie Docker Compose to takie skrypty na sterydach, które pozwalają nam łatwiej zarządzać kilkoma kontenerami. Wyobraź sobie, że mamy w jednej aplikacji bazę danych, broker i workera w dockerze. Milion plików Dockerfile potencjalnie, dużo komend do klepania etc. Bałagan ogółem.
+In telegraphic shortcut Docker Compose is like scripts on steroids that allow us to more easily manage several containers. Imagine that we have a database, broker and worker in docker in one application. Potentially a million Dockerfile files, lots of commands to type etc. Mess overall.
 
-Tutaj przychodzi z pomocą plik docker-compose i narzędzie o tej samej nazwie. Pozwala ono na łatwe zarządzanie wszystkimi kontenerami aplikacji jako jednym całościowym systemem, zamiast zarządzać każdym kontenerem osobno. Docker Compose umożliwia również łatwe rozwiązywanie zależności między kontenerami, takich jak połączenia sieciowe i wymagane pliki danych.
+Here comes to help the docker-compose file and tool of the same name. It allows for easy management of all application containers as one complete system, instead of managing each container separately. Docker Compose also enables easy resolution of dependencies between containers, such as network connections and required data files.
 
 ## Docker Hub
 
-Docker Hub to publiczna platforma do przechowywania i udostępniania obrazów Docker. Pozwala ona na łatwe dzielenie się obrazami z innymi osobami i używanie gotowych obrazów gotowych do uruchomienia. Docker Hub jest również integrowany z narzędziem Docker Compose, co umożliwia łatwe uruchamianie wielu kontenerów jednocześnie.
+Docker Hub is a public platform for storing and sharing Docker images. It allows for easy sharing of images with other people and using ready-to-run images. Docker Hub is also integrated with the Docker Compose tool, which enables easy running of multiple containers simultaneously.
 
 \pagebreak

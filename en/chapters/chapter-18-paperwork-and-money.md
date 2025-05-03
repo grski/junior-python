@@ -2,163 +2,188 @@
 
 # Paperwork and Money
 
-Understanding employment arrangements and financial considerations in the tech industry.
+A bit about employment contracts and compensation.
 
-## Understanding Employment Terms
+## Understanding Compensation and Contracts
 
-When discussing employment, there are several key terms to understand:
-- Net salary: The amount you receive in your bank account after all deductions
-- Gross salary: The amount before taxes and other deductions
-- Total employment cost: What the employer actually pays, which includes your salary plus all employer-side contributions and benefits
+A small note for the less familiar: net salary is the amount you take home after taxes, gross salary is the amount before taxes, and the total cost that your employer pays for you is usually a completely different amount. This works differently when billing as a contractor, but that's a different story. I'll explain that in a moment.
 
-These concepts work differently when you're working as a contractor (often called B2B - Business to Business), which we'll discuss later.
+When starting your career, it's important to understand the different types of employment contracts available in your country. Each has its pros and cons, which you need to be aware of to make the most beneficial decision for yourself in a given situation.
 
-## Student Status and Early Career
+Generally, there are three basic forms of employment:
 
-If you're just starting your career, being a student can offer certain advantages:
-- Potential tax benefits
-- Reduced employment costs for employers
-- Access to student-specific programs and opportunities
+1. Full-time employment contract
+2. Contract work (fixed-term or project-based)
+3. Independent contractor (B2B/freelance)
 
-This can make you more attractive to employers, especially for entry-level positions. However, the specific benefits vary significantly by country and region.
+## Contract Work
 
-## Types of Employment Arrangements
+Let's start with contract work - this is typically the most flexible form of employment for both employer and employee. A contract work agreement concerns performing specific tasks or services for a defined period.
 
-Different countries have various forms of employment contracts, but they generally fall into these categories:
+The main advantages are:
+- Flexibility in working hours
+- Often higher hourly rates than full-time employment
+- Clear project scope and deliverables
 
-### Fixed-Term or Project-Based Contracts
+The main disadvantages are:
+- Usually no benefits (health insurance, paid time off, etc.)
+- Less job security
+- Need to manage your own taxes and insurance
 
-These contracts are typically:
-- Time-limited or project-specific
-- Often have fewer benefits than permanent employment
-- May not include standard employment protections
-- Usually don't include benefits like paid vacation or sick leave unless specifically negotiated
+## Full-time Employment
 
-While these can be financially attractive, they often lack important protections and benefits. They're generally not recommended for long-term career development.
+The most traditional and secure option, but often the most expensive for employers. In short, it's obvious - you get all the standard benefits: health insurance, paid vacation, sick leave, and so on.
 
-### Service Contracts
+The main advantages are:
+- Job security
+- Benefits package
+- Easier to get loans/mortgages
+- Employer handles taxes and insurance
 
-These contracts offer more security than project-based arrangements because:
-- Payment is based on the work performed rather than specific results
-- They often include more standard employment protections
-- Benefits like vacation and sick leave can be negotiated
-- They provide more stability than project-based contracts
-
-### Permanent Employment
-
-This is typically the most secure form of employment, offering:
-- Full employment protections
-- Standard benefits package (health insurance, paid vacation, sick leave)
-- More stable income
-- Easier access to loans and credit
-
-However, permanent employment often comes with:
-- Higher tax burdens
+The main disadvantages are:
+- Often lower take-home pay compared to contract work
 - Less flexibility
-- More employer-side costs
+- More bureaucratic processes
 
-## Working as a Contractor (B2B)
+## Independent Contractor (B2B/Freelance)
 
-Contract work (often called B2B - Business to Business) is becoming increasingly common in the tech industry. This arrangement means you work as an independent business rather than an employee.
+Now a few words about being an independent contractor, what it is, who needs it, why, and an analysis of when it's worth switching to this form of work.
 
-### Why Companies Prefer Contractors
+### What is Independent Contracting?
 
-Companies often prefer working with contractors because:
-1. Simplified administration - they pay invoices rather than manage employees
-2. Reduced employment costs
-3. More flexibility in the working relationship
-4. Less administrative overhead
+When browsing job offers for programmers, you can often come across salary ranges - it's rather standard in the industry to provide a range of possible compensation.
 
-### Advantages of Contracting
+Often the form of cooperation is also provided. More and more often, instead of the well-known employment contract or contract work, something like "B2B" or "freelance" appears. What does this mean?
 
-#### Tax Efficiency
+Independent contracting is a form of cooperation where you establish a relationship with a company not as an employee but as a business entity. This means that instead of becoming an official employee, you become a service provider for a given company, you need to register your own business and handle your own taxes and accounting.
 
-Contracting can offer tax advantages:
-- Potential for lower overall tax burden
-- Ability to structure your business for tax efficiency
-- More control over your financial planning
+### Advantages of Independent Contracting
 
-#### Business Expenses
+Being an independent contractor carries a series of responsibilities, but at the same time gives certain possibilities that we don't have when working based on other forms of cooperation.
 
-As a contractor, you can:
-- Deduct business-related expenses
-- Claim equipment and software costs
-- Include training and professional development expenses
-- Deduct home office and travel expenses
+#### Tax Benefits
 
-### Challenges of Contracting
+Probably the most significant advantage. As an independent contractor, you can often take advantage of various tax deductions and write-offs that aren't available to regular employees. This can include:
+- Home office expenses
+- Equipment and software
+- Professional development
+- Business travel
+- Health insurance premiums
+
+The exact benefits depend on your country's tax laws, but generally, independent contractors can reduce their taxable income significantly.
+
+#### Flexibility and Control
+
+The next major advantage is flexibility and control over your work:
+- You can choose your projects
+- Set your own rates
+- Work with multiple clients
+- Define your own working hours
+- Choose your work location
+
+### Disadvantages
+
+There are quite a few of these. That's why it's worth considering whether independent contracting is the right choice for you - it's not suitable for everyone.
 
 #### Administrative Responsibilities
 
-As a contractor, you're responsible for:
-- Business registration and compliance
-- Tax filings and payments
-- Insurance coverage
-- Invoicing and accounting
-- Record keeping and documentation
+Remember what I mentioned earlier? About taxes, accounting, and paperwork? With other forms of employment, all of this is handled by your employer. You're not interested in anything, except checking if the payment has arrived.
 
-While you can hire professionals to handle these tasks, it adds to your operating costs.
+When you switch to independent contracting, all formal obligations fall on you. Your client only needs to remember to pay your invoice.
 
-#### Reduced Protections
+So what do you need to do as an independent contractor? There's quite a bit of this:
+- Handle your own taxes
+- Manage your own accounting
+- Issue invoices
+- Maintain business records
+- Handle your own insurance
 
-Contract work typically means:
-- No automatic employment protections
-- No guaranteed benefits
-- No paid time off unless negotiated
-- Personal liability for work-related issues
-- Less job security
+You can automate most of this by hiring an accountant, but this comes at a cost. Alternatively, you can do it yourself if you're comfortable with the administrative work.
 
-#### Financial Considerations
+#### No Employee Protections
 
-Contracting can affect your financial options:
-- More difficult to obtain loans or mortgages
-- Need to demonstrate stable income history
-- Higher income requirements for credit
-- More extensive documentation needed
+As an independent contractor, you're not protected by employment laws. Everything depends on what you have in your contract. And there can be various things in it - from lack of notice period, to responsibility for any mistakes you make in work and the damage they cause.
 
-## Making the Right Choice
+You're also not protected against illness. Not working? No money. At least by default, because in the contract, if the client allows it, you can include an option for paid time off.
 
-Choosing the right employment arrangement depends on several factors:
+Similarly with vacation. There's no paid vacation here. Not providing services? No money.
 
-### Personal Considerations
-- Your career stage and goals
-- Risk tolerance
-- Financial needs and obligations
-- Desired work-life balance
-- Long-term career plans
+#### Harder to Get Loans
 
-### Professional Factors
-- Industry standards in your region
-- Market demand for your skills
-- Career growth opportunities
-- Professional network and support
-- Industry stability
+Another disadvantage of independent contracting is that it's often harder to get loans, especially mortgages. Independent contractors are usually subject to various restrictions when they want to take out a mortgage.
 
-### Financial Planning
-- Current financial situation
-- Future financial goals
-- Tax implications
-- Benefits needs
-- Retirement planning
+The first restriction you'll encounter is the required period of running your business. Most banks require that you've been running your business continuously for at least 12-24 months.
 
-### Practical Aspects
-- Administrative capabilities
-- Time management skills
-- Business acumen
-- Support network
-- Market conditions
+Additionally, you'll need to provide more documentation:
+- Business financial statements
+- Tax returns
+- Proof of consistent income
+- Business registration documents
 
-## Key Recommendations
+### Summary
 
-1. Research your local employment laws and regulations
-2. Understand the tax implications of different arrangements
-3. Consider your long-term career goals
-4. Evaluate your risk tolerance
-5. Seek professional advice when needed
-6. Network with others in similar arrangements
-7. Stay informed about industry trends
-8. Maintain good financial records
-9. Build an emergency fund
-10. Keep learning and developing your skills
+To summarize, independent contracting is not a form of employment for everyone. It has its disadvantages like responsibility for various things falling on your head, but also advantages, because with greater responsibility comes greater control over your work and finances.
 
-Remember that employment arrangements can vary significantly by country and region. What works well in one location might not be suitable in another. Always research your specific situation and seek professional advice when needed. 
+Is this a good form for you? I don't know. I'll almost certainly say one thing though, that if you have less than, let's say 6, and preferably 12, months of experience, and the amount that a potential client offers is not significantly higher than what you'd make as an employee, then better leave it and wait.
+
+## Money
+
+About a very important thing, which is money. Without shame and openly.
+
+### How to Talk About Salary
+
+I often see that we're ashamed to talk about money. Well, in my opinion this is a bit of a mistake. Human greed is a thing, but only if accompanied by certain principles and rules.
+
+If this is your first job, which suggests the fact that you're reading this book, then well, honestly speaking, money isn't very important. In your first job you're actually only doing one thing... Learning.
+
+At the beginning, for the first few days/weeks, even someone with 10 years of experience brings losses, because they need to be onboarded to the project, get to know the team and so on.
+
+And this is natural. When hiring a Junior, every employer must be aware that they'll need to invest in them a bit first, so they can start being useful and bringing profits. So we're aware that this onboarding period will be longer.
+
+So don't feel guilty that you're only learning at work and that's bad, nothing could be further from the truth.
+
+This is a calculated move by every company, you as an employee who's training, growing in value and over time, when you reach a certain level, this investment in you will very quickly pay off through the work you do.
+
+Let's be honest, your employer has to make money on something. They might make it on their own product, maybe on outsourcing, in any case, one way or another, they indirectly make money on you and your skills. Is this bad? No, a normal thing.
+
+Nevertheless, please, never blame yourself for spending time at work learning, especially at the beginning, it's simply, as I mentioned, the employer's investment in you, which is actually quite profitable for them in the longer term.
+
+To summarize, if you're just starting out, then the rate isn't important. Does this mean you should work for a proverbial bowl of rice? Absolutely not. You need to respect yourself and it's not worth going below a certain level. Simple.
+
+When setting your rate, it's worth taking into account:
+- The region where you live
+- Other offers and ranges they offer
+- Your skills and experience
+- The company's size and financial situation
+
+Do a little research. If you ask for too much, but you're a nice candidate, then the company will probably want to renegotiate rather than reject you right away, so don't be too afraid, but on the other hand don't throw amounts from outer space, because that also says something about you.
+
+### Raise != More Take-Home Pay, About Time
+
+Now a few words about how a raise doesn't always mean more money in your paycheck. Why?
+
+Well, the matter is simple - we need to realize that we're basically selling our time to our employer and we need to calculate our paycheck relative to it. You can't always negotiate a raise in monetary form, because for example the company doesn't have additional funds, a specific rate is planned for someone with your experience, or something similar. You can then approach it from a different angle. How?
+
+Probably the simplest example is reducing full-time - instead of working 5 days a week, ask for 4. Succeed? You've just reduced your full-time to 4/5, keeping the same salary, meaning effectively that's like a 20% raise per hour of your time. Pretty nice result in my opinion.
+
+Another way to get a raise without a raise might be switching to remote work mode. I'll immediately note - this isn't for everyone and not in every company can such a work model be implemented.
+
+However, if remote work suits you, there are no obstacles in the company and you manage to negotiate it - great. Why?
+
+Because the time you spend on work isn't only the time you sit in the office. You need to calculate commuting time too. And we often spend a lot of time on this and sometimes it causes our actual rate to decrease by about 10% on average, assuming we have about 30 minutes to work.
+
+With remote work there's no this problem - the time you spend commuting is exactly 0. Unless you go to some coworking, but that's then by choice, not by force. Your will.
+
+Time is quite important, so let's talk about it.
+
+The only thing we have in life is time. We need to manage it wisely, because we can't buy time, we can't add it to ourselves or make it run slower. Every day it slips away from us.
+
+Programming is an industry you can get carried away with, so to speak. Relatively quickly you can reach really nice earnings here. This makes it possible to get a bit 'fixated' on this money and start working a lot. Too much. And they're not the most important thing after all.
+
+Nevertheless it is. And we as programmers trade precisely our time usually - we sell the employer hours of our life in exchange for money. So know their value. Don't let yourself be possessed by the rush for money that will make you work 14 hours a day, because you'll earn more.
+
+It's not worth it. Unless it gives you pleasure, you don't have a family, and your social life doesn't exist. Then you can.
+
+The question is different though - how long can you endure mentally and physically?
+
+\pagebreak 
