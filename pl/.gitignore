@@ -1,7 +1,4 @@
 ../.idea
 .idea/
 .idea/*
-dist/
-dist
-dist/*
 .DS_Store
