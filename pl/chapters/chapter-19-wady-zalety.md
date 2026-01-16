@@ -26,7 +26,7 @@ Brzmi trochę jak przechwalanie, ale z jakiegoś powodu tak właśnie jest. Po p
 
 ### Ciągła nauka
 
-Co z czasem, który musisz poświęcać na naukę, nieustanną naukę? Ta branża zmienia się na tyle szybko, że jeśli sam się nie rozwijasz, to wypadasz z gry. Proste. Nie żartuje. 
+Co z czasem, który musisz poświęcać na naukę, nieustanną naukę? Ta branża zmienia się na tyle szybko, że jeśli sam się nie rozwijasz, to wypadasz z gry. Proste. Nie żartuję. 
 
 Nie ogarniasz nowinek czy nowych rzeczy przez rok, dwa, trzy i nagle stajesz się trochę bezwartościowy na rynku lub osiągasz stagnację, gdzie twoja wiedza się nie zwiększa, podobnie umiejętności. 
 
@@ -48,7 +48,7 @@ Nie zawsze pracujemy nad fajnymi appkami. Realia są takie, że czasami pojawiaj
 
 Ty, jako Junior masz większe szanse na to, że pracodawca wrzuci cię w takie gówno. Dlaczego? Bo jak coś i tak jest skopane, to gorzej tam nic nie zepsujesz, to raz. 
 
-Dwa, na początku nie masz jakiegoś zbyt dużego wyboru, o ile nie jesteś dobry programistą. A w sumie, mam nadzieję, takim się staniesz.
+Dwa, na początku nie masz jakiegoś zbyt dużego wyboru, o ile nie jesteś dobrym programistą. A w sumie, mam nadzieję, takim się staniesz.
 
 Takie realia niestety. Bo jak już babrzemy się w takim bagnie, że nic nie pomoże, to cóż, w zasadzie można tam wrzucić kompletnego świeżaka, bo co by nie zrobił, to gorzej nie będzie, a wyjdzie taniej. 
 
@@ -64,7 +64,7 @@ Protip: nigdy się nie oferuj nigdzie, że 'reinstalniesz komuś system', zwłas
 
 Jak już chcesz być dobrą duszą, to weźże, chociażby, tę przysłowiową flaszkę jako rekompensatę.
 
-Poza tym w momencie, kiedy ujawnisz się, jako programista, że tak powiem, duża część osób, przypnie ci pewną łatkę co do tego, ile zarabiasz. U niektórych budzi to zazdrość. Chociaż to w zasadzie zaleta, bo dzięki temu można łatwo spostrzec, komu zależy na twoim statusie materialny, a kto jest prawdziwym przyjacielem.
+Poza tym w momencie, kiedy ujawnisz się, jako programista, że tak powiem, duża część osób, przypnie ci pewną łatkę co do tego, ile zarabiasz. U niektórych budzi to zazdrość. Chociaż to w zasadzie zaleta, bo dzięki temu można łatwo spostrzec, komu zależy na twoim statusie materialnym, a kto jest prawdziwym przyjacielem.
 
 ### ‘Rynek pracownika’
 
@@ -80,7 +80,7 @@ Naprawdę teraz trochę trzeba się wyróżniać, żeby dostać się w jakieś s
 
 Niestety, życie to nie bajka, tutaj się kalkuluje. Inwestycja w pracownika nie jest bezinteresowna – to dokładnie to, co napisałem, czyli INWESTYCJA. Robi się ją z myślą, że się zwróci z nawiązką.
 
-Mówię to bardziej w kierunku osób, które myślą, że o pracę w IT jest niesamowicie łatwo, na rynku jest ogromny głód i w ogóle. Nie. Do was apeluję, do tych, którzy sięgnęli po tą książkę z podejściem, że sobie przeczytają jedną czy dwie książeczki, przeprogramują dwa tygodnie w domku i cyk, 15k na miesiąc. NIE MA TAK.
+Mówię to bardziej w kierunku osób, które myślą, że o pracę w IT jest niesamowicie łatwo, na rynku jest ogromny głód i w ogóle. Nie. Do was apeluję, do tych, którzy sięgnęli po tę książkę z podejściem, że sobie przeczytają jedną czy dwie książeczki, przeprogramują dwa tygodnie w domku i cyk, 15k na miesiąc. NIE MA TAK.
 
 Pozycję siły to masz wtedy, kiedy na twoim karku jest już kilka/kilkanaście lat doświadczenia, spora wiedza i renoma. Wtedy możesz przebierać w ofertach. 
 

@@ -8,7 +8,7 @@ Czym są funkcje i dlaczego są ważne w programowaniu? Zaraz pomówimy o tym sz
 
 ## Zwykłe funkcje/metody
 
-Najpierw omówmy tradycyjne funkcje, czy jeśli mówimy o funkcjach definiowanych w klasach, metodach.
+Najpierw omówmy tradycyjne funkcje, czy jeśli mówimy o funkcjach definiowanych w klasach, metody.
 
 #### Składnia definiowania funkcji w Pythonie.
 
@@ -50,7 +50,7 @@ def min_max(x):
     return min(x), max(x), x
 
 a = [1, 2, 3]
-min_a, max_a = min_max(a)
+min_a, max_a, _ = min_max(a)
 # alternatywnie:
 result = min_max(a)
 min_a = result[0]
@@ -59,7 +59,7 @@ print(min_a)  # Output: 1
 print(max_a)  # Output: 3
 ```
 
-Przy okazji linijka z wywołanej tejże funkcji, to przykład tak zwanego tuple unpacking - rozpakowywania krotki. 
+Przy okazji linijka z wywołania tejże funkcji, to przykład tak zwanego tuple unpacking - rozpakowywania krotki. 
 
 Przydatna i ważna rzecz.
 
@@ -74,7 +74,7 @@ min_a, max_a, _ = min_max(a)
 # trzeci argument zostanie olany i nieprzypisany do 
 # żadnej zmiennej _ to placeholder, który python rozpoznaje
 *_, last_argument = min_max(a)
-first, *all_the_rest = min_max()
+first, *all_the_rest = min_max(a)
 first, _, the_third = min_max(a)
 first, *_, the_third = min_max(a)
 ```

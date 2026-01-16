@@ -47,7 +47,7 @@ class OrderBook(BaseOrderBook):
 
     @property
     def maximum_bid(self) -> int:
-        return min(self.bids.keys()) if self.bids else float("-inf")
+        return max(self.bids.keys()) if self.bids else float("-inf")
 
     @property
     def minimum_ask(self) -> int:
@@ -145,7 +145,7 @@ class Person:
     # statyczna metoda do sprawdzania dorosłości
     @staticmethod
     def is_adult(age):
-        return age > 18
+        return age >= 18
  
  
 person1 = Person('hejto', 21)
@@ -230,7 +230,7 @@ Do poczytania:
 
 ## Docstrings
 
-Docstringi (ang. "documentation strings") to ciągi znaków umieszczane w kodzie Python, które służą jako dokumentacja do kodu. Są one umieszczane bezpośrednio po deklaracji funkcji, metody, klasy itp. i są zwykle umieszczane w trójkątnych nawiasach.
+Docstringi (ang. "documentation strings") to ciągi znaków umieszczane w kodzie Python, które służą jako dokumentacja do kodu. Są one umieszczane bezpośrednio po deklaracji funkcji, metody, klasy itp. i są zwykle umieszczane w potrójnych cudzysłowach.
 
 Docstringi są często używane do opisywania tego, co dana funkcja, metoda lub klasa robi, jakie argumenty przyjmuje i jakie wartości zwraca. Docstringi są później używane przez narzędzia do tworzenia dokumentacji (np. Sphinx) do automatycznego tworzenia dokumentacji kodu.
 
@@ -280,7 +280,7 @@ W powyższym przykładzie zmienna `x` i `y` wskazują na to samo miejsce w pami�
 
 Uwaga: pamiętaj, że operator `is` jest szybszy niż operator `==`, ponieważ nie musi porównywać wartości zmiennych, ale sprawdza tylko, czy wskazują one na to samo miejsce w pamięci. Dlatego operator `is` jest często używany w miejscach, gdzie szybkość jest ważna, a dokładność porównania nie jest konieczna.
 
-Dodatkowo `is` to element języka, 'niezmienialny' powiedzmy. Zaś użycie operatora `==` zależy od tego, jak zaimplementowano magiczne(dunder) metodę `__eq__` albo `__equals__`? Nie pamiętam, sprawdź. Co to znaczy? Otóż możemy sami definiować to, jak Python będzie porównywał obiekty przy `==`. Poczytaj.
+Dodatkowo `is` to element języka, 'niezmienialny' powiedzmy. Zaś użycie operatora `==` zależy od tego, jak zaimplementowano magiczną (dunder) metodę `__eq__`. Co to znaczy? Otóż możemy sami definiować to, jak Python będzie porównywał obiekty przy `==`. Poczytaj.
 
 ##  
 

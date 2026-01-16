@@ -16,7 +16,7 @@ Droga ciekawa, bo przed tym, jeszcze będąc w szkole, gimnazjum i liceum, łapa
 
 ## Obecnie
 
-Pracuje sobie jako Lead, kodzę w Pythonie, Django, Architektura, do tego ogarniam coś Jirę czasem, jakieś szczątkowe PO, do tego menadżerowanie czy mentorowanie członków mojego zespołu i w sumie tyle. Bunkrów nie ma, ale też jest zajebiście.
+Pracuję sobie jako Lead, kodzę w Pythonie, Django, Architektura, do tego ogarniam coś Jirę czasem, jakieś szczątkowe PO, do tego menadżerowanie czy mentorowanie członków mojego zespołu i w sumie tyle. Bunkrów nie ma, ale też jest zajebiście.
 
 Tak na codzień prowadzę sobie bloga [grski.pl](https://grski.pl), chodzę na siłownię, piszę, żyję, trzeźwieję, zmagam się z demonami. Życie jest w pytę, ale nie jest kolorowe czasami.
 
@@ -30,21 +30,21 @@ Stąd, wydaje mi się, że jak mnie się udało, to i wielu z was może się uda
 
 ## Łatwo to nie będzie
 
-Większość z tych co nie odpadną, będzie co najwyżej średnimi klepaczami kodu. Zostanie garstka zdeterminowanych, którzy osiągną fajne rzeczy. Nie mówię tego, patrząc z góry. Po prostu wiem, jak to wygląda. To nie jest łatwy kawałek chleba. Myślicie, że te półtora roku początkowe, to sobie pracowałem po osiem godzinek, jakiś lajtowy projekcik i do domku? Robiłem tyle nadgodzin ile mogłem, łapiąc doświadczenie od starszych stażem pracowników. Zdarzyło mi się spać w biurze, bo już nie opłacało się wracać do domu. Coś takiego normalne nie jest, ale rezultaty jakie osiągnąłem też nie sa normalne. Natomiast ogółem nie polecam, piszę tu tylko o tym nie po to byś brał/brała przykład a po to by uzmysłowić ci, że ponadprzeciętne rezultaty często wymagają ponadprzeciętnych wysiłków. Chociaz z drugiej strony to aż taki wysiłek dla mnie nie był, przyjemność tak trochę. Natomiast wciąż, poświęcić coś trzeba było - czas wolny w tym wypadku.
+Większość z tych co nie odpadną, będzie co najwyżej średnimi klepaczami kodu. Zostanie garstka zdeterminowanych, którzy osiągną fajne rzeczy. Nie mówię tego, patrząc z góry. Po prostu wiem, jak to wygląda. To nie jest łatwy kawałek chleba. Myślicie, że te półtora roku początkowe, to sobie pracowałem po osiem godzinek, jakiś lajtowy projekcik i do domku? Robiłem tyle nadgodzin ile mogłem, łapiąc doświadczenie od starszych stażem pracowników. Zdarzyło mi się spać w biurze, bo już nie opłacało się wracać do domu. Coś takiego normalne nie jest, ale rezultaty jakie osiągnąłem też nie są normalne. Natomiast ogółem nie polecam, piszę tu tylko o tym nie po to byś brał/brała przykład a po to by uzmysłowić ci, że ponadprzeciętne rezultaty często wymagają ponadprzeciętnych wysiłków. Chociaż z drugiej strony to aż taki wysiłek dla mnie nie był, przyjemność tak trochę. Natomiast wciąż, poświęcić coś trzeba było - czas wolny w tym wypadku.
 
 Często siedziałem i po 12 godzin, w piątki, w soboty, w niedziele. Dzięki losowi trafił mi się idealny mentor, złoty człowiek, bo inaczej to nie wiem. Brodziłem po uszy w gównie, w legacy projektach, których nie życzę nikomu oraz przede wszystkim miałem ogromne szczęście. Nie oczekuj, że będzie u ciebie podobnie. Może być, ale prawdopodobnie nie będzie.
 
-W wolnym czasie staram się pomagać innym ludziom uczyć się kodować, czy to poprzez prowadzenie różnych warsztatów, czy projektów, czy mentoring, zazwyczaj zupełnie za darmo. Z doświadczenia wiem, że większość po prostu rezygnuje. Swoją drogą, jak już mówię o osobach, którym nieco pomogłem postawić kroki na programistycznej ścieżce, to póki co znalazło się około pięciu, które startując od zera, wytrwały i dotarły do pierwszej pracy. Najkrócej zajęło to pół roku niecałe, najdłużej około dwa lata. Wszystko zależy. Stąd też po części pomysł na tę ksiażkę, bo się okazuje, że coś tam jednak mam do przekazania, to po pierwsze, po drugie nie chce mi się tłumaczyć tego samego n-tej osobie. Tak to napiszę raz i będzie z głowy! Super!
+W wolnym czasie staram się pomagać innym ludziom uczyć się kodować, czy to poprzez prowadzenie różnych warsztatów, czy projektów, czy mentoring, zazwyczaj zupełnie za darmo. Z doświadczenia wiem, że większość po prostu rezygnuje. Swoją drogą, jak już mówię o osobach, którym nieco pomogłem postawić kroki na programistycznej ścieżce, to póki co znalazło się około pięciu, które startując od zera, wytrwały i dotarły do pierwszej pracy. Najkrócej zajęło to pół roku niecałe, najdłużej około dwa lata. Wszystko zależy. Stąd też po części pomysł na tę książkę, bo się okazuje, że coś tam jednak mam do przekazania, to po pierwsze, po drugie nie chce mi się tłumaczyć tego samego n-tej osobie. Tak to napiszę raz i będzie z głowy! Super!
 
-Jakiś programistyczny wymiatacz to ze mnie nie jest, ale radze sobie, raz gorzej, raz lepiej, nie narzekam. Pewnie są lepsi, pewnie są gorsi, nie zagłębiam się w to zbytnio, po prostu robię swoje. Jedni lubią moją działalność czy to na forum, czy na wykopie, czy gdzie indziej, inni nie, uważając mnie za idiotę czy bufona, jednym książka się spodoba, innym nie. Rozumiem, spoko, szanuje, nie ma problemu. 
+Jakiś programistyczny wymiatacz to ze mnie nie jest, ale radzę sobie, raz gorzej, raz lepiej, nie narzekam. Pewnie są lepsi, pewnie są gorsi, nie zagłębiam się w to zbytnio, po prostu robię swoje. Jedni lubią moją działalność czy to na forum, czy na wykopie, czy gdzie indziej, inni nie, uważając mnie za idiotę czy bufona, jednym książka się spodoba, innym nie. Rozumiem, spoko, szanuję, nie ma problemu. 
 
 Jednym z nieco nietypowych aspektów mojej działalności jest to, że staram się też poruszać strefę poza samymi umiejętnościami twardymi i mówić o tej miękkiej stronie życia zawodowego, albo życia w ogóle. Czasami, w sumie często, to właśnie te rzeczy, ważyły nad tym, jak potoczyły się moje losy, a nie konkretne umiejętności techniczne.
 
 ## Czyli tak reasumując
 
-Na koniec dnia mam tylko jedną intencje, by ta książka, zawarta w niej wiedza, dawka specyficznego i czasem obraźliwego humoru, tendencyjnego i infantylnego stylu, w jakiś sposób komuś pomogła. Być może się uda.
+Na koniec dnia mam tylko jedną intencję, by ta książka, zawarta w niej wiedza, dawka specyficznego i czasem obraźliwego humoru, tendencyjnego i infantylnego stylu, w jakiś sposób komuś pomogła. Być może się uda.
 
-Plus jest to efekt realizacji tego, że powyżej pewnego progu, pieniądze przestają zgrywać aż tak ważną rolę, a na wierzch wychodzą ważniejsze rzeczy. Potrzeba jakiegoś sensu, robienia czegoś wyższego aniżeli kolejnego tysiąca na wypłatę. Dobra, starczy mojego bajdurzenia.
+Plus jest to efekt realizacji tego, że powyżej pewnego progu, pieniądze przestają odgrywać aż tak ważną rolę, a na wierzch wychodzą ważniejsze rzeczy. Potrzeba jakiegoś sensu, robienia czegoś wyższego aniżeli kolejnego tysiąca na wypłatę. Dobra, starczy mojego bajdurzenia.
 
 Moją dokładną historię zarobkową czy takie tam szczegóły znajdziesz w innym rozdziale, gdzieś pod koniec książki. Jeśli nie moje słowa i moja osoba, to niech chociaż one przekonają Cię do tego, że być może warto tę książkę przeczytać.
 

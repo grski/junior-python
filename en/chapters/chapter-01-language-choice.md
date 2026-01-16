@@ -1,166 +1,162 @@
 \pagebreak
 
-# Language Choice
+# Choosing a Language
 
-In this book, we will primarily work with Python. Why? I've listed the reasons for choosing this language in another chapter, but I'd like to mention one other language that every programmer must know and should start with if they're 100% certain they want to pursue a career in IT. What language is that?
+In this book, we'll be working almost exclusively with Python. Why? The reasons I chose this particular language are outlined in another chapter, but I'd like to mention one other language that every programmer must know and should start with if they're 100% certain they want to pursue a career in IT. What language is that?
 
 ## The Essential Language
 
-Interesting, what language could it be! C, Python? Maybe C++ or JavaScript? Not at all! I'm talking about... the English language.
+Curious what language it might be! C, Python? Maybe C++ or JavaScript? Not at all! I'm talking about... the English language.
 
-We live in times of globalization. Everything is becoming somewhat standardized. The same TV shows, the same movies, the same clothes, brands, and... language. The English language has long been present in our native language - Polish. Anglicisms have existed for many, many years. However, in recent years, during the existence and development of global civilization, the number of anglicisms and borrowings appearing in our speech, especially among young people, is growing exponentially. And not without reason. And I say this as someone writing a book in Polish. You can manage without it if you insist, yes, but if you're serious about a career... No. Seriously.
+We live in an era of globalization. Everything is becoming somewhat uniform. The same TV shows, the same movies, the same clothes, brands, and... language. English has been present in many languages for a long time, but in recent years, especially during the development of our global civilization, the amount of English influence appearing in everyday speech, especially among young people, has been growing exponentially. There's a good reason for that. You might manage without it if you're stubborn, sure, but if you're serious about a career... No. Really.
 
-English is the absolute hegemon when it comes to international communication or communication on the Internet. And we, as people closely related to this world, are somewhat forced to know it well. Practically in every company, English is the standard, and to be a good programmer, we need to know it well enough to communicate freely and read documentation. That's it on this topic. This implies that we need to know it well. Technical documentation is usually not that simple, contains specialized vocabulary, and has a difficult, formal style.
+English is the absolute hegemon when it comes to international communication or communication on the Internet. As people closely connected to this world, we're somewhat forced to know it well. In practically every company, English is the standard, and to be a good programmer, we need to know it well enough to communicate freely and read documentation. That implies we need to know it well. Technical documentation is usually not that simple; it contains specialized vocabulary and has a difficult, formal style.
 
-English is probably even more important at the beginning than the programming language we choose, which is why, before we start coding, it's worth improving in this area. What are the advantages of knowing this language?
+English is actually even more important at the beginning than the programming language you choose, so before we start coding, it's worth improving in this area. What are the benefits of knowing this language?
 
 ### Materials
 
-The matter is quite clear. The most high-quality materials are available in English. This book is an attempt to slightly change this fact and open the way for those who, despite everything, don't speak English, don't want to speak it, and maybe aren't thinking about a career in IT. Nevertheless, currently...
+The matter is quite clear. The most and best quality materials are available in English. This book is an attempt to slightly change that fact and open the door for those who still don't speak English, don't want to learn it, or perhaps aren't thinking about an IT career. Nevertheless, currently...
 
-Want to learn more? Best from English materials. Moreover, sometimes English materials are the only ones available. Almost every framework or library I know has documentation. In English. In Polish, there's usually none, or if there is, the translation leaves much to be desired or is fragmentary.
+Want to learn more? Best from English materials. Moreover, sometimes English materials are the only ones available. Almost every framework or library I know has documentation. In English. In other languages, there's usually nothing, poor translations, or only partial coverage.
 
-That's right, translation. Certain terms in our world become quite strange and incomprehensible when translated. Can you imagine working daily with an "Integrated Programming Environment" (ZŚP) instead of an IDE? A "bug remover" instead of a debugger? A "kernel panic" instead of... well, kernel panic. For us, experienced programmers, this is unimaginable. No one outside your country would understand you. Instead of pulls and commits, we'd have "withdrawals" and "confirmations" (XD). Why have inits when we could have "starters"? Examples could be multiplied.
+Speaking of translation, certain terms in our world become quite strange and incomprehensible when translated. Can you imagine working daily with translated technical terms instead of using the original English ones? Who would understand you outside your own country? Examples could be multiplied.
 
-And documentation is fundamental, by the way. Whether when creating a serious project or when using one, you'll not only read it but also create it. How will you encourage other developers to work on your open-source project if they can't understand it because the source code and documentation are in Polish? In this way, you severely limit your horizons.
+And documentation is fundamental, by the way. Whether creating a serious project or using one, you'll not only read it but also create it. How will you encourage other developers to work on your open-source project if they can't understand it because the source code and documentation are in a language they don't speak? This way you severely limit your horizons.
 
 ### Communication
 
-Again, a key thing when creating projects. In most companies today, you collaborate with foreign clients or contractors from overseas. Many things can be streamlined and made easier when we can talk directly with someone and clarify certain things. Often, English is essential for this. Especially when someone who doesn't speak Polish joins your team.
+Again, a crucial thing when creating projects. In most companies today, you work with foreign clients or contractors from overseas. Many things can be streamlined and made easier when you can directly talk to someone and explain certain things. English is often essential for this. Especially when someone who doesn't speak your native language joins your team.
 
-This isn't as rare as it might seem, quite the opposite.
+This is not as rare as it might seem, quite the opposite.
 
 ### Programming Itself
 
 Learning programming itself is easier if we know English. Practically every programming language has keywords in English.
 
-When we're just learning, this is quite helpful because even without seeing what a given keyword does or what a given function does, as long as they're properly named (and current good code standards generally require this), we can practically guess what the code does without any knowledge, without looking at the source, by inferring from the translation of the given fragment, the name of the function/class.
+When we're just learning, this is quite helpful because even without seeing what a given keyword does, or what a given function does, as long as they're correctly named (and current good code standards require this), we can practically guess what the code does without any prior knowledge, without looking at the source, just by translating the fragment or function/class name.
 
 ### Exceptions
 
-I know, someone will immediately say, 'but how, I've been in the profession for five years and somehow manage without English!' Well, yes, but for how long and in what company? Want to work in Januszsoft? Be my guest, but I won't pay for the chemotherapy you'll need after experiencing the scale of stupidity and onion-like behavior that takes place while working for a typical Janusz. And believe me, that's how it will be because people who completely don't know English aren't really hired in other places.
+Sure, someone will immediately say 'but hey, I've been working in the field for five years and I'm doing fine without English!' Sort of, but for how long and at what kind of company? Want to work at a low-quality shop? Go ahead, but trust me, that's probably how it'll go, because people who don't know English at all aren't usually hired elsewhere.
 
-What I wrote above is rather obvious to everyone somewhat familiar with the matter, but some people, at the beginning (including me), are quite stubborn about learning English.
+What I wrote above is rather obvious to anyone familiar with the matter, but some people, at the beginning (including myself), are quite stubborn about learning English.
 
-Because I want to learn programming!!! Great, but to do it as efficiently as possible, English is useful, and then it's an unparalleled help in finding and doing the work itself.
+Because I want to learn programming!!! Cool, but to do it as efficiently as possible, English is helpful, and later it's invaluable help when looking for and doing the job itself.
 
-That's about it on this issue. Although the question remains - how to learn?
+That's about it on this matter. Although one question remains - how do you learn?
 
 ## How to Get Started?
 
 Let me explain.
 
-### Well, How?
+### So, How?
 
-Let's start with how not to learn. A simple and perfect example of this is seen in our schools. How English is taught there is a joke. A sad one, but a joke.
+Let's start with how not to learn. A simple and excellent example of this is the traditional school system. The way English is taught in many schools is a joke. A sad one, but still a joke.
 
-The focus there is solely on the middle school exam, then on the high school graduation exam. Nothing else is thought about in 90% of cases. And what's on the exam and graduation? Not necessarily things used in everyday situations.
+The focus is typically on exams - first high school exams, then standardized tests. Nothing else matters 90% of the time. And what's on the exam? Not necessarily things you use in everyday situations.
 
-In high school, at least in my case, in the first year, a student has 5 hours of English, if they choose the advanced level in this language (rarely does someone not do this), then from the second year, they have 7 hours. Quite a lot, right? Yes, but how this time is used is a tragedy.
+Being in high school, at least in my case, in the first year a student has 5 hours of English, and if they choose to focus on this language (few don't), from the second year they have 7 hours. Quite a lot, right? Yes, but how this time is used is tragic.
 
-What does an average lesson look like?
-You get a photocopy with grammatical structures that you fill in. Sometimes you write/say something. Thank you. Focus on grammar and... Nothing else. It can't be like this. I don't want to get into a discussion about how bad the current education system is, what needs to be changed in it, and so on. Of course, there are probably teachers who stand out from the norm and try, because they haven't been eaten by the concrete yet, but how many of them are there... Let's move on to the issue of...
+What does the average lesson look like? You get a worksheet with grammatical structures to fill in. Sometimes you write/say something. Thank you. Focus on grammar and... Nothing more. That can't be right. I don't want to get into discussions about how bad the current education system is, what should be changed in it, and so on. Of course, there are probably teachers who deviate from the norm and try, because they haven't been crushed by the system yet, but how many are there... Let's move on to the question of...
 
-### How Should It Look Then, Mr. Know-It-All?
-I'll tell you. First of all, you can't focus all the time on something completely unnecessary for the most part - grammar.
+### So How Should It Look, Smarty-Pants?
 
-Let's look at small children. Let's say from grades 1-2 of elementary school. Can they speak in their language? Yes, they can. Usually even relatively correctly. And let's ask this child what they know about parts of speech and sentences. We'll probably hear as much as a deaf person.
+Let me tell you. First of all, you can't focus all the time on something largely unnecessary - grammar.
 
-So the child doesn't really know grammar formally, but uses the language correctly. Interesting.
+Let's look at small children. Say, 1st-2nd grade elementary school. Can they speak in their language? Sure they can. Usually quite correctly too. But ask that child what they know about parts of speech and sentences. You'll hear about as much as you would from a deaf person.
 
-We should take an example from this and primarily remember not to focus on learning grammar during language learning. Of course, there are tiny exceptions to this rule, but they rather confirm the fact.
+So the child doesn't formally know grammar, but uses the language correctly. Interesting.
 
-We should focus on using the language, not theorizing. Only this way will we learn it most effectively. Let me give an example. In English school, children usually start learning from kindergarten. It was no different with me - in so-called "zerówka" (pre-school), the first slow lessons began. In any case... 7 years later, my English still left much to be desired.
+We should take an example from this and above all remember not to focus on learning grammar when learning a language. Of course, there are small exceptions to this rule, but they rather confirm the fact.
 
-Fortunately, my approach to learning this language changed from forced to more practical. Textbooks faded into oblivion, writing and reading in this language came, communicating in it.
+You should focus on using the language, not theorizing. That's the only way to learn it most effectively. I'll give an example. Children usually start learning English from kindergarten in school. It was no different for me - in the so-called prep year, the first slow lessons began. Anyway... 7 years later, my English still left a lot to be desired.
 
-Suddenly, in two months, I made greater progress than in the previous 7 years, amazingly surprising myself. Grammar should result from practice. After some time, it comes naturally, and that we don't know the theory behind it...
+Fortunately, my approach to learning this language changed from obligation to more practical. Textbooks were forgotten, writing and reading in the language came along, communicating in it.
 
-Well. And do we know it in Polish? At least I don't. Only those complete basics that a child learns in elementary school. As for the rest... Hah. Maybe I'm a brainlet with 30 IQ, and everyone else knows, but I doubt it.
+Suddenly in two months I made more progress than in the previous 7 years, surprising myself immensely. Grammar should come from practice. After some time it comes naturally, and that we don't know the theory behind it...
+
+Well. Do we know it in our native language? At least I don't. Only the absolute basics that are taught to children in elementary school. As for the rest... Hah. Maybe I'm just dense, but I doubt everyone else knows it either.
 
 ## Implementing This in Practice
 
-In my opinion, several methods can be distinguished that should be applied.
+In my opinion, several methods should be used.
 
 ### Translation
 
-Let's start with the thing I like most and have the best opinion about. It's translation. What translation? Normal - you take a text in English and chop it into Polish.
+Let's start with something I like the most and have the best opinion of. It's translation. What kind of translation? Normal - you take a text in English and translate it to your native language.
 
-Don't worry if you don't know the words. I didn't know them at all at the beginning. About 80% of words I had to check in a dictionary. But don't jump to it right away - try to infer something from the context first.
+Don't worry if you don't know the words. I didn't know any at the beginning. I had to check about 80% of the words in a dictionary. But don't jump to it right away - try to infer something from context first.
 
-You can translate anything. I particularly recommend comics/manga/movie subtitles/some pictures. Why?
+You can translate anything. I personally recommend especially comics/manga/movie subtitles/images. Why?
 
-Because you see what's happening on the scene and can infer more things from the context. Thanks to this, you'll learn faster. Besides, you can also check your translation with translations by other people - for example, take some cartoon in English, translate a fragment and compare it with the Polish version, translated by a professional.
+Because you see what's happening in the scene and can infer more things from context. This way you'll learn faster. Besides, you can also check your translation against translations by other people - for example, take a cartoon in English, translate a fragment and compare it with the version translated by a professional.
 
-This way, you'll learn very quickly. Moreover - you'll start picking up certain phrases characteristic of this language and learn that we don't translate everything literally, that we speak somewhat differently in English because certain words have a different weight, structure, and meaning there than in our language, and literal translation is pointless. I recommend it. Additionally, you'll also learn to 'think' in English, which is essential at a certain, somewhat higher level.
+This way you'll learn very quickly. Moreover, you'll start picking up certain phrases characteristic of the language and learn that we don't translate everything literally, that things are said a bit differently in English, because certain words have different weight, structure, and meaning there, and literal translation makes no sense. I recommend it. Additionally, you'll also learn to 'think' in English, which is essential at a certain, somewhat higher level.
 
-I, for example, quite often have it that I want to express a certain thought, but I lack Polish equivalents for thoughts that I can express without problems in English because such a phrase exists there.
+For example, I quite often have a thought I want to express, but I lack equivalents in my native language for a thought I can easily express in English, because there's just such an expression there.
 
 ### Learning Words/Phrases
 
-I'll write a bit about this too. It's nice to have a rich vocabulary in a given language, but we don't need too many words at the beginning. Do you know how many exactly are enough?
+I'll write a bit here too. It's nice to have a rich vocabulary in a given language, but we don't need too many words at the beginning. Do you know how many exactly is enough?
 
-Just 25. Yes, 25 words. That's enough for the very beginning. Because according to research, these 25 words account for 33% of the content spoken by an average English speaker. So knowing 25 words, you can understand one-third of what a foreigner is saying to you.
+Just 25. Yes, 25 words. That's enough for the very beginning. Because according to research, these 25 words account for 33% of the content spoken by the average English speaker. So knowing 25 words, you can understand one-third of what a foreigner says to you.
 
-Add to this understanding certain things from context or similarity in word sounds, and it turns out you can almost communicate. Your hands would probably hurt a bit from the conversation, but I think it would be possible. But 33% isn't such a satisfying result. Let's move on then - to understand 89%, 1000 words are enough. Significantly more, but still little.
+Add to that understanding certain things from context or the similarity of word sounds, and it turns out you almost understand each other. Your hands would probably hurt a bit from gesturing, but I think you could manage. But 33% is not a satisfying result. Let's move on then - to understand 89%, you need 1000 words. Much more, but still little.
 
-Knowing 3000 words, we understand 95%. So basically, as if we understood in Polish. Because that 5% is, I suspect, made up of specialized words used in various strange professions. After all, it's the same in Polish - not everyone needs to know what a square, anchor, or trowel is. That is, most people who have worked on a construction site at some point, like this humble author of this book, will associate, but the rest? Not necessarily.
+Knowing 3 thousand words, we'll understand 95%. Basically the same as understanding our native language. Because those 5% are probably specialized words used in various strange professions. Just like you don't need to know all the jargon in your native language either.
 
-Similarly, in English, there are certain specialized words that are rarely useful and can be learned if needed.
+Similarly in English, there are certain specialized words that are rarely needed and can be learned when necessary.
 
-So our goal here is to reach 1000 words. That's enough in my opinion for the beginning. We aim for at least 30 words a day. After a month, we're practically home. And how to learn them? Because just sitting and reading is pointless. I offer two great tools:
+So our goal here is to reach 1000 words. That's enough to start with in my opinion. We aim for at least 30 words a day. After a month, we're practically home. And how to learn them? Because just sitting and reading makes no sense. I offer two great tools:
 
 Memrise
 Duolingo
 
-Both these platforms are available for free, offering apps for Android or iOS.
+Both platforms are available for free, offering Android and iOS apps.
 
-I think there might even be a version for, horror of horrors, Windows Phone somewhere.
+These two great platforms will easily help you learn English and other languages. Which one to choose, how do they differ?
 
-These two great platforms will help you learn English and other languages without any problems. Which one to choose, how do they differ?
+Both help with learning, but Memrise is more varied and dependent on content created by users. You can learn not only vocabulary but also things like geography, history, literature, and many, many others. It works great for learning vocabulary.
 
-Both help in learning, but Memrise is more diverse and dependent on content created by users. You can learn not only vocabulary there but also things like geography, history, literature, and many, many others. It works great for learning vocabulary.
+What about Duolingo? Here we have a slightly more systematic approach. Courses are prepared by a professional team (Memrise has those too, but not as many) and they cover both vocabulary and grammar basics.
 
-What about Duolingo? Here we have a somewhat more systematic approach. Courses are prepared by a professional team (Memrise has these too, but not as many) and cover both vocabulary and grammar basics.
+Nevertheless, both services are similar, teaching words, pronunciation, grammar. I leave the choice to you, although I admit I use both.
 
-Nevertheless, both services are similar, teaching words, pronunciation, grammar. The choice is yours, although I admit that I use both.
-
-Or rather used, because now I'm a lazy old man who doesn't want to learn new languages, arguing to myself that in a few years we'll have AI for translation.
+Or rather, I used to, because now I'm a lazy person who doesn't feel like learning new languages, arguing that in a few years we'll have AI for translation.
 
 ### Listening
 
-This probably goes without saying. I recommend movies and cartoons with subtitles, but English ones. Forget about Polish ones. If you don't understand something, pause, turn on subtitles and translate slowly. Definitely. Although actually, I don't know if I should recommend learning listening - once you start understanding a bit, it turns out that 90% of your favorite English-language songs lose their meaning. That sucks.
+This is probably self-explanatory. I recommend movies and cartoons with subtitles, but English ones. Forget about subtitles in your native language. If you don't understand something, pause, turn on subtitles and translate slowly. A must. Although I don't know if I should recommend learning listening - once you start understanding a bit, you'll find that 90% of your favorite English songs lose their sense. That sucks.
 
 ### Speaking
 
-Talk to yourself, talk to family, friends, trees, dogs, microphones. There are special groups where you can arrange to talk with someone who's also learning or who will teach you in exchange for teaching Polish.
+Talk to yourself, talk to family, friends, trees, dogs, microphones. There are special groups where you can arrange to talk with someone who's also learning, or who will teach you in exchange for teaching your language.
 
-You can write to me and arrange a chat on Skype or TS, I'll be happy to help. You'll find contact on the blog - email, GitLab, GitHub, or on the 4programmers forum. Heck, we can even create a small group helping with language learning. I'm up for it, what do you say? And remember one thing - don't be afraid.
+You can write to me and arrange a Skype or voice chat, I'll be happy to help. You can find contact on my blog - email, GitLab, GitHub, or on programming forums. We can even create a small group to help with learning languages. I'm in, what about you? And remember one thing - don't be afraid.
 
-No one cares about your accent and pronunciation. Being in London or abroad in general, I've heard so many different versions of English that it's mind-boggling. Often even those for whom English is a national language can't understand each other due to accents and slang.
+No one cares about your accent and pronunciation. Being in London or abroad in general, I've heard so many different versions of the English language that it's mind-boggling. Often even those for whom English is their native language can't understand each other due to accents and slang.
 
-It's like talking with a Silesian. Only three times worse and besides the Silesian, you have 15 other groups. So relax. They'll understand you, no one will judge you, but rather encourage and appreciate the effort you put into trying to learn the language. Seriously.
+So relax. They'll understand you, no one will judge you, but rather encourage and appreciate the effort you put into trying to learn the language. Seriously.
 
 ### Reading
 
-Consume content in English and that's it. Don't worry about the level of understanding at the beginning, relax. It will grow. You'll find a list of interesting blogs on programming topics at the end of this book, check the table of contents.
+Consume content in English and that's it. Don't worry about the degree of understanding at the beginning, relax. It will grow. You can find a list of interesting programming blogs at the end of this book, check the table of contents.
 
 ### DeepL
 
-A good exercise is writing sentences in Polish, let's say 10, then translating these entire sentences using DeepL. Simple sentences are enough. DeepL is something like Google Translate. Then we reverse the process. We write 10 other sentences ourselves and check correctness in DeepL.
+A nice exercise is writing sentences in your native language, let's say 10, then translating all those sentences using DeepL. Simple sentences are enough. DeepL is something like Google Translate. Then we reverse the process. We write 10 other sentences ourselves and check correctness in DeepL.
 
-## To Sum Up
+## Summing Up
 
-Following these tips and dedicating about 2 hours a day, after a month you'll understand about 70-80% of everyday conversations in a foreign language quite fluently!
+By following this advice and spending about 2 hours a day, after a month you'll quite fluently understand about 70-80% of everyday conversations in a foreign language!
 
-Of course, we're talking about simple conversations conducted with a normal accent, but still. The specialized vocabulary you'll need while learning programming, you'll pick up along the way.
+Of course, this is about simple conversations, conducted with a normal accent, but still. Specialized vocabulary that you'll need when learning programming, you'll pick up along the way.
 
-Remember especially these two links to Memrise and Duolingo and that you should translate, read, listen, and speak as much as possible.
+So remember especially these two links to Memrise and Duolingo, and that you should translate, read, listen, and speak as much as possible.
 
-Besides, I strongly encourage you to check out Radek Kotarski's book "Hack Your Brain" - it's a collection of interesting techniques and tips on how to learn to really learn, to remember quickly and effectively.
+Additionally, I warmly encourage you to check out books on learning techniques - there are great resources on how to learn effectively, how to memorize quickly and efficiently.
 
-No, Kotarski didn't slip me any cash for advertising. A shame, I'm always happy to hug some shekels.
+In any case. Let's finally move on to describing the language we'll mainly be dealing with here.
 
-In any case. Let's finally move on to describing the language we'll mainly deal with here.
-
-\pagebreak 
+\pagebreak

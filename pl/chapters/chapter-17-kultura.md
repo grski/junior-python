@@ -123,7 +123,7 @@ Otóż najwięcej czasu powinno zająć analizowanie problemu i myślenie, plano
 
 Sytuacja jak na memie wyżej bywa przykra. Pamiętaj, że w przyszłości to ty pewnie będziesz utrzymywał swój własny kod, przynajmniej przez chwilę. Zrób sobie z przyszłości zatem przysługę i przemyśl dwa razy kod, który piszesz, przyłóż się. Nie warto być niechlujem i leniem czasami. Znaczy paradoksalnie to właśnie lenie najwięcej pomyślą, bo łatwiej jest myśleć aniżeli stukać kod. Zatem podążajmy drogą prawdziwego, a nie pozornego, lenia i dbajmy o design. Dobrze zaprojektowana aplikacja potrafi być wdzięczna przy pracy zarówno dla programisty jak i dla użyszkodnika końcowego.
 
-Czasem starczy poświęcić godzinę myślenia, by zaoszczędzić sobię 4-8h klepania kodu.
+Czasem starczy poświęcić godzinę myślenia, by zaoszczędzić sobie 4-8h klepania kodu.
 
 Przy okazji nie bój się tego, że ktoś rozliczy cię z koncepcyjnej pracy na zasadzie liczenia linijek kodu jakie wyprodukowałeś/wyprodukowałaś. To nie o to chodzi w pracy kreatywnej. Żaden sensowny pracodawca nie będzie rozliczał cię z tego, że napisałeś 20 linijek zamiast 40. Liczba linii wyplutego kodu nie jest żadną miarą.  Oczywiście nie mówię o skrajnościach, kiedy jesteś juniorem i przez cały miesiąc dodałeś jeden commit zmieniając jedną linijkę, co prawdopodobnie oznacza, iż robisz kogoś w jajo.    
 

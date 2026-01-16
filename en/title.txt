@@ -1,6 +1,6 @@
 ---
-title: "Programming with Gorski: Junior Python Developer"
-subtitle: "What you should know as a newbie junior dev."
+title: "Programming with Górski: Junior Python Developer"
+subtitle: "What you should know as a fledgling junior."
 author: Olaf Górski © 2023
 year: 2023
 rights:  All rights reserved
@@ -17,6 +17,9 @@ indent: true
 geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 include-before:
 - \newpage{}
-- "Help with editing: Weronika Sosnowska"
+- "A Tech Lead takes on teaching others Python, fundamental career skills, and shares a bit about himself."
+- "Proofreading assistance: Weronika Sosnowska"
+- "ISBN: 978-83-967638-0-8 (electronic version)"
+- "Olaf Górski/OnionMindset, 2023"
 - \newpage{}
 ---

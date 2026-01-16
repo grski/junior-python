@@ -17,11 +17,11 @@ Co to konkretnie znaczy omówię na swoim przykładzie.
 Przeanalizujmy to, jak wygląda moja  sytuacja i jakiego sprzętu używam.
 
 1. Monitor zewnętrzny + laptop. 
-   Prosta sprawa. Dodatkowy monitor zewnętrzny pozwala mi ułatwić prace poprzez większą powierzchnię do wyświetlania rzeczy. Fajnie, żeby były to przynajmniej 27", wysokiej rozdzielczości. Dla jednych FullHD wystarcza, dla innych 2K to mało. Ja osobiście skłaniam się ku 2k/4k. 4k może kapkę za dużo, stąd kompromisem wydaje mi się 2k. Porządny monitor nie będzie męczył oczu. U mnie sprawdza się 27" poleasingówka od della, którą nabyłem za 800 zł. Rozdzielczość 2k. Ten dodatkowy monitor naprawdę poprawił i usprawnił moją pracę.
+   Prosta sprawa. Dodatkowy monitor zewnętrzny pozwala mi ułatwić pracę poprzez większą powierzchnię do wyświetlania rzeczy. Fajnie, żeby były to przynajmniej 27", wysokiej rozdzielczości. Dla jednych FullHD wystarcza, dla innych 2K to mało. Ja osobiście skłaniam się ku 2k/4k. 4k może kapkę za dużo, stąd kompromisem wydaje mi się 2k. Porządny monitor nie będzie męczył oczu. U mnie sprawdza się 27" poleasingówka od della, którą nabyłem za 800 zł. Rozdzielczość 2k. Ten dodatkowy monitor naprawdę poprawił i usprawnił moją pracę.
 2. Mikrofon
    Pracując zdalnie fajnie jest mieć dobry mikrofon. Za 200-300 zł można mieć naprawdę porządny sprzęt a mamy gwarancję, że będzie nas dobrze słychać, redukcja szumów etc. Polecam Thronmaxxy. Cena do jakości jest niesamowita. Zawsze miło, kiedy nie ma się problemów ze zrozumieniem współpracownika. Diabeł tkwi w szczegółach.
 3. Kamerka
-   Zazwyczaj starczy ta wbudowana czy też dla bardziej wymagających zewnętrzna kamerka lub dla najbardziej wymagających geeków wewnętrzny aparat cyfrowy podłączony do laptopa. Fajnie jest mieć od czasu do czasu kontakt wzrokowy z współpracownikami. Nie ma co tego jednak nadużywać, nie zawsze kamerka jest potrzebna.
+   Zazwyczaj starczy ta wbudowana czy też dla bardziej wymagających zewnętrzna kamerka lub dla najbardziej wymagających geeków wewnętrzny aparat cyfrowy podłączony do laptopa. Fajnie jest mieć od czasu do czasu kontakt wzrokowy ze współpracownikami. Nie ma co tego jednak nadużywać, nie zawsze kamerka jest potrzebna.
 4. Biurko stojące.
    Jestem strasznie hiperaktywny. Biurko stojące pomaga mi tym zarządzać. Dodatkowo fakt, że od czasu do czasu wstaję, dobrze wpływa na moje zdrowie, plecy i ogólną kondycję fizyczną. Siedzenie jest średnio zdrowe. Przykurcze, problemy z kręgosłupem. Można się załatwić. 
 5. Porządny fotel

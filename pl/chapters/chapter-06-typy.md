@@ -48,9 +48,9 @@ Otóż przedstawię wam, jak to wygląda, znowu, w C. Sposobów i pomysłów jak
 
 Dobrze, mając 8 bitów, mamy do dyspozycji 8 zer i/lub jedynek. Czyli możemy maksymalnie przedstawić 256 wartości, prawda? Czyli na przykład liczby od 0, do 255. A no nie do końca! 
 
-W domyślnym przypadku będziemy mieć do dyspozycji 256 wartości, prawda, ale z innego zakresu: od **-128** do **127**. Można to określić wzorem: $(+/-)2^7-1$
+W domyślnym przypadku będziemy mieć do dyspozycji 256 wartości, prawda, ale z innego zakresu: od **-128** do **127**. Można to określić wzorem: od $-2^{n-1}$ do $2^{n-1}-1$, gdzie n to liczba bitów, czyli dla 8 bitów: od $-2^7$ do $2^7-1$
 
-Skąd ta zmiana? A no stąd, że zabieramy sobie jeden bajt by oznaczyć czy dana liczba jest dodatnia, czy ujemna, tak w dużym skrócie. W C, jeśli wiemy, że nie interesują nas wartości ujemne, możemy powiedzieć kompilatorowi, żeby przesunął zakres ujemny na dodatki. Zmienne ze znakiem vs zmienne bez. Signed variables vs unsigned variables. 
+Skąd ta zmiana? A no stąd, że zabieramy sobie jeden bit by oznaczyć czy dana liczba jest dodatnia, czy ujemna, tak w dużym skrócie. W C, jeśli wiemy, że nie interesują nas wartości ujemne, możemy powiedzieć kompilatorowi, żeby przesunął zakres ujemny na dodatki. Zmienne ze znakiem vs zmienne bez. Signed variables vs unsigned variables. 
 
 Swoją drogą jak już jesteśmy przy tym to dorzucę jeszcze jedną ciekawostkę. Wiesz, że nawet sposób zapisu kolejności bitów w pamięci jest umowny? Co to znaczy? Otóż niektórzy ludzie nie byli w stanie dogadać się co jest lepsze, zapisywanie bita o najwyższej wartości pierwszego czy ostatniego. Stąd też mamy dwa standardy: big endian (grubokońcowość) i little endian (cienkokońcowość). Co to znaczy i jak wygląda w praktyce? Prosta rzecz.
 
@@ -66,7 +66,7 @@ A Little Endian?
 | ---- | ---- | ---- | ---- |
 | 1D   | 2C   | 3B   | 4A   |
 
-Czyli odwrotnie. Chodzi generalnie o to, który zapisać gdzie. Robi nam to różnicę przy przeliczaniu/odczytywaniu tych wartości. Która lepsza? Łatwiejsze do ogarnięcia będzie pewnie Big Endian, gdyż jest analogiczna do zapisu jakiego używamy na codzień w systemie dziesiętnym.
+Czyli odwrotnie. Chodzi generalnie o to, który zapisać gdzie. Robi nam to różnicę przy przeliczaniu/odczytywaniu tych wartości. Która lepsza? Łatwiejsze do ogarnięcia będzie pewnie Big Endian, gdyż jest analogiczna do zapisu jakiego używamy na co dzień w systemie dziesiętnym.
 
 Różne procesory mają różne konwencje, całe szczęście ty nie musisz się tym martwić w swoim kodzie - interpreter Pythona zrobi to za ciebie.
 
@@ -139,7 +139,7 @@ Stąd ta niedokładność - wynika ona jedynie z tego jak reprezentowane są lic
 
 Do takich przypadków mamy specjalne biblioteki czy też może specjalne podejście, które inaczej zajmuje się tematem, niemniej jednak warto o tym wiedzieć. Dlatego też, jeśli piszemy jakiś program, który cokolwiek ma wspólnego z pieniędzmi, warto zastanowić się dwa razy zanim użyjemy floata czy doubla. Może lepiej złotówki trzymać w oddzielnym incie, a grosze w oddzielnym? Who knows.
 
-Rozwiązanie wielu problemów związanych z liczbami zmiennoprzecinkowymi znajdziemy w modułach `Decimal` i `Fraction`. 
+Rozwiązanie wielu problemów związanych z liczbami zmiennoprzecinkowymi znajdziemy w modułach `decimal` i `fractions`. 
 
 Do poczytania: 
 
@@ -237,7 +237,7 @@ Przy okazji - mała notka. Do szybkiego przeliczania mogą zainteresować cię f
 >>> hex(49)
 '0x31'
 >>> oct(49)
-'061'
+'0o61'
 >>> chr(49)
 '1'
 ```
@@ -248,42 +248,42 @@ Do tego pokażę ci mały trik:
 
 ```python
 >>> dir(float)  # alternatywnie: dir(1.0)
-['__abs__', '__add__', '__class__', '__coerce__', 
- '__delattr__', '__div__', '__divmod__', '__doc__',
- '__eq__', '__float__', '__floordiv__', '__format__', 
- '__ge__', '__getattribute__', '__getformat__', '__getnewargs__',
- '__gt__', '__hash__', '__init__', '__int__', '__le__', 
- '__long__', '__lt__', '__mod__', '__mul__', '__ne__', 
- '__neg__', '__new__', '__nonzero__', '__pos__', '__pow__',
- '__radd__', '__rdiv__', '__rdivmod__', '__reduce__',
+['__abs__', '__add__', '__bool__', '__ceil__', '__class__',
+ '__delattr__', '__divmod__', '__doc__', '__eq__', '__float__',
+ '__floor__', '__floordiv__', '__format__', '__ge__',
+ '__getattribute__', '__getnewargs__', '__getstate__', '__gt__',
+ '__hash__', '__init__', '__init_subclass__', '__int__', '__le__',
+ '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__',
+ '__pos__', '__pow__', '__radd__', '__rdivmod__', '__reduce__',
  '__reduce_ex__', '__repr__', '__rfloordiv__', '__rmod__', '__rmul__',
- '__rpow__', '__rsub__', '__rtruediv__', '__setattr__',
- '__setformat__', '__sizeof__', '__str__', '__sub__', 
- '__subclasshook__', '__truediv__', '__trunc__', 
- 'as_integer_ratio', 'conjugate', 'fromhex', 'hex', 
+ '__round__', '__rpow__', '__rsub__', '__rtruediv__', '__setattr__',
+ '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__',
+ '__trunc__', 'as_integer_ratio', 'conjugate', 'fromhex', 'hex',
  'imag', 'is_integer', 'real']
 >>> dir(str)  # alternatywnie: dir("text")
-['__add__', '__class__', '__contains__', '__delattr__', 
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__',
  '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__',
- '__getitem__', '__getnewargs__', '__getslice__', '__gt__',
- '__hash__', '__init__', '__le__', '__len__', '__lt__', 
- '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', 
- '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', 
- '__sizeof__', '__str__', '__subclasshook__', '_formatter_field_name_split', 
- '_formatter_parser', 'capitalize', 'center', 'count', 'decode',
- 'encode', 'endswith', 'expandtabs', 'find', 'format', 'index',
- 'isalnum', 'isalpha', 'isdigit', 'islower', 'isspace', 'istitle',
- 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'partition', 
- 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit',
- 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 
- 'swapcase', 'title', 'translate', 'upper', 'zfill']
+ '__getitem__', '__getnewargs__', '__getstate__', '__gt__',
+ '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__',
+ '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__',
+ '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__',
+ '__setattr__', '__sizeof__', '__str__', '__subclasshook__',
+ 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith',
+ 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum',
+ 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier',
+ 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle',
+ 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans',
+ 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind',
+ 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split',
+ 'splitlines', 'startswith', 'strip', 'swapcase', 'title',
+ 'translate', 'upper', 'zfill']
 ```
 
 Otóż funkcję `dir`. Funkcja dir to funkcja, która zwraca wszystkie dostępne metody/atrybuty danego obiektu. 
 
 Póki co nie zajmuj się tymi, które zaczynają się od `__` czy `_` a skup na tych, które zaczynają się od normalnych liter. Czym jednak one są? Metody zaczynające się od `__` to tak zwane Python Magic Methods/Dunder Methods/Metody Magiczne. To coś o czym porozmawiamy później, ale to takie specjalne rodzaje metod/funkcji danego obiektu, które mają spełniać określone role. Te, które zaczynają się od pojedynczego podkreślenia `_`, są metodami prywatnymi.
 
-W Pythonie nie ma enkapsulacji, co znaczy, że generalnie jak dodamy jakis atrybut/metodę do klasy/obiektu, to nie możemy jakoś bardzo skutecznie zabronić innym wołać, nawet jeśli chcemy by użytkownik nie miał możliwości tego zrobić, gdyż np. dana metoda jest tylko pomocnicza, **prywatna**. Konwencja zatem mówi, byśmy dawali podkreślenie przed prywatnymi zmiennymi, metodami a my jako programiści nie powinniśmy używać takowych o ile nie jest to wewnątrz definicji. Porozmawiamy o tym jeszcze później. W międzyczasie możesz sobie pogooglować o tej całej enkapsulacji.
+W Pythonie nie ma enkapsulacji, co znaczy, że generalnie jak dodamy jakiś atrybut/metodę do klasy/obiektu, to nie możemy jakoś bardzo skutecznie zabronić innym wołać, nawet jeśli chcemy by użytkownik nie miał możliwości tego zrobić, gdyż np. dana metoda jest tylko pomocnicza, **prywatna**. Konwencja zatem mówi, byśmy dawali podkreślenie przed prywatnymi zmiennymi, metodami a my jako programiści nie powinniśmy używać takowych o ile nie jest to wewnątrz definicji. Porozmawiamy o tym jeszcze później. W międzyczasie możesz sobie pogooglować o tej całej enkapsulacji.
 
 Podsumowując: za pomocą `dir` możesz sprawdzić, co na danym obiekcie można robić, jakie ma metody/funkcje etc. Przydatne.
 
@@ -403,7 +403,7 @@ Istnieje możliwość przeprowadzania operacji na stringach, które umożliwiaj�
 ```python
 age = 23
 name_and_age = f"Olaf {age}"
-name_and_age = "Olaf {age}".format(age)
+name_and_age = "Olaf {}".format(age)
 name_and_age = "Olaf " + str(age)
 ```
 
@@ -482,7 +482,7 @@ f"{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m}"
     a, b, c, d, e, f, g, h, i, j, k, l, m
 )
 # join
-" ".join((a, b, c, d, e, f, g, h, i j, k, l, m))
+" ".join((a, b, c, d, e, f, g, h, i, j, k, l, m))
 ```
 
 Kod wyżej uruchomiłem analogicznie do poprzedniego razu.
@@ -528,20 +528,22 @@ Używajcie zatem f-stringów gdziekolwiek tylko możecie i cieszcie się z życi
 
 ```python
 >>> dir(str)
-['__add__', '__class__', '__contains__', '__delattr__', 
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__',
  '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__',
- '__getitem__', '__getnewargs__', '__getslice__', '__gt__',
- '__hash__', '__init__', '__le__', '__len__', '__lt__', 
- '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', 
- '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', 
- '__sizeof__', '__str__', '__subclasshook__', '_formatter_field_name_split', 
- '_formatter_parser', 'capitalize', 'center', 'count', 'decode',
- 'encode', 'endswith', 'expandtabs', 'find', 'format', 'index',
- 'isalnum', 'isalpha', 'isdigit', 'islower', 'isspace', 'istitle',
- 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'partition', 
- 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit',
- 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 
- 'swapcase', 'title', 'translate', 'upper', 'zfill']
+ '__getitem__', '__getnewargs__', '__getstate__', '__gt__',
+ '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__',
+ '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__',
+ '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__',
+ '__setattr__', '__sizeof__', '__str__', '__subclasshook__',
+ 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith',
+ 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum',
+ 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier',
+ 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle',
+ 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans',
+ 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind',
+ 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split',
+ 'splitlines', 'startswith', 'strip', 'swapcase', 'title',
+ 'translate', 'upper', 'zfill']
 >>> text = "some text"
 >>> text.capitalize()
 'Some text'
@@ -589,7 +591,7 @@ Tutaj sprawa wygląda prosto - typ logiczny to tak zwany bool - albo prawda, alb
 
 ### Wartości prawdziwe vs wartości fałszywe 
 
-Zazwyczaj używany przy warunkach, ustawianiu jakiś flag i tak dalej. Warto zaznaczyć, że w Pythonie typ logiczny jest nieco rozszerzony. To znaczy, że cokolwiek co można zewaluować do pewnych rzeczy, będzie traktowane jak typ logiczny. Mówiąc prościej, Fałsz jest zerem lub czymś pustym. Prawda jest zaś dowolną liczbą inną niż zero lub czymś niepustym. Pusty string to Fałsz, jakiś tekst to Prawda. Pusta lista to Fałsz. Niepusta przeciwnie.
+Zazwyczaj używany przy warunkach, ustawianiu jakichś flag i tak dalej. Warto zaznaczyć, że w Pythonie typ logiczny jest nieco rozszerzony. To znaczy, że cokolwiek co można zewaluować do pewnych rzeczy, będzie traktowane jak typ logiczny. Mówiąc prościej, Fałsz jest zerem lub czymś pustym. Prawda jest zaś dowolną liczbą inną niż zero lub czymś niepustym. Pusty string to Fałsz, jakiś tekst to Prawda. Pusta lista to Fałsz. Niepusta przeciwnie.
 
 ```python
 >>> bool(1)
@@ -630,7 +632,7 @@ Zatem 10 elementowa tablica charów zaalokuje nam w C pamięć o rozmiarze `10 *
 
 Załóżmy, że nasza tablica znajduje się pod adresem `0x1` i w jej środku znajdują się 4 elementy, każdy z nich o wielkości jednego bajta:
 
-| Bit (hex)   | 0x01 | 0x10 | 0x18 | 0x20 |
+| Bit (hex)   | 0x01 | 0x02 | 0x03 | 0x04 |
 | ----------- | ---- | ---- | ---- | ---- |
 | **Wartość** | A    | B    | C    | D    |
 
@@ -640,11 +642,11 @@ Mamy już zobrazowane nieco jak to wygląda w przypadku np. C i tablicy/listy o 
 
 ### Referencje i wartości
 
-W Pythonie jest nieco inaczej, ale podobnie. Otóż można  by się zapytać: to skąd Pythonie wie kiedy przestać czytać dany adres, skoro tam pod spodem to też najcześciej jest C, w przypadku CPythona przynajmniej? Otóż lista w pythonie tak naprawdę nie jest listą wartości z danymi typami a listą referencji niejako. Cóż to takie? Otóż Python tak naprawdę, kiedy tworzymy listę, to przechowuje on sobie zbiór referencji do danych wartości, a nie same wartości. Zatem wracając do naszej wcześniejszej analogii i porównania z C, gdzie musieliśmy zadeklarować typ wartości w tablicy, nagle wszystko ma sens. Okazuje się, że w Pythonie, tam pod spodem, też mamy w pewnym sensie jeden rodzaj wartości - referencje. Referencje to, w uproszczeniu, odniesienia do jakiś obiektów. Obiekt może być np. inną listą czy instancją jakiejś klasy.
+W Pythonie jest nieco inaczej, ale podobnie. Otóż można by się zapytać: to skąd Pythonie wie kiedy przestać czytać dany adres, skoro tam pod spodem to też najczęściej jest C, w przypadku CPythona przynajmniej? Otóż lista w pythonie tak naprawdę nie jest listą wartości z danymi typami a listą referencji niejako. Cóż to takie? Otóż Python tak naprawdę, kiedy tworzymy listę, to przechowuje on sobie zbiór referencji do danych wartości, a nie same wartości. Zatem wracając do naszej wcześniejszej analogii i porównania z C, gdzie musieliśmy zadeklarować typ wartości w tablicy, nagle wszystko ma sens. Okazuje się, że w Pythonie, tam pod spodem, też mamy w pewnym sensie jeden rodzaj wartości - referencje. Referencje to, w uproszczeniu, odniesienia do jakichś obiektów. Obiekt może być np. inną listą czy instancją jakiejś klasy.
 
 Czyli w Pythonie, w pamięci nasza tablica będzie wyglądała +/- w taki sposób:
 
-| Bit (hex)   | 0x01        | 0x10        | 0x18        | 0x20        |
+| Bit (hex)   | 0x01        | 0x09        | 0x11        | 0x19        |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | **Wartość** | Referencja1 | Referencja3 | Referencja2 | Referencja4 |
 
@@ -706,7 +708,7 @@ Czyli tak zwany slicing. O cóż chodzi? A no mając sobie jakąś listę może 
 >>> numbers = [1,2,3,4, 5, 6, 7, 8]
 >>> numbers[3:6]
 [4, 5, 6]
-# od pierwszego do piątek
+# od pierwszego do piątego
 >>> numbers[:4]
 [1, 2, 3, 4]
 # od czwartego do końca
@@ -765,7 +767,7 @@ False
 # listy są mutowalne i przekazujemy je przez referencje
 >>> pass_by_reference[0]  
 [1, 2, 3]
-# modyfikujemy tutaj drugi element tej wewnętrznej listy z orginału
+# modyfikujemy tutaj drugi element tej wewnętrznej listy z oryginału
 >>> pass_by_reference[0][1] = "test"
 >>> pass_by_reference[0]
 [1, 'test', 3]
@@ -913,13 +915,13 @@ Jako anegdotkę przytoczę historię, gdy zastosowanie tupli zmniejszyło nam zu
 
 ```python
 dir(tuple)
-['__add__', '__class__', '__contains__', '__delattr__',
- '__doc__', '__eq__', '__format__', '__ge__', 
- '__getattribute__', '__getitem__', '__getnewargs__', 
- '__getslice__', '__gt__', '__hash__', '__init__', '__iter__', 
- '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__',
- '__reduce__', '__reduce_ex__', '__repr__', '__rmul__', '__setattr__',
- '__sizeof__', '__str__', '__subclasshook__', 
+['__add__', '__class__', '__class_getitem__', '__contains__',
+ '__delattr__', '__dir__', '__doc__', '__eq__', '__format__',
+ '__ge__', '__getattribute__', '__getitem__', '__getnewargs__',
+ '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__',
+ '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__',
+ '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmul__',
+ '__setattr__', '__sizeof__', '__str__', '__subclasshook__',
  'count', 'index']
 In [9]: some_tuple = ("f", 1, 2)
 In [10]: some_tuple[1]
@@ -959,7 +961,7 @@ W praktyce wygląda to tak:
 
 Przewidywalne. Reszta działa również podobnie jak w liście.
 
-Co jest różnego od działania listy jest to, że o ile w liście zapewniona jest gwarancja tego, że elementy zawsze będą w tej kolejności w jakiej je do listy włożyliśmy. Tak hashmapa z definicji takiego czegoś nie przewiduje. Obecna implementacja CPythona, od wersji bodajże 3.8, mimo wszystko zapewnia coś takiego dodatkowo, czyli ze zwykłego `Dicta` zrobił nam się `OrderedDict`, natomiast lepiej się nie nastawiać na to, gdyż wersje pythona typu 3.6 czy 3.7 są dość całkiem nowe i jest mnóstwo projektów w nich napisanych. Co z tego? A no to, że kod, który będziesz pisał prawdopodobnie może być odpalany na wersji Pythona, która nie bierze pod uwagę i nie gwarantuje zachowania kolejności insercji elementów, zatem lepiej na tym zbytnio nie polegać, bo w większości przypadków ta kolejność będzie zachowana mimo wszystko, ale nie jest ona gwarantowana implementacyjnie, czyli zawsze znajdzie się ten 1%, gdzie jednak coś pójdzie nie tak. Potem weź takiego buga dostań do inwestygacji.
+Co jest różnego od działania listy jest to, że o ile w liście zapewniona jest gwarancja tego, że elementy zawsze będą w tej kolejności w jakiej je do listy włożyliśmy. Tak hashmapa z definicji takiego czegoś nie przewiduje. Obecna implementacja CPythona, od wersji 3.7, mimo wszystko zapewnia coś takiego dodatkowo, czyli ze zwykłego `Dicta` zrobił nam się `OrderedDict`, natomiast lepiej się nie nastawiać na to, gdyż wersja pythona typu 3.6 jest dość stara, ale wciąż jest mnóstwo projektów w niej napisanych. Co z tego? A no to, że kod, który będziesz pisał prawdopodobnie może być odpalany na wersji Pythona, która nie bierze pod uwagę i nie gwarantuje zachowania kolejności insercji elementów, zatem lepiej na tym zbytnio nie polegać, bo w większości przypadków ta kolejność będzie zachowana mimo wszystko, ale nie jest ona gwarantowana implementacyjnie, czyli zawsze znajdzie się ten 1%, gdzie jednak coś pójdzie nie tak. Potem weź takiego buga dostań do inwestygacji.
 
 Oczywiście jeśli jesteś świadom i wiesz co robisz, plus masz gwarancje tego, na jakich wersjach pythona twój kod będzie banglał, to śmiało. Natomiast pamiętaj, W najnowszej wersji pythona -> spoko, poniżej 3.8 albo 3.7 już niekoniecznie. Sprawdź dokładnie w której wersji wprowadzono `OrderedDict` jako domyślny.
 
@@ -973,11 +975,11 @@ Dlaczego w miarę unikalny?
 
 ### Kolizja hashy
 
-Hash collision to coś co się czasami zdarza. Dlaczego? Otóż funkcja hashująca nie może być kompletnie losowa. Musi być stabilna i powtarzalna. To znaczy, dla zadanego argumentu musi zawsze zwracać to samo, generacja hashu musi odbywać się w sposób przewidywalny. Dlaczego? Otóż gdyby było inaczej, a dla jednego klucza dało by się wygenerować kilka hashy, to powstałby problem w postaci takiej, że nigdy nie moglibyśmy, albo czasem byśmy nie mogli, trafić do dokładnego adresu, gdzie pierwotnie przypisaliśmy wartość. Co to oznacza?
+Hash collision to coś co się czasami zdarza. Dlaczego? Otóż funkcja hashująca nie może być kompletnie losowa. Musi być stabilna i powtarzalna. To znaczy, dla zadanego argumentu musi zawsze zwracać to samo, generacja hashu musi odbywać się w sposób przewidywalny. Dlaczego? Otóż gdyby było inaczej, a dla jednego klucza dałoby się wygenerować kilka hashy, to powstałby problem w postaci takiej, że nigdy nie moglibyśmy, albo czasem byśmy nie mogli, trafić do dokładnego adresu, gdzie pierwotnie przypisaliśmy wartość. Co to oznacza?
 
 Brak kompletnej losowości sprawia to, że algorytmy hashujące są w jakimś tam stopniu ograniczone. Ograniczone są też wydajnością i czasem jaki komputer może poświęcić na hashowanie, które dzieje się dość często jednak, bez kosztów dla użytkownika. Trzeba było zatem znaleźć kompromis pomiędzy skomplikowaniem funkcji hashującej i jej zasobożernością, czasem wykonywania a unikalnością dostarczanych hashy dla różnych kluczy.
 
-Obecnie mądre głowy jakiś złoty środek wymyśliły, natomiast w dzisiejszych czasach zdarza się operować na zbiorach danych tak dużych, że kolizja haszhu się zdarza i funkcja haszhująca wygeneruje taki sam hash dla dwóch różnych kluczy, przez co jeden klucz nadpisze drugi. Bardzo, bardzo rzadki przypadek. Natomiast jeśli masz do przetworzenia milion trylionów rekordów, to nagle bardzo rzadkie przypadki mają jakieś 100% szansy się pojawić. 
+Obecnie mądre głowy jakiś złoty środek wymyśliły, natomiast w dzisiejszych czasach zdarza się operować na zbiorach danych tak dużych, że kolizja hashu się zdarza i funkcja hashująca wygeneruje taki sam hash dla dwóch różnych kluczy, przez co jeden klucz nadpisze drugi. Bardzo, bardzo rzadki przypadek. Natomiast jeśli masz do przetworzenia milion trylionów rekordów, to nagle bardzo rzadkie przypadki mają jakieś 100% szansy się pojawić. 
 
 ### Co może być kluczem?
 
@@ -1004,7 +1006,7 @@ False
 # listy są mutowalne i przekazujemy je przez referencje
 >>> pass_by_reference[0]  
 [1, 2, 3]
-# modyfikujemy tutaj drugi element tej wewnętrznej listy z orginału
+# modyfikujemy tutaj drugi element tej wewnętrznej listy z oryginału
 >>> pass_by_reference[0][1] = "test"
 >>> pass_by_reference[0]
 [1, 'test', 3]
@@ -1078,7 +1080,7 @@ Out[17]:
  'values']
 In [18]: some_dict = {"NAFO": "OK", "SS": "NOT OK"}
 """ dict_values to set-like obiekt, na którym
-mozna  wykonywać takie operacja jak na zbiorach"""
+można wykonywać takie operacje jak na zbiorach"""
 In [19]: some_dict.values()  
 Out[19]: dict_values(['OK', 'NOT OK'])
 # dict_keys podobnie
@@ -1095,7 +1097,7 @@ Out[21]: dict_items([('NAFO', 'OK'), ('SS', 'NOT OK')])
 
 ### Krótka charakterystyka
 
-Czym są zbiory? Analogicznie jak w matematyce. To taka jakby lista, ale bez powtórzeń. Przynajmniej pozornie. Pod spodem jest nieco inaczej, bo pod spodem zbiorom/setom bliżej do hash mapy. W sumie to jest niejako hashmapa. Po co na co i dlaczego? Otóż zadajmy sobie pytanie, jakie są atrybuty zbiorów. Każdy element występuje tylko raz. Niekoniecznie zachowana kolejność insercji. Zaczyna brzmieć znajomo? Yup. Sety to tak jakby hashmapy gdzie wartości są tez i kluczami niejako.
+Czym są zbiory? Analogicznie jak w matematyce. To taka jakby lista, ale bez powtórzeń. Przynajmniej pozornie. Pod spodem jest nieco inaczej, bo pod spodem zbiorom/setom bliżej do hash mapy. W sumie to jest niejako hashmapa. Po co na co i dlaczego? Otóż zadajmy sobie pytanie, jakie są atrybuty zbiorów. Każdy element występuje tylko raz. Niekoniecznie zachowana kolejność insercji. Zaczyna brzmieć znajomo? Yup. Sety to tak jakby hashmapy gdzie wartości są też i kluczami niejako.
 
 Jaka jest zaleta zbioru? Pierwsze to deduplikacja elementów -> każdy występuje dokładnie raz. Możemy wyciągnąć 'statystyki' z danego elementu, ile razy został dodany do seta, ale w samym secie pojawi się on tylko raz. Druga jest wydajnościowa. 
 

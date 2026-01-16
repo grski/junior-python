@@ -27,7 +27,7 @@ Tutaj umieszczamy elementarne informacje o projekcie.
 1. Jaki to komponent systemu? Np. API, Worker, frontend, biblioteka. 
 2. Za jakie funkcjonalności odpowiada? Np. Jest to API systemu generującego faktury. 
 3. Jaki jest kontekst? Trochę dodatkowego kontekstu, tego nigdy za wiele. Np. Faktury te są potem wysyłane do klientów, (...). Używamy tutaj standardowego szablonu z książki wzornictwa firmy.
-4. Kim są stakeholderzy - kto jest odbiorą tego projektu?
+4. Kim są stakeholderzy - kto jest odbiorcą tego projektu?
 5. Jaki problem biznesowy rozwiązuje ten projekt?
 6. Kim są jego użytkownicy końcowi?
 
@@ -163,9 +163,9 @@ Poza tym, że pajpy są tam w chmurze, uważam, że niektóre ich części są r
 Obecnie trendem w Pythonie jest dbanie o pewne rzeczy, które choć nie są kluczowe, z czasem przyczyniają się do jakości, czytelności i łatwości utrzymania projektu. Na wysokim poziomie, w mojej opinii, każdy kawałek kodu Pythona zyskałby coś mając:
 
 1. Spójne formatowanie
-2. Uporządkowany import, które są podzielony na sekcje
+2. Uporządkowane importy, które są podzielone na sekcje
 3. Bezwzględne importy zamiast relatywnych
-4. Używanie nowoczesnych standardów, które są zgodne nowymi konwencjami
+4. Używanie nowoczesnych standardów, które są zgodne z nowymi konwencjami
 5. Brak nieużywanych importów i nieużywanych zmiennych
 6. Skanowanie bezpieczeństwa/podatności
 
@@ -216,7 +216,7 @@ Statyczna analiza naszego kodu pod kątem potencjalnych uchybień bezpieczeństw
 #### Dlaczego czasami potrzebujesz bandyty w swoim życiu
 Kiedy piszemy nasz kod powinniśmy mieć na uwadze bezpieczeństwo. Chyba, że czasem chcesz narazić swoją firmę na potencjalną utratę milionów. Przesadzam z tym przykładem, ale jednak. Bezpieczeństwo jest ważne. W jakiś sposób możemy popełnić błędy proste, z powodu zapomnienia i zaniedbania, którym można było zapobiec w inny sposób. Aby nam o tym przypomnieć i przestrzec istnieją różne narzędzia, które można wykorzystać.
 
-Wśród nich jest bandit. Bandit jest narzędziem do analizy statycznej, które skanuje Twój kod w poszukiwaniu potencjalnie niebezpiecznych fragmentów kodu i ostrzega Cię o nich. Kiedy uruchomisz bandit na soim kodzie, otrzymasz raport oraz listę miejsc w kodzie, w których znajdują się potencjalne problemy.
+Wśród nich jest bandit. Bandit jest narzędziem do analizy statycznej, które skanuje Twój kod w poszukiwaniu potencjalnie niebezpiecznych fragmentów kodu i ostrzega Cię o nich. Kiedy uruchomisz bandit na swoim kodzie, otrzymasz raport oraz listę miejsc w kodzie, w których znajdują się potencjalne problemy.
 
 ### autoflake
 Im mniej masz...

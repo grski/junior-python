@@ -32,7 +32,7 @@ Czy wszyscy powinni olać umowę o pracę, przejść na umowę zlecenie i tak ro
 
 Bo jak to w ogóle z tymi umowami jest, jakie są między nimi różnice i które będzie dobra akurat dla ciebie? Już wyjaśniam.
 
-Na ogół mamy trzy podstawowe formy współpracy na rynku między podmiotem prawnym (firmą) a osobą fizyczną (pracownikiem), są to umowa o prace, umowa zlecenie i umowa o dzieło. 
+Na ogół mamy trzy podstawowe formy współpracy na rynku między podmiotem prawnym (firmą) a osobą fizyczną (pracownikiem), są to umowa o pracę, umowa zlecenie i umowa o dzieło. 
 
 ## Umowa o dzieło
 
@@ -42,7 +42,7 @@ Z tego też rezultatu możesz być rozliczany i o ile jest dobrze, to jest dobrz
 
 Dwa, na umowie o dzieło nie obowiązują cię oskładkowania: Ubezpieczenie emerytalne, chorobowe, rentowe, wypadkowe i co najważniejsze, zdrowotne. 
 
-O ile ja jakoś zbytnio nie liczę na emeryturę z ZUSu, tak ubezpieczenie zdrowotne wole jakieś mieć, bo w razie kłopotów wizyta w szpitalu potrafi być kosztowna. Bardzo.
+O ile ja jakoś zbytnio nie liczę na emeryturę z ZUSu, tak ubezpieczenie zdrowotne wolę jakieś mieć, bo w razie kłopotów wizyta w szpitalu potrafi być kosztowna. Bardzo.
 
 Także przelicz sobie, czy kalkuje ci się ryzykować bez ubezpieczenia lub ewentualnie kupować prywatne, które obejmuje także opiekę szpitalną.
 
@@ -126,11 +126,11 @@ Chyba moja ulubiona zaleta. Wyliczenia dotyczące tego, jak dużo procent naszej
 
 I tu wchodzi B2B, całe na biało, które pozwala nam te podatki trochę zminimalizować. Jak bardzo? Już liczymy.
 
-Rozpatrzę trzy sytuacje: kiedy założymy działalność i korzystamy z ulgi na start, kiedy założymy działalność, ale korzystamy tylko z małego ZUS oraz w dla normalnego ZUS.
+Rozpatrzę trzy sytuacje: kiedy założymy działalność i korzystamy z ulgi na start, kiedy założymy działalność, ale korzystamy tylko z małego ZUS oraz dla normalnego ZUS.
 
 W pierwszym przypadku, przez 6 miesięcy płacimy jedynie składki na ubezpieczenie zdrowotne, czyli około 500 zł miesięcznie.
 
-Do tego dochodowy, zależnie od tego, jaki wybierzemy, ale dla prostoty założymy, że wybraliśmy zasady ogólne i łapiemy się do 1 progu podatkowego, zatem 18%.
+Do tego dochodowy, zależnie od tego, jaki wybierzemy, ale dla prostoty założymy, że wybraliśmy zasady ogólne i łapiemy się do 1 progu podatkowego, zatem 12%.
 
 VAT tutaj pominiemy i będziemy rozmawiać o kwocie netto, bez VAT, ponieważ jeśli firma pracodawcy cokolwiek na siebie zarabia, to VAT przy pensjach jest tak naprawdę tylko czymś, co sobie przerzucamy wzajemnie.
 
@@ -155,7 +155,7 @@ Im większe twoje przychody, tym większa ta różnica będzie.
 
 Żeby nie było – to tutaj zakładam sytuację, kiedy przysługuje Ci ulga na start lub chociaż mały ZUS. W innym przypadku, kiedy musisz od razu płacić duży ZUS, to powiedzmy, że B2B stanie się opłacalne dopiero gdzieś przy 9-10k netto na fakturze. Wcześniej nie masz co o tym myśleć. 
 
-A kiedy ci nie przysługuje mały ZUS lub ulga? W momencie, gdy prowadziłeś działalność w ciągu ostatnich 5 lat lub gdy będziesz świadczył usługi na rzecz swojego pracodawcy. Uwaga! Umowa zlecenie/o działo to, w większości przypadków, nie jest stosunek pracy – liczą się tylko te firmy, dla których pracowałeś lub pracowałaś na umowę o pracę.
+A kiedy ci nie przysługuje mały ZUS lub ulga? W momencie, gdy prowadziłeś działalność w ciągu ostatnich 5 lat lub gdy będziesz świadczył usługi na rzecz swojego pracodawcy. Uwaga! Umowa zlecenie/o dzieło to, w większości przypadków, nie jest stosunek pracy – liczą się tylko te firmy, dla których pracowałeś lub pracowałaś na umowę o pracę.
 
 W każdym razie. Jak widać kwoty, jakie oddajemy państwu, są przerażające. Ja na przykład nie lubię za to, by moje pieniądze szły w głównej mierze na rzecz różnych danin i podatków. Wolę przytulić je do swojej kieszeni. Poza tym jest to sprawa nie tylko korzyści finansowej, ale również, jak dla mnie, idei. Ot co.
 
@@ -259,7 +259,7 @@ Nie demonizujmy tutaj jednak całego procesu z drugiej strony, bo to też głów
 
 ### Podsumowanie
 
-Podsumowując, B2B nie jest formą zatrudnienia dla każdego. Ma swoja wady takie jak to, że odpowiedzialność za różne rzeczy spada na twoją głowę, ale za to i zalety, bo z większą odpowiedzialnością, przychodzi większa władza. W tym aspekcie akurat nad pieniędzmi, jakie wydaje na ciebie pracodawca.
+Podsumowując, B2B nie jest formą zatrudnienia dla każdego. Ma swoje wady takie jak to, że odpowiedzialność za różne rzeczy spada na twoją głowę, ale za to i zalety, bo z większą odpowiedzialnością, przychodzi większa władza. W tym aspekcie akurat nad pieniędzmi, jakie wydaje na ciebie pracodawca.
 
 Czy to dobra forma dla ciebie? Nie wiem. Prawie jednak na pewno powiem jedno, że jeśli masz mniej niż, powiedzmy 6, a najlepiej 12, miesięcy stażu, a kwota, jaką proponuje potencjalny pracodawca, opiewa na mniej niż 6-7k netto, to raczej daj sobie spokój i zaczekaj.
 
@@ -271,7 +271,7 @@ Jeśli masz powyżej 26. lat i dopiero zaczynasz, zarabiasz poniżej 85k rocznie
 
 Jeśli zarabiasz nieco więcej już, czyli powyżej 100k, zakładaj JDG, zwłaszcza jeśli przysługuje ci Ulga na Start/Mały zus. 
 
-Gdy nieco więcej już, np ćwierć bani rocznie, pomyśl nad spółką z o. o. albo coś. Chociaż to raczej nie ten target, tutaj warto zainwestować w doradce podatkowego.
+Gdy nieco więcej już, np ćwierć bani rocznie, pomyśl nad spółką z o. o. albo coś. Chociaż to raczej nie ten target, tutaj warto zainwestować w doradcę podatkowego.
 
 ## Pieniądze
 
@@ -289,7 +289,7 @@ I to jest naturalne. Zatrudniając Juniora, każdy pracodawca musi być świadom
 
 Także nie miej wyrzutów, że tylko się uczysz w pracy i to złe, nic bardziej mylnego. 
 
-To przemyślany ruch każdej firmy, ty jako pracownik, który się doszkala, wzrastasz na wartości i z czasem, kiedy to już osiągniesz pewny poziom, bardzo szybko zwróci się ta inwestycja w ciebie poprzez pracę, jaką wykonasz.
+To przemyślany ruch każdej firmy, ty jako pracownik, który się doszkala, wzrastasz na wartości i z czasem, kiedy to już osiągniesz pewien poziom, bardzo szybko zwróci się ta inwestycja w ciebie poprzez pracę, jaką wykonasz.
 
 Bądźmy szczerzy, twój pracodawca musi na czymś zarabiać i tyle. Zarabia może na własnym produkcie, może na outsourcingu, w każdym razie, jakby nie patrzeć, to pośrednio zarabia na tobie i twoich umiejętnościach. Czy to złe? Nie, normalna rzecz.
 
@@ -333,7 +333,7 @@ Programowanie, to branża, którą można się zachłysnąć, że tak powiem. Re
 
 To sprawia, że można się nieco ‘zafixować’ na tych pieniądzach kapkę i zacząć pracować dużo. Za dużo. A to nie one są najważniejsze przecież. Wiem, wiem. Frazes. Co ty wiesz o życiu dzieciaku?
 
-Tak niemniej jednak jest. A my jako programiście handlujemy właśnie naszym czasem zazwyczaj – sprzedajemy pracodawcy godziny swojego życia w zamian za pieniądze. Dlatego znaj ich wartość. Nie daj się opętać pędowi ku kasie, który sprawi, że będziesz pracować po 14 godzin dziennie, bo więcej zarobisz. 
+Tak niemniej jednak jest. A my jako programiści handlujemy właśnie naszym czasem zazwyczaj – sprzedajemy pracodawcy godziny swojego życia w zamian za pieniądze. Dlatego znaj ich wartość. Nie daj się opętać pędowi ku kasie, który sprawi, że będziesz pracować po 14 godzin dziennie, bo więcej zarobisz. 
 
 Nie warto. Chyba że sprawia ci to przyjemność, nie masz rodziny, a twoje życie społeczne nie istnieje. Wtedy możesz. 
 
@@ -345,13 +345,13 @@ Opowiem wam troszeczkę, jak wyglądały moje kolejne kroki na drodze programist
 
 ### Moje pierwsze zarobki, pierwsza podwyżka
 
-Jak wyglądało to w moim przypadku? Nie wstydzę mówić się o pieniądzach, zatem pozwól, że podam ci kwoty z moich początków programowania.
+Jak wyglądało to w moim przypadku? Nie wstydzę się mówić o pieniądzach, zatem pozwól, że podam ci kwoty z moich początków programowania.
 
 Pracowałem zdalnie, mieszkając w małej miejscowości, dla firmy z większego miasta. To bardzo rzadko spotykana sytuacja, czyli praca zdalna, kiedy nie miałem żadnego etatowego doświadczenia. Nie spotkałem jeszcze drugiej takiej osoby, która by tak zaczynała, ale mi się jakoś udało. W każdym razie. 
 
 Swoją pierwszą pracę podjąłem, zaczynając od stawki 18 zł na godzinę, co w przeliczeniu na 168 godzin roboczych w miesiącu, czyli pełen etat, dawało 3024 zł do ręki. Różnie z tym jednak bywało, bo aż tylu godzin w miesiącu na początku nie robiłem. Listę tego, co umiałem, idąc do pierwszej pracy, opisałem później.  
 
-Pierwszą umowę podpisałem na dwumiesięczny okres próbny. Było to listopadzie 2017. roku. Po jego zakończeniu umowę mi przedłużono z nową stawką, wynoszącą 22 zł na godzinę, netto, czyli w zasadzie 3700 zł na miesiąc. 23% podwyżki po dwóch miesiącach. I to była stawka, którą zaproponował mi szef, spróbowałem wtedy wywalczyć więcej, chciałem rzucić się na 25 zł netto. 
+Pierwszą umowę podpisałem na dwumiesięczny okres próbny. Było to w listopadzie 2017 roku. Po jego zakończeniu umowę mi przedłużono z nową stawką, wynoszącą 22 zł na godzinę, netto, czyli w zasadzie 3700 zł na miesiąc. 23% podwyżki po dwóch miesiącach. I to była stawka, którą zaproponował mi szef, spróbowałem wtedy wywalczyć więcej, chciałem rzucić się na 25 zł netto. 
 
 Niestety nie udało mi się tyle wynegocjować, ale nie spowodowało to tego, że krzywo na mnie ktoś popatrzył, czy mnie zwolnił. Absolutnie. Zwyczajnie spotkałem się z odmową i obietnicą, że do tematu wrócimy. 
 
@@ -411,7 +411,7 @@ I tak oto zacząłem robić to, co robię teraz.
 
 Podsumowując: otrzymałem ofertę 86 zł netto/h, praca kompletnie zdalna. Czyli, jeśli jest miesiąc, który ma 22 dni robocze, oficjalnie dołączałem do grupy #programista15k. Co prawda nie na UoP, tylko na B2B, ale wciąż. Ogółem bardzo się z tego cieszę i czuję bardzo doceniony finansowo.
 
-Tutaj ponownie wychodzi moje szczęście w życiu i to, że poznaje ludzi, którzy mi pomagają. 
+Tutaj ponownie wychodzi moje szczęście w życiu i to, że poznaję ludzi, którzy mi pomagają. 
 
 Powiem wam jedno, świat IT w Polsce, a w Warszawie to już w ogóle, jest bardzo, bardzo mały. Nawiązując dobre relacje, zostawiając po sobie dobrą opinię i będąc ogółem po prostu dobrym człowiekiem, można sporo zyskać. Do mnie ta okazja spadła właśnie przez coś takiego. Powiem szczerze, cieszę się bardzo. 
 

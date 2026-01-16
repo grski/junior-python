@@ -7,4 +7,4 @@ pandoc -o dist/python.pdf --highlight-style pygments \
   -V papersize:b5 \
   chapters/chapter-03* \
   chapters/chapter-04* \
-  chapters/chapter-05* \
+  chapters/chapter-05*

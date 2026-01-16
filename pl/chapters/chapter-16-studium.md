@@ -15,7 +15,7 @@ Zadanie polegało na zaprojektowaniu systemu skracającego linki, przy założen
    W tym wypadku zatem użyłbym JWT auth, po prostu z racji preferencji plus możliwości późniejszego przepchnięcia autha już np. na poziom Load Balancera, kiedy będziemy skalować. 
 2. Jaki będzie stosunek writeów do readów? Czyli ile getów przypada na każdy utworzony URL.
    `Załóżmy, że na wiele wiele readów przypadnie jeden write.`
-   Zatem zwykła baza danych typu postgres. W razie potrzeby możemy dorzucić batchowe tworzenie readów z pośrednim zapisem do cache oraz skalować bazę danych najpierw wertykalnie później utworzyć klaster z write-only masterem i kilkom read only replicami/slevami.
+   Zatem zwykła baza danych typu postgres. W razie potrzeby możemy dorzucić batchowe tworzenie readów z pośrednim zapisem do cache oraz skalować bazę danych najpierw wertykalnie później utworzyć klaster z write-only masterem i kilkoma read-only replikami/slave'ami.
 
 ```
 / - base url for our api
@@ -95,7 +95,7 @@ Okej. No to pora się przyjrzeć temu procesowi bliżej.
 ### Ścieżka pliku
 Pierwszą cechą wspólną, jaka się wyłoniła u wszystkich zgłoszonych problematycznych plików, było to, że pochodziły one z jednego obszaru - znaczy to tyle, że wszystkie były serwowane przez jeden serwer. Dobrze, to już jakaś wskazówka.
 
-Spróbowałem zatem, odtworzyć ścieżkę, jaką typowy user i jego request obiera, i sprawdzić zachowanie aplikacji w podczas takowej ścieżki. Pogrzebałem sobie w kodzie źródłowym, znalazłem kod, który odpowiada za obsługę wyświetlania i dostarczania linków do contentu dla użytkowników i wygenerowałem sobie zwykły url do danego zasobu, i faktycznie - kompletnie się on nie wyświetla, otrzymuje jakiś błąd. Ale moment. Spójrzmy na samego requesta, cóż się tam w nim dzieje.
+Spróbowałem zatem, odtworzyć ścieżkę, jaką typowy user i jego request obiera, i sprawdzić zachowanie aplikacji podczas takowej ścieżki. Pogrzebałem sobie w kodzie źródłowym, znalazłem kod, który odpowiada za obsługę wyświetlania i dostarczania linków do contentu dla użytkowników i wygenerowałem sobie zwykły url do danego zasobu, i faktycznie - kompletnie się on nie wyświetla, otrzymuje jakiś błąd. Ale moment. Spójrzmy na samego requesta, cóż się tam w nim dzieje.
 
 W responsie nie pojawia się żaden błąd, zatem serwer nie widzi żadnego problemu i zwraca normalnego responsa. Hmmm, ciekawe...
 

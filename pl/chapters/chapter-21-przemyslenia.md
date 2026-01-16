@@ -58,7 +58,7 @@ Takie podejście, gdzie z własnej woli zrobisz więcej dla innych, zwyczajnie s
 
 Absolutnie nie znaczy to, że masz wykonywać pracę z kogoś, myślę, że rozumiesz.
 
-To bardzo ważne, zwłaszcza teraz. Wydaje mi się, że obecnie zaczynamy przykładać co raz, to większą wagę do tego, jak się z kimś współpracuje, bo inaczej zespół będzie leżał. 
+To bardzo ważne, zwłaszcza teraz. Wydaje mi się, że obecnie zaczynamy przykładać coraz to większą wagę do tego, jak się z kimś współpracuje, bo inaczej zespół będzie leżał. 
 
 Także to bardzo ważne, co już nie raz podkreślałem i jeszcze niejednokrotnie pewnie powtórzę, zwłaszcza tobie, juniorze. Bo często to twój charakter i nastawienie decydują o tym, czy warto w ciebie zainwestować i przyjąć cię do pracy.
 
@@ -116,7 +116,7 @@ To smutne. Jak dla mnie jest to kompletna głupota, która wprowadza tylko niepo
 
 Co, jeśli nagle zacznie funkcjonować kilka różnych nazw zastępczych na ‘niewygodne’ terminy, bo jedne będę lepsze niż inne? Mniej/bardziej poprawne politycznie? Przecież to jest receptura na katastrofę. To tak jakbyście w kodzie opisywali jeden obiekt kilkoma różnymi nazwami. Nie jest to dobra praktyka, prowadzi do złego kodu i problemów z utrzymaniem, debugowaniem i wszystkim w zasadzie. Ja właśnie tak widzę skutki tych zmian. 
 
-Na pewno nie pomoże tutaj fakt, że Guido przecież zaczyna się wycofywać ze świata Pythona, oddał stery, a ostatnio ma w dodatku niezłe jazdy – chodzi mi tu chociażby o  jego niedawną deklarację, kiedy to stwierdził, że, nie będzie uczył, udzielając konsultacji, białych mężczyzn, bo oni tacy okropni. Zamiast tego zamierza pomagać tylko uciśnionym mniejszością.
+Na pewno nie pomoże tutaj fakt, że Guido przecież zaczyna się wycofywać ze świata Pythona, oddał stery, a ostatnio ma w dodatku niezłe jazdy – chodzi mi tu chociażby o  jego niedawną deklarację, kiedy to stwierdził, że, nie będzie uczył, udzielając konsultacji, białych mężczyzn, bo oni tacy okropni. Zamiast tego zamierza pomagać tylko uciśnionym mniejszościom.
 
 No ludzie kochani, proszę was… 
 
@@ -126,7 +126,7 @@ Następna do omówienia jest utworzenie regulaminu dla społeczności tworzącej
 
 Z założenia te nowo powstałe zasady brzmią okej, problem jednak w tym, jak zostaną one wdrożone, bo historia pokazała już, jak to się zazwyczaj dzieje. Coś, co ma być narzędziem wolności dla wszystkich, staje się aparatem ucisku. 
 
-Chodzi zwyczajnie o to, że SJW (Social Justice Warriors) zyskują tutaj potężne narzędzie, które umożliwi im kompletne pozbywanie się osób, które im nie przypadną go gustu. A im do gustu nie przypada raczej większość niż mniejszość. W zasadzie to panuje tam zasada ‘kto nie z nami, ten przeciw nam’. Widzicie tę rozbieżność? Ten dysonans? 
+Chodzi zwyczajnie o to, że SJW (Social Justice Warriors) zyskują tutaj potężne narzędzie, które umożliwi im kompletne pozbywanie się osób, które im nie przypadną do gustu. A im do gustu nie przypada raczej większość niż mniejszość. W zasadzie to panuje tam zasada ‘kto nie z nami, ten przeciw nam’. Widzicie tę rozbieżność? Ten dysonans? 
 
 W teorii mają oni walczyć o sprawiedliwość społeczną, a praktyce są oni często tyranami, którzy niszczą ludzi. Często dobrych ludzi, kompetentnych ludzi. Jeśli nawet na Linusa udało się wpłynąć, który to jest raczej uparty i kontrowersyjny w swoich poglądach, to co będzie z innymi osobami? Co, gdy jakiś naprawdę porządny deweloper ‘urazi’ kogoś albo podpadnie kaście SJW?
 
@@ -140,7 +140,7 @@ Po co robić w tym bałagan, mieszać się i narzucać jakieś ramy? Idźmy dale
 
 Pomówmy o tak zwanej ‘dyskryminacji pozytywnej’, czy jak to tam teraz te dzbany nazywają. O co chodzi? A no o to, że jak jesteś białym, heteroseksualnym mężczyzną, jeszcze nie daj Boże, chrześcijaninem, to trzeba ci jakoś życie utrudnić, bo jesteś uprzywilejowany, ‘check your privldż!’. Rozumiecie tę hipokryzję? 
 
-Kolejny punkt – parytety w IT. Co raz, to więcej firm zaczyna rekrutować na stanowiska tylko i wyłącznie kobiety/czarnych/gejów/łatever, by spełnić normy ‘diversity’, ‘różnorodności’. 
+Kolejny punkt – parytety w IT. Coraz to więcej firm zaczyna rekrutować na stanowiska tylko i wyłącznie kobiety/czarnych/gejów/łatever, by spełnić normy 'diversity', 'różnorodności'. 
 
 Wydawać się wam może, że to przecież Polski nie dotyczy, że to jakieś amerykańskie problemy. Nic bardziej mylnego. Wyobraźcie sobie, że na naszym podwórku również mają miejsce takie rzeczy. 
 
@@ -168,7 +168,7 @@ Milion ciasteczek i szpiegowanie na każdym kroku tego, co robisz, byle tylko zd
 
 Nachalne zgody na newsletter, ciasteczka, powiadomienia na desktopie, rodo, srodo, popupy z serii: wyłącz adblocka gnoju bo ni momy piniendzy.
 
-Dodawnie wszędzie pluginów fejsbuka, instagrama, snapa czy czego tam jeszcze.
+Dodawanie wszędzie pluginów fejsbuka, instagrama, snapa czy czego tam jeszcze.
 
 Nieskompresowane grafiki ważące po kilka mega. Tony niepotrzebnego JS'u, który sprawia, że strona ładuje się w ślimaczym tempie.
 
@@ -296,17 +296,17 @@ Do obejrzenia: https://www.youtube.com/shorts/0P1RuLgxPNE
 
  Czasami zdarzy się tak, że jednak świat jest przeciwko nam i musimy z pewnych względów być wydajni, niekoniecznie wtedy, kiedy chcemy. Każdy podejmuje decyzje za siebie, jesteśmy dorosłymi ludźmi. Są pewne substancje i sposoby na to, by podbić naszą wydajność i efektywność w pracy. Opiszę tutaj dwie z nich, które są warte uwagi i rozważenia w kryzysowych sytuacjach. 
 
-Pierwszym lekiem jaki opiszę jest modafinil. Czym jest modafinil? Kojarzycie NZT z firmu Limitless z Bradleyem Cooperem? Trochę coś takiego, ale bez efektów ubocznych. Oficjalnie to lek na narkolepsje, który wzmaga czujność i koncentrację, zapobiegając zasypianiu. W skrócie - jedna tabletka, siadasz i przez 15h zamykasz się w pokoju i pracujesz. Modafinil jest lekiem i nie wykazuje właściwości euforyzujących jak na przykład kokaina, która niby ma podobne działanie. Pobudza mózg i neuroplastyczność, wzbudza koncentrację, daje energię do działania. 200 do 400mg zazwyczaj. 
+Pierwszym lekiem jaki opiszę jest modafinil. Czym jest modafinil? Kojarzycie NZT z filmu Limitless z Bradleyem Cooperem? Trochę coś takiego, ale bez efektów ubocznych. Oficjalnie to lek na narkolepsje, który wzmaga czujność i koncentrację, zapobiegając zasypianiu. W skrócie - jedna tabletka, siadasz i przez 15h zamykasz się w pokoju i pracujesz. Modafinil jest lekiem i nie wykazuje właściwości euforyzujących jak na przykład kokaina, która niby ma podobne działanie. Pobudza mózg i neuroplastyczność, wzbudza koncentrację, daje energię do działania. 200 do 400mg zazwyczaj. 
 
 Nie będę wchodził w szczegóły tego, jak działa ten lek jak jest metabolizowany etc., napiszę tylko z doświadczenia, że działa. Siadasz, robisz milion więcej razy roboty. Tak po prostu. Nie polecam łączyć z kofeiną bo może być za mocno.
 
-W Polsce oficjalnie średnio można dostać w aptekach, nieoficjalnie idzie kupić za przyzwoite pieniądze. Uwaga: nie namawiam tutaj do spożywania. Wspominam tylko, że istnieje coś takiego, na mnie działa, i może nieco tłumacze jak to możliwe, że niektórzy menadżerowie czy prezesowie pracują po 16h dziennie i mają dalej kopa. :-) 
+W Polsce oficjalnie średnio można dostać w aptekach, nieoficjalnie idzie kupić za przyzwoite pieniądze. Uwaga: nie namawiam tutaj do spożywania. Wspominam tylko, że istnieje coś takiego, na mnie działa, i może nieco tłumaczę jak to możliwe, że niektórzy menadżerowie czy prezesi pracują po 16h dziennie i mają dalej kopa. :-) 
 
 Są inne leki podobne do modafinilu, lecz np. jak adderal, aczkolwiek adderal jest tak naprawdę solą amfetaminy. Modafinil nie. Modafinil król nootropów jest jak lew, jak król dżungli.
 
 Metylofenidat - kolejny stwór do poczytania.
 
-Osobiście zdarza mi się modafinil zażywać kiedy potrzebuje siąść i bardzo dużo wydajnie popracować lub się czegoś trudnego nauczyć jak na przykład teraz, kiedy piszę te słowa.
+Osobiście zdarza mi się modafinil zażywać kiedy potrzebuję siąść i bardzo dużo wydajnie popracować lub się czegoś trudnego nauczyć jak na przykład teraz, kiedy piszę te słowa.
 
 
 

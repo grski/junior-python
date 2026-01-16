@@ -58,7 +58,7 @@ To, z jakimi pytaniami się spotkasz, zależy ściśle od tego, co umieścisz w 
      list_comprehension = [x for x in range(10)]
      dict_comprehension = {x: x**2 for x in range(10)}
      set_comprehension = {x for x in range(10)}
-     set_comprehension_variation = set(x for x in range 10)
+     set_comprehension_variation = set(x for x in range(10))
      tuple_comprehension = tuple(x for x in range(10) if x % 2)
      ```
 
@@ -159,7 +159,7 @@ Odp: Git to narzędzie – system kontroli wersji, natomiast GitHub to serwis, n
 1. Skąd serwer bierze username i password przy basic auth?
    Odp: Nagłówek. Jaki?
 1. Skąd przeglądarka wie, że daną odpowiedź trzeba wyświetlić jako json a nie np. plaintext?
-   Odp: Znowu - CONTENTY-TYPE
+   Odp: Znowu - CONTENT-TYPE
 1. Różnica miedzy PUT a PATCH.
     Odp: Jedno wymaga podanie wszystkich pól serializera, drugie nie. Dlaczego? Która metoda wymaga wszystkich pól, która metoda zaś nie?
 1. Dostępne metody/verby HTTP.
@@ -324,7 +324,7 @@ class QueryStats:
     return event
   
   def get_top_k_records(self, k: int) -> Iterable:
-    return sorted(self.query_execution_times.items(), key=lambda record: record[1], reverse=True)
+    return sorted(self.query_execution_times.items(), key=lambda record: record[1], reverse=True)[:k]
 
 
 query_stats = QueryStats()

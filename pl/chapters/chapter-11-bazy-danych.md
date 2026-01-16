@@ -14,7 +14,7 @@ Prawda jest taka, że kretynizmem jest wychwalać w każdej sytuacji tylko jedno
 
 ## SQL
 
-SQL to po prostu język baz danych pozwalający robić zapytania na danych. Tyle musisz wiedzieć. Do tego poczytaj o prostych zapytaniach: SELECT, UPDATE, INSERT, klauzula WHERE i inny.
+SQL to po prostu język baz danych pozwalający robić zapytania na danych. Tyle musisz wiedzieć. Do tego poczytaj o prostych zapytaniach: SELECT, UPDATE, INSERT, klauzula WHERE i inne.
 
 Przykłady do analizy jeśli nie chce ci się samodzielnie googlować:
 
@@ -126,7 +126,7 @@ Co jeśli podczas wykonywania operacji, którą można podzielić na następują
 
 Jeśli po drodze coś się nie uda to transakcja jest cofana jakby jej nigdy nie było i wszyscy szczęśliwi.
 
-Tutaj warto też poczytać o SELECT FOR UPDATE oraz o Condition Race. Ważne przy współbieżności. 
+Tutaj warto też poczytać o SELECT FOR UPDATE oraz o Race Condition. Ważne przy współbieżności. 
 
 Do poczytania: https://mst.mimuw.edu.pl/lecture.php?lecture=bad&part=Ch7
 
@@ -136,7 +136,7 @@ Czasami chcemy, żeby o naszych zmianach np. dodanie rekordu do bazy danych, inf
 
 Istnieją zaawansowane rozwiązania, można po prostu odpytywać API, natomiast jest to średnie rozwiązanie.
 
-Są od tego odpowiednie protokoły i czy serwisy 3rd party, które ładnie rozwiązują ten problem.
+Są od tego odpowiednie protokoły i serwisy 3rd party, które ładnie rozwiązują ten problem.
 
 Natomiast najprostszym jest chyba... LISTEN i NOTIFY z Postgresa. Dużo osób nie zdaje sobie sprawę, że postgres posiada wbudowaną obsługę notyfikacji. A tu jednak. Fajny kombajn z tego postgresa, wszystko ogarnia. Anyway. 
 
@@ -148,7 +148,7 @@ Bazy danych czasem udostępniają coś takiego jak column/row-level security. Co
 
 Niektóre DB wymagają od nas instalacji dodatkowych pakietów by to osiągnąć, inne mają to domyślnie, jeszcze inne w ogóle nie udostępniają tak granularnej kontroli. Postgres dla przykładu jednak tak. Fajna sprawa. 
 
-Aby skonfigurować nprow-level security, należy dodać reguły dostępu do tabeli, które określają, które wiersze są widoczne dla poszczególnych użytkowników lub grup użytkowników. Na przykład, można utworzyć regułę, która pozwala użytkownikowi o nazwie "john" widzieć tylko te wiersze, w których pole "department" ma wartość "marketing".
+Aby skonfigurować np. row-level security, należy dodać reguły dostępu do tabeli, które określają, które wiersze są widoczne dla poszczególnych użytkowników lub grup użytkowników. Na przykład, można utworzyć regułę, która pozwala użytkownikowi o nazwie "john" widzieć tylko te wiersze, w których pole "department" ma wartość "marketing".
 
 Row-level security jest użytecznym narzędziem do ograniczania dostępu do danych w bazie danych i może być używane w połączeniu z innymi mechanizmami bezpieczeństwa, takimi jak uprawnienia użytkowników i role.
 

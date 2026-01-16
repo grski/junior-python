@@ -10,7 +10,7 @@ Ta książka to w zasadzie nic innego jak kolejne dzieło o Pythonie, ale nie ty
 
 Nie uważam, by była ona w jakimś dużym stopniu odkrywcza czy innowacyjna, ale z drugiej strony, to trochę tak. Dlaczego? Co wyróżnia tę książkę? To, że podczas jej pisania przyświecał mi jeden cel – by była ona jak najprostsza do zrozumienia, a zarazem dogłębnie analizowała poruszane tematy w ciekawy sposób oraz fakt, że to nie będzie to książka jedynie o Pythonie, nie. 
 
-To ma być kompletne wprowadzenie to szerokiej gamy zagadnień związanych z programowaniem i pracą programisty, jej zdobyciem, narzędziami, których się w niej używa, ale również nauka dla ciebie odnośnie najwazniejszej umiejętności dla programisty - umiejętności wyszukiwania i przetwarzania informacji, bo to na tym polega informatyka. 
+To ma być kompletne wprowadzenie to szerokiej gamy zagadnień związanych z programowaniem i pracą programisty, jej zdobyciem, narzędziami, których się w niej używa, ale również nauka dla ciebie odnośnie najważniejszej umiejętności dla programisty - umiejętności wyszukiwania i przetwarzania informacji, bo to na tym polega informatyka. 
 
 W skrócie to taki wstęp do kompletnego zestawu umiejętności, cech, narzędzi, których opanowanie sprawi, że będziesz w jakimś stopniu gotów, albo gotowa, na zaczęcie przygody jako programista. Nie myśl sobie jednak, że przeczytasz jedną książkę i cyk do pracy. Oj nie. To pierwszy krok na bardzo długiej drodze.
 
@@ -34,7 +34,7 @@ Ta książka to też swego rodzaju podsumowanie, czy też może małe streszczen
 
 Ten tekst to też efekt tego, że zadałem sobie jedno pytanie. Jakie? Wiesz, o co chodzi?  Padło ono właśnie w kontekście mojej znajomości Pythona, jak i programowania ogółem, i mimo tego, że pracowałem wtedy już jako programista w tymże języku – byłem niby pełnoprawnym juniorem, to niestety, musiałem odpowiedzieć… Nie. 
 
-Podejrzewam, że w gruncie rzeczy sporo jest takich osób, mimo wszystko. Często sami nie zdajemy sobie sprawy, jak płytka jest nasza wiedzy, mimo tego, że w pracy jakoś sobie radzimy. 
+Podejrzewam, że w gruncie rzeczy sporo jest takich osób, mimo wszystko. Często sami nie zdajemy sobie sprawy, jak płytka jest nasza wiedza, mimo tego, że w pracy jakoś sobie radzimy. 
 
 Zwłaszcza jeśli weźmiemy pod uwagę języki stare, dojrzałe i rozwinięte, takie jak Python, Java czy C++. O tym ostatnim nawet jego twórca, boi się mówić, że zna go lepiej niż w stopniu 8/10. O czymś to świadczy. W każdym razie. Po tym, jak odpowiedziałem sobie na to pytanie i zdałem sprawę, że moje rozumienie Pythona jest płytkie, postanowiłem to zmienić, żeby wejść na następny poziom. 
 
@@ -58,11 +58,11 @@ Chyba tyle, jeśli chodzi o moją krótką przedmowę, czy coś w tym stylu. W s
 
 ## Podziękowania
 
-Na sam początek mojej książki, zaserwuje sobie, a przy okazji i wam odrobinę pokory – mogłoby się wydawać, że te słowa, bo to przecież książka, a książki tworzą często ludzie poważni, pisze jakiś człowiek sukcesu, wielki programista, mądraliński. 
+Na sam początek mojej książki, zaserwuję sobie, a przy okazji i wam odrobinę pokory – mogłoby się wydawać, że te słowa, bo to przecież książka, a książki tworzą często ludzie poważni, pisze jakiś człowiek sukcesu, wielki programista, mądraliński. 
 
 Nic bardziej mylnego, sam w sobie jestem nikłym i prostym człowieczkiem, który zaszedł tu, gdzie jest, w dużej mierze dzięki pomocy wielu osób, część z nich zostanie właśnie wymieniona niżej i to wszystkim im chciałbym podziękować.
 
-Jeśli Cię to nie interesuje, tak samo, jak przedziwne dedykacja, która się tu znalazła, przeskocz kilka stron.
+Jeśli Cię to nie interesuje, tak samo, jak przedziwna dedykacja, która się tu znalazła, przeskocz kilka stron.
 
 Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zupełnie bez powodu. Zatem dziękuję...
 
@@ -94,7 +94,7 @@ Do jednych zwracam się bezpośrednio, do innych w trzeciej osobie, różnie. Zu
 
 ...tobie, **Kingo**, że jesteś i byłaś.
 
-...tobie, **Zimmermanie.** za okazanie zrozumienia kiedy potrzebowałem.
+...tobie, **Zimmermanie**, za okazanie zrozumienia kiedy potrzebowałem.
 
 ...tobie **Pawle Poldeczku**, za przygarnięcie mnie pod swój dach w ciężkich chwilach. Pamiętam.
 
@@ -134,7 +134,7 @@ Jeszcze raz. Dziękuję wam ja, Olaf.
 
 ## Dedykacja
 
-Tę ksiażkę dedykuję prawdziwemu szczęściu, które znalazłem w życiu tylko na kilka chwil, w kciuku, w windzie z limonkami, na zboczu byłego sadu, przy słupie obok centralnego gdzie narodziło się Małe Zakopane, przy zasadzie 3E. Obym doznał takich momentów więcej.
+Tę książkę dedykuję prawdziwemu szczęściu, które znalazłem w życiu tylko na kilka chwil, w kciuku, w windzie z limonkami, na zboczu byłego sadu, przy słupie obok centralnego gdzie narodziło się Małe Zakopane, przy zasadzie 3E. Obym doznał takich momentów więcej.
 
 **Przede wszystkim jednak dedykuję ją również wszystkim tym, którzy w moich najciemniejszych i najgorszych momentach w życiu osobistym, pomogli mi. Często niejednokrotnie i ogromnym nakładem sił. Dziękuję, nigdy nie zapomnę**. Wiecie, kim jesteście. Zastanawiam się co ja w życiu zrobiłem, że na was trafiłem. 
 

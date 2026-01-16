@@ -10,7 +10,7 @@ Ciekawe co to za język! C, Python? Może C++ albo JavaScript? Bynajmniej! Mowa 
 
 Żyjemy w czasach globalizacji. Wszystko się trochę ujednolica. Te same seriale, te same filmy, te same ubrania, marki i... język. Język angielski od dawna obecny był w naszym języku rodzimym — polskim, anglicyzmy istnieją od wielu, wielu lat, jednakże w ostatnich latach, latach istnienia i rozwoju cywilizacji globalnej, ilość anglicyzmów i zapożyczeń, która pojawia się w naszej mowie, zwłaszcza wśród młodzieży, rośnie w tempie wykładniczym. Nie bez powodu. I mówię to ja, gość piszący książkę po polsku. Na upartego dasz radę bez niego, owszem, ale jeśli na poważnie myślisz o karierze… Nie. Serio.
 
-Język angielski jest absolutnym hegemonem, jeśli chodzi o międzynarodową komunikację czy komunikacje w Internecie. My zaś, jak osoby blisko związane z tym światkiem jesteśmy niejako zmuszeni dobrze go znać. Praktycznie w każdej firmie język angielski jest standardem i chcąc być dobrym programistą, musimy go znać na tyle, by swobodnie się w nim komunikować i czytać dokumentacje, tyle na temat. To zaś implikuje, że musimy znać go dobrze. Dokumentacja techniczna zazwyczaj nie jest taka prosta, zawiera specjalistyczne słownictwo, ma trudny, formalny styl.
+Język angielski jest absolutnym hegemonem, jeśli chodzi o międzynarodową komunikację czy komunikacje w Internecie. My zaś, jako osoby blisko związane z tym światkiem jesteśmy niejako zmuszeni dobrze go znać. Praktycznie w każdej firmie język angielski jest standardem i chcąc być dobrym programistą, musimy go znać na tyle, by swobodnie się w nim komunikować i czytać dokumentacje, tyle na temat. To zaś implikuje, że musimy znać go dobrze. Dokumentacja techniczna zazwyczaj nie jest taka prosta, zawiera specjalistyczne słownictwo, ma trudny, formalny styl.
 
 Język angielski jest w zasadzie na początku chyba nawet ważniejszy niż język programowania, który wybierzemy, dlatego w ogóle, zanim zaczniemy się brać za kodowanie, warto by się doszkolić na ten temat. Jakie są zalety znajomości tego języka?
 
@@ -38,11 +38,11 @@ Kiedy dopiero się uczymy, to dość pomocne, gdyż nawet nie widząc, co dane s
 
 ### Wyjątki
 
-Wiadomo, zaraz znajdzie się ktoś, kto stwierdzi 'allle jak to, ja to normalnie pińć lat w zawodzie i jakoś daje rade bez angielskiego!'. Niby tak, ale na jak długo i w jakiej firmie? Chcesz pracować w Januszsofcie? Proszę bardzo, ale ja za chemioterapię, której będziesz potrzebować po doświadczeniu skali głupoty i cebulactwa, jaka ma miejsce podczas pracy dla typowego Janusza, nie oddaje. A uwierz mi, że tak raczej będzie, bo ludzi, którzy kompletnie nie znają angielskiego, raczej się w inne miejsca jakoś zbytnio nie przyjmuje.
+Wiadomo, zaraz znajdzie się ktoś, kto stwierdzi 'allle jak to, ja to normalnie pięć lat w zawodzie i jakoś daję radę bez angielskiego!'. Niby tak, ale na jak długo i w jakiej firmie? Chcesz pracować w Januszsofcie? Proszę bardzo, ale ja za chemioterapię, której będziesz potrzebować po doświadczeniu skali głupoty i cebulactwa, jaka ma miejsce podczas pracy dla typowego Janusza, nie oddaje. A uwierz mi, że tak raczej będzie, bo ludzi, którzy kompletnie nie znają angielskiego, raczej się w inne miejsca jakoś zbytnio nie przyjmuje.
 
 To, co u góry napisałem to raczej rzeczy oczywiste dla wszystkich jakkolwiek obeznanych w sprawie, ale niektórzy, na początku (łącznie ze mną) są dość toporni w stosunku do nauki angielskiego. 
 
-No bo przecież ja chce się uczyć programowania!!! Fajnie, ale żeby to robić najefektywniej, jak się da, przydaje się angielski, a potem jest niezrównaną pomocą przy poszukiwaniu i wykonywaniu samej pracy.
+No bo przecież ja chcę się uczyć programowania!!! Fajnie, ale żeby to robić najefektywniej, jak się da, przydaje się angielski, a potem jest niezrównaną pomocą przy poszukiwaniu i wykonywaniu samej pracy.
 
 To chyba tyle w tej kwestii. Chociaż pozostaje pytanie – jak się uczyć?
 
@@ -124,7 +124,7 @@ Co z Duolingo? Tutaj mamy nieco bardziej usystematyzowane podejście. Kursy przy
 
 Niemniej jednak oba serwisy są podobne, uczą słówek, wymowy, gramatyki. Wybór pozostawiam wam, chociaż przyznam, że ja z obu korzystam.
 
-A raczej korzystałem, bo teraz jestem leniwym dziadem, któremu nie chce uczyć się nowych języków, argumentując sobie to tym, że za kilka lat będziemy mieli AI od tłumaczenia. 
+A raczej korzystałem, bo teraz jestem leniwym dziadem, któremu nie chce się uczyć nowych języków, argumentując sobie to tym, że za kilka lat będziemy mieli AI od tłumaczenia. 
 
 ### Słuchanie
 

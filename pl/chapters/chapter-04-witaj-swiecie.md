@@ -14,7 +14,7 @@ My zrobimy podobnie, ale nieco inaczej, bo na dwa sposoby. Dlaczego? Otóż w In
 
 Takie sklejanie programu z gotowych klocuszków. Grunt to wiedzieć, z jakich klocuszków skleić.
 
-Cóż, często to racja. Bardzo często. Nie inaczej jest z hello worldem. Przykłady pokazane tutaj powinno się przepisywać do pliku i uruchamiać jak opisano w poprzednim rozdziale lub na biężąco wklepywać w interpreter. Polecam tę drugą opcję, przynajmniej póki mamy jednolinijkowce/kilka linijek. Przy dłuższych rzeczach polecam jednak pracować na plikach nie na samym interpreterze.
+Cóż, często to racja. Bardzo często. Nie inaczej jest z hello worldem. Przykłady pokazane tutaj powinno się przepisywać do pliku i uruchamiać jak opisano w poprzednim rozdziale lub na bieżąco wklepywać w interpreter. Polecam tę drugą opcję, przynajmniej póki mamy jednolinijkowce/kilka linijek. Przy dłuższych rzeczach polecam jednak pracować na plikach nie na samym interpreterze.
 
 Otóż w Pythonie, standardowy Hello World, można zastąpić:
 
@@ -72,7 +72,7 @@ Czy to wszystko proste? Anty klimatyczne? Tak. Przynajmniej pozornie. Bo pod spo
 
 To, że dziś, za pomocą jednej linijki kodu, jesteś w stanie wypisać sobie w konsoli jakiś tekst, to efekt kilkudziesięciu lat pracy i budowania fundamentów przez ojców informatyki. Wiem, że może brzmieć to śmiesznie, ale tak jest. Popatrz np. na kod Assemblera, czyli języka, w którym wszyscy kiedyś pisali. \pagebreak
 
-Pokazany niżej fragment kodu to Assembler, bardzo niskopoziomowy język, który w bardzo dużym szczególe pozwala na interakcję bezpośrednią z pamięcią komputera, z procesorem, ze wszystkim w sumie. Dzięki temu programista może zarządzać i optymalizować niemal wszystko, jednakże ma to swoją cenę w postaci tego, iż skoro trzeba zarzadząć wszystkim samemu, to... No właśnie. Trzeba to robić samemu. Ma to wady i zalety. Nie przejmujmy się tym jednak zbytnio na razie, wspominam tylko po to, by gdzieś ci to tam w głowie krążyło. Assembler = szybki, niskopoziomowy język, gdzie dużo rzeczy trzeba robić samemu, który jest bardzo blisko samego procesora/pamięci, o niskim poziomie abstrakcji.
+Pokazany niżej fragment kodu to Assembler, bardzo niskopoziomowy język, który w bardzo dużym szczególe pozwala na interakcję bezpośrednią z pamięcią komputera, z procesorem, ze wszystkim w sumie. Dzięki temu programista może zarządzać i optymalizować niemal wszystko, jednakże ma to swoją cenę w postaci tego, iż skoro trzeba zarządzać wszystkim samemu, to... No właśnie. Trzeba to robić samemu. Ma to wady i zalety. Nie przejmujmy się tym jednak zbytnio na razie, wspominam tylko po to, by gdzieś ci to tam w głowie krążyło. Assembler = szybki, niskopoziomowy język, gdzie dużo rzeczy trzeba robić samemu, który jest bardzo blisko samego procesora/pamięci, o niskim poziomie abstrakcji.
 
 ``` nasm
 segment .data
@@ -106,7 +106,7 @@ Różnica między Pythonem a CPythonem jest taka, że Python to po prostu język
 
 A CPython to już konkretne implementacja tego – przetłumaczenie na zachowania komputera, konkretny program wykonujący polecenia w konkretny sposób. Także CPython != Python.
 
-Czyli jeszcze raz powtórzmy. Python to język. Interpreter Pythona to już jakiś program, który interpretuje kod napisany w języku Python i wykonuje określone polecenia. Zazwyczaj, kiedy mówimy o interpreterze Pythona, mamy na myśli jego domyślną implementację, czyli CPythona – interpreter Pythona napisany w C, ale są też inne. Pamiętaj. Pamiętaj też o tym, że szczegóły implementacji interpreterów Pythona różnią się pomiędzy sobą. Autorzy języka pozwolili na to by, pewne decyzje co do określonych zachowań, podejmowały osoby implementujące interpreter. Zatej CPython może, ale nie musi, zachowywać się czasami inaczej niż Jython. Zatem dobrą praktyką jest, by nie polegać na szczegółach implementacyjnych interpretera a samej specyfikacji języka. Wrócmy jednak do tematu.
+Czyli jeszcze raz powtórzmy. Python to język. Interpreter Pythona to już jakiś program, który interpretuje kod napisany w języku Python i wykonuje określone polecenia. Zazwyczaj, kiedy mówimy o interpreterze Pythona, mamy na myśli jego domyślną implementację, czyli CPythona – interpreter Pythona napisany w C, ale są też inne. Pamiętaj. Pamiętaj też o tym, że szczegóły implementacji interpreterów Pythona różnią się pomiędzy sobą. Autorzy języka pozwolili na to by, pewne decyzje co do określonych zachowań, podejmowały osoby implementujące interpreter. Zatem CPython może, ale nie musi, zachowywać się czasami inaczej niż Jython. Zatem dobrą praktyką jest, by nie polegać na szczegółach implementacyjnych interpretera a samej specyfikacji języka. Wrócmy jednak do tematu.
 
 Dlaczego trzeba doceniać obecne abstrakcje?
 
@@ -116,7 +116,7 @@ Nie zawsze było to takie proste i oczywiste.
 
 Dlaczego?
 
-Wynika to z tego, jak działa komputera.
+Wynika to z tego, jak działa komputer.
 
 ## Język binarny – jedyne, co rozumie komputer
 
@@ -191,7 +191,7 @@ Teraz, czytamy sobie reszty od DOŁU do góry: 101101. Zgadza się? Yep.
 
 Przeanalizuj to sobie na razie dokładnie i powoli. To nic, jeśli na początku coś nie jest  jasne, to tylko sposób przeliczania z jednego systemu na drugi. 
 
-Przydaje się tutaj znajomość wartości potęg dwójki. Gdy w pamięci masz jakąś ich część, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16386 itd., to niektóre przeliczenia staną się łatwiejsze i szybsze. 
+Przydaje się tutaj znajomość wartości potęg dwójki. Gdy w pamięci masz jakąś ich część, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384 itd., to niektóre przeliczenia staną się łatwiejsze i szybsze. 
 
 W każdym razie. Wróćmy do tematu. Czyli… A tak. Literki to też liczby.
 
@@ -253,7 +253,7 @@ Wybrany fragment tabelki znaków ASCII:
 88 | X | 0b1011000 | 89 | Y | 0b1011001
 89 | Y | 0b1011001 | 90 | Z | 0b1011010
 
-Po prostu wcześniej był chaos. A z chaosu wyłonił się ład. I powstała informatyka. W miejscu tym ład i chaos współistniały w harmonii byś mógł pokazać mi swoje towary. Dobrz, starczy nerdowskich nawiązań do Gothica.
+Po prostu wcześniej był chaos. A z chaosu wyłonił się ład. I powstała informatyka. W miejscu tym ład i chaos współistniały w harmonii byś mógł pokazać mi swoje towary. Dobrze, starczy nerdowskich nawiązań do Gothica.
 
 No, w każdym razie. Bo wątek zgubiłem.
 
@@ -269,7 +269,7 @@ A no widzicie, żeby Polacy i inne nacje, typu nie wiem, Chińczycy czy Japończ
 
 ## I wtedy UNICODE I UTF-8 wchodzą całe na biało
 
-Obecnie jednak takim standardem jest coś zwanego UTF-8. Jest to system kodowania znaków UNICODE, który do zapisu wykorzystuje od 1 do 4 bajtów. O, ważna informacja. Do 4 bajtów. 4 bajty, ile to było? 1 bajt, 8 bitów, 4 bajty, 32 bity. A co to znaczy, że UTF-8 to system kodowania znaków UNICODE?  UNICODE to to nasze całe mapowanie, które literka/znaczek do jakiej liczby się sprowadza, a UTF-8 to sposób zapisu tego, konwersji na bity, bo jak masz nieco węcej niż 1 bajt, to sprawa robi się mniej oczywista, stąd można te znaki/mapowania, różnie przedstawiać. UTF-8 jest jednym ze sposobów na to. Wracając do tematu bajtów...
+Obecnie jednak takim standardem jest coś zwanego UTF-8. Jest to system kodowania znaków UNICODE, który do zapisu wykorzystuje od 1 do 4 bajtów. O, ważna informacja. Do 4 bajtów. 4 bajty, ile to było? 1 bajt, 8 bitów, 4 bajty, 32 bity. A co to znaczy, że UTF-8 to system kodowania znaków UNICODE?  UNICODE to to nasze całe mapowanie, które literka/znaczek do jakiej liczby się sprowadza, a UTF-8 to sposób zapisu tego, konwersji na bity, bo jak masz nieco więcej niż 1 bajt, to sprawa robi się mniej oczywista, stąd można te znaki/mapowania, różnie przedstawiać. UTF-8 jest jednym ze sposobów na to. Wracając do tematu bajtów...
 
 32 bity, to z kolei 32 jedynki lub zera, czyli za ich pomocą można zapisać wiele różnych liczb, zatem też i różnych znaków. No tutaj to już sporo się robi, bo to nam daje jakieś 4 294 967 296 możliwych znaków. Sporo, prawda? Wciąż jest to mniej niż 70 milionów jakie Sasin zmarnował na wybory, które się nie odbyły, ale to nic. Nawet jak te wszystkie azjatyckie znaczki wrzucimy, to i tak sporo miejsca zostanie. Pięknie, idylla.  Marzenie.
 
@@ -372,6 +372,6 @@ Odpowiedzi znajdziesz na następnej stronie.
 1. ASCII – 256, UTF-8 –  2 097 152
 1. Tego mi się nie chce robić.
 1. Tego też nie.
-1. Tak, UTF-8 jest kompatybilne wstecznie z ASCII. ASCII nie jest kompatybilne z UTF-8, czyli każdy poprawny tekst zakodowany w ASCII będzie poprawny w UTF-8/Unicode, natomiast nie każdy teskt w UTF-8 będzie poprawnym ASCII.
+1. Tak, UTF-8 jest kompatybilne wstecznie z ASCII. ASCII nie jest kompatybilne z UTF-8, czyli każdy poprawny tekst zakodowany w ASCII będzie poprawny w UTF-8/Unicode, natomiast nie każdy tekst w UTF-8 będzie poprawnym ASCII.
 
 \pagebreak

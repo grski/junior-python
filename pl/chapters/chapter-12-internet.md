@@ -14,7 +14,7 @@ Pomówmy zatem o tym całym systemie i środowisku.
 
 Większość aplikacji webowych działa w modelu klient - serwer. Klient robi zapytania (requesty) do serwera, serwer zwraca odpowiedź (response). 
 
-Jak to się jednak dzieje, ze jesteśmy w stanie wysłać to zapytanie. Co się dzieje w chwili, kiedy wpisujesz `grski.pl` w pasku przeglądarki a następnie widzisz mojego bloga?
+Jak to się jednak dzieje, że jesteśmy w stanie wysłać to zapytanie. Co się dzieje w chwili, kiedy wpisujesz `grski.pl` w pasku przeglądarki a następnie widzisz mojego bloga?
 
 Otóż sprawa wygląda następująca.
 
@@ -118,7 +118,7 @@ Do poczytania:
 
 AWS, Azure, GCP to dostawcy usług chmurowych. Co to znaczy? Czym jest chmura? Chmura to po prostu taka jakby serwerownia, ale u kogoś innego na chacie. Kto inny martwi się pewnymi rzeczami.
 
-Za odpowiednią opłatą dostawcy chmurowi ogarniają za nas pewne rzeczy, udostępniają dodatkowe uslugi, zajmują się większością rzeczy.
+Za odpowiednią opłatą dostawcy chmurowi ogarniają za nas pewne rzeczy, udostępniają dodatkowe usługi, zajmują się większością rzeczy.
 
 To często takie ułatwienia, gdzie w zamian za pewien koszt i fakt, iż dostawcy chmurowi czasem decydują za nas w pewnych kwestiach, ciężar opieki nad niektórymi sprawami przerzucamy na zewnętrzną firmę. W dużym skrócie. 
 

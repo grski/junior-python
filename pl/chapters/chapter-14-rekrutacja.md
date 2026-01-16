@@ -129,11 +129,11 @@ Kiedy ja szukałem pierwszej pracy byłem świeżo upieczonym osiemnastolatkiem,
 
 ### Czy tak zwany papier jest nic niewarty?
 
-Generalnie można odnieść wrażenie, że mam negatywny stosunek i mówię o studiach w sposób pejoratywny. Nic bardziej mylnego. Wydaje mi się, że studia mogą być wspaniałym miejscem, gdzie wiele się nauczysz i poznasz cudownych ludzi. Niemniej jednak, jeśli idziesz tam tylko po papier bo mame kazała, nie masz pojęcia co tam robisz, nic się nie uczysz, no to kufa po co.
+Generalnie można odnieść wrażenie, że mam negatywny stosunek i mówię o studiach w sposób pejoratywny. Nic bardziej mylnego. Wydaje mi się, że studia mogą być wspaniałym miejscem, gdzie wiele się nauczysz i poznasz cudownych ludzi. Niemniej jednak, jeśli idziesz tam tylko po papier bo mama kazała, nie masz pojęcia co tam robisz, nic się nie uczysz, no to kufa po co.
 
 Wtedy tak, wtedy to całe przedsięwzięcie nie ma sensu. Lepiej już idź tyrać do jakiejkolwiek roboty bo i tak zero pożytku z tych studiów wyciągniesz męcząc się jedynie. 
 
-Jeśli zaś sensownie podchodzisz do tematu swoich studiów to bedą one jedynie atutem a nie czymś, co może ci zaszkodzić. Wtedy to fajna okazja.
+Jeśli zaś sensownie podchodzisz do tematu swoich studiów to będą one jedynie atutem a nie czymś, co może ci zaszkodzić. Wtedy to fajna okazja.
 
 ### Czy żałuję nie pójścia na studia?
 
@@ -195,7 +195,7 @@ Otóż kto inny oddzwonił. Prezes od wiadomości w SPAMie. Zadzwonił z informa
 
 Zaoferowali mi pracę zdalną, co dla mnie, będącego jeszcze w liceum, było idealne. Hajsik, jak na tamte czasy, też spoko bo chyba jakoś 20 ziko za godzinę, gdzie na budowie zarabiało się 11 zł, a korepetycji udzielałem za 30 zł. Także tego no.
 
-Biorąc wszystko to pod uwagę nie zastanawiałem się nawet chwili, od razu się zgodziłem i przy okazji poinformowałem tą ostatnią firmę, z która miałem umówioną rozmowę, że podziękuję.
+Biorąc wszystko to pod uwagę nie zastanawiałem się nawet chwili, od razu się zgodziłem i przy okazji poinformowałem tą ostatnią firmę, z którą miałem umówioną rozmowę, że podziękuję.
 
 ### Okres próbny
 
@@ -295,13 +295,15 @@ Tak, wbrew pozorom je też trzeba znać. Niby to ‘nudna teoria’ i tak dalej,
 
 #### Podstawowe algorytmy
 
-1. Insertion Sort – chyba nie muszę tłumaczyć, proste wyszukiwanie po strukturze danych. Podstawa podstaw.
+1. Insertion Sort – chyba nie muszę tłumaczyć, prosty algorytm sortowania. Podstawa podstaw.
 
 2. Selection Sort – podobnie jak na górze. Bardzo podstawowe, nieefektywne.
 
 3. Bubble sort
 
-4. Merge sort b) szukania
+4. Merge sort
+
+b) szukania
 
 5. Linear Search – podstawa kompletna
 
@@ -315,7 +317,7 @@ Jak już przy algorytmach jesteśmy, to warto wspomnieć o czymś takim jak **re
 
 Następną rzeczą ważną jest **złożoność obliczeniowa**, czy też tak zwane **big O notation**. O co chodzi? Tak po chłopsku to jest to ilość jakiś tam ‘ruchów’, których nasz program będzie potrzebował do wykonania danej instrukcji dla zestawu danych n-elementowego. Wyróżniamy różne przypadki dla różnych sytuacji – w najlepszym przypadku, w najgorszym i w średnim. Zazwyczaj podaje się najgorszy, bo to pozwala nam stwierdzić, że ‘no cóż, gorzej już nie będzie’.
 
-Czyli mówiąc jeszcze prościej, to liczba kroków potrzebnych do zrobienia czegoś i jak ona rośnie, kiedy tego czegoś jest więcej do zrobienia. Są różne złożoności - log n, n, n*n, ln n, 1 i tak dalej. O szczegółach rozpisywał się nie będę, szkoda czasu. Generalnie im mniejsza ta złożoność, tym program szybszy.
+Czyli mówiąc jeszcze prościej, to liczba kroków potrzebnych do zrobienia czegoś i jak ona rośnie, kiedy tego czegoś jest więcej do zrobienia. Są różne złożoności - 1, log n, n, n*log n, n*n i tak dalej. O szczegółach rozpisywał się nie będę, szkoda czasu. Generalnie im mniejsza ta złożoność, tym program szybszy.
 
 Oprócz notacji o `krokach` jest też notacja względem np. pamięci/przestrzeni dyskowej. Analogicznie.
 
@@ -362,10 +364,10 @@ A teraz dorzucę też trochę takich różnych ogólnych pojęć z szeroko rozum
 4. Protokół HTTP, HTTPS, SSL, SSH , IMAP, POP3 (!) - tak tylko pobieżnie który idzie do czego i czym się różnią
 5. IDE – czyli zintegrowane środowisko programistyczne
 6. MVC – model, view, controller – model przetwarzania danych używany w sporej ilości nowoczesnych frameworków
-7. API – appilcation programming interface (!)
+7. API – application programming interface (!)
 8. Cookie, Session, Cache – ciasteczka, sesja, cache storage
 9. MySql, Postgres, mongodb, oracle, sqlite, sql, nosql, sql injection - (!) bazy danych, konieczność w większości aplikacji
-10. Kody http: 3xx, 4xx, 5xx, ale w praktyce w sumie starczy: 300, 500, 200, 404
+10. Kody http: 2xx, 3xx, 4xx, 5xx, ale w praktyce w sumie starczy: 200, 201, 301, 302, 400, 404, 500
 11. AJAX, JS, ecmascript, typescript, react, vue – javascript, te sprawy, wiadomo
 12. Klasa, Metoda, Obiektowość, programowanie obiektowe, funkcyjne, OOP (!!!) Generalnie obiektówka ważna sprawa
 13. CMS – content managment system

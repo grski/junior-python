@@ -67,7 +67,7 @@ W Sublimie zaczęło mi czegoś brakować, zatem… Powrót do Vima+PyCharm. I t
 Na potrzeby tej książki w zupełności wystarczy Ci SublimeText, potem ewentualnie przeskoczymy na PyCharma. Przejdźmy do instalacji, skoro już wiemy, co będzie nam potrzebne.
 
 
-## Windows?! Linux?! MacOX?! Co wybrać?
+## Windows?! Linux?! macOS?! Co wybrać?
 
 Bez znaczenia.
 
@@ -81,9 +81,9 @@ Dobrze jest jednak mieć, chociaż podstawowe rozeznanie, jeśli o Linuxa chodzi
 
 Absolutnie nie. Wystarczy ci do tego wirtualna maszyna z dowolną dystrybucją. Ja od siebie polecam Ubuntu, mimo że nie przepadam za Canonical, oraz drugą opcję, czyli Manjaro. Oba są Linuxami, ale z pewnymi różnicami. Osobiście, jak korzystam z Linuxa, to właśnie z Manjaro. Na desktopie przynajmniej. Bo na serwerach Manjaro raczej odpada.
 
-Wirtualka, co, jak, gdzie? Przeczesz spis treści, w tej książce powinieneś znaleźć odpowiedź, tylko pewnie będzie ona nieco dalej.
+Wirtualka, co, jak, gdzie? Przeczeszcie spis treści, w tej książce powinieneś znaleźć odpowiedź, tylko pewnie będzie ona nieco dalej.
 
-Mało tego, od niedawna dostępna jest jeszcze inna. WSL. Windows Subsystem for Linux. Windowsowy podsystem dla Linuxa. To taka Microsoftowa zabawka, która umożliwia ci posiadanie zintegrowanego z twoim Widnowsem, linuxa. Linux w Windowsie od Microsoftu. Bum. Zalety to łatwość instalacji, łatwiejsza integracja etc. Ogółem polecam. 
+Mało tego, od niedawna dostępna jest jeszcze inna. WSL. Windows Subsystem for Linux. Windowsowy podsystem dla Linuxa. To taka Microsoftowa zabawka, która umożliwia ci posiadanie zintegrowanego z twoim Windowsem, Linuxa. Linux w Windowsie od Microsoftu. Bum. Zalety to łatwość instalacji, łatwiejsza integracja etc. Ogółem polecam. 
 
 Podsumowując tak krótko, zarówno Linux, jak i Windows mają swoje wady i zalety, są tylko narzędziami. Ja, osobiście, jednak korzystam (wreszcie), z Linuxa jako hosta. Jeśli siedzisz na Linuxie to spoko, jeśli nie to koniecznie zainstaluj sobie WSL.
 ## Instalacja na Windows
@@ -109,7 +109,7 @@ Dokładne instrukcje znajdują się na [stronie chocolatey (https://chocolatey.o
 
 
 ### Instalacja potrzebnych nam rzeczy za pomocą choco
-Chocolatey zainstalowane? Wymienicie, teraz już tylko jedno polecenie nas od finiszu.
+Chocolatey zainstalowane? Wyśmienicie, teraz już tylko jedno polecenie nas od finiszu.
 
 ```bash
 choco install python sublimetext3 -y
@@ -147,7 +147,7 @@ python --version
 (dwa myślniki) w konsoli i gotowe, lub, zależnie od dystrybucji, może być to
 
 ```
-python3 –-version
+python3 --version
 ```
 
 Zależy, z jakiej dystrybucji korzystasz i jakiej wersji Pythona używa jako domyślnej.
@@ -172,7 +172,7 @@ Nie chcę po prostu zarzucać cię na samym początku informacjami, które nie b
 
 ## Czterej jeźdźcy konsoli
 
-1. `dir` (Windows) lub `ls` (Linux). To polecenie, które wypisuje zawartość katalogu, w którym obecnie się znajdujemy w konsoli. Skąd wiedzieć, gdzie akurat jesteśmy? Sprawa prosta – nasz katalog roboczy (CWD – current working directory) jest wyświetlany po lewej stronie od naszego kursora terminalu lub wpisując pwd na Linuxie/iOS. Windowsiarze googlują. Zachciało im się, systemów od MS. To teraz macie. Co nam daje to, że jesteśmy w jakimś katalogu?	
+1. `dir` (Windows) lub `ls` (Linux). To polecenie, które wypisuje zawartość katalogu, w którym obecnie się znajdujemy w konsoli. Skąd wiedzieć, gdzie akurat jesteśmy? Sprawa prosta – nasz katalog roboczy (CWD – current working directory) jest wyświetlany po lewej stronie od naszego kursora terminalu lub wpisując pwd na Linuxie/macOS. Windowsiarze googlują. Zachciało im się, systemów od MS. To teraz macie. Co nam daje to, że jesteśmy w jakimś katalogu?	
 Otóż nasze polecenia będą wykonywane względem tejże ścieżki. Czyli jak wpiszemy sobie `python plik.py`, to jeśli będziemy w folderze, załóżmy, `C:\Users\Olaf` to Python będzie szukał sobie tego pliku, plik.py właśnie w tym folderze.
 1. `mkdir` – wspólna dla obu systemów, tworzy katalog o podanej nazwie np. mkdir folder utworzy w obecnym katalogu roboczym folder o nazwie folder. Makes sense.
 1. `del` (Windows) i `rm` (Linux) te komendy służą do usuwania plików. Jeśli chcemy usunąć folder, możemy do tego użyć rd na Windows czy rm -rf na Linuxie. Przykład użycia: rm -rf plik.txt. 

@@ -13,9 +13,9 @@ Naiwne rozwiązanie wyglądałoby tak:
 >>> elements = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 >>> elements[0] *= 2
 >>> elements[1] *= 2
->>> elements[2] *= 3
+>>> elements[2] *= 2
 (...)
->>> elements[9] *= 3
+>>> elements[9] *= 2
 ```
 
 Koszmar. Teraz pomyślcie, że tych elementów jest więcej. Na przykład milion, bo tylu użytkowników masz. Ręcznie tego nie idzie wyedytować, chyba, że zatrudnimy skończoną liczbę studentów albo Hindusów. Natomiast wciąż, potrwa to niezmiernie długo. No i tutaj właśnie wchodzą pętle całe na biało.
@@ -28,7 +28,7 @@ Zacznijmy od czegoś, co nazywa się pętla krokowa. Jest to pętla, która pozw
 
 ### Obiekt iterowalny
 
-Czymże jest obiekt iterowalny? To taki obiekt, który po wrzuceniu do funkcji `iter()` zwróci nam iterator. A iterator to coś, na czym wołamy `next()`Widziałeś już kilka przykładów iterowalnych obiektów. Listy, Dicty, Tuple. 
+Czymże jest obiekt iterowalny? To taki obiekt, który po wrzuceniu do funkcji `iter()` zwróci nam iterator. A iterator to coś, na czym wołamy `next()`. Widziałeś już kilka przykładów iterowalnych obiektów. Listy, Dicty, Tuple. 
 
 To takie obiekty, które mają zaimplementowaną metodę `__iter__` i kolejno `__next__`, czyli w skrócie programista powiedział pythonowi jak ma brać kolejne elementy z danego obiektu/danej struktury i która zwraca obiekt iteratora. 
 
@@ -60,8 +60,8 @@ Następnie kiedy mamy ten nowo zwrócony obiekt, pętla for wchodzi do życia i 
 1. Weź nowo zwrócony obiekt 
 2. Pod spodem zawołaj `__iter__()`, który zwróci nam iterator dla tej listy, chyba, że domyślnie mamy przekazany iterator.
 3. Zawołaj `next()` jako argument podając otrzymany iterator. 
-4. Next zwróci następny element, jaki ma do przekazania iterator
-5. Kiedy nie będzie już elementów iterator rzuci wyjątkiem StopIteration, co jest poprawnym zachowaniem dla iteratorów, które nie mają już elementów do przekazania.  
+4. Next zwróci następny element, jaki ma do przekazania iterator.
+5. Kiedy nie będzie już elementów iterator rzuci wyjątkiem StopIteration, co jest poprawnym zachowaniem dla iteratorów, które nie mają już elementów do przekazania.
 
 ```python
 >>> l = elements.__iter__()
@@ -125,7 +125,7 @@ Przykład tego, jak używać comprehensions:
 list_comprehension = [x for x in range(10)]
 dict_comprehension = {x: x**2 for x in range(10)}
 set_comprehension = {x for x in range(10)}
-set_comprehension_variation = set(x for x in range 10)
+set_comprehension_variation = set(x for x in range(10))
 tuple_comprehension = tuple(x for x in range(10) if x % 2)
 ```
 

@@ -24,7 +24,7 @@ Na koniec, trzy – samodzielnie wykonuj zadania, które będę umieszczał na k
 
 Więcej o tym, jak powinno się uczyć i jakie metody się sprawdzają, możecie przeczytać we wpisie na blogu Gynvael’a Coldwind’a – Poradnik początkującego programisty. Grski poleca. W ogóle cały blog wam polecam. Mało jest miejsc w Internecie, gdzie znaleźć można tak dobre i ciekawe treści. Googlnijcie, bo warto.
 
-Dodatkowo pragnę zaznaczyć, że nie będę w tej książce pisał o wszystkich najdrobniejszych rzeczach. To nie jest encyklopedia Pythona, założenie jest tutaj takie, że po szczegóły różnych rzeczy sięgniecie sami. Ja chcę zwrócić uwagę na często pomijane rzeczy. **Zalecam zatem, by obok tej książki poczytać sobie materiały z dokumentacji Django, Pythona, wyśmienitą książkę Learning Python, 5th edition oraz kurs CS50**. Ja bardziej chce uświadomić wam istnienie pewnych rzeczy i niektóre koncepty objaśnić, dodatkowo zająć się tą często pomijaną wiedzą praktyczną, szczerym spisem swoich doświadczeń. 
+Dodatkowo pragnę zaznaczyć, że nie będę w tej książce pisał o wszystkich najdrobniejszych rzeczach. To nie jest encyklopedia Pythona, założenie jest tutaj takie, że po szczegóły różnych rzeczy sięgniecie sami. Ja chcę zwrócić uwagę na często pomijane rzeczy. **Zalecam zatem, by obok tej książki poczytać sobie materiały z dokumentacji Django, Pythona, wyśmienitą książkę Learning Python, 5th edition oraz kurs CS50**. Ja bardziej chcę uświadomić wam istnienie pewnych rzeczy i niektóre koncepty objaśnić, dodatkowo zająć się tą często pomijaną wiedzą praktyczną, szczerym spisem swoich doświadczeń. 
 
 ## Część interaktywna
 
@@ -69,7 +69,7 @@ W okolicach czasu pisania tej książki, w sumie na samym początku (cóż mogę
 
 O operator := i przypisanie w wyrażeniach. Spora część osób bardzo głośno i donośnie zaczęła krytykować ten pomysł, często bez jakichkolwiek podstaw, gdyż, przynajmniej mnie, sam PEP wydaje się raczej przemyślany i fajny, ta funkcjonalność na pewno się gdzieś przyda w Pythonie. O samym tym PEP-ie porozmawiamy później jeszcze, więc na razie bez szczegółów.
 
-Poniżej zamieszczam, przetłumaczono przeze mnie tekst e-maila, który opublikował Guido.
+Poniżej zamieszczam, przetłumaczony przeze mnie tekst e-maila, który opublikował Guido.
 
 „Teraz kiedy sprawa PEP 572 została wreszcie zamknięta, nie chcę już nigdy musieć włożyć w coś tyle wysiłku i walki, tylko po to, by przekonać się, że ogrom osób potępia moje decyzje.
 
@@ -81,7 +81,7 @@ Nie zamierzam wyznaczać swego następcy.
 
 Co zrobicie? Jakaś demokracja? Anarchia? Dyktatura? Federacja?
 
-Nie przejmuje się tymi trywialnymi, pomniejszymi decyzjami podejmowanymi codziennie w Issue Trackerze, czy też na GitHubie. Rzadko ktoś mnie tam o opinie prosi, a jak już to raczej w sprawach niezbyt ważnych. Tutaj zatem nic się nie zmieni. I o to jestem spokojny.
+Nie przejmuję się tymi trywialnymi, pomniejszymi decyzjami podejmowanymi codziennie w Issue Trackerze, czy też na GitHubie. Rzadko ktoś mnie tam o opinie prosi, a jak już to raczej w sprawach niezbyt ważnych. Tutaj zatem nic się nie zmieni. I o to jestem spokojny.
 
 Nad czym trzeba będzie jednak pomyśleć to: 
 - to, w jaki sposób będą zatwierdzane lub odrzucane nowe PEP-y;
@@ -142,7 +142,7 @@ Pierwotnie był to język, który wykorzystywano raczej jako język skryptowy. A
 
 Dlatego też na przestrzeni lat Python stawał się coraz to popularniejszy, jeśli chodzi o rozwój backendowych części aplikacji webowych, a jak sami wiemy, te od początku ostatniego tysiąclecia tak naprawdę, przeżywają nieustanny rozkwit. Sprawę ułatwiało pojawienie się na rynku kolejnych frameworków pythonowych, przeznaczonych właśnie do tworzenia aplikacji internetowych, takich jak Flask, Pyramid, Pylons, Web2py czy wreszcie Django, które było prawdziwym game-changerem. Taka ciekawostka. Jak sobie instagramika przeglądasz, to wiesz na czym stoi? A no na Django właśnie.
 
-Dzięki temu Python stał się całkiem popularny jako język wykorzystywany do pisania aplikacji internetowych, ale to nie wszystko. W obecnych latach możemy zauważyć nieustający wzrost zapotrzebowania na różnych specjalistów związanych z Data Science, Artifical Inteligence, Machine Learning czy Neural Networks.
+Dzięki temu Python stał się całkiem popularny jako język wykorzystywany do pisania aplikacji internetowych, ale to nie wszystko. W obecnych latach możemy zauważyć nieustający wzrost zapotrzebowania na różnych specjalistów związanych z Data Science, Artificial Intelligence, Machine Learning czy Neural Networks.
 
 Wszystkie te i pokrewne branże rozwijają się niesamowicie, a językiem, który w zasadzie praktycznie tam króluje, jest Python. Ma tam swojego konkurenta w postaci R, czy szybko rosnącej zawodniczce w postaci Julii, ale wciąż, trzyma się mocno ten nasz wąż.
 
@@ -175,7 +175,7 @@ Przyjrzymy się natomiast innym językom.
 Zacznijmy od Javy:
 ``` java
 public class HelloWorld{
-    public static void main(void) {
+    public static void main(String[] args) {
         System.out.println(”Hello World”);
     }
 }
@@ -219,10 +219,10 @@ Zacznijmy tym razem od *C++* może.
 #include <functional> 
 using namespace std; 
 
-int main() { 
-    vector<int> s, a; 
-    for (int i = 20; i > 0; i--) s.push_back(i);
-    copy_if (s.begin(), s.end(), back_inserter(a), [](int x { 
+int main() {
+    vector<int> s, a;
+    for (int i = 19; i >= 0; i--) s.push_back(i);
+    copy_if (s.begin(), s.end(), back_inserter(a), [](int x) {
         return x % 2 == 1 ;} );
     transform(a.begin(), a.end(), a.begin(), [](int x){
         return x*x;});
@@ -546,7 +546,7 @@ Dla przykładu jednak podam kilka mniej lub bardziej znanych firm, które z Pyth
 
 Cały YouTube w zasadzie stoi (stał) na Pythonie. W Google mówi się: ‘Tam, gdzie możemy – Python, tam, gdzie musimy – C++’ (podobno).
 
-Całkiem sporo, prawda? No cóż, nic dziwnego, z racji tego, że Python, według indeksu TIOBE jest obecnie 3. najpopularniejszym językiem programowania na świecie. Nad nim są już tylko Java, C, C++. Dodatkowo Python co roku zdobywa coraz większą popularność i rośnie w siłę. Jak to ktoś kiedyś powiedział, niekoniecznie mądry, `tej siły już nie powstrzymacie`.
+Całkiem sporo, prawda? No cóż, nic dziwnego, z racji tego, że Python, według indeksu TIOBE jest obecnie 3. najpopularniejszym językiem programowania na świecie. Nad nim są już tylko Java i C. Dodatkowo Python co roku zdobywa coraz większą popularność i rośnie w siłę. Jak to ktoś kiedyś powiedział, niekoniecznie mądry, `tej siły już nie powstrzymacie`.
 
 Poniżej widzicie tabelkę z indeksem TIOBE, który to, powiedzmy, jest standardem w świecie programowania, jeśli chodzi o mierzenie popularności pewnych technologii, trendów i tak dalej.
 
@@ -601,7 +601,7 @@ Mogę ją dać na co innego – że w przeciągu następnych 15 lat Python nie z
 Zatem idąc w Pythona, robisz dość mądry ruch, jeśli chodzi o twoją karierę. To zrób to, posłuchaj Górskiego, i do dzieła.
 
 
-## Python w porównianiu z...
+## Python w porównaniu z...
 
 ### Javą/C#
 

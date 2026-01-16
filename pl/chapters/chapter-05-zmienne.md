@@ -10,7 +10,7 @@ Następnym pojęciem, jakie chciałbym przedstawić, jest idea zmiennych.
 
 O co tu chodzi? Już tłumaczę.
 
-Mamy sobie ten nasz komputer. Ma on jakąś tam pamięć, czy to RAM, czy dyskową, prawda? Prawda. Jest ona dość pojemna, szybka, czasem trwała nawet. Fajnie by zatem było móc z niej korzystać w jakiś sposób podczas programowania. Nasze mózgi to myślenia to nadają się całkiem dobrze, ale do pamiętania różnych rzeczy już gorzej,, zwłaszcza trwałego.
+Mamy sobie ten nasz komputer. Ma on jakąś tam pamięć, czy to RAM, czy dyskową, prawda? Prawda. Jest ona dość pojemna, szybka, czasem trwała nawet. Fajnie by zatem było móc z niej korzystać w jakiś sposób podczas programowania. Nasze mózgi to myślenia to nadają się całkiem dobrze, ale do pamiętania różnych rzeczy już gorzej, zwłaszcza trwałego.
 
 Takim podstawowym narzędziem, z którego korzystamy, żeby coś sobie zapisać lub wyciągnąć z pamięci komputera, są właśnie zmienne/stałe.
 
@@ -97,7 +97,7 @@ Wchodzi nam do pokoju Prorok i chce, żebyśmy mu wyprintowali kilka część j
 
 `Dobry wieczór. Coś się... coś się popsuło i nie było mnie słychać, to powtórzę jeszcze raz(...)`
 
-Dlaczego? Nie pytaj, zrób to. Szybko, szybko, zanim zdamy sobię sprawę, że to bez sensu.
+Dlaczego? Nie pytaj, zrób to. Szybko, szybko, zanim zdamy sobie sprawę, że to bez sensu.
 
 ```python
 print("Dobry wieczór. Coś się... coś się popsuło...")
