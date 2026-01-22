@@ -19,7 +19,7 @@ include-before:
 - \newpage{}
 - "A Tech Lead takes on teaching others Python, fundamental career skills, and shares a bit about himself."
 - "Proofreading assistance: Weronika Sosnowska"
-- "ISBN: 978-83-967638-0-8 (electronic version)"
+- "ISBN: 978-83-967638-1-5 (electronic version)"
 - "Olaf Górski/OnionMindset, 2023"
 - \newpage{}
 ---
